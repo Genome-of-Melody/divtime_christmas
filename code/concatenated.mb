@@ -27,58 +27,60 @@ partition chants=6:bethnon,consest,cumesset,judjer1,judjer2,orisic;
 
 [specification of substitution models]
 set partition=chants;
-lset applyto=(1) coding=all rates=invgamma; [Mkv+I+G, nstates is automatic for the standard datatype]
+lset applyto=(all) coding=all rates=invgamma; [Mkv+I+G, nstates is automatic for the standard datatype]
 
 [-------CAREFUL! OUR DATES ARE HERE IN YEARS AFTER JESUS, BUT DIVTIME IS IN YEARS BEFORE THE PRESENT---------------]
+
+[set tip calibrations by using the midpoint reported in our previous ISMIR paper, figure 3]
+[CZ-Pn_II_C_7 cannot be dropped by hand as it is not just in the aligns but also in the maxcred tree]
+calibrate
+  A-VOR_Cod_259_I=fixed(654) [2024-1370]
+  A-Wn_1799=fixed(774) [2024-1250]
+  CDN-Hsmu_M2149L4=fixed(474) [2024-1550]
+  CH-E_611=fixed(674) [2024-1350]
+  CZ-HKm_II_A_4=fixed(554) [2024-1470]
+  CZ-PLm_504_C_004=fixed(408) [2024-1616]
+  CZ-Pn_II_C_7=fixed(597) [2024-1437, 1420--1434 according to hymnologica.cz]
+  CZ-Pn_XV_A_10=fixed(549) [2024-1475]
+  CZ-Pu_I_D_20=fixed(549) [2024-1475]
+  CZ-Pu_XVII_E_1=fixed(499) [2024-1525]
+  D-KA_Aug_LX=fixed(824) [2024-1200]
+  D-KNd_1161=fixed(824) [2024-1200]
+  F-Pn_lat_12044=fixed(899) [2024-1125]
+  F-Pn_lat_15181=fixed(699) [2024-1325]
+  NL-Uu_406=fixed(774) [2024-1250]
+;
 
 [setting up the fbd divtime analysis]
 prset
   brlenspr=clock:fossilization [because we have fossil tips, otherwise it would be birthdeath]
   clockvarpr=igr
-  igrvarpr=exp(0.1)
-  clockratepr=exp(0.1)
+  igrvarpr=exp(1000)
+  clockratepr=exp(1000)
   topologypr=fixed(christmas)
-  treeagepr=fixed(0.001224) [1224, this is 2024-800]
-;
-
-[set tip calibrations by using the midpoint reported in our previous ISMIR paper, figure 3]
-[CZ-Pn_II_C_7 cannot be dropped by hand as it is not just in the aligns but also in the maxcred tree]
-calibrate
-  A-VOR_Cod_259_I=fixed(0.000654) [2024-1370]
-  A-Wn_1799=fixed(0.000774) [2024-1250]
-  CDN-Hsmu_M2149L4=fixed(0.000474) [2024-1550]
-  CH-E_611=fixed(0.000674) [2024-1350]
-  CZ-HKm_II_A_4=fixed(0.000554) [2024-1470]
-  CZ-PLm_504_C_004=fixed(0.000408) [2024-1616]
-  CZ-Pn_II_C_7=fixed(0.000597) [2024-1437, 1420--1434 according to hymnologica.cz]
-  CZ-Pn_XV_A_10=fixed(0.000549) [2024-1475]
-  CZ-Pu_I_D_20=fixed(0.000549) [2024-1475]
-  CZ-Pu_XVII_E_1=fixed(0.000499) [2024-1525]
-  D-KA_Aug_LX=fixed(0.000824) [2024-1200]
-  D-KNd_1161=fixed(0.000824) [2024-1200]
-  F-Pn_lat_12044=fixed(0.000899) [2024-1125]
-  F-Pn_lat_15181=fixed(0.000699) [2024-1325]
-  NL-Uu_406=fixed(0.000774) [2024-1250]
+  treeagepr=fixed(1224) [this is 2024-800]
+  sampleprob=0
+  nodeagepr=calibrated
 ;
 
 [-------CAREFUL! OUR DATES ARE HERE IN YEARS AFTER JESUS, BUT DIVTIME IS IN YEARS BEFORE THE PRESENT--------------]
 
 [show the model just specified for each partition]
 showmodel;
-showmatrix;
-showusertrees;
+[showmatrix;]
+[showusertrees;]
 
 [set up the MCMC, with this setting the analysis will need not less than 16 threads]
-mcmcp nruns=1 ngen=1000000 nchains=8 samplefreq=100 printfreq=100000;
+mcmcp nruns=3 ngen=1200000 nchains=4 samplefreq=1000 printfreq=10000;
 [run the MCMC]
 mcmc;
 
 [summarize the posterior trees]
-sumt nruns=1 relburnin=yes burninfrac=0.1;
+sumt nruns=3 relburnin=yes burninfrac=0.5;
 plot;
 
 [summarize parameter posteriors]
-sump;
+sump nruns=3 relburnin=yes burninfrac=0.5;;
 
 log stop;
 
