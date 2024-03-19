@@ -69,7 +69,7 @@ showmatrix;
 showusertrees;
 
 [set up the MCMC, with this setting the analysis will need not less than 16 threads]
-mcmcp nruns=1 ngen=1000000 nchains=8 samplefreq=100 printfreq=100;
+mcmcp nruns=1 ngen=1000000 nchains=8 samplefreq=100 printfreq=100000;
 [run the MCMC]
 mcmc;
 
