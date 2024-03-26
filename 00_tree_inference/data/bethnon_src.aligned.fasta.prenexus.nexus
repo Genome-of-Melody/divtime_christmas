@@ -1,0 +1,21 @@
+#NEXUS
+BEGIN DATA;
+	DIMENSIONS NTAX=13 NCHAR=137;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=?;
+	MATRIX
+
+' A-VOR Cod. 259/I'	cdefed-dgfghgfed-efedecegfghgedefeedeghkhhgfgg-hgfefgg--fedefg-fed--fghgfgghgedefeedeghkhhhghkgffefgfedefeddefgfg-edefeehghkg--------e-fd
+' A-VOR Cod. 259/I'	cdefed-dgfghgfed-efedecegfghgedefeedeghkhhgfgg-hgfefgg--fedefg-fed--fghgfgghgedefeedeghkhhhghkgffefgfedefeddefgfg-edefeehghkg--------e-fd
+' CH-E 611'	cdefe--dgf--gfedeefedecfg-----edfeedeghkhhgfgg-hgfefgf-----efg-ff---fghgfgghgfedffedeghkhhh-hkgfeefg---efeddefgfgfedefeehghkg--------efed
+' CH-E 611'	cdfffdcd---------------------------------------------------------------------------------------------------------------------------------
+' CH-E 611'	cffffedd---------------------------------------------------------------------------------------------------------------------------------
+' CZ-HKm II A 4'	cdefed-dgfghgfedeefedecegfghgedefeedeghkhhgfgg-hgfefggfefedefg-fe---fghgfgghgedefeedeghkhhh-hkgffefgfe-fedcdefgeg-ec-feehghkg--------e-fd
+' CZ-PLm 504 C 004'	cdefedcdgfghgfedeefede-------------------------------------------------------------------------------------------------------------------
+' CZ-Pn XV A 10'	cdefe--dgfghgfedeefedecegfghgedef-edeghkhhgfgg--ffefgg-efedefg-fe---fghgfgghgedefeedeghkhhh-hkgffefgf--eefddefgeg-ec--dehghkg--------e---
+' CZ-Pu I D 20'	cdefe--dgf--gfedeefedecegf--gedefeedeghkhhgfgghhgfefgf----eefgefd---fghgfgghgfedefedeghkhhhghkgffefg---efeddefgfgfedefeehghkg--------fefd
+' D-KA Aug. LX'	cdefedddgf--gfedeefedecegf--gfeefeedeghkhhgfgg-hgfefgf-----efg-fee--fghjfgghgfedefedeghkhhhhhkgfefgfee-efeddefgfgfedefeehghkg----------ed
+' F-Pn lat. 12044'	cdefe--dge--gfedeefedecegdg-fedffeeceghkhhgfgh--gfe-------ddfg-fedfghhhgfgghgfhgfeeceghkhhhghkgfeeefg--ffeddefgdgfedffeehgghhhhghjhgfeedd
+' NL-Uu 406'	dfffe--dgf--gfedfffedfdegfg---edfeedeghkhhgfgghggfefgf-----efg-fedf-gghgfgghg----fedeghkhhhghkgfffefgg-ffeddefgfgfedffee-----------------
+' NL-Uu 406'	cdfffe-dgfg-------------------------eghhgh-----------------------------------------------------------------------------------------------
+;
+end;
