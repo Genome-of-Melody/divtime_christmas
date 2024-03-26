@@ -1,0 +1,22 @@
+#NEXUS
+BEGIN DATA;
+	DIMENSIONS NTAX=14 NCHAR=104;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=?;
+	MATRIX
+
+' A-VOR Cod. 259/I'	-----------------------------------------dgh-gfedf---e-ghghkhgfghg-dfe-gh-d----fefgfedcfghf-gedecef-----
+' A-Wn 1799**'	hmlmlkjhkjklmlmnmlklmlkkjklmhhjlkjhklmmkmjhj-------------ghjhj------------------------------------------
+' CDN-Hsmu M2149.L4'	hmlmlkjhkjklmlmnmlklmlkkjklmhhjlkjhklmmkljhj------------hghjhj------------------------------------------
+' CH-E 611'	-----------------------------------------dhhggfede---efghghjhgfghgfdfefghgd----fefgfeddfhhf-gedfcdehhhge
+' CZ-HKm II A 4'	-----------------------------------------cgg-feddf---e-ghghkhgfghg-dfe-gh-d----fefgfedcfghf-gedecde-----
+' CZ-PLm 504 C 004'	d----------------------------------------dhh-gfedf---efghghkhgfghg-dfefgh-d----fefgfed-fghf-gedecde-----
+' CZ-Pn XV A 10'	-----------------------------------------dhh-gfedf---efghghkhgfghggdfefgh-d----fefgfed-fghf-gedecde-----
+' CZ-Pu I D 20'	-----------------------------------------dhh-gfedf---efghghkhgfghg-dfegeh-d----fefgfedcfghfdgedecde-----
+' CZ-Pu XVII E 1'	-----------------------------------------dhh-gfedf---e-ghghkhgfghg-dfe-gh-d----fefgfedcfghf-gedec-------
+' D-KA Aug. LX'	-----------------------------------------dhh-gfedf---e-ghghkhgfghg-dfe-gh-d----fefgfed-fghf-gedecde----e
+' D-KNd 1161'	hmlmlkjhkjklmlmnmlklmlkkjklmhhjlkjhkl-mkljhj-------------ghjhj------------------------------------------
+' F-Pn lat. 12044'	-----------------------------------------dhhggfedf---efghghkhgfghg-ffefgh-d----degfedd-fhhf-gedecde---de
+' F-Pn lat. 15181'	-----------------------------------------dhh-gfedf---efghghkhgfghgfdfefgh-d----dfgfedd-dfhf-gedecde---de
+' NL-Uu 406'	-----------------------------------------dhh-ggfefdfeffghghkhgfghgfdfeffghdddfeffgffeddfhhf-gedfcddedege
+;
+end;

@@ -1,0 +1,22 @@
+#NEXUS
+BEGIN DATA;
+	DIMENSIONS NTAX=14 NCHAR=143;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=?;
+	MATRIX
+
+' A-VOR Cod. 259/I'	-gg-fedefggg--hgfgh---kjhg-hhhgfggg--gkjkll--khkgghgfffghh--jkjh-ghg-fefgg-gggg-fedf---fghg---hgfghhhhghjkjhgefgh--jkj-hgefggg-----kkkjkkhg----
+' A-Wn 1799**'	-gg-efdefggg-hhgfgh-kkkjhg-hhhgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--gggg-fdef---ghgh---hgfg-hhhhghkkjh-hgh--jhghgfefggg-----kk--jkhg----
+' CDN-Hsmu M2149.L4'	-ggfefdefggghhhgfgh-kkkjhghhhhgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--gggg-fdef--gghgh---hgfg-hhhhghkkjh-hgh--jhghgfefggg-----kk--jkhg----
+' CH-E 611'	-gg-f-defggg--hgfgh---kjhg-hhhgfggg--gkklkl-kkhkjghgfffghh--jkjh-ghgffefgf-gggg-fdef---ghgg---hgfg-hhhghjkjhggghh--khg-hgefggg-----kk--jkhg----
+' CZ-HKm II A 4'	ggg-fedefggg--hgfgh---kjhg-hhhgfggg--gkjkll--khk-ghgfffghh--jkjh-ghg-fefgfggggg-fedf---fghg---hgfg-hhhghjkjhgefgh--jkj-hgefggg-----kk--jkhg----
+' CZ-PLm 504 C 004'	-gg-fedefggg--hgfgh---kjhg-hhhgfgg-------------------------------------------------------------------------------------------------------------
+' CZ-Pn XV A 10'	-gg-gfdefggg--hgfgh---kjhghhhhgfggg--gkjkll--khk-ghgfffghh---kjh-ghg-fefgf-gggg-fedf---fghg---hgfg-hhhgg-kjhgefgh--k---jhefggg-----kk--jkhg----
+' CZ-Pu I D 20'	ggg-fedefggg--hgfgh---kjhgghhhgfggg--gkjkl---khkgghgfffghh--jkjh-ghg-fefgf-gggg-fedfefgghgg---hgfg-hhhghjkjhgghghhkjhgfhgefggg-----------------
+' CZ-Pu XVII E 1'	-gg-fedefggg--hgfgh---kjhg-hhhgfggg--gkjhjj--hhk-ghgfffghh--jkjhgghg-fefgf-gggf-fedf---fghg---hgfg-hhhghjkjhgefgh--jkj-hgefggg-----------------
+' D-KA Aug. LX'	-gg-f-defggg--hgfgh---kjhg-hhhgfggg--gkjkllkkjhkjghgfffghh---kjh-ghg-fefgf-gggg-fdff---ghgg---hgfg-hhhghkkjhgfghh--jk--hgefggg-----------------
+' D-KNd 1161'	-gg-efdefggghhhgfgh-kkkjhg-hhhgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--gggg-fdef---ghgh---hgfg-hhhhghkkjh-hgh--jhghgfefggg-----kk--jkhg----
+' F-Pn lat. 12044'	-gg-ffdefggg-hhgffh---kkjh-hhhgfggf--hkkllk--khkjghgfffghh-hkkjh-ghg-fefgf-ggggffddfefgghgghijhgfg-ghhghkijhg-hhi--jhghgfefgggghgkkkk--jkhg----
+' F-Pn lat. 15181'	-gg-f-defggg-hhgffh--kkjhg-hhhgfggf--hkklk---jhkkghgfffghh-ghkkj-hhg-fefgf-gggg-fd-fefggghhij-hgfg-hhhhghkjhggghh--jhghgfefggg-----kk--jkhgghgk
+' NL-Uu 406'	-gg-f-defggg-hhgfghggkkjhghhghgfggghhhkkllk--khk-ghgfffghhggkkjh-ghg-fefgf-gggg-fddfefgghgg---hgfg-hhhhggkjhggghh--khg-hgefggg-----------------
+;
+end;
