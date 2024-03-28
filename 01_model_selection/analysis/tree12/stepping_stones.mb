@@ -57,7 +57,7 @@ prset
   igrvarpr=exp(1000) [check this prior which is supposed to be in years rather than Ma]
   clockratepr=exp(1000) [check this prior which is supposed to be in years rather than Ma]
   topologypr=fixed(tree12) [fix the tree to the rooted one we want to test on, replace with the key tree12]
-  treeagepr=fixed(1224) [this is 2024-800]
+  treeagepr=uniform(1124,1324) [this is 2024- (700,900)]
   sampleprob=0
   samplestrat=random [random is the default but I'm including it to comment that this allows for sampled ancestors to be recovered]
   nodeagepr=calibrated
@@ -73,17 +73,17 @@ showusertrees;
 
 [set up the MCMC, with this setting the analysis will need not less than 16 threads]
 [sample from prior, data=no]
-mcmcp data=yes nruns=2 ngen=1000000 nchains=6 samplefreq=100 printfreq=1000;
+mcmcp data=yes nruns=5 ngen=1000000 nchains=4 samplefreq=100 printfreq=1000;
 [run the stepping stones]
 ss;
 
 [summarize the posterior trees]
-[sumt nruns=2 relburnin=yes burninfrac=0.1;
+[sumt nruns=5 relburnin=yes burninfrac=0.1;
 plot;
 ]
 
 [summarize parameter posteriors]
-[sump nruns=2 relburnin=yes burninfrac=0.5;
+[sump nruns=5 relburnin=yes burninfrac=0.5;
 ]
 [sump;]
 log stop;
