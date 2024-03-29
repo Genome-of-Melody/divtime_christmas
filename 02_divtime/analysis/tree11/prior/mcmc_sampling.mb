@@ -1,0 +1,92 @@
+begin mrbayes;
+[Script documentation carried out using comments]
+
+[log the analysis]
+log start filename=mcmc_sampling.log;
+
+[read the matrix concatenated.nexus]
+execute alignment_and_trees.nexus;
+
+[close analysis at end]
+set autoclose=yes;
+
+[This command shows the status of all the taxa, according to the documentation]
+taxastat;
+
+[definition of individual partitions per marker come from partitions.txt]
+charset bethnon=1-137;
+charset consest=138-241;
+charset cumesset=242-384;
+charset judjer1=385-445;
+charset judjer2=446-641;
+charset orisic=642-720;
+
+[definition of the single partition]
+partition chants=6:bethnon,consest,cumesset,judjer1,judjer2,orisic;
+
+[specification of substitution models]
+set partition=chants;
+lset applyto=(all) coding=all rates=invgamma; [Mkv+I+G, nstates is automatic for the standard datatype]
+
+[-------CAREFUL! OUR DATES ARE HERE IN YEARS AFTER JESUS, BUT DIVTIME IS IN YEARS BEFORE THE PRESENT---------------]
+[-------also, for some resaon the posterior tip dates are with min=0 with an apparent offset of 310Ma from the reported min]
+
+[set tip calibrations by using the midpoint reported in our previous ISMIR paper, figure 3]
+[CZ-Pn_II_C_7 cannot be dropped by hand as it is not just in the aligns but also in the maxcred tree]
+calibrate
+  A_VOR_Cod_259_I=fixed(654) [2024-1370]
+  A_Wn_1799=uniform(724,824) [2024 - (1200,1300)]
+  CDN_Hsmu_M2149_L4=fixed(474) [2024 - 1550]
+  CH_E_611=uniform(624,724) [2024 - (1300,1400)]
+  CZ_HKm_II_A_4=fixed(554) [2024-1470]
+  CZ_PLm_504_C_004=fixed(408) [2024-1616]
+  CZ_Pn_XV_A_10=uniform(524,574) [2024 - (1450,1500)]
+  CZ_Pu_I_D_20=uniform(524,574) [2024 - (1450,1500)]
+  CZ_Pu_XVII_E_1=uniform(474,524) [2024 - (1500,1550)]
+  D_KA_Aug_LX=uniform(624,1024) [2024 - (1000,1400)]
+  D_KNd_1161=fixed(824) [2024 - 1200]
+  F_Pn_lat_12044=uniform(874,924) [2024 - (1100,1150)]
+  F_Pn_lat_15181=uniform(674,724) [2024 - (1300,1350)]
+  NL_Uu_406=uniform(624,924) [2024 - (1100,1400)]
+;
+
+[setting up the fbd divtime analysis]
+prset
+  brlenspr=clock:fossilization [because we have fossil tips, otherwise it would be birthdeath]
+  clockvarpr=igr
+  igrvarpr=exp(1000) [check this prior which is supposed to be in years rather than Ma]
+  clockratepr=exp(1000) [check this prior which is supposed to be in years rather than Ma]
+  topologypr=fixed(tree11) [fix the tree to the rooted one we want to test on, replace with the key tree11]
+  treeagepr=uniform(1124,1324) [this is 2024- (700,900)]
+  sampleprob=0
+  samplestrat=random [random is the default but I'm including it to comment that this allows for sampled ancestors to be recovered]
+  nodeagepr=calibrated
+;
+
+[-------CAREFUL! OUR DATES ARE HERE IN YEARS AFTER JESUS, BUT DIVTIME IS IN YEARS BEFORE THE PRESENT--------------]
+
+[show the model just specified for each partition]
+showmodel;
+[showmatrix;
+showusertrees;
+]
+
+[set up the MCMC, with this setting the analysis will need not less than 16 threads]
+[sample from prior, data=no]
+mcmcp data=no nruns=5 ngen=10000000 nchains=4 samplefreq=1000 printfreq=10000;
+
+[run mcmc sampling]
+mcmc;
+
+[summarize the posterior trees]
+sumt nruns=5 relburnin=yes burninfrac=0.1;
+plot;
+
+
+[summarize parameter posteriors]
+[sump nruns=5 relburnin=yes burninfrac=0.5;
+]
+sump;
+log stop;
+
+quit;
