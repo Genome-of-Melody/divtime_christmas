@@ -43,8 +43,6 @@ foreach(i=variants, .errorhandling="pass") %dopar% {
 }
 stopImplicitCluster()
 
-cat("It took ", tic-toc, " to completion\n", sep="")
-
 ## then calculate the posterior ace for the variant sites    
 #for (i in variants) {
 #    vec <- as.vector(msa[[i]])
