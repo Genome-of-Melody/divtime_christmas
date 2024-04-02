@@ -4,7 +4,7 @@ library(doParallel)
 library(foreach)
 
 args <- commandArgs(TRUE)
-
+args <- "tree11"
 tr_path <- paste("../../02_divtime/analysis/", args[1], "/posterior/alignment_and_trees.nexus.con.tre", sep="")
 tr <- read.nexus(tr_path)
 
@@ -28,19 +28,19 @@ for (j in invariants) {
 }
 
 # prepare parallelisation
-doParallel::registerDoParallel(20)
+doParallel::registerDoParallel(1)
 print(getDoParWorkers())
 
 #parallel version of the commented block below
-toc <- Sys.time()
-troptims <- foreach(i=variants, .errorhandling="pass") %dopar% {
+foreach(i=variants, .errorhandling="pass") %dopar% {
     vec <- as.vector(msa[[i]])
     names(vec) <- names(data)
     cat("Starting ace in variant position ", i, "\n", sep="")
     # save memory by just saving the $ace attr of the summary
-    paces[[i]] <- summary(make.simmap(tr, vec, model="ER", nsim=1000))$ace
+    # first time in 12 years that I have a genuine reason to use the <<- operator 
+    # and that I really know what it's doing
+    paces[[i]] <<- summary(make.simmap(tr, vec, model="ER", nsim=1000))$ace
 }
-tic <- Sys.time()
 stopImplicitCluster()
 
 cat("It took ", tic-toc, " to completion\n", sep="")
