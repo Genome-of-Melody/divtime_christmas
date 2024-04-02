@@ -28,7 +28,7 @@ for (j in invariants) {
 }
 
 # prepare parallelisation
-doParallel::registerDoParallel(1)
+doParallel::registerDoParallel(20)
 print(getDoParWorkers())
 
 #parallel version of the commented block below
