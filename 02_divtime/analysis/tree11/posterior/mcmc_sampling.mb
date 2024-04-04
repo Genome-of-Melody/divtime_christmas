@@ -54,8 +54,8 @@ calibrate
 prset
   brlenspr=clock:fossilization [because we have fossil tips, otherwise it would be birthdeath]
   clockvarpr=igr
-  igrvarpr=exp(1000) [check this prior which is supposed to be in years rather than Ma]
-  clockratepr=exp(1000) [check this prior which is supposed to be in years rather than Ma]
+  igrvarpr=exp(2) [2 was fine; check this prior which is supposed to be in years rather than Ma]
+  clockratepr=exp(5) [exp(5) was fine; check this prior which is supposed to be in years rather than Ma]
   topologypr=fixed(tree11) [fix the tree to the rooted one we want to test on, replace with the key tree11]
   treeagepr=uniform(1124,1324) [this is 2024- (700,900)]
   sampleprob=0
