@@ -3,6 +3,7 @@
 cd ../analysis
 
 for i in {11,19}; do
+#for i in '19'; do
     mkdir tree$i
     cd tree$i
     # sample from prior
