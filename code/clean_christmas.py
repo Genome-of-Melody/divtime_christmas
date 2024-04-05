@@ -8,9 +8,6 @@ import time
 import pandas as pd
 import volpiano     # Local relative import. Bad practice, but quick dirty solution for now.
 
-__version__ = "0.0.1"
-__author__ = "Jan Hajic jr."
-
 
 def build_argument_parser():
     parser = argparse.ArgumentParser(description=__doc__, add_help=True,

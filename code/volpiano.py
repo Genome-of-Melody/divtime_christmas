@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # -----------------------------------------------------------------------------
-# Author: Bas Cornelissen, Jan Hajič
-# Copyright © 2019 Bas Cornelissen, 2023 Jan Hajič
+# Author: Bas Cornelissen, (Anonymized for submission)
+# Copyright © 2019 Bas Cornelissen, 2024 (Anonymized for submission)
 # License: MIT
 # -----------------------------------------------------------------------------
 """
@@ -10,7 +10,7 @@ Volpiano helpers
 
 Some helpers for working with Volpiano strings.
 
-Note (JH): this is a file I keep copying over from project to project.
+Note: this is a file I keep copying over from project to project.
 It should be a separate package, but I'm not sure where to put it yet,
 and anyway I don't have time to do it properly now.
 
