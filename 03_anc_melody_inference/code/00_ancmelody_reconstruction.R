@@ -7,7 +7,7 @@ args <- commandArgs(TRUE)
 tr_path <- paste("../../02_divtime/analysis/", args[1], "/posterior/alignment_and_trees.nexus.con.tre", sep="")
 tr <- read.nexus(tr_path)
 
-data <- read.nexus.data("../../02_divtime/data/concatenated.nexus")
+data <- read.nexus.data("../../00_tree_inference/data/concatenated.nexus")
 
 ### doing posterior sampling for a sequence of states
 ### using stochastic mapping
@@ -27,7 +27,7 @@ for (j in invariants) {
 }
 
 # prepare parallelisation
-doParallel::registerDoParallel(60)
+doParallel::registerDoParallel(64)
 print(getDoParWorkers())
 
 #parallel version of the commented block below
