@@ -13,7 +13,7 @@ consest_solesmes <- paste(consest_solesmes, collapse="")
 consest_solesmes <- unname(unlist(strsplit(consest_solesmes, split="")))
 # cumesset
 cumesset_solesmes <- readLines("../data/cumesset_wsolesmes.fasta")
-cumesset_solesmes <- cumesset_solesmes[(length(cumesset_solesmes)-1):length(cumesset_solesmes)]
+cumesset_solesmes <- cumesset_solesmes[(length(cumesset_solesmes)-2):length(cumesset_solesmes)]
 cumesset_solesmes <- paste(cumesset_solesmes, collapse="")
 cumesset_solesmes <- unname(unlist(strsplit(cumesset_solesmes, split="")))
 # judjer1
@@ -23,7 +23,7 @@ judjer1_solesmes <- paste(judjer1_solesmes, collapse="")
 judjer1_solesmes <- unname(unlist(strsplit(judjer1_solesmes, split="")))
 # judjer2
 judjer2_solesmes <- readLines("../data/judjer2_wsolesmes.fasta")
-judjer2_solesmes <- judjer2_solesmes[(length(judjer2_solesmes)-1):length(judjer2_solesmes)]
+judjer2_solesmes <- judjer2_solesmes[(length(judjer2_solesmes)-3):length(judjer2_solesmes)]
 judjer2_solesmes <- paste(judjer2_solesmes, collapse="")
 judjer2_solesmes <- unname(unlist(strsplit(judjer2_solesmes, split="")))
 # orisic
@@ -102,8 +102,17 @@ for (i in seq_along(orisic_solesmes)) {
                                               ancstates=paces)
 }
 
-
-
+# print out pp_i and logpp_i
+consest_solesmes_pp
+log(consest_solesmes_pp)
+cumesset_solesmes_pp
+log(cumesset_solesmes_pp)
+judjer1_solesmes_pp
+log(judjer1_solesmes_pp)
+judjer2_solesmes_pp
+log(judjer2_solesmes_pp)
+orisic_solesmes_pp
+log(orisic_solesmes_pp)
 
 # states with pp=0 produce -Inf for sum logpp or 0 for prod pp, which indet the whole melody PP  
 #exp(sum(log(consest_solesmes_pp)))
