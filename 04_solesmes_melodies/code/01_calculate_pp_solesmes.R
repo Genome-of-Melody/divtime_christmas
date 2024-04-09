@@ -114,5 +114,114 @@ log(judjer2_solesmes_pp)
 orisic_solesmes_pp
 log(orisic_solesmes_pp)
 
+consest_df <- data.frame(maxpd=maxpd[consest_idx], solesmes=consest_solesmes)
+cumesset_df <- data.frame(maxpd=maxpd[cumesset_idx], solesmes=cumesset_solesmes)
+judjer1_df <- data.frame(maxpd=maxpd[judjer1_idx], solesmes=judjer1_solesmes)
+judjer2_df <- data.frame(maxpd=maxpd[judjer2_idx], solesmes=judjer2_solesmes)
+orisic_df <- data.frame(maxpd=maxpd[orisic_idx], solesmes=orisic_solesmes)
+
+consest_rm <- which((consest_df$maxpd == "-") & (consest_df$solesmes == "-"))
+cumesset_rm <- which((cumesset_df$maxpd == "-") & (cumesset_df$solesmes == "-"))
+judjer1_rm <- which((judjer1_df$maxpd == "-") & (judjer1_df$solesmes == "-"))
+judjer2_rm <- which((judjer2_df$maxpd == "-") & (judjer2_df$solesmes == "-"))
+orisic_rm <- which((orisic_df$maxpd == "-") & (orisic_df$solesmes == "-"))
+
+# removing all-dash positions in both melodies
+consest_df <- consest_df[-consest_rm,]
+cumesset_df <- cumesset_df[-cumesset_rm,]
+judjer1_df <- judjer1_df[-judjer1_rm,]
+judjer2_df <- judjer2_df[-judjer2_rm,]
+orisic_df <- orisic_df[-orisic_rm,]
+
 # states with pp=0 produce -Inf for sum logpp or 0 for prod pp, which indet the whole melody PP  
 #exp(sum(log(consest_solesmes_pp)))
+consest_solesmes_pp_na <- consest_solesmes_pp
+cumesset_solesmes_pp_na <- cumesset_solesmes_pp
+judjer1_solesmes_pp_na <- judjer1_solesmes_pp
+judjer2_solesmes_pp_na <- judjer2_solesmes_pp
+orisic_solesmes_pp_na <- orisic_solesmes_pp
+
+consest_solesmes_pp_na[which(consest_solesmes_pp_na == 0)] <- NA
+cumesset_solesmes_pp_na[which(cumesset_solesmes_pp_na == 0)] <- NA
+judjer1_solesmes_pp_na[which(judjer1_solesmes_pp_na == 0)] <- NA
+judjer2_solesmes_pp_na[which(judjer2_solesmes_pp_na == 0)] <- NA
+orisic_solesmes_pp_na[which(orisic_solesmes_pp_na == 0)] <- NA
+
+# Solesmes pp_melody after removing general dashes and 0-prob values
+prod(consest_solesmes_pp_na, na.rm=TRUE)
+prod(cumesset_solesmes_pp_na, na.rm=TRUE)
+prod(judjer1_solesmes_pp_na, na.rm=TRUE)
+prod(judjer2_solesmes_pp_na, na.rm=TRUE)
+prod(orisic_solesmes_pp_na, na.rm=TRUE)
+sum(log(consest_solesmes_pp_na), na.rm=TRUE)
+sum(log(cumesset_solesmes_pp_na), na.rm=TRUE)
+sum(log(judjer1_solesmes_pp_na), na.rm=TRUE)
+sum(log(judjer2_solesmes_pp_na), na.rm=TRUE)
+sum(log(orisic_solesmes_pp_na), na.rm=TRUE)
+
+
+### maxpd melodies
+# print the vector of pp for each position in the consest melody at the root node
+
+# get the max pd values for each position, for each node, rather than the symbol
+# there are 14 internal nodes, get the maxpd states for a given node
+maxpd_values <- matrix(nrow=nrow(paces[[1]]), ncol=length(msa))
+rownames(maxpd_values) <- rownames(paces[[1]])
+# fill in the variants with maxpd
+for (i in 1:nrow(maxpd_values)) {
+    for (j in variants) {
+        maxpd_values[i,j] <- max(paces[[j]][i,])
+    }
+}
+# fill in the invariants
+for (i in 1:nrow(maxpd_values)) {
+    for (j in invariants) {
+        maxpd_values[i,j] <- 1.0
+    }
+}
+
+# calculate pp_melody for the reconstruction at the root node
+prod(maxpd_values[consest_idx], na.rm=TRUE)
+prod(maxpd_values[cumesset_idx], na.rm=TRUE)
+prod(maxpd_values[judjer1_idx], na.rm=TRUE)
+prod(maxpd_values[judjer2_idx], na.rm=TRUE)
+prod(maxpd_values[orisic_idx], na.rm=TRUE)
+sum(log(maxpd_values[consest_idx]), na.rm=TRUE)
+sum(log(maxpd_values[cumesset_idx]), na.rm=TRUE)
+sum(log(maxpd_values[judjer1_idx]), na.rm=TRUE)
+sum(log(maxpd_values[judjer2_idx]), na.rm=TRUE)
+sum(log(maxpd_values[orisic_idx]), na.rm=TRUE)
+
+
+
+# build a table for the results
+pp_melody_solesmes <- c(prod(consest_solesmes_pp_na, na.rm=TRUE),
+prod(cumesset_solesmes_pp_na, na.rm=TRUE),
+prod(judjer1_solesmes_pp_na, na.rm=TRUE),
+prod(judjer2_solesmes_pp_na, na.rm=TRUE),
+prod(orisic_solesmes_pp_na, na.rm=TRUE))
+
+logpp_melody_solesmes <- c(sum(log(consest_solesmes_pp_na), na.rm=TRUE),
+sum(log(cumesset_solesmes_pp_na), na.rm=TRUE),
+sum(log(judjer1_solesmes_pp_na), na.rm=TRUE),
+sum(log(judjer2_solesmes_pp_na), na.rm=TRUE),
+sum(log(orisic_solesmes_pp_na), na.rm=TRUE))
+
+pp_melody_ancstate <- c(prod(maxpd_values[consest_idx], na.rm=TRUE),
+prod(maxpd_values[cumesset_idx], na.rm=TRUE),
+prod(maxpd_values[judjer1_idx], na.rm=TRUE),
+prod(maxpd_values[judjer2_idx], na.rm=TRUE),
+prod(maxpd_values[orisic_idx], na.rm=TRUE))
+
+logpp_melody_ancstate <- c(sum(log(maxpd_values[consest_idx]), na.rm=TRUE),
+sum(log(maxpd_values[cumesset_idx]), na.rm=TRUE),
+sum(log(maxpd_values[judjer1_idx]), na.rm=TRUE),
+sum(log(maxpd_values[judjer2_idx]), na.rm=TRUE),
+sum(log(maxpd_values[orisic_idx]), na.rm=TRUE))
+
+probs_table <- data.frame(melody=c("consest", "cumesset", "judjer1", "judjer2", "orisic", "consest", "cumesset", "judjer1", "judjer2", "orisic"),
+                          type=c(rep("ancstate", times=5), rep("solesmes", times=5)),
+                          prob=c(pp_melody_ancstate, pp_melody_solesmes),
+                          logprob=c(logpp_melody_ancstate, logpp_melody_solesmes))
+
+probs_table[order(probs_table$melody),]
