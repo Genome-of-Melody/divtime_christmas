@@ -1,22 +1,22 @@
 #NEXUS
 BEGIN DATA;
-	DIMENSIONS NTAX=14 NCHAR=143;
+	DIMENSIONS NTAX=14 NCHAR=127;
 	FORMAT DATATYPE=STANDARD GAP=- MISSING=?;
 	MATRIX
 
-' A-VOR Cod. 259/I'	-gg-fedefggg--hgfgh---kjhg-hhhgfggg--gkjkll--khkgghgfffghh--jkjh-ghg-fefgg-gggg-fedf---fghg---hgfghhhhghjkjhgefgh--jkj-hgefggg-----kkkjkkhg----
-' A-Wn 1799**'	-gg-efdefggg-hhgfgh-kkkjhg-hhhgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--gggg-fdef---ghgh---hgfg-hhhhghkkjh-hgh--jhghgfefggg-----kk--jkhg----
-' CDN-Hsmu M2149.L4'	-ggfefdefggghhhgfgh-kkkjhghhhhgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--gggg-fdef--gghgh---hgfg-hhhhghkkjh-hgh--jhghgfefggg-----kk--jkhg----
-' CH-E 611'	-gg-f-defggg--hgfgh---kjhg-hhhgfggg--gkklkl-kkhkjghgfffghh--jkjh-ghgffefgf-gggg-fdef---ghgg---hgfg-hhhghjkjhggghh--khg-hgefggg-----kk--jkhg----
-' CZ-HKm II A 4'	ggg-fedefggg--hgfgh---kjhg-hhhgfggg--gkjkll--khk-ghgfffghh--jkjh-ghg-fefgfggggg-fedf---fghg---hgfg-hhhghjkjhgefgh--jkj-hgefggg-----kk--jkhg----
-' CZ-PLm 504 C 004'	-gg-fedefggg--hgfgh---kjhg-hhhgfgg-------------------------------------------------------------------------------------------------------------
-' CZ-Pn XV A 10'	-gg-gfdefggg--hgfgh---kjhghhhhgfggg--gkjkll--khk-ghgfffghh---kjh-ghg-fefgf-gggg-fedf---fghg---hgfg-hhhgg-kjhgefgh--k---jhefggg-----kk--jkhg----
-' CZ-Pu I D 20'	ggg-fedefggg--hgfgh---kjhgghhhgfggg--gkjkl---khkgghgfffghh--jkjh-ghg-fefgf-gggg-fedfefgghgg---hgfg-hhhghjkjhgghghhkjhgfhgefggg-----------------
-' CZ-Pu XVII E 1'	-gg-fedefggg--hgfgh---kjhg-hhhgfggg--gkjhjj--hhk-ghgfffghh--jkjhgghg-fefgf-gggf-fedf---fghg---hgfg-hhhghjkjhgefgh--jkj-hgefggg-----------------
-' D-KA Aug. LX'	-gg-f-defggg--hgfgh---kjhg-hhhgfggg--gkjkllkkjhkjghgfffghh---kjh-ghg-fefgf-gggg-fdff---ghgg---hgfg-hhhghkkjhgfghh--jk--hgefggg-----------------
-' D-KNd 1161'	-gg-efdefggghhhgfgh-kkkjhg-hhhgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--gggg-fdef---ghgh---hgfg-hhhhghkkjh-hgh--jhghgfefggg-----kk--jkhg----
-' F-Pn lat. 12044'	-gg-ffdefggg-hhgffh---kkjh-hhhgfggf--hkkllk--khkjghgfffghh-hkkjh-ghg-fefgf-ggggffddfefgghgghijhgfg-ghhghkijhg-hhi--jhghgfefgggghgkkkk--jkhg----
-' F-Pn lat. 15181'	-gg-f-defggg-hhgffh--kkjhg-hhhgfggf--hkklk---jhkkghgfffghh-ghkkj-hhg-fefgf-gggg-fd-fefggghhij-hgfg-hhhhghkjhggghh--jhghgfefggg-----kk--jkhgghgk
-' NL-Uu 406'	-gg-f-defggg-hhgfghggkkjhghhghgfggghhhkkllk--khk-ghgfffghhggkkjh-ghg-fefgf-gggg-fddfefgghgg---hgfg-hhhhggkjhggghh--khg-hgefggg-----------------
+_A_VOR_Cod_259_I	-gg-fedefggg--hgfgh---kjhg-hh-hgfggg--gkjkll--khkgghgfffghh--jkjh-ghg-fefgg-ggggf-edf---fghg--hgfghhhhghjkjhgefghjk---jhg-efggg
+_A_Wn_1799	-gg-efdefggg-hhgfgh-kkkjhg-hh-hgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--ggggf-def---ghgh--hgfghhhhghkkjhh--ghjh---ghgfefggg
+_CDN_Hsmu_M2149_L4	-ggfefdefggghhhgfgh-kkkjhghhh-hgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--ggggf-def--gghgh--hgfghhhhghkkjhh--ghjh---ghgfefggg
+_CH_E_611	-gg-f-defggg--hgfgh---kjhg-hh-hgfggg--gkklkl-kkhkjghgfffghh--jkjh-ghgffefgf-ggggf-def---ghgg--hgfg-hhhghjkjhggghhkh---ghg-efggg
+_CZ_HKm_II_A_4	ggg-fedefggg--hgfgh---kjhg-hh-hgfggg--gkjkll--khk-ghgfffghh--jkjh-ghg-fefgfgggggf-edf---fghg--hgfg-hhhghjkjhgefghjk---jhg-efggg
+_CZ_PLm_504_C_004	-gg-fedefggg--hgfgh---kjhg-hh-hgfgg--------------------------------------------------------------------------------------------
+_CZ_Pn_XV_A_10	-gg-gfdefggg--hgfgh---kjhghhh-hgfggg--gkjkll--khk-ghgfffghh---kjh-ghg-fefgf-ggggf-edf---fghg--hgfg-hhhgg-kjhgefghk-----jh-efggg
+_CZ_Pu_I_D_20	-gggfedefggg--hgfgh---kjhgghh-hgfggg--gkjkl---khkgghgfffghh--jkjh-ghg-fefgf-ggggf-edfefgghgg--hgfg-hhhghjkjhgghghhkjhgfhg-efggg
+_CZ_Pu_XVII_E_1	-gg-fedefggg--hgfgh---kjhg-hh-hgfggg--gkjhjj--hhk-ghgfffghh--jkjhgghg-fefgf-gggff-edf---fghg--hgfg-hhhghjkjhgefghjk---jhg-efggg
+_D_KA_Aug_LX	-gg-f-defggg--hgfgh---kjhg-hh-hgfggg--gkjkllkkjhkjghgfffghh---kjh-ghg-fefgf-ggggf-dff---ghgg--hgfg-hhhghkkjhgfghhjk----hg-efggg
+_D_KNd_1161	-gg-efdefggghhhgfgh-kkkjhg-hh-hgfggf--hkkllk-kjhkkjghgffghk--kkjh-ghg-fefg--ggggf-def---ghgh--hgfghhhhghkkjhh--ghjh---ghgfefggg
+_F_Pn_lat_12044	-gg-ffdefggg-hhgffh---kkjh-hh-hgfggf--hkkllk--khkjghgfffghh-hkkjh-ghg-fefgf-ggggffddfefgghgghihgfg-ghhgh-kihg--hhih---ghgfefggg
+_F_Pn_lat_15181	-gg-f-defggg-hhgffh--kkjhg-hh-hgfggf--hkklk---jhkkghgfffghh-ghkkj-hhg-fefgf-ggggf-dfefggghhi--hgfghhhhgh-kihggghhih---ghgfefggg
+_NL_Uu_406	-gg-f-defggg-hhgfghggkkjhg-hhghgfggghhhkkllk--khk-ghgfffghhggkkjh-ghg-fefgf-ggggf-ddfefgghgg--hgfghhhhgg-kjhggghhkh---ghg-efggg
 ;
 end;

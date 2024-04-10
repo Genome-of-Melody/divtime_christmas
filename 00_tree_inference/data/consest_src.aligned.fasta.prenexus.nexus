@@ -1,22 +1,22 @@
 #NEXUS
 BEGIN DATA;
-	DIMENSIONS NTAX=14 NCHAR=104;
+	DIMENSIONS NTAX=14 NCHAR=62;
 	FORMAT DATATYPE=STANDARD GAP=- MISSING=?;
 	MATRIX
 
-' A-VOR Cod. 259/I'	-----------------------------------------dgh-gfedf---e-ghghkhgfghg-dfe-gh-d----fefgfedcfghf-gedecef-----
-' A-Wn 1799**'	hmlmlkjhkjklmlmnmlklmlkkjklmhhjlkjhklmmkmjhj-------------ghjhj------------------------------------------
-' CDN-Hsmu M2149.L4'	hmlmlkjhkjklmlmnmlklmlkkjklmhhjlkjhklmmkljhj------------hghjhj------------------------------------------
-' CH-E 611'	-----------------------------------------dhhggfede---efghghjhgfghgfdfefghgd----fefgfeddfhhf-gedfcdehhhge
-' CZ-HKm II A 4'	-----------------------------------------cgg-feddf---e-ghghkhgfghg-dfe-gh-d----fefgfedcfghf-gedecde-----
-' CZ-PLm 504 C 004'	d----------------------------------------dhh-gfedf---efghghkhgfghg-dfefgh-d----fefgfed-fghf-gedecde-----
-' CZ-Pn XV A 10'	-----------------------------------------dhh-gfedf---efghghkhgfghggdfefgh-d----fefgfed-fghf-gedecde-----
-' CZ-Pu I D 20'	-----------------------------------------dhh-gfedf---efghghkhgfghg-dfegeh-d----fefgfedcfghfdgedecde-----
-' CZ-Pu XVII E 1'	-----------------------------------------dhh-gfedf---e-ghghkhgfghg-dfe-gh-d----fefgfedcfghf-gedec-------
-' D-KA Aug. LX'	-----------------------------------------dhh-gfedf---e-ghghkhgfghg-dfe-gh-d----fefgfed-fghf-gedecde----e
-' D-KNd 1161'	hmlmlkjhkjklmlmnmlklmlkkjklmhhjlkjhkl-mkljhj-------------ghjhj------------------------------------------
-' F-Pn lat. 12044'	-----------------------------------------dhhggfedf---efghghkhgfghg-ffefgh-d----degfedd-fhhf-gedecde---de
-' F-Pn lat. 15181'	-----------------------------------------dhh-gfedf---efghghkhgfghgfdfefgh-d----dfgfedd-dfhf-gedecde---de
-' NL-Uu 406'	-----------------------------------------dhh-ggfefdfeffghghkhgfghgfdfeffghdddfeffgffeddfhhf-gedfcddedege
+_A_VOR_Cod_259_I	-dg-hgfe-dfe--ghghkhgfghg-dfe--gh-d----fefgfedcfghf-gede-c-ef-
+_A_Wn_1799	-dhghgfe-dfe-fghghihgfghg-ffe-fgh-d-----degfedfghhf-hede-c-de-
+_CDN_Hsmu_M2149_L4	-dhghgfe-dfe-fghghihgfghg-ffe-fgh-d-----degfedfghhf-gededc-de-
+_CH_E_611	-dhhggfe-dee-fghghjhgfghgfdfe-fghgd----fefgfeddfhhf-gedf-c-de-
+_CZ_HKm_II_A_4	-cg-gfed-dfe--ghghkhgfghg-dfe--gh-d----fefgfedcfghf-gede-c-de-
+_CZ_PLm_504_C_004	ddh-hgfe-dfe-fghghkhgfghg-dfe-fgh-d----fefgfed-fghf-gede-c-de-
+_CZ_Pn_XV_A_10	-dh-hgfe-dfe-fghghkhgfghggdfe-fgh-d----fefgfed-fghf-gede-c-de-
+_CZ_Pu_I_D_20	-dh-hgfe-dfe-fghghkhgfghg-dfe-geh-d----fefgfedcfghfdgede-c-de-
+_CZ_Pu_XVII_E_1	-dh-hgfe-dfe--ghghkhgfghg-dfe--gh-d----fefgfedcfghf-gede-c----
+_D_KA_Aug_LX	-dh-hgfe-dfe--ghghkhgfghg-dfe--gh-d----fefgfed-fghf-gede-c-dee
+_D_KNd_1161	-dhghgfe-dfe-fghghihgfghg-ffe-fgh-d-----degfed-fghf-gede-c-de-
+_F_Pn_lat_12044	-dhhggfe-dfe-fghghkhgfghg-ffe-fgh-d-----degfeddfhhf-gede-c-de-
+_F_Pn_lat_15181	-dh-hgfe-dfe-fghghkhgfghgfdfe-fgh-d-----dfgfedddfhf-gede-c-de-
+_NL_Uu_406	-dhhggfefdfeffghghkhgfghgfdfeffgh-dddfeffgffeddfhhf-gedf-cdde-
 ;
 end;
