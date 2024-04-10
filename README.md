@@ -24,6 +24,23 @@ In order to get valid inputs for alignment, we then must create FASTA files
 (with sigla as sequence names) individually for all
 the chants. This step is implemented by the `build_src_fasta.py` script.
 
+The list of sigla that are retained (because these sources contain enough
+of all the Cantus IDs that we are analysing):
+
+A-VOR Cod. 259/I
+A-Wn 1799**
+CDN-Hsmu M2149.L4
+CH-E 611
+CZ-HKm II A 4
+CZ-PLm 504 C 004
+CZ-Pn XV A 10
+CZ-Pu I D 20
+CZ-Pu XVII E 1
+D-KA Aug. LX
+D-KNd 1161
+F-Pn lat. 12044
+F-Pn lat. 15181
+NL-Uu 406
 
 
 
