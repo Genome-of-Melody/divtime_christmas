@@ -14,12 +14,12 @@ set autoclose=yes;
 taxastat;
 
 [definition of individual partitions per marker come from partitions.txt]
-charset bethnon=1-137;
-charset consest=138-241;
-charset cumesset=242-384;
-charset judjer1=385-445;
-charset judjer2=446-641;
-charset orisic=642-720;
+charset bethnon=1-118;
+charset consest=119-180;
+charset cumesset=181-307;
+charset judjer1=308-363;
+charset judjer2=364-483;
+charset orisic=484-544;
 
 [definition of the single partition]
 partition chants=6:bethnon,consest,cumesset,judjer1,judjer2,orisic;
@@ -54,8 +54,8 @@ calibrate
 prset
   brlenspr=clock:fossilization [because we have fossil tips, otherwise it would be birthdeath]
   clockvarpr=igr
-  igrvarpr=exp(1000) [check this prior which is supposed to be in years rather than Ma]
-  clockratepr=exp(1000) [check this prior which is supposed to be in years rather than Ma]
+  igrvarpr=exp(2) [check this prior which is supposed to be in years rather than Ma]
+  clockratepr=exp(5) [check this prior which is supposed to be in years rather than Ma]
   topologypr=fixed(tree5) [fix the tree to the rooted one we want to test on, replace with the key tree5]
   treeagepr=uniform(1124,1324) [this is 2024- (700,900)]
   sampleprob=0

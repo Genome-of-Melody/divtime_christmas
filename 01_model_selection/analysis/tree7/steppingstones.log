@@ -3,35 +3,35 @@
       Executing file "alignment_and_trees.nexus"...
 
    UNIX line termination
-   Longest line length = 739
+   Longest line length = 563
    Parsing file
    Expecting NEXUS formatted file
    Reading data block
       Allocated taxon set
       Allocated matrix
-      Defining new matrix with 14 taxa and 720 characters
+      Defining new matrix with 14 taxa and 544 characters
       Data is Standard
       Gaps coded as -
       Missing data coded as ?
       Taxon  1 -> A_VOR_Cod_259_I
-      Taxon  2 -> A_Wn_1799
-      Taxon  3 -> CDN_Hsmu_M2149_L4
-      Taxon  4 -> CH_E_611
-      Taxon  5 -> CZ_HKm_II_A_4
-      Taxon  6 -> CZ_PLm_504_C_004
-      Taxon  7 -> CZ_Pn_XV_A_10
-      Taxon  8 -> CZ_Pu_I_D_20
-      Taxon  9 -> CZ_Pu_XVII_E_1
-      Taxon 10 -> D_KA_Aug_LX
-      Taxon 11 -> D_KNd_1161
-      Taxon 12 -> F_Pn_lat_12044
-      Taxon 13 -> F_Pn_lat_15181
-      Taxon 14 -> NL_Uu_406
+      Taxon  2 -> CH_E_611
+      Taxon  3 -> CZ_HKm_II_A_4
+      Taxon  4 -> CZ_PLm_504_C_004
+      Taxon  5 -> CZ_Pn_XV_A_10
+      Taxon  6 -> CZ_Pu_I_D_20
+      Taxon  7 -> D_KA_Aug_LX
+      Taxon  8 -> F_Pn_lat_12044
+      Taxon  9 -> NL_Uu_406
+      Taxon 10 -> A_Wn_1799
+      Taxon 11 -> CDN_Hsmu_M2149_L4
+      Taxon 12 -> CZ_Pu_XVII_E_1
+      Taxon 13 -> D_KNd_1161
+      Taxon 14 -> F_Pn_lat_15181
       Successfully read matrix
       Setting default partition (does not divide up characters)
       Setting model defaults
-      Seed (for generating default start values) = 1711648560
-      WARNING: There are 637 characters incompatible with the specified
+      Seed (for generating default start values) = 1712758324
+      WARNING: There are 473 characters incompatible with the specified
                coding bias. These characters will be excluded.
       Setting output file names to "alignment_and_trees.nexus.run<i>.<p|t>"
    Exiting data block
@@ -75,19 +75,19 @@
         Taxon                      Inclusion   
       --------------------------------------
     ->   1 (A_VOR_Cod_259_I)    -- Included    
-         2 (A_Wn_1799)          -- Included    
-         3 (CDN_Hsmu_M2149_L4)  -- Included    
-         4 (CH_E_611)           -- Included    
-         5 (CZ_HKm_II_A_4)      -- Included    
-         6 (CZ_PLm_504_C_004)   -- Included    
-         7 (CZ_Pn_XV_A_10)      -- Included    
-         8 (CZ_Pu_I_D_20)       -- Included    
-         9 (CZ_Pu_XVII_E_1)     -- Included    
-        10 (D_KA_Aug_LX)        -- Included    
-        11 (D_KNd_1161)         -- Included    
-        12 (F_Pn_lat_12044)     -- Included    
-        13 (F_Pn_lat_15181)     -- Included    
-        14 (NL_Uu_406)          -- Included    
+         2 (CH_E_611)           -- Included    
+         3 (CZ_HKm_II_A_4)      -- Included    
+         4 (CZ_PLm_504_C_004)   -- Included    
+         5 (CZ_Pn_XV_A_10)      -- Included    
+         6 (CZ_Pu_I_D_20)       -- Included    
+         7 (D_KA_Aug_LX)        -- Included    
+         8 (F_Pn_lat_12044)     -- Included    
+         9 (NL_Uu_406)          -- Included    
+        10 (A_Wn_1799)          -- Included    
+        11 (CDN_Hsmu_M2149_L4)  -- Included    
+        12 (CZ_Pu_XVII_E_1)     -- Included    
+        13 (D_KNd_1161)         -- Included    
+        14 (F_Pn_lat_15181)     -- Included    
 
       '.' indicate that the taxon is not present in the constraint. 
       '*' indicate that the taxon is present in the 'hard' constraint. 
@@ -104,18 +104,18 @@
       Defining partition called 'chants'
       Setting chants as the partition, dividing characters into 6 parts.
       Setting model defaults
-      Seed (for generating default start values) = 1173642146
-      WARNING: There are 110 characters incompatible with the specified
+      Seed (for generating default start values) = 1433580510
+      WARNING: There are 91 characters incompatible with the specified
                coding bias. These characters will be excluded.
-      WARNING: There are 90 characters incompatible with the specified
+      WARNING: There are 53 characters incompatible with the specified
                coding bias. These characters will be excluded.
-      WARNING: There are 139 characters incompatible with the specified
+      WARNING: There are 121 characters incompatible with the specified
                coding bias. These characters will be excluded.
-      WARNING: There are 56 characters incompatible with the specified
+      WARNING: There are 53 characters incompatible with the specified
                coding bias. These characters will be excluded.
-      WARNING: There are 165 characters incompatible with the specified
+      WARNING: There are 96 characters incompatible with the specified
                coding bias. These characters will be excluded.
-      WARNING: There are 77 characters incompatible with the specified
+      WARNING: There are 59 characters incompatible with the specified
                coding bias. These characters will be excluded.
       Enabling Coding All for partition 1
       Enabling Coding All for partition 2
@@ -125,8 +125,6 @@
       Enabling Coding All for partition 6
       Successfully set likelihood model parameters to all
          applicable data partitions 
-      WARNING: Compressed character 409 (original character 655) of division 6 has less 
-               than two observed states; it will be assumed to have two states.
       Setting age of taxon 'A_VOR_Cod_259_I' to Fixed(654.00)
       Setting age of taxon 'A_Wn_1799' to Uniform(724.00,824.00)
       Setting age of taxon 'CDN_Hsmu_M2149_L4' to Fixed(474.00)
@@ -153,18 +151,18 @@
       Setting Clockvarpr to Igr for partition 4
       Setting Clockvarpr to Igr for partition 5
       Setting Clockvarpr to Igr for partition 6
-      Setting Igrvarpr to Exponential(1000.00) for partition 1
-      Setting Igrvarpr to Exponential(1000.00) for partition 2
-      Setting Igrvarpr to Exponential(1000.00) for partition 3
-      Setting Igrvarpr to Exponential(1000.00) for partition 4
-      Setting Igrvarpr to Exponential(1000.00) for partition 5
-      Setting Igrvarpr to Exponential(1000.00) for partition 6
-      Setting Clockratepr to Exponential(1000.00)
-      Setting Clockratepr to Exponential(1000.00)
-      Setting Clockratepr to Exponential(1000.00)
-      Setting Clockratepr to Exponential(1000.00)
-      Setting Clockratepr to Exponential(1000.00)
-      Setting Clockratepr to Exponential(1000.00)
+      Setting Igrvarpr to Exponential(2.00) for partition 1
+      Setting Igrvarpr to Exponential(2.00) for partition 2
+      Setting Igrvarpr to Exponential(2.00) for partition 3
+      Setting Igrvarpr to Exponential(2.00) for partition 4
+      Setting Igrvarpr to Exponential(2.00) for partition 5
+      Setting Igrvarpr to Exponential(2.00) for partition 6
+      Setting Clockratepr to Exponential(5.00)
+      Setting Clockratepr to Exponential(5.00)
+      Setting Clockratepr to Exponential(5.00)
+      Setting Clockratepr to Exponential(5.00)
+      Setting Clockratepr to Exponential(5.00)
+      Setting Clockratepr to Exponential(5.00)
       Setting Topologypr to Fixed for partition 1
       Setting Topologypr to Fixed for partition 2
       Setting Topologypr to Fixed for partition 3
@@ -197,8 +195,6 @@
       Setting Nodeagepr to Calibrated for partition 6
       Successfully set prior model parameters to all
       applicable data partitions 
-      WARNING: Compressed character 409 (original character 655) of division 6 has less 
-               than two observed states; it will be assumed to have two states.
       Model settings:
 
          Settings for partition 1 --
@@ -283,19 +279,19 @@
                Prior      = Clock:Fossilization
                             Node depths are constrained by the following age constraints:
                             -- The age of terminal "A_VOR_Cod_259_I" is Fixed(654.00)
-                            -- The age of terminal "A_Wn_1799" is Uniform(724.00,824.00)
-                            -- The age of terminal "CDN_Hsmu_M2149_L4" is Fixed(474.00)
                             -- The age of terminal "CH_E_611" is Uniform(624.00,724.00)
                             -- The age of terminal "CZ_HKm_II_A_4" is Fixed(554.00)
                             -- The age of terminal "CZ_PLm_504_C_004" is Fixed(408.00)
                             -- The age of terminal "CZ_Pn_XV_A_10" is Uniform(524.00,574.00)
                             -- The age of terminal "CZ_Pu_I_D_20" is Uniform(524.00,574.00)
-                            -- The age of terminal "CZ_Pu_XVII_E_1" is Uniform(474.00,524.00)
                             -- The age of terminal "D_KA_Aug_LX" is Uniform(624.00,1024.00)
-                            -- The age of terminal "D_KNd_1161" is Fixed(824.00)
                             -- The age of terminal "F_Pn_lat_12044" is Uniform(874.00,924.00)
-                            -- The age of terminal "F_Pn_lat_15181" is Uniform(674.00,724.00)
                             -- The age of terminal "NL_Uu_406" is Uniform(624.00,924.00)
+                            -- The age of terminal "A_Wn_1799" is Uniform(724.00,824.00)
+                            -- The age of terminal "CDN_Hsmu_M2149_L4" is Fixed(474.00)
+                            -- The age of terminal "CZ_Pu_XVII_E_1" is Uniform(474.00,524.00)
+                            -- The age of terminal "D_KNd_1161" is Fixed(824.00)
+                            -- The age of terminal "F_Pn_lat_15181" is Uniform(674.00,724.00)
                             -- Tree age has a Uniform(1124.00,1324.00) distribution
                Partitions = All
                Subparam.  = IgrBrlens{all}
@@ -317,7 +313,7 @@
 
          8 --  Parameter  = Igrvar{all}
                Type       = Variance increase of igr model branch lenths
-               Prior      = Exponential(1000.00)
+               Prior      = Exponential(2.00)
                Partitions = All
                Subparam.  = IgrBrlens{all}
 
@@ -329,7 +325,7 @@
 
         10 --  Parameter  = Clockrate{all}
                Type       = Base rate of clock
-               Prior      = Exponential(1000.00)
+               Prior      = Exponential(5.00)
                             The clock rate varies according to an independent gamma (white noise) model
                Partitions = All
 
@@ -345,9 +341,9 @@
       Setting chain output file names to "alignment_and_trees.nexus.run<i>.<p/t>"
       Successfully set chain parameters
       Running Markov chain
-      MCMC stamp = 9668795083
-      Seed = 1719856334
-      Swapseed = 1711648560
+      MCMC stamp = 6522690659
+      Seed = 552914484
+      Swapseed = 1712758324
       Model settings:
 
          Settings for partition 1 --
@@ -432,19 +428,19 @@
                Prior      = Clock:Fossilization
                             Node depths are constrained by the following age constraints:
                             -- The age of terminal "A_VOR_Cod_259_I" is Fixed(654.00)
-                            -- The age of terminal "A_Wn_1799" is Uniform(724.00,824.00)
-                            -- The age of terminal "CDN_Hsmu_M2149_L4" is Fixed(474.00)
                             -- The age of terminal "CH_E_611" is Uniform(624.00,724.00)
                             -- The age of terminal "CZ_HKm_II_A_4" is Fixed(554.00)
                             -- The age of terminal "CZ_PLm_504_C_004" is Fixed(408.00)
                             -- The age of terminal "CZ_Pn_XV_A_10" is Uniform(524.00,574.00)
                             -- The age of terminal "CZ_Pu_I_D_20" is Uniform(524.00,574.00)
-                            -- The age of terminal "CZ_Pu_XVII_E_1" is Uniform(474.00,524.00)
                             -- The age of terminal "D_KA_Aug_LX" is Uniform(624.00,1024.00)
-                            -- The age of terminal "D_KNd_1161" is Fixed(824.00)
                             -- The age of terminal "F_Pn_lat_12044" is Uniform(874.00,924.00)
-                            -- The age of terminal "F_Pn_lat_15181" is Uniform(674.00,724.00)
                             -- The age of terminal "NL_Uu_406" is Uniform(624.00,924.00)
+                            -- The age of terminal "A_Wn_1799" is Uniform(724.00,824.00)
+                            -- The age of terminal "CDN_Hsmu_M2149_L4" is Fixed(474.00)
+                            -- The age of terminal "CZ_Pu_XVII_E_1" is Uniform(474.00,524.00)
+                            -- The age of terminal "D_KNd_1161" is Fixed(824.00)
+                            -- The age of terminal "F_Pn_lat_15181" is Uniform(674.00,724.00)
                             -- Tree age has a Uniform(1124.00,1324.00) distribution
                Partitions = All
                Subparam.  = IgrBrlens{all}
@@ -466,7 +462,7 @@
 
          8 --  Parameter  = Igrvar{all}
                Type       = Variance increase of igr model branch lenths
-               Prior      = Exponential(1000.00)
+               Prior      = Exponential(2.00)
                Partitions = All
                Subparam.  = IgrBrlens{all}
 
@@ -478,7 +474,7 @@
 
         10 --  Parameter  = Clockrate{all}
                Type       = Base rate of clock
-               Prior      = Exponential(1000.00)
+               Prior      = Exponential(5.00)
                             The clock rate varies according to an independent gamma (white noise) model
                Partitions = All
 
@@ -498,12 +494,12 @@
            18.29 %   Multiplier(IgrBrlens{all})
             3.66 %   Multiplier(Clockrate{all})
 
-      Division 1 has 85 unique site patterns
-      Division 2 has 57 unique site patterns
-      Division 3 has 97 unique site patterns
-      Division 4 has 47 unique site patterns
-      Division 5 has 116 unique site patterns
-      Division 6 has 44 unique site patterns
+      Division 1 has 72 unique site patterns
+      Division 2 has 39 unique site patterns
+      Division 3 has 80 unique site patterns
+      Division 4 has 39 unique site patterns
+      Division 5 has 94 unique site patterns
+      Division 6 has 35 unique site patterns
       Initializing conditional likelihoods
       Using standard non-SSE likelihood calculator for division 1 (single-precision)
       Using standard non-SSE likelihood calculator for division 2 (single-precision)
@@ -513,7 +509,7 @@
       Using standard non-SSE likelihood calculator for division 6 (single-precision)
 
       Initial log likelihoods and log prior probs for run 1:
-         Chain 1 -- -1995.228814 -- -3969.845727
+         Chain 1 -- -3748.452484 -- -3525.947477
 
       There are 19 more chains on other processor(s)
 
@@ -533,357 +529,357 @@
 
       Chain results (999600 generations requested):
 
-         0 -- [-1995.229] [...19 remote chains...] 
-      1000 -- [-1171.397] [...19 remote chains...] -- 0:00:00
-      2000 -- [-1153.902] [...19 remote chains...] -- 0:00:00
-      3000 -- [-1154.872] [...19 remote chains...] -- 0:05:32
-      4000 -- [-1147.040] [...19 remote chains...] -- 0:04:08
-      5000 -- [-1144.727] [...19 remote chains...] -- 0:03:18
-      6000 -- [-1147.010] [...19 remote chains...] -- 0:02:45
-      7000 -- [-1148.513] [...19 remote chains...] -- 0:04:43
-      8000 -- [-1145.217] [...19 remote chains...] -- 0:04:07
-      9000 -- [-1145.047] [...19 remote chains...] -- 0:03:40
-      10000 -- [-1139.733] [...19 remote chains...] -- 0:04:56
-      11000 -- [-1138.584] [...19 remote chains...] -- 0:04:29
-      12000 -- [-1137.694] [...19 remote chains...] -- 0:04:06
-      13000 -- [-1135.295] [...19 remote chains...] -- 0:05:03
-      14000 -- [-1138.644] [...19 remote chains...] -- 0:04:41
-      15000 -- [-1135.593] [...19 remote chains...] -- 0:05:28
-      16000 -- [-1133.875] [...19 remote chains...] -- 0:05:07
-      17000 -- [-1135.529] [...19 remote chains...] -- 0:04:49
-      18000 -- [-1140.012] [...19 remote chains...] -- 0:05:27
-      19000 -- [-1131.023] [...19 remote chains...] -- 0:05:09
+         0 -- [-3748.452] [...19 remote chains...] 
+      1000 -- [-3504.833] [...19 remote chains...] -- 0:00:00
+      2000 -- [-3505.005] [...19 remote chains...] -- 0:00:00
+      3000 -- [-3504.735] [...19 remote chains...] -- 0:00:00
+      4000 -- [-3504.837] [...19 remote chains...] -- 0:00:00
+      5000 -- [-3504.714] [...19 remote chains...] -- 0:00:00
+      6000 -- [-3504.986] [...19 remote chains...] -- 0:00:00
+      7000 -- [-2795.851] [...19 remote chains...] -- 0:02:21
+      8000 -- [-987.765] [...19 remote chains...] -- 0:02:03
+      9000 -- [-959.458] [...19 remote chains...] -- 0:01:50
+      10000 -- [-966.085] [...19 remote chains...] -- 0:01:38
+      11000 -- [-951.715] [...19 remote chains...] -- 0:01:29
+      12000 -- [-952.082] [...19 remote chains...] -- 0:01:22
+      13000 -- [-942.920] [...19 remote chains...] -- 0:02:31
+      14000 -- [-948.867] [...19 remote chains...] -- 0:02:20
+      15000 -- [-955.884] [...19 remote chains...] -- 0:02:11
+      16000 -- [-952.677] [...19 remote chains...] -- 0:02:02
+      17000 -- [-954.037] [...19 remote chains...] -- 0:02:53
+      18000 -- [-950.344] [...19 remote chains...] -- 0:02:43
+      19000 -- [-944.470] [...19 remote chains...] -- 0:02:34
 
       Sampling step 1 out of 50 steps...
 
-      20000 -- [-1135.193] [...19 remote chains...] -- 0:04:53
-      21000 -- [-1132.244] [...19 remote chains...] -- 0:05:26
-      22000 -- [-1128.756] [...19 remote chains...] -- 0:05:11
-      23000 -- [-1135.567] [...19 remote chains...] -- 0:04:57
-      24000 -- [-1146.423] [...19 remote chains...] -- 0:05:25
-      25000 -- [-1132.353] [...19 remote chains...] -- 0:05:11
+      20000 -- [-951.248] [...19 remote chains...] -- 0:02:26
+      21000 -- [-947.047] [...19 remote chains...] -- 0:03:06
+      22000 -- [-948.015] [...19 remote chains...] -- 0:02:57
+      23000 -- [-949.682] [...19 remote chains...] -- 0:02:49
+      24000 -- [-946.833] [...19 remote chains...] -- 0:02:42
+      25000 -- [-953.223] [...19 remote chains...] -- 0:03:14
 
       Average standard deviation of split frequencies: 0.000000
 
-      26000 -- [-1131.797] [...19 remote chains...] -- 0:05:37
-      27000 -- [-1134.383] [...19 remote chains...] -- 0:05:24
-      28000 -- [-1134.460] [...19 remote chains...] -- 0:05:12
-      29000 -- [-1132.602] [...19 remote chains...] -- 0:05:34
-      30000 -- [-1127.792] [...19 remote chains...] -- 0:05:23
+      26000 -- [-951.765] [...19 remote chains...] -- 0:03:07
+      27000 -- [-950.298] [...19 remote chains...] -- 0:03:00
+      28000 -- [-948.025] [...19 remote chains...] -- 0:02:53
+      29000 -- [-953.072] [...19 remote chains...] -- 0:03:20
+      30000 -- [-948.727] [...19 remote chains...] -- 0:03:13
 
       Average standard deviation of split frequencies: 0.000000
 
-      31000 -- [-1127.004] [...19 remote chains...] -- 0:05:12
-      32000 -- [-1128.841] [...19 remote chains...] -- 0:05:32
-      33000 -- [-1125.109] [...19 remote chains...] -- 0:05:22
-      34000 -- [-1123.352] [...19 remote chains...] -- 0:05:12
-      35000 -- [-1123.830] [...19 remote chains...] -- 0:05:30
+      31000 -- [-953.464] [...19 remote chains...] -- 0:03:07
+      32000 -- [-948.272] [...19 remote chains...] -- 0:03:01
+      33000 -- [-945.583] [...19 remote chains...] -- 0:02:55
+      34000 -- [-945.371] [...19 remote chains...] -- 0:03:18
+      35000 -- [-949.342] [...19 remote chains...] -- 0:03:12
 
       Average standard deviation of split frequencies: 0.000000
 
-      36000 -- [-1127.243] [...19 remote chains...] -- 0:05:21
-      37000 -- [-1117.520] [...19 remote chains...] -- 0:05:12
-      38000 -- [-1120.440] [...19 remote chains...] -- 0:05:28
-      39000 -- [-1116.369] [...19 remote chains...] -- 0:05:20
+      36000 -- [-949.900] [...19 remote chains...] -- 0:03:07
+      37000 -- [-954.116] [...19 remote chains...] -- 0:03:02
+      38000 -- [-952.822] [...19 remote chains...] -- 0:03:22
+      39000 -- [-949.832] [...19 remote chains...] -- 0:03:17
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 2 out of 50 steps...
 
-      40000 -- [-1123.156] [...19 remote chains...] -- 0:05:11
-      41000 -- [-1124.127] [...19 remote chains...] -- 0:05:27
-      42000 -- [-1119.880] [...19 remote chains...] -- 0:05:19
-      43000 -- [-1120.746] [...19 remote chains...] -- 0:05:11
-      44000 -- [-1122.134] [...19 remote chains...] -- 0:05:25
-      45000 -- [-1120.014] [...19 remote chains...] -- 0:05:18
+      40000 -- [-949.460] [...19 remote chains...] -- 0:03:11
+      41000 -- [-950.411] [...19 remote chains...] -- 0:03:07
+      42000 -- [-950.589] [...19 remote chains...] -- 0:03:25
+      43000 -- [-951.794] [...19 remote chains...] -- 0:03:20
+      44000 -- [-950.481] [...19 remote chains...] -- 0:03:15
+      45000 -- [-948.337] [...19 remote chains...] -- 0:03:10
 
       Average standard deviation of split frequencies: 0.000000
 
-      46000 -- [-1115.845] [...19 remote chains...] -- 0:05:10
-      47000 -- [-1125.436] [...19 remote chains...] -- 0:05:24
-      48000 -- [-1110.818] [...19 remote chains...] -- 0:05:17
-      49000 -- [-1107.283] [...19 remote chains...] -- 0:05:29
-      50000 -- [-1110.775] [...19 remote chains...] -- 0:05:22
+      46000 -- [-951.740] [...19 remote chains...] -- 0:03:06
+      47000 -- [-946.960] [...19 remote chains...] -- 0:03:22
+      48000 -- [-945.270] [...19 remote chains...] -- 0:03:18
+      49000 -- [-948.482] [...19 remote chains...] -- 0:03:14
+      50000 -- [-952.057] [...19 remote chains...] -- 0:03:09
 
       Average standard deviation of split frequencies: 0.000000
 
-      51000 -- [-1112.862] [...19 remote chains...] -- 0:05:16
-      52000 -- [-1114.502] [...19 remote chains...] -- 0:05:28
-      53000 -- [-1110.487] [...19 remote chains...] -- 0:05:21
-      54000 -- [-1110.835] [...19 remote chains...] -- 0:05:15
-      55000 -- [-1110.730] [...19 remote chains...] -- 0:05:26
+      51000 -- [-946.844] [...19 remote chains...] -- 0:03:06
+      52000 -- [-944.749] [...19 remote chains...] -- 0:03:20
+      53000 -- [-947.609] [...19 remote chains...] -- 0:03:16
+      54000 -- [-950.550] [...19 remote chains...] -- 0:03:12
+      55000 -- [-949.409] [...19 remote chains...] -- 0:03:08
 
       Average standard deviation of split frequencies: 0.000000
 
-      56000 -- [-1111.715] [...19 remote chains...] -- 0:05:20
-      57000 -- [-1117.353] [...19 remote chains...] -- 0:05:14
-      58000 -- [-1113.429] [...19 remote chains...] -- 0:05:24
+      56000 -- [-953.023] [...19 remote chains...] -- 0:03:22
+      57000 -- [-948.036] [...19 remote chains...] -- 0:03:18
+      58000 -- [-945.373] [...19 remote chains...] -- 0:03:14
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 3 out of 50 steps...
 
-      59000 -- [-1108.242] [...19 remote chains...] -- 0:05:18
-      60000 -- [-1109.934] [...19 remote chains...] -- 0:05:13
-      61000 -- [-1112.462] [...19 remote chains...] -- 0:05:23
-      62000 -- [-1116.900] [...19 remote chains...] -- 0:05:17
-      63000 -- [-1111.283] [...19 remote chains...] -- 0:05:12
-      64000 -- [-1110.581] [...19 remote chains...] -- 0:05:21
-      65000 -- [-1117.203] [...19 remote chains...] -- 0:05:16
+      59000 -- [-948.442] [...19 remote chains...] -- 0:03:11
+      60000 -- [-944.306] [...19 remote chains...] -- 0:03:23
+      61000 -- [-946.162] [...19 remote chains...] -- 0:03:20
+      62000 -- [-949.616] [...19 remote chains...] -- 0:03:16
+      63000 -- [-948.919] [...19 remote chains...] -- 0:03:13
+      64000 -- [-950.051] [...19 remote chains...] -- 0:03:10
+      65000 -- [-952.486] [...19 remote chains...] -- 0:03:21
 
       Average standard deviation of split frequencies: 0.000000
 
-      66000 -- [-1123.462] [...19 remote chains...] -- 0:05:25
-      67000 -- [-1115.163] [...19 remote chains...] -- 0:05:20
-      68000 -- [-1110.241] [...19 remote chains...] -- 0:05:15
-      69000 -- [-1116.526] [...19 remote chains...] -- 0:05:23
-      70000 -- [-1112.009] [...19 remote chains...] -- 0:05:18
+      66000 -- [-952.105] [...19 remote chains...] -- 0:03:18
+      67000 -- [-957.400] [...19 remote chains...] -- 0:03:14
+      68000 -- [-959.301] [...19 remote chains...] -- 0:03:11
+      69000 -- [-949.866] [...19 remote chains...] -- 0:03:08
+      70000 -- [-956.410] [...19 remote chains...] -- 0:03:19
 
       Average standard deviation of split frequencies: 0.000000
 
-      71000 -- [-1117.854] [...19 remote chains...] -- 0:05:13
-      72000 -- [-1108.073] [...19 remote chains...] -- 0:05:22
-      73000 -- [-1115.002] [...19 remote chains...] -- 0:05:17
-      74000 -- [-1112.757] [...19 remote chains...] -- 0:05:12
-      75000 -- [-1113.798] [...19 remote chains...] -- 0:05:20
+      71000 -- [-950.555] [...19 remote chains...] -- 0:03:16
+      72000 -- [-950.206] [...19 remote chains...] -- 0:03:13
+      73000 -- [-957.319] [...19 remote chains...] -- 0:03:10
+      74000 -- [-954.861] [...19 remote chains...] -- 0:03:20
+      75000 -- [-957.132] [...19 remote chains...] -- 0:03:17
 
       Average standard deviation of split frequencies: 0.000000
 
-      76000 -- [-1117.660] [...19 remote chains...] -- 0:05:15
-      77000 -- [-1115.564] [...19 remote chains...] -- 0:05:11
-      78000 -- [-1116.314] [...19 remote chains...] -- 0:05:19
+      76000 -- [-954.085] [...19 remote chains...] -- 0:03:14
+      77000 -- [-953.800] [...19 remote chains...] -- 0:03:11
+      78000 -- [-948.881] [...19 remote chains...] -- 0:03:09
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 4 out of 50 steps...
 
-      79000 -- [-1113.380] [...19 remote chains...] -- 0:05:14
-      80000 -- [-1113.777] [...19 remote chains...] -- 0:05:10
-      81000 -- [-1108.946] [...19 remote chains...] -- 0:05:17
-      82000 -- [-1117.695] [...19 remote chains...] -- 0:05:13
-      83000 -- [-1111.858] [...19 remote chains...] -- 0:05:20
-      84000 -- [-1112.234] [...19 remote chains...] -- 0:05:16
-      85000 -- [-1108.805] [...19 remote chains...] -- 0:05:12
+      79000 -- [-947.148] [...19 remote chains...] -- 0:03:18
+      80000 -- [-950.943] [...19 remote chains...] -- 0:03:15
+      81000 -- [-954.605] [...19 remote chains...] -- 0:03:12
+      82000 -- [-951.795] [...19 remote chains...] -- 0:03:10
+      83000 -- [-957.208] [...19 remote chains...] -- 0:03:07
+      84000 -- [-956.285] [...19 remote chains...] -- 0:03:16
+      85000 -- [-955.295] [...19 remote chains...] -- 0:03:13
 
       Average standard deviation of split frequencies: 0.000000
 
-      86000 -- [-1117.736] [...19 remote chains...] -- 0:05:18
-      87000 -- [-1115.936] [...19 remote chains...] -- 0:05:14
-      88000 -- [-1116.349] [...19 remote chains...] -- 0:05:10
-      89000 -- [-1115.559] [...19 remote chains...] -- 0:05:17
-      90000 -- [-1115.924] [...19 remote chains...] -- 0:05:13
+      86000 -- [-952.834] [...19 remote chains...] -- 0:03:11
+      87000 -- [-957.182] [...19 remote chains...] -- 0:03:08
+      88000 -- [-955.764] [...19 remote chains...] -- 0:03:16
+      89000 -- [-953.716] [...19 remote chains...] -- 0:03:14
+      90000 -- [-951.740] [...19 remote chains...] -- 0:03:12
 
       Average standard deviation of split frequencies: 0.000000
 
-      91000 -- [-1120.026] [...19 remote chains...] -- 0:05:19
-      92000 -- [-1113.534] [...19 remote chains...] -- 0:05:15
-      93000 -- [-1111.330] [...19 remote chains...] -- 0:05:11
-      94000 -- [-1115.338] [...19 remote chains...] -- 0:05:17
-      95000 -- [-1111.163] [...19 remote chains...] -- 0:05:14
+      91000 -- [-955.645] [...19 remote chains...] -- 0:03:09
+      92000 -- [-951.841] [...19 remote chains...] -- 0:03:07
+      93000 -- [-953.545] [...19 remote chains...] -- 0:03:14
+      94000 -- [-959.005] [...19 remote chains...] -- 0:03:12
+      95000 -- [-953.934] [...19 remote chains...] -- 0:03:10
 
       Average standard deviation of split frequencies: 0.000000
 
-      96000 -- [-1111.131] [...19 remote chains...] -- 0:05:10
-      97000 -- [-1111.738] [...19 remote chains...] -- 0:05:16
-      98000 -- [-1121.951] [...19 remote chains...] -- 0:05:12
+      96000 -- [-952.811] [...19 remote chains...] -- 0:03:08
+      97000 -- [-953.122] [...19 remote chains...] -- 0:03:06
+      98000 -- [-955.620] [...19 remote chains...] -- 0:03:13
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 5 out of 50 steps...
 
-      99000 -- [-1119.039] [...19 remote chains...] -- 0:05:09
-      100000 -- [-1122.252] [...19 remote chains...] -- 0:05:14
-      101000 -- [-1121.356] [...19 remote chains...] -- 0:05:11
-      102000 -- [-1109.697] [...19 remote chains...] -- 0:05:08
-      103000 -- [-1114.990] [...19 remote chains...] -- 0:05:13
-      104000 -- [-1116.955] [...19 remote chains...] -- 0:05:10
-      105000 -- [-1117.105] [...19 remote chains...] -- 0:05:06
+      99000 -- [-958.833] [...19 remote chains...] -- 0:03:11
+      100000 -- [-951.903] [...19 remote chains...] -- 0:03:08
+      101000 -- [-955.291] [...19 remote chains...] -- 0:03:06
+      102000 -- [-953.909] [...19 remote chains...] -- 0:03:13
+      103000 -- [-956.490] [...19 remote chains...] -- 0:03:11
+      104000 -- [-952.566] [...19 remote chains...] -- 0:03:09
+      105000 -- [-949.152] [...19 remote chains...] -- 0:03:07
 
       Average standard deviation of split frequencies: 0.000000
 
-      106000 -- [-1110.122] [...19 remote chains...] -- 0:05:11
-      107000 -- [-1110.962] [...19 remote chains...] -- 0:05:08
-      108000 -- [-1115.877] [...19 remote chains...] -- 0:05:05
-      109000 -- [-1113.806] [...19 remote chains...] -- 0:05:10
-      110000 -- [-1117.835] [...19 remote chains...] -- 0:05:07
+      106000 -- [-945.884] [...19 remote chains...] -- 0:03:13
+      107000 -- [-947.803] [...19 remote chains...] -- 0:03:11
+      108000 -- [-946.971] [...19 remote chains...] -- 0:03:09
+      109000 -- [-947.939] [...19 remote chains...] -- 0:03:07
+      110000 -- [-955.607] [...19 remote chains...] -- 0:03:06
 
       Average standard deviation of split frequencies: 0.000000
 
-      111000 -- [-1126.531] [...19 remote chains...] -- 0:05:04
-      112000 -- [-1114.666] [...19 remote chains...] -- 0:05:09
-      113000 -- [-1122.910] [...19 remote chains...] -- 0:05:05
-      114000 -- [-1110.402] [...19 remote chains...] -- 0:05:02
-      115000 -- [-1123.986] [...19 remote chains...] -- 0:05:07
+      111000 -- [-952.159] [...19 remote chains...] -- 0:03:12
+      112000 -- [-953.872] [...19 remote chains...] -- 0:03:10
+      113000 -- [-959.303] [...19 remote chains...] -- 0:03:08
+      114000 -- [-947.715] [...19 remote chains...] -- 0:03:06
+      115000 -- [-960.559] [...19 remote chains...] -- 0:03:12
 
       Average standard deviation of split frequencies: 0.000000
 
-      116000 -- [-1126.976] [...19 remote chains...] -- 0:05:04
-      117000 -- [-1126.700] [...19 remote chains...] -- 0:05:01
+      116000 -- [-952.671] [...19 remote chains...] -- 0:03:10
+      117000 -- [-948.120] [...19 remote chains...] -- 0:03:08
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 6 out of 50 steps...
 
-      118000 -- [-1116.600] [...19 remote chains...] -- 0:05:06
-      119000 -- [-1115.064] [...19 remote chains...] -- 0:05:03
-      120000 -- [-1113.868] [...19 remote chains...] -- 0:05:00
-      121000 -- [-1129.680] [...19 remote chains...] -- 0:05:04
-      122000 -- [-1119.916] [...19 remote chains...] -- 0:05:02
-      123000 -- [-1132.272] [...19 remote chains...] -- 0:04:59
-      124000 -- [-1123.581] [...19 remote chains...] -- 0:05:03
-      125000 -- [-1121.741] [...19 remote chains...] -- 0:05:00
+      118000 -- [-968.673] [...19 remote chains...] -- 0:03:06
+      119000 -- [-955.992] [...19 remote chains...] -- 0:03:05
+      120000 -- [-948.951] [...19 remote chains...] -- 0:03:10
+      121000 -- [-954.725] [...19 remote chains...] -- 0:03:08
+      122000 -- [-952.261] [...19 remote chains...] -- 0:03:07
+      123000 -- [-953.662] [...19 remote chains...] -- 0:03:05
+      124000 -- [-952.534] [...19 remote chains...] -- 0:03:10
+      125000 -- [-944.349] [...19 remote chains...] -- 0:03:08
 
       Average standard deviation of split frequencies: 0.000000
 
-      126000 -- [-1121.131] [...19 remote chains...] -- 0:05:05
-      127000 -- [-1128.166] [...19 remote chains...] -- 0:05:02
-      128000 -- [-1121.313] [...19 remote chains...] -- 0:04:59
-      129000 -- [-1120.273] [...19 remote chains...] -- 0:05:03
-      130000 -- [-1119.914] [...19 remote chains...] -- 0:05:01
+      126000 -- [-947.641] [...19 remote chains...] -- 0:03:07
+      127000 -- [-959.657] [...19 remote chains...] -- 0:03:05
+      128000 -- [-952.872] [...19 remote chains...] -- 0:03:03
+      129000 -- [-964.034] [...19 remote chains...] -- 0:03:08
+      130000 -- [-959.224] [...19 remote chains...] -- 0:03:07
 
       Average standard deviation of split frequencies: 0.000000
 
-      131000 -- [-1124.368] [...19 remote chains...] -- 0:04:58
-      132000 -- [-1131.917] [...19 remote chains...] -- 0:05:02
-      133000 -- [-1118.304] [...19 remote chains...] -- 0:04:59
-      134000 -- [-1125.277] [...19 remote chains...] -- 0:04:57
-      135000 -- [-1124.205] [...19 remote chains...] -- 0:05:01
+      131000 -- [-951.525] [...19 remote chains...] -- 0:03:05
+      132000 -- [-955.624] [...19 remote chains...] -- 0:03:04
+      133000 -- [-948.520] [...19 remote chains...] -- 0:03:02
+      134000 -- [-951.309] [...19 remote chains...] -- 0:03:07
+      135000 -- [-962.387] [...19 remote chains...] -- 0:03:05
 
       Average standard deviation of split frequencies: 0.000000
 
-      136000 -- [-1119.460] [...19 remote chains...] -- 0:04:58
-      137000 -- [-1113.659] [...19 remote chains...] -- 0:04:55
+      136000 -- [-960.896] [...19 remote chains...] -- 0:03:04
+      137000 -- [-951.752] [...19 remote chains...] -- 0:03:02
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 7 out of 50 steps...
 
-      138000 -- [-1113.757] [...19 remote chains...] -- 0:04:59
-      139000 -- [-1123.563] [...19 remote chains...] -- 0:04:57
-      140000 -- [-1118.530] [...19 remote chains...] -- 0:04:54
-      141000 -- [-1118.860] [...19 remote chains...] -- 0:04:58
-      142000 -- [-1121.846] [...19 remote chains...] -- 0:04:55
-      143000 -- [-1117.496] [...19 remote chains...] -- 0:04:59
-      144000 -- [-1115.088] [...19 remote chains...] -- 0:04:57
-      145000 -- [-1107.526] [...19 remote chains...] -- 0:04:54
+      138000 -- [-952.188] [...19 remote chains...] -- 0:03:07
+      139000 -- [-954.022] [...19 remote chains...] -- 0:03:05
+      140000 -- [-950.165] [...19 remote chains...] -- 0:03:04
+      141000 -- [-959.103] [...19 remote chains...] -- 0:03:02
+      142000 -- [-952.242] [...19 remote chains...] -- 0:03:01
+      143000 -- [-961.870] [...19 remote chains...] -- 0:03:05
+      144000 -- [-956.454] [...19 remote chains...] -- 0:03:04
+      145000 -- [-948.627] [...19 remote chains...] -- 0:03:02
 
       Average standard deviation of split frequencies: 0.000000
 
-      146000 -- [-1111.928] [...19 remote chains...] -- 0:04:58
-      147000 -- [-1126.438] [...19 remote chains...] -- 0:04:55
-      148000 -- [-1121.729] [...19 remote chains...] -- 0:04:53
-      149000 -- [-1131.267] [...19 remote chains...] -- 0:04:56
-      150000 -- [-1121.391] [...19 remote chains...] -- 0:04:54
+      146000 -- [-956.704] [...19 remote chains...] -- 0:03:01
+      147000 -- [-962.776] [...19 remote chains...] -- 0:03:05
+      148000 -- [-957.015] [...19 remote chains...] -- 0:03:04
+      149000 -- [-954.764] [...19 remote chains...] -- 0:03:02
+      150000 -- [-955.058] [...19 remote chains...] -- 0:03:01
 
       Average standard deviation of split frequencies: 0.000000
 
-      151000 -- [-1115.242] [...19 remote chains...] -- 0:04:52
-      152000 -- [-1117.641] [...19 remote chains...] -- 0:04:55
-      153000 -- [-1139.088] [...19 remote chains...] -- 0:04:53
-      154000 -- [-1118.708] [...19 remote chains...] -- 0:04:51
-      155000 -- [-1125.125] [...19 remote chains...] -- 0:04:54
+      151000 -- [-951.278] [...19 remote chains...] -- 0:02:59
+      152000 -- [-956.854] [...19 remote chains...] -- 0:03:04
+      153000 -- [-964.150] [...19 remote chains...] -- 0:03:02
+      154000 -- [-955.225] [...19 remote chains...] -- 0:03:01
+      155000 -- [-953.315] [...19 remote chains...] -- 0:02:59
 
       Average standard deviation of split frequencies: 0.000000
 
-      156000 -- [-1118.425] [...19 remote chains...] -- 0:04:52
+      156000 -- [-950.226] [...19 remote chains...] -- 0:02:58
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 8 out of 50 steps...
 
-      157000 -- [-1115.452] [...19 remote chains...] -- 0:04:49
-      158000 -- [-1123.373] [...19 remote chains...] -- 0:04:52
-      159000 -- [-1131.966] [...19 remote chains...] -- 0:04:50
-      160000 -- [-1123.891] [...19 remote chains...] -- 0:04:48
-      161000 -- [-1130.139] [...19 remote chains...] -- 0:04:51
-      162000 -- [-1117.240] [...19 remote chains...] -- 0:04:49
-      163000 -- [-1118.978] [...19 remote chains...] -- 0:04:47
-      164000 -- [-1123.440] [...19 remote chains...] -- 0:04:50
-      165000 -- [-1125.399] [...19 remote chains...] -- 0:04:48
+      157000 -- [-953.814] [...19 remote chains...] -- 0:03:02
+      158000 -- [-961.526] [...19 remote chains...] -- 0:03:01
+      159000 -- [-954.027] [...19 remote chains...] -- 0:02:59
+      160000 -- [-967.499] [...19 remote chains...] -- 0:02:58
+      161000 -- [-955.887] [...19 remote chains...] -- 0:02:57
+      162000 -- [-959.010] [...19 remote chains...] -- 0:03:00
+      163000 -- [-949.395] [...19 remote chains...] -- 0:02:59
+      164000 -- [-953.895] [...19 remote chains...] -- 0:02:58
+      165000 -- [-950.407] [...19 remote chains...] -- 0:02:57
 
       Average standard deviation of split frequencies: 0.000000
 
-      166000 -- [-1135.630] [...19 remote chains...] -- 0:04:46
-      167000 -- [-1119.935] [...19 remote chains...] -- 0:04:49
-      168000 -- [-1118.278] [...19 remote chains...] -- 0:04:47
-      169000 -- [-1128.544] [...19 remote chains...] -- 0:04:45
-      170000 -- [-1128.545] [...19 remote chains...] -- 0:04:47
+      166000 -- [-955.116] [...19 remote chains...] -- 0:03:00
+      167000 -- [-958.572] [...19 remote chains...] -- 0:02:59
+      168000 -- [-952.440] [...19 remote chains...] -- 0:02:58
+      169000 -- [-952.342] [...19 remote chains...] -- 0:02:56
+      170000 -- [-957.507] [...19 remote chains...] -- 0:02:55
 
       Average standard deviation of split frequencies: 0.000000
 
-      171000 -- [-1123.818] [...19 remote chains...] -- 0:04:45
-      172000 -- [-1127.221] [...19 remote chains...] -- 0:04:43
-      173000 -- [-1123.561] [...19 remote chains...] -- 0:04:46
-      174000 -- [-1125.140] [...19 remote chains...] -- 0:04:44
-      175000 -- [-1125.295] [...19 remote chains...] -- 0:04:42
+      171000 -- [-955.668] [...19 remote chains...] -- 0:02:59
+      172000 -- [-953.824] [...19 remote chains...] -- 0:02:58
+      173000 -- [-957.704] [...19 remote chains...] -- 0:02:56
+      174000 -- [-954.758] [...19 remote chains...] -- 0:02:55
+      175000 -- [-961.310] [...19 remote chains...] -- 0:02:54
 
       Average standard deviation of split frequencies: 0.000000
 
-      176000 -- [-1114.791] [...19 remote chains...] -- 0:04:45
+      176000 -- [-949.832] [...19 remote chains...] -- 0:02:57
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 9 out of 50 steps...
 
-      177000 -- [-1117.206] [...19 remote chains...] -- 0:04:43
-      178000 -- [-1132.177] [...19 remote chains...] -- 0:04:41
-      179000 -- [-1123.740] [...19 remote chains...] -- 0:04:44
-      180000 -- [-1120.418] [...19 remote chains...] -- 0:04:42
-      181000 -- [-1119.816] [...19 remote chains...] -- 0:04:40
-      182000 -- [-1120.832] [...19 remote chains...] -- 0:04:43
-      183000 -- [-1123.901] [...19 remote chains...] -- 0:04:41
-      184000 -- [-1118.632] [...19 remote chains...] -- 0:04:43
-      185000 -- [-1129.246] [...19 remote chains...] -- 0:04:41
+      177000 -- [-958.497] [...19 remote chains...] -- 0:02:56
+      178000 -- [-956.062] [...19 remote chains...] -- 0:02:55
+      179000 -- [-956.441] [...19 remote chains...] -- 0:02:54
+      180000 -- [-961.934] [...19 remote chains...] -- 0:02:57
+      181000 -- [-958.855] [...19 remote chains...] -- 0:02:56
+      182000 -- [-957.687] [...19 remote chains...] -- 0:02:55
+      183000 -- [-960.439] [...19 remote chains...] -- 0:02:54
+      184000 -- [-951.083] [...19 remote chains...] -- 0:02:52
+      185000 -- [-957.325] [...19 remote chains...] -- 0:02:56
 
       Average standard deviation of split frequencies: 0.000000
 
-      186000 -- [-1112.290] [...19 remote chains...] -- 0:04:39
-      187000 -- [-1142.268] [...19 remote chains...] -- 0:04:42
-      188000 -- [-1130.871] [...19 remote chains...] -- 0:04:40
-      189000 -- [-1139.381] [...19 remote chains...] -- 0:04:38
-      190000 -- [-1125.966] [...19 remote chains...] -- 0:04:41
+      186000 -- [-953.320] [...19 remote chains...] -- 0:02:54
+      187000 -- [-953.960] [...19 remote chains...] -- 0:02:53
+      188000 -- [-942.526] [...19 remote chains...] -- 0:02:52
+      189000 -- [-959.706] [...19 remote chains...] -- 0:02:55
+      190000 -- [-970.419] [...19 remote chains...] -- 0:02:54
 
       Average standard deviation of split frequencies: 0.000000
 
-      191000 -- [-1111.983] [...19 remote chains...] -- 0:04:39
-      192000 -- [-1125.486] [...19 remote chains...] -- 0:04:37
-      193000 -- [-1121.086] [...19 remote chains...] -- 0:04:40
-      194000 -- [-1127.711] [...19 remote chains...] -- 0:04:38
-      195000 -- [-1123.505] [...19 remote chains...] -- 0:04:36
+      191000 -- [-957.141] [...19 remote chains...] -- 0:02:53
+      192000 -- [-957.665] [...19 remote chains...] -- 0:02:52
+      193000 -- [-954.168] [...19 remote chains...] -- 0:02:51
+      194000 -- [-954.110] [...19 remote chains...] -- 0:02:54
+      195000 -- [-958.351] [...19 remote chains...] -- 0:02:53
 
       Average standard deviation of split frequencies: 0.000000
 
-      196000 -- [-1121.846] [...19 remote chains...] -- 0:04:38
+      196000 -- [-975.438] [...19 remote chains...] -- 0:02:52
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 10 out of 50 steps...
 
-      197000 -- [-1134.490] [...19 remote chains...] -- 0:04:37
-      198000 -- [-1131.015] [...19 remote chains...] -- 0:04:35
-      199000 -- [-1126.050] [...19 remote chains...] -- 0:04:37
-      200000 -- [-1136.708] [...19 remote chains...] -- 0:04:35
-      201000 -- [-1132.169] [...19 remote chains...] -- 0:04:38
-      202000 -- [-1128.535] [...19 remote chains...] -- 0:04:36
-      203000 -- [-1139.928] [...19 remote chains...] -- 0:04:34
-      204000 -- [-1126.512] [...19 remote chains...] -- 0:04:36
-      205000 -- [-1131.587] [...19 remote chains...] -- 0:04:35
+      197000 -- [-964.678] [...19 remote chains...] -- 0:02:51
+      198000 -- [-970.508] [...19 remote chains...] -- 0:02:54
+      199000 -- [-960.618] [...19 remote chains...] -- 0:02:52
+      200000 -- [-986.865] [...19 remote chains...] -- 0:02:51
+      201000 -- [-962.236] [...19 remote chains...] -- 0:02:50
+      202000 -- [-956.621] [...19 remote chains...] -- 0:02:49
+      203000 -- [-959.577] [...19 remote chains...] -- 0:02:52
+      204000 -- [-963.921] [...19 remote chains...] -- 0:02:51
+      205000 -- [-966.494] [...19 remote chains...] -- 0:02:50
 
       Average standard deviation of split frequencies: 0.000000
 
-      206000 -- [-1123.761] [...19 remote chains...] -- 0:04:33
-      207000 -- [-1126.574] [...19 remote chains...] -- 0:04:35
-      208000 -- [-1132.386] [...19 remote chains...] -- 0:04:34
-      209000 -- [-1116.566] [...19 remote chains...] -- 0:04:32
-      210000 -- [-1117.233] [...19 remote chains...] -- 0:04:34
+      206000 -- [-965.603] [...19 remote chains...] -- 0:02:49
+      207000 -- [-958.714] [...19 remote chains...] -- 0:02:52
+      208000 -- [-953.946] [...19 remote chains...] -- 0:02:51
+      209000 -- [-962.977] [...19 remote chains...] -- 0:02:50
+      210000 -- [-953.963] [...19 remote chains...] -- 0:02:49
 
       Average standard deviation of split frequencies: 0.000000
 
-      211000 -- [-1109.510] [...19 remote chains...] -- 0:04:32
-      212000 -- [-1120.759] [...19 remote chains...] -- 0:04:31
-      213000 -- [-1135.648] [...19 remote chains...] -- 0:04:33
-      214000 -- [-1123.295] [...19 remote chains...] -- 0:04:31
-      215000 -- [-1116.988] [...19 remote chains...] -- 0:04:30
+      211000 -- [-965.259] [...19 remote chains...] -- 0:02:48
+      212000 -- [-957.167] [...19 remote chains...] -- 0:02:50
+      213000 -- [-958.530] [...19 remote chains...] -- 0:02:49
+      214000 -- [-964.164] [...19 remote chains...] -- 0:02:48
+      215000 -- [-963.420] [...19 remote chains...] -- 0:02:47
 
       Average standard deviation of split frequencies: 0.000000
 
@@ -892,32 +888,32 @@
 
       Sampling step 11 out of 50 steps...
 
-      216000 -- [-1142.351] [...19 remote chains...] -- 0:04:32
-      217000 -- [-1119.484] [...19 remote chains...] -- 0:04:30
-      218000 -- [-1126.240] [...19 remote chains...] -- 0:04:28
-      219000 -- [-1122.071] [...19 remote chains...] -- 0:04:30
-      220000 -- [-1129.035] [...19 remote chains...] -- 0:04:29
-      221000 -- [-1135.549] [...19 remote chains...] -- 0:04:27
-      222000 -- [-1124.049] [...19 remote chains...] -- 0:04:29
-      223000 -- [-1146.516] [...19 remote chains...] -- 0:04:28
-      224000 -- [-1131.721] [...19 remote chains...] -- 0:04:30
-      225000 -- [-1133.577] [...19 remote chains...] -- 0:04:28
+      216000 -- [-962.027] [...19 remote chains...] -- 0:02:46
+      217000 -- [-964.332] [...19 remote chains...] -- 0:02:49
+      218000 -- [-969.678] [...19 remote chains...] -- 0:02:48
+      219000 -- [-955.746] [...19 remote chains...] -- 0:02:47
+      220000 -- [-954.265] [...19 remote chains...] -- 0:02:46
+      221000 -- [-959.383] [...19 remote chains...] -- 0:02:49
+      222000 -- [-955.709] [...19 remote chains...] -- 0:02:48
+      223000 -- [-953.509] [...19 remote chains...] -- 0:02:47
+      224000 -- [-963.043] [...19 remote chains...] -- 0:02:46
+      225000 -- [-958.194] [...19 remote chains...] -- 0:02:45
 
       Average standard deviation of split frequencies: 0.000000
 
-      226000 -- [-1138.691] [...19 remote chains...] -- 0:04:26
-      227000 -- [-1144.475] [...19 remote chains...] -- 0:04:28
-      228000 -- [-1134.970] [...19 remote chains...] -- 0:04:27
-      229000 -- [-1132.729] [...19 remote chains...] -- 0:04:25
-      230000 -- [-1130.544] [...19 remote chains...] -- 0:04:27
+      226000 -- [-958.086] [...19 remote chains...] -- 0:02:47
+      227000 -- [-959.809] [...19 remote chains...] -- 0:02:46
+      228000 -- [-958.198] [...19 remote chains...] -- 0:02:45
+      229000 -- [-959.006] [...19 remote chains...] -- 0:02:44
+      230000 -- [-959.789] [...19 remote chains...] -- 0:02:43
 
       Average standard deviation of split frequencies: 0.000000
 
-      231000 -- [-1141.389] [...19 remote chains...] -- 0:04:26
-      232000 -- [-1129.198] [...19 remote chains...] -- 0:04:24
-      233000 -- [-1111.245] [...19 remote chains...] -- 0:04:26
-      234000 -- [-1131.802] [...19 remote chains...] -- 0:04:25
-      235000 -- [-1137.856] [...19 remote chains...] -- 0:04:23
+      231000 -- [-958.375] [...19 remote chains...] -- 0:02:46
+      232000 -- [-955.764] [...19 remote chains...] -- 0:02:45
+      233000 -- [-964.640] [...19 remote chains...] -- 0:02:44
+      234000 -- [-962.167] [...19 remote chains...] -- 0:02:43
+      235000 -- [-953.403] [...19 remote chains...] -- 0:02:45
 
       Average standard deviation of split frequencies: 0.000000
 
@@ -926,364 +922,364 @@
 
       Sampling step 12 out of 50 steps...
 
-      236000 -- [-1122.689] [...19 remote chains...] -- 0:04:25
-      237000 -- [-1115.993] [...19 remote chains...] -- 0:04:23
-      238000 -- [-1131.111] [...19 remote chains...] -- 0:04:22
-      239000 -- [-1136.594] [...19 remote chains...] -- 0:04:24
-      240000 -- [-1136.214] [...19 remote chains...] -- 0:04:22
-      241000 -- [-1136.789] [...19 remote chains...] -- 0:04:24
-      242000 -- [-1133.034] [...19 remote chains...] -- 0:04:22
-      243000 -- [-1125.461] [...19 remote chains...] -- 0:04:21
-      244000 -- [-1125.535] [...19 remote chains...] -- 0:04:23
-      245000 -- [-1132.296] [...19 remote chains...] -- 0:04:21
+      236000 -- [-966.229] [...19 remote chains...] -- 0:02:45
+      237000 -- [-957.867] [...19 remote chains...] -- 0:02:44
+      238000 -- [-966.070] [...19 remote chains...] -- 0:02:43
+      239000 -- [-963.857] [...19 remote chains...] -- 0:02:42
+      240000 -- [-960.778] [...19 remote chains...] -- 0:02:44
+      241000 -- [-964.808] [...19 remote chains...] -- 0:02:43
+      242000 -- [-957.725] [...19 remote chains...] -- 0:02:42
+      243000 -- [-955.624] [...19 remote chains...] -- 0:02:41
+      244000 -- [-958.056] [...19 remote chains...] -- 0:02:44
+      245000 -- [-953.554] [...19 remote chains...] -- 0:02:43
 
       Average standard deviation of split frequencies: 0.000000
 
-      246000 -- [-1126.524] [...19 remote chains...] -- 0:04:20
-      247000 -- [-1140.597] [...19 remote chains...] -- 0:04:22
-      248000 -- [-1136.715] [...19 remote chains...] -- 0:04:20
-      249000 -- [-1125.177] [...19 remote chains...] -- 0:04:19
-      250000 -- [-1134.419] [...19 remote chains...] -- 0:04:17
+      246000 -- [-956.821] [...19 remote chains...] -- 0:02:42
+      247000 -- [-953.760] [...19 remote chains...] -- 0:02:41
+      248000 -- [-957.813] [...19 remote chains...] -- 0:02:40
+      249000 -- [-956.995] [...19 remote chains...] -- 0:02:42
+      250000 -- [-964.911] [...19 remote chains...] -- 0:02:41
 
       Average standard deviation of split frequencies: 0.000000
 
-      251000 -- [-1137.598] [...19 remote chains...] -- 0:04:19
-      252000 -- [-1123.043] [...19 remote chains...] -- 0:04:18
-      253000 -- [-1129.957] [...19 remote chains...] -- 0:04:19
-      254000 -- [-1141.556] [...19 remote chains...] -- 0:04:18
+      251000 -- [-954.847] [...19 remote chains...] -- 0:02:41
+      252000 -- [-953.320] [...19 remote chains...] -- 0:02:40
+      253000 -- [-963.172] [...19 remote chains...] -- 0:02:39
+      254000 -- [-957.422] [...19 remote chains...] -- 0:02:41
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 13 out of 50 steps...
 
-      255000 -- [-1151.491] [...19 remote chains...] -- 0:04:16
-      256000 -- [-1163.178] [...19 remote chains...] -- 0:04:18
-      257000 -- [-1161.388] [...19 remote chains...] -- 0:04:17
-      258000 -- [-1137.962] [...19 remote chains...] -- 0:04:15
-      259000 -- [-1136.847] [...19 remote chains...] -- 0:04:17
-      260000 -- [-1132.024] [...19 remote chains...] -- 0:04:16
+      255000 -- [-952.826] [...19 remote chains...] -- 0:02:40
+      256000 -- [-957.275] [...19 remote chains...] -- 0:02:39
+      257000 -- [-956.988] [...19 remote chains...] -- 0:02:38
+      258000 -- [-955.970] [...19 remote chains...] -- 0:02:38
+      259000 -- [-975.475] [...19 remote chains...] -- 0:02:40
+      260000 -- [-961.110] [...19 remote chains...] -- 0:02:39
 
       Average standard deviation of split frequencies: 0.000000
 
-      261000 -- [-1130.971] [...19 remote chains...] -- 0:04:14
-      262000 -- [-1121.858] [...19 remote chains...] -- 0:04:16
-      263000 -- [-1133.544] [...19 remote chains...] -- 0:04:14
-      264000 -- [-1128.785] [...19 remote chains...] -- 0:04:13
-      265000 -- [-1122.481] [...19 remote chains...] -- 0:04:15
+      261000 -- [-954.178] [...19 remote chains...] -- 0:02:38
+      262000 -- [-961.167] [...19 remote chains...] -- 0:02:37
+      263000 -- [-962.290] [...19 remote chains...] -- 0:02:39
+      264000 -- [-955.250] [...19 remote chains...] -- 0:02:38
+      265000 -- [-956.425] [...19 remote chains...] -- 0:02:38
 
       Average standard deviation of split frequencies: 0.000000
 
-      266000 -- [-1143.856] [...19 remote chains...] -- 0:04:13
-      267000 -- [-1129.541] [...19 remote chains...] -- 0:04:12
-      268000 -- [-1125.642] [...19 remote chains...] -- 0:04:13
-      269000 -- [-1132.858] [...19 remote chains...] -- 0:04:12
-      270000 -- [-1134.990] [...19 remote chains...] -- 0:04:11
+      266000 -- [-960.290] [...19 remote chains...] -- 0:02:37
+      267000 -- [-959.141] [...19 remote chains...] -- 0:02:39
+      268000 -- [-962.623] [...19 remote chains...] -- 0:02:38
+      269000 -- [-968.933] [...19 remote chains...] -- 0:02:37
+      270000 -- [-969.087] [...19 remote chains...] -- 0:02:36
 
       Average standard deviation of split frequencies: 0.000000
 
-      271000 -- [-1136.380] [...19 remote chains...] -- 0:04:12
-      272000 -- [-1133.156] [...19 remote chains...] -- 0:04:11
-      273000 -- [-1125.140] [...19 remote chains...] -- 0:04:10
-      274000 -- [-1127.733] [...19 remote chains...] -- 0:04:11
+      271000 -- [-965.105] [...19 remote chains...] -- 0:02:35
+      272000 -- [-958.181] [...19 remote chains...] -- 0:02:37
+      273000 -- [-966.084] [...19 remote chains...] -- 0:02:37
+      274000 -- [-960.721] [...19 remote chains...] -- 0:02:36
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 14 out of 50 steps...
 
-      275000 -- [-1151.255] [...19 remote chains...] -- 0:04:10
-      276000 -- [-1150.762] [...19 remote chains...] -- 0:04:09
-      277000 -- [-1144.282] [...19 remote chains...] -- 0:04:10
-      278000 -- [-1136.144] [...19 remote chains...] -- 0:04:09
-      279000 -- [-1122.853] [...19 remote chains...] -- 0:04:10
-      280000 -- [-1132.145] [...19 remote chains...] -- 0:04:09
+      275000 -- [-957.923] [...19 remote chains...] -- 0:02:35
+      276000 -- [-958.772] [...19 remote chains...] -- 0:02:37
+      277000 -- [-955.644] [...19 remote chains...] -- 0:02:36
+      278000 -- [-962.101] [...19 remote chains...] -- 0:02:35
+      279000 -- [-961.331] [...19 remote chains...] -- 0:02:34
+      280000 -- [-962.216] [...19 remote chains...] -- 0:02:34
 
       Average standard deviation of split frequencies: 0.000000
 
-      281000 -- [-1123.337] [...19 remote chains...] -- 0:04:08
-      282000 -- [-1124.935] [...19 remote chains...] -- 0:04:09
-      283000 -- [-1142.437] [...19 remote chains...] -- 0:04:08
-      284000 -- [-1142.092] [...19 remote chains...] -- 0:04:06
-      285000 -- [-1128.064] [...19 remote chains...] -- 0:04:08
+      281000 -- [-963.453] [...19 remote chains...] -- 0:02:35
+      282000 -- [-955.147] [...19 remote chains...] -- 0:02:35
+      283000 -- [-961.358] [...19 remote chains...] -- 0:02:34
+      284000 -- [-965.822] [...19 remote chains...] -- 0:02:33
+      285000 -- [-959.069] [...19 remote chains...] -- 0:02:32
 
       Average standard deviation of split frequencies: 0.000000
 
-      286000 -- [-1120.273] [...19 remote chains...] -- 0:04:07
-      287000 -- [-1141.647] [...19 remote chains...] -- 0:04:05
-      288000 -- [-1144.976] [...19 remote chains...] -- 0:04:07
-      289000 -- [-1155.937] [...19 remote chains...] -- 0:04:05
-      290000 -- [-1149.772] [...19 remote chains...] -- 0:04:04
+      286000 -- [-969.536] [...19 remote chains...] -- 0:02:34
+      287000 -- [-959.687] [...19 remote chains...] -- 0:02:33
+      288000 -- [-966.925] [...19 remote chains...] -- 0:02:33
+      289000 -- [-961.950] [...19 remote chains...] -- 0:02:32
+      290000 -- [-958.167] [...19 remote chains...] -- 0:02:34
 
       Average standard deviation of split frequencies: 0.000000
 
-      291000 -- [-1122.492] [...19 remote chains...] -- 0:04:05
-      292000 -- [-1131.582] [...19 remote chains...] -- 0:04:04
-      293000 -- [-1147.351] [...19 remote chains...] -- 0:04:03
-      294000 -- [-1140.446] [...19 remote chains...] -- 0:04:04
+      291000 -- [-962.551] [...19 remote chains...] -- 0:02:33
+      292000 -- [-965.567] [...19 remote chains...] -- 0:02:32
+      293000 -- [-960.177] [...19 remote chains...] -- 0:02:31
+      294000 -- [-959.481] [...19 remote chains...] -- 0:02:31
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 15 out of 50 steps...
 
-      295000 -- [-1142.230] [...19 remote chains...] -- 0:04:03
-      296000 -- [-1152.919] [...19 remote chains...] -- 0:04:02
-      297000 -- [-1142.268] [...19 remote chains...] -- 0:04:03
-      298000 -- [-1135.080] [...19 remote chains...] -- 0:04:02
-      299000 -- [-1140.532] [...19 remote chains...] -- 0:04:03
-      300000 -- [-1140.427] [...19 remote chains...] -- 0:04:02
+      295000 -- [-962.018] [...19 remote chains...] -- 0:02:32
+      296000 -- [-973.500] [...19 remote chains...] -- 0:02:32
+      297000 -- [-961.868] [...19 remote chains...] -- 0:02:31
+      298000 -- [-955.901] [...19 remote chains...] -- 0:02:30
+      299000 -- [-961.513] [...19 remote chains...] -- 0:02:32
+      300000 -- [-967.674] [...19 remote chains...] -- 0:02:31
 
       Average standard deviation of split frequencies: 0.000000
 
-      301000 -- [-1139.084] [...19 remote chains...] -- 0:04:01
-      302000 -- [-1137.135] [...19 remote chains...] -- 0:04:02
-      303000 -- [-1132.207] [...19 remote chains...] -- 0:04:01
-      304000 -- [-1135.922] [...19 remote chains...] -- 0:04:00
-      305000 -- [-1133.964] [...19 remote chains...] -- 0:04:01
+      301000 -- [-961.844] [...19 remote chains...] -- 0:02:30
+      302000 -- [-958.033] [...19 remote chains...] -- 0:02:30
+      303000 -- [-959.051] [...19 remote chains...] -- 0:02:29
+      304000 -- [-958.556] [...19 remote chains...] -- 0:02:31
+      305000 -- [-966.005] [...19 remote chains...] -- 0:02:30
 
       Average standard deviation of split frequencies: 0.000000
 
-      306000 -- [-1148.864] [...19 remote chains...] -- 0:04:00
-      307000 -- [-1144.640] [...19 remote chains...] -- 0:03:59
-      308000 -- [-1162.648] [...19 remote chains...] -- 0:04:00
-      309000 -- [-1146.889] [...19 remote chains...] -- 0:03:59
-      310000 -- [-1146.024] [...19 remote chains...] -- 0:03:58
+      306000 -- [-965.961] [...19 remote chains...] -- 0:02:29
+      307000 -- [-963.472] [...19 remote chains...] -- 0:02:28
+      308000 -- [-952.289] [...19 remote chains...] -- 0:02:28
+      309000 -- [-962.985] [...19 remote chains...] -- 0:02:29
+      310000 -- [-961.819] [...19 remote chains...] -- 0:02:29
 
       Average standard deviation of split frequencies: 0.000000
 
-      311000 -- [-1153.639] [...19 remote chains...] -- 0:03:56
-      312000 -- [-1146.580] [...19 remote chains...] -- 0:03:58
-      313000 -- [-1157.687] [...19 remote chains...] -- 0:03:56
+      311000 -- [-960.164] [...19 remote chains...] -- 0:02:28
+      312000 -- [-966.578] [...19 remote chains...] -- 0:02:27
+      313000 -- [-959.156] [...19 remote chains...] -- 0:02:29
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 16 out of 50 steps...
 
-      314000 -- [-1146.263] [...19 remote chains...] -- 0:03:55
-      315000 -- [-1148.573] [...19 remote chains...] -- 0:03:56
-      316000 -- [-1142.704] [...19 remote chains...] -- 0:03:55
-      317000 -- [-1146.818] [...19 remote chains...] -- 0:03:56
-      318000 -- [-1151.423] [...19 remote chains...] -- 0:03:55
-      319000 -- [-1156.726] [...19 remote chains...] -- 0:03:54
-      320000 -- [-1168.783] [...19 remote chains...] -- 0:03:55
+      314000 -- [-958.976] [...19 remote chains...] -- 0:02:28
+      315000 -- [-960.552] [...19 remote chains...] -- 0:02:27
+      316000 -- [-961.424] [...19 remote chains...] -- 0:02:27
+      317000 -- [-969.130] [...19 remote chains...] -- 0:02:26
+      318000 -- [-958.406] [...19 remote chains...] -- 0:02:27
+      319000 -- [-961.205] [...19 remote chains...] -- 0:02:27
+      320000 -- [-964.542] [...19 remote chains...] -- 0:02:26
 
       Average standard deviation of split frequencies: 0.000000
 
-      321000 -- [-1185.196] [...19 remote chains...] -- 0:03:54
-      322000 -- [-1168.205] [...19 remote chains...] -- 0:03:53
-      323000 -- [-1173.507] [...19 remote chains...] -- 0:03:54
-      324000 -- [-1149.205] [...19 remote chains...] -- 0:03:53
-      325000 -- [-1147.776] [...19 remote chains...] -- 0:03:52
+      321000 -- [-964.592] [...19 remote chains...] -- 0:02:25
+      322000 -- [-966.456] [...19 remote chains...] -- 0:02:27
+      323000 -- [-958.927] [...19 remote chains...] -- 0:02:26
+      324000 -- [-968.025] [...19 remote chains...] -- 0:02:25
+      325000 -- [-964.280] [...19 remote chains...] -- 0:02:25
 
       Average standard deviation of split frequencies: 0.000000
 
-      326000 -- [-1136.020] [...19 remote chains...] -- 0:03:53
-      327000 -- [-1148.227] [...19 remote chains...] -- 0:03:52
-      328000 -- [-1131.463] [...19 remote chains...] -- 0:03:51
-      329000 -- [-1155.779] [...19 remote chains...] -- 0:03:52
-      330000 -- [-1165.154] [...19 remote chains...] -- 0:03:51
+      326000 -- [-964.999] [...19 remote chains...] -- 0:02:24
+      327000 -- [-970.104] [...19 remote chains...] -- 0:02:26
+      328000 -- [-968.150] [...19 remote chains...] -- 0:02:25
+      329000 -- [-972.022] [...19 remote chains...] -- 0:02:24
+      330000 -- [-970.361] [...19 remote chains...] -- 0:02:24
 
       Average standard deviation of split frequencies: 0.000000
 
-      331000 -- [-1144.478] [...19 remote chains...] -- 0:03:50
-      332000 -- [-1154.756] [...19 remote chains...] -- 0:03:51
-      333000 -- [-1165.475] [...19 remote chains...] -- 0:03:50
+      331000 -- [-964.163] [...19 remote chains...] -- 0:02:23
+      332000 -- [-958.618] [...19 remote chains...] -- 0:02:24
+      333000 -- [-968.039] [...19 remote chains...] -- 0:02:24
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 17 out of 50 steps...
 
-      334000 -- [-1147.496] [...19 remote chains...] -- 0:03:49
-      335000 -- [-1132.771] [...19 remote chains...] -- 0:03:50
-      336000 -- [-1163.597] [...19 remote chains...] -- 0:03:49
-      337000 -- [-1164.135] [...19 remote chains...] -- 0:03:48
-      338000 -- [-1156.109] [...19 remote chains...] -- 0:03:49
-      339000 -- [-1159.443] [...19 remote chains...] -- 0:03:47
-      340000 -- [-1164.463] [...19 remote chains...] -- 0:03:48
+      334000 -- [-972.306] [...19 remote chains...] -- 0:02:23
+      335000 -- [-967.104] [...19 remote chains...] -- 0:02:22
+      336000 -- [-969.013] [...19 remote chains...] -- 0:02:22
+      337000 -- [-962.852] [...19 remote chains...] -- 0:02:23
+      338000 -- [-961.861] [...19 remote chains...] -- 0:02:22
+      339000 -- [-971.198] [...19 remote chains...] -- 0:02:22
+      340000 -- [-967.278] [...19 remote chains...] -- 0:02:21
 
       Average standard deviation of split frequencies: 0.000000
 
-      341000 -- [-1151.022] [...19 remote chains...] -- 0:03:47
-      342000 -- [-1132.109] [...19 remote chains...] -- 0:03:46
-      343000 -- [-1148.404] [...19 remote chains...] -- 0:03:47
-      344000 -- [-1140.692] [...19 remote chains...] -- 0:03:46
-      345000 -- [-1143.580] [...19 remote chains...] -- 0:03:45
+      341000 -- [-982.974] [...19 remote chains...] -- 0:02:22
+      342000 -- [-967.331] [...19 remote chains...] -- 0:02:22
+      343000 -- [-960.280] [...19 remote chains...] -- 0:02:21
+      344000 -- [-970.071] [...19 remote chains...] -- 0:02:21
+      345000 -- [-965.824] [...19 remote chains...] -- 0:02:20
 
       Average standard deviation of split frequencies: 0.000000
 
-      346000 -- [-1133.423] [...19 remote chains...] -- 0:03:46
-      347000 -- [-1153.854] [...19 remote chains...] -- 0:03:45
-      348000 -- [-1140.945] [...19 remote chains...] -- 0:03:44
-      349000 -- [-1143.477] [...19 remote chains...] -- 0:03:45
-      350000 -- [-1161.689] [...19 remote chains...] -- 0:03:44
+      346000 -- [-957.236] [...19 remote chains...] -- 0:02:21
+      347000 -- [-961.566] [...19 remote chains...] -- 0:02:21
+      348000 -- [-962.395] [...19 remote chains...] -- 0:02:20
+      349000 -- [-968.824] [...19 remote chains...] -- 0:02:19
+      350000 -- [-965.238] [...19 remote chains...] -- 0:02:21
 
       Average standard deviation of split frequencies: 0.000000
 
-      351000 -- [-1163.695] [...19 remote chains...] -- 0:03:43
-      352000 -- [-1154.837] [...19 remote chains...] -- 0:03:44
+      351000 -- [-957.151] [...19 remote chains...] -- 0:02:20
+      352000 -- [-969.402] [...19 remote chains...] -- 0:02:19
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 18 out of 50 steps...
 
-      353000 -- [-1174.138] [...19 remote chains...] -- 0:03:43
-      354000 -- [-1163.931] [...19 remote chains...] -- 0:03:42
-      355000 -- [-1152.911] [...19 remote chains...] -- 0:03:43
-      356000 -- [-1153.862] [...19 remote chains...] -- 0:03:42
-      357000 -- [-1169.481] [...19 remote chains...] -- 0:03:41
-      358000 -- [-1159.044] [...19 remote chains...] -- 0:03:42
-      359000 -- [-1176.969] [...19 remote chains...] -- 0:03:41
-      360000 -- [-1178.916] [...19 remote chains...] -- 0:03:40
+      353000 -- [-963.841] [...19 remote chains...] -- 0:02:19
+      354000 -- [-975.585] [...19 remote chains...] -- 0:02:18
+      355000 -- [-959.991] [...19 remote chains...] -- 0:02:19
+      356000 -- [-974.667] [...19 remote chains...] -- 0:02:19
+      357000 -- [-966.958] [...19 remote chains...] -- 0:02:18
+      358000 -- [-962.735] [...19 remote chains...] -- 0:02:17
+      359000 -- [-985.746] [...19 remote chains...] -- 0:02:17
+      360000 -- [-963.048] [...19 remote chains...] -- 0:02:18
 
       Average standard deviation of split frequencies: 0.000000
 
-      361000 -- [-1181.611] [...19 remote chains...] -- 0:03:41
-      362000 -- [-1168.392] [...19 remote chains...] -- 0:03:40
-      363000 -- [-1177.996] [...19 remote chains...] -- 0:03:39
-      364000 -- [-1151.070] [...19 remote chains...] -- 0:03:40
-      365000 -- [-1146.189] [...19 remote chains...] -- 0:03:39
+      361000 -- [-966.668] [...19 remote chains...] -- 0:02:17
+      362000 -- [-959.899] [...19 remote chains...] -- 0:02:17
+      363000 -- [-965.150] [...19 remote chains...] -- 0:02:16
+      364000 -- [-973.798] [...19 remote chains...] -- 0:02:17
+      365000 -- [-960.291] [...19 remote chains...] -- 0:02:17
 
       Average standard deviation of split frequencies: 0.000000
 
-      366000 -- [-1155.661] [...19 remote chains...] -- 0:03:38
-      367000 -- [-1136.795] [...19 remote chains...] -- 0:03:38
-      368000 -- [-1157.889] [...19 remote chains...] -- 0:03:37
-      369000 -- [-1125.571] [...19 remote chains...] -- 0:03:37
-      370000 -- [-1157.239] [...19 remote chains...] -- 0:03:37
+      366000 -- [-964.420] [...19 remote chains...] -- 0:02:16
+      367000 -- [-960.665] [...19 remote chains...] -- 0:02:16
+      368000 -- [-963.130] [...19 remote chains...] -- 0:02:15
+      369000 -- [-958.917] [...19 remote chains...] -- 0:02:16
+      370000 -- [-964.843] [...19 remote chains...] -- 0:02:16
 
       Average standard deviation of split frequencies: 0.000000
 
-      371000 -- [-1143.522] [...19 remote chains...] -- 0:03:36
-      372000 -- [-1137.744] [...19 remote chains...] -- 0:03:35
+      371000 -- [-962.851] [...19 remote chains...] -- 0:02:15
+      372000 -- [-953.578] [...19 remote chains...] -- 0:02:14
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 19 out of 50 steps...
 
-      373000 -- [-1135.707] [...19 remote chains...] -- 0:03:36
-      374000 -- [-1159.349] [...19 remote chains...] -- 0:03:35
-      375000 -- [-1160.264] [...19 remote chains...] -- 0:03:34
-      376000 -- [-1150.039] [...19 remote chains...] -- 0:03:35
-      377000 -- [-1143.532] [...19 remote chains...] -- 0:03:34
-      378000 -- [-1143.666] [...19 remote chains...] -- 0:03:35
-      379000 -- [-1151.260] [...19 remote chains...] -- 0:03:34
-      380000 -- [-1150.810] [...19 remote chains...] -- 0:03:33
+      373000 -- [-960.682] [...19 remote chains...] -- 0:02:16
+      374000 -- [-956.924] [...19 remote chains...] -- 0:02:15
+      375000 -- [-964.041] [...19 remote chains...] -- 0:02:14
+      376000 -- [-958.722] [...19 remote chains...] -- 0:02:14
+      377000 -- [-967.704] [...19 remote chains...] -- 0:02:13
+      378000 -- [-956.248] [...19 remote chains...] -- 0:02:14
+      379000 -- [-969.769] [...19 remote chains...] -- 0:02:14
+      380000 -- [-972.112] [...19 remote chains...] -- 0:02:13
 
       Average standard deviation of split frequencies: 0.000000
 
-      381000 -- [-1168.493] [...19 remote chains...] -- 0:03:34
-      382000 -- [-1145.258] [...19 remote chains...] -- 0:03:33
-      383000 -- [-1175.745] [...19 remote chains...] -- 0:03:32
-      384000 -- [-1163.912] [...19 remote chains...] -- 0:03:33
-      385000 -- [-1161.992] [...19 remote chains...] -- 0:03:32
+      381000 -- [-964.770] [...19 remote chains...] -- 0:02:13
+      382000 -- [-967.349] [...19 remote chains...] -- 0:02:14
+      383000 -- [-965.265] [...19 remote chains...] -- 0:02:13
+      384000 -- [-965.415] [...19 remote chains...] -- 0:02:13
+      385000 -- [-971.775] [...19 remote chains...] -- 0:02:12
 
       Average standard deviation of split frequencies: 0.000000
 
-      386000 -- [-1153.764] [...19 remote chains...] -- 0:03:31
-      387000 -- [-1154.723] [...19 remote chains...] -- 0:03:32
-      388000 -- [-1160.250] [...19 remote chains...] -- 0:03:31
-      389000 -- [-1150.504] [...19 remote chains...] -- 0:03:30
-      390000 -- [-1158.013] [...19 remote chains...] -- 0:03:31
+      386000 -- [-960.172] [...19 remote chains...] -- 0:02:11
+      387000 -- [-965.723] [...19 remote chains...] -- 0:02:12
+      388000 -- [-961.630] [...19 remote chains...] -- 0:02:12
+      389000 -- [-970.503] [...19 remote chains...] -- 0:02:11
+      390000 -- [-966.194] [...19 remote chains...] -- 0:02:11
 
       Average standard deviation of split frequencies: 0.000000
 
-      391000 -- [-1156.214] [...19 remote chains...] -- 0:03:30
-      392000 -- [-1147.304] [...19 remote chains...] -- 0:03:29
+      391000 -- [-969.303] [...19 remote chains...] -- 0:02:10
+      392000 -- [-972.167] [...19 remote chains...] -- 0:02:11
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 20 out of 50 steps...
 
-      393000 -- [-1142.147] [...19 remote chains...] -- 0:03:29
-      394000 -- [-1167.965] [...19 remote chains...] -- 0:03:29
-      395000 -- [-1154.552] [...19 remote chains...] -- 0:03:28
-      396000 -- [-1143.165] [...19 remote chains...] -- 0:03:28
-      397000 -- [-1159.236] [...19 remote chains...] -- 0:03:27
-      398000 -- [-1161.409] [...19 remote chains...] -- 0:03:27
-      399000 -- [-1182.640] [...19 remote chains...] -- 0:03:27
-      400000 -- [-1171.010] [...19 remote chains...] -- 0:03:26
+      393000 -- [-967.420] [...19 remote chains...] -- 0:02:11
+      394000 -- [-961.760] [...19 remote chains...] -- 0:02:10
+      395000 -- [-971.843] [...19 remote chains...] -- 0:02:10
+      396000 -- [-987.389] [...19 remote chains...] -- 0:02:09
+      397000 -- [-967.883] [...19 remote chains...] -- 0:02:10
+      398000 -- [-965.633] [...19 remote chains...] -- 0:02:09
+      399000 -- [-979.249] [...19 remote chains...] -- 0:02:09
+      400000 -- [-983.073] [...19 remote chains...] -- 0:02:08
 
       Average standard deviation of split frequencies: 0.000000
 
-      401000 -- [-1169.553] [...19 remote chains...] -- 0:03:26
-      402000 -- [-1171.902] [...19 remote chains...] -- 0:03:26
-      403000 -- [-1162.272] [...19 remote chains...] -- 0:03:25
-      404000 -- [-1156.496] [...19 remote chains...] -- 0:03:26
-      405000 -- [-1157.509] [...19 remote chains...] -- 0:03:25
+      401000 -- [-962.200] [...19 remote chains...] -- 0:02:09
+      402000 -- [-969.694] [...19 remote chains...] -- 0:02:09
+      403000 -- [-974.200] [...19 remote chains...] -- 0:02:08
+      404000 -- [-977.865] [...19 remote chains...] -- 0:02:08
+      405000 -- [-979.601] [...19 remote chains...] -- 0:02:07
 
       Average standard deviation of split frequencies: 0.000000
 
-      406000 -- [-1145.972] [...19 remote chains...] -- 0:03:24
-      407000 -- [-1166.947] [...19 remote chains...] -- 0:03:25
-      408000 -- [-1168.577] [...19 remote chains...] -- 0:03:24
-      409000 -- [-1180.114] [...19 remote chains...] -- 0:03:23
-      410000 -- [-1154.158] [...19 remote chains...] -- 0:03:24
+      406000 -- [-978.577] [...19 remote chains...] -- 0:02:08
+      407000 -- [-1002.017] [...19 remote chains...] -- 0:02:08
+      408000 -- [-992.983] [...19 remote chains...] -- 0:02:07
+      409000 -- [-981.735] [...19 remote chains...] -- 0:02:07
+      410000 -- [-991.007] [...19 remote chains...] -- 0:02:06
 
       Average standard deviation of split frequencies: 0.000000
 
-      411000 -- [-1153.544] [...19 remote chains...] -- 0:03:23
+      411000 -- [-985.970] [...19 remote chains...] -- 0:02:07
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 21 out of 50 steps...
 
-      412000 -- [-1157.333] [...19 remote chains...] -- 0:03:22
-      413000 -- [-1168.504] [...19 remote chains...] -- 0:03:23
-      414000 -- [-1170.664] [...19 remote chains...] -- 0:03:22
-      415000 -- [-1160.980] [...19 remote chains...] -- 0:03:21
-      416000 -- [-1150.784] [...19 remote chains...] -- 0:03:22
-      417000 -- [-1156.517] [...19 remote chains...] -- 0:03:21
-      418000 -- [-1158.233] [...19 remote chains...] -- 0:03:21
-      419000 -- [-1176.623] [...19 remote chains...] -- 0:03:20
-      420000 -- [-1167.919] [...19 remote chains...] -- 0:03:20
+      412000 -- [-983.653] [...19 remote chains...] -- 0:02:06
+      413000 -- [-978.808] [...19 remote chains...] -- 0:02:06
+      414000 -- [-990.043] [...19 remote chains...] -- 0:02:05
+      415000 -- [-1007.533] [...19 remote chains...] -- 0:02:06
+      416000 -- [-974.327] [...19 remote chains...] -- 0:02:06
+      417000 -- [-984.465] [...19 remote chains...] -- 0:02:05
+      418000 -- [-995.308] [...19 remote chains...] -- 0:02:05
+      419000 -- [-968.379] [...19 remote chains...] -- 0:02:04
+      420000 -- [-974.883] [...19 remote chains...] -- 0:02:05
 
       Average standard deviation of split frequencies: 0.000000
 
-      421000 -- [-1160.853] [...19 remote chains...] -- 0:03:20
-      422000 -- [-1162.073] [...19 remote chains...] -- 0:03:19
-      423000 -- [-1159.612] [...19 remote chains...] -- 0:03:19
-      424000 -- [-1179.059] [...19 remote chains...] -- 0:03:19
-      425000 -- [-1144.429] [...19 remote chains...] -- 0:03:18
+      421000 -- [-970.500] [...19 remote chains...] -- 0:02:05
+      422000 -- [-984.745] [...19 remote chains...] -- 0:02:04
+      423000 -- [-984.497] [...19 remote chains...] -- 0:02:04
+      424000 -- [-968.821] [...19 remote chains...] -- 0:02:04
+      425000 -- [-960.845] [...19 remote chains...] -- 0:02:04
 
       Average standard deviation of split frequencies: 0.000000
 
-      426000 -- [-1155.452] [...19 remote chains...] -- 0:03:17
-      427000 -- [-1150.022] [...19 remote chains...] -- 0:03:18
-      428000 -- [-1161.395] [...19 remote chains...] -- 0:03:17
-      429000 -- [-1166.962] [...19 remote chains...] -- 0:03:16
-      430000 -- [-1159.635] [...19 remote chains...] -- 0:03:17
+      426000 -- [-988.590] [...19 remote chains...] -- 0:02:03
+      427000 -- [-962.873] [...19 remote chains...] -- 0:02:03
+      428000 -- [-963.635] [...19 remote chains...] -- 0:02:02
+      429000 -- [-971.358] [...19 remote chains...] -- 0:02:03
+      430000 -- [-954.804] [...19 remote chains...] -- 0:02:03
 
       Average standard deviation of split frequencies: 0.000000
 
-      431000 -- [-1161.003] [...19 remote chains...] -- 0:03:16
+      431000 -- [-974.689] [...19 remote chains...] -- 0:02:02
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 22 out of 50 steps...
 
-      432000 -- [-1158.903] [...19 remote chains...] -- 0:03:15
-      433000 -- [-1167.713] [...19 remote chains...] -- 0:03:16
-      434000 -- [-1155.205] [...19 remote chains...] -- 0:03:15
-      435000 -- [-1156.963] [...19 remote chains...] -- 0:03:14
-      436000 -- [-1159.807] [...19 remote chains...] -- 0:03:15
-      437000 -- [-1174.553] [...19 remote chains...] -- 0:03:14
-      438000 -- [-1157.900] [...19 remote chains...] -- 0:03:13
-      439000 -- [-1154.363] [...19 remote chains...] -- 0:03:14
-      440000 -- [-1162.093] [...19 remote chains...] -- 0:03:13
+      432000 -- [-974.821] [...19 remote chains...] -- 0:02:02
+      433000 -- [-979.259] [...19 remote chains...] -- 0:02:01
+      434000 -- [-969.637] [...19 remote chains...] -- 0:02:02
+      435000 -- [-971.872] [...19 remote chains...] -- 0:02:02
+      436000 -- [-972.907] [...19 remote chains...] -- 0:02:01
+      437000 -- [-986.788] [...19 remote chains...] -- 0:02:01
+      438000 -- [-979.959] [...19 remote chains...] -- 0:02:01
+      439000 -- [-984.637] [...19 remote chains...] -- 0:02:01
+      440000 -- [-979.153] [...19 remote chains...] -- 0:02:00
 
       Average standard deviation of split frequencies: 0.000000
 
-      441000 -- [-1164.299] [...19 remote chains...] -- 0:03:12
-      442000 -- [-1158.531] [...19 remote chains...] -- 0:03:13
-      443000 -- [-1155.025] [...19 remote chains...] -- 0:03:12
-      444000 -- [-1150.319] [...19 remote chains...] -- 0:03:11
-      445000 -- [-1162.005] [...19 remote chains...] -- 0:03:11
+      441000 -- [-989.234] [...19 remote chains...] -- 0:02:00
+      442000 -- [-964.156] [...19 remote chains...] -- 0:01:59
+      443000 -- [-973.222] [...19 remote chains...] -- 0:02:00
+      444000 -- [-966.667] [...19 remote chains...] -- 0:02:00
+      445000 -- [-963.981] [...19 remote chains...] -- 0:01:59
 
       Average standard deviation of split frequencies: 0.000000
 
-      446000 -- [-1150.375] [...19 remote chains...] -- 0:03:11
-      447000 -- [-1158.147] [...19 remote chains...] -- 0:03:10
-      448000 -- [-1170.891] [...19 remote chains...] -- 0:03:10
-      449000 -- [-1153.537] [...19 remote chains...] -- 0:03:10
-      450000 -- [-1159.231] [...19 remote chains...] -- 0:03:10
+      446000 -- [-963.939] [...19 remote chains...] -- 0:01:59
+      447000 -- [-974.400] [...19 remote chains...] -- 0:01:59
+      448000 -- [-970.077] [...19 remote chains...] -- 0:01:59
+      449000 -- [-973.392] [...19 remote chains...] -- 0:01:58
+      450000 -- [-968.280] [...19 remote chains...] -- 0:01:58
 
       Average standard deviation of split frequencies: 0.000000
 
@@ -1292,32 +1288,32 @@
 
       Sampling step 23 out of 50 steps...
 
-      451000 -- [-1159.215] [...19 remote chains...] -- 0:03:09
-      452000 -- [-1162.615] [...19 remote chains...] -- 0:03:08
-      453000 -- [-1156.138] [...19 remote chains...] -- 0:03:09
-      454000 -- [-1151.948] [...19 remote chains...] -- 0:03:08
-      455000 -- [-1154.677] [...19 remote chains...] -- 0:03:07
-      456000 -- [-1151.261] [...19 remote chains...] -- 0:03:08
-      457000 -- [-1156.327] [...19 remote chains...] -- 0:03:07
-      458000 -- [-1158.098] [...19 remote chains...] -- 0:03:06
-      459000 -- [-1164.505] [...19 remote chains...] -- 0:03:07
-      460000 -- [-1176.648] [...19 remote chains...] -- 0:03:06
+      451000 -- [-963.138] [...19 remote chains...] -- 0:01:57
+      452000 -- [-997.040] [...19 remote chains...] -- 0:01:58
+      453000 -- [-981.783] [...19 remote chains...] -- 0:01:58
+      454000 -- [-972.986] [...19 remote chains...] -- 0:01:57
+      455000 -- [-989.462] [...19 remote chains...] -- 0:01:57
+      456000 -- [-966.880] [...19 remote chains...] -- 0:01:58
+      457000 -- [-976.708] [...19 remote chains...] -- 0:01:57
+      458000 -- [-995.980] [...19 remote chains...] -- 0:01:57
+      459000 -- [-1016.282] [...19 remote chains...] -- 0:01:56
+      460000 -- [-993.563] [...19 remote chains...] -- 0:01:56
 
       Average standard deviation of split frequencies: 0.000000
 
-      461000 -- [-1158.395] [...19 remote chains...] -- 0:03:05
-      462000 -- [-1157.405] [...19 remote chains...] -- 0:03:05
-      463000 -- [-1162.105] [...19 remote chains...] -- 0:03:05
-      464000 -- [-1164.910] [...19 remote chains...] -- 0:03:04
-      465000 -- [-1164.091] [...19 remote chains...] -- 0:03:03
+      461000 -- [-980.857] [...19 remote chains...] -- 0:01:56
+      462000 -- [-982.287] [...19 remote chains...] -- 0:01:56
+      463000 -- [-980.630] [...19 remote chains...] -- 0:01:55
+      464000 -- [-981.076] [...19 remote chains...] -- 0:01:55
+      465000 -- [-974.750] [...19 remote chains...] -- 0:01:56
 
       Average standard deviation of split frequencies: 0.000000
 
-      466000 -- [-1152.843] [...19 remote chains...] -- 0:03:04
-      467000 -- [-1176.739] [...19 remote chains...] -- 0:03:03
-      468000 -- [-1163.824] [...19 remote chains...] -- 0:03:02
-      469000 -- [-1154.939] [...19 remote chains...] -- 0:03:03
-      470000 -- [-1171.380] [...19 remote chains...] -- 0:03:02
+      466000 -- [-970.042] [...19 remote chains...] -- 0:01:55
+      467000 -- [-977.902] [...19 remote chains...] -- 0:01:55
+      468000 -- [-980.575] [...19 remote chains...] -- 0:01:54
+      469000 -- [-983.901] [...19 remote chains...] -- 0:01:54
+      470000 -- [-984.770] [...19 remote chains...] -- 0:01:54
 
       Average standard deviation of split frequencies: 0.000000
 
@@ -1326,398 +1322,398 @@
 
       Sampling step 24 out of 50 steps...
 
-      471000 -- [-1160.964] [...19 remote chains...] -- 0:03:01
-      472000 -- [-1169.002] [...19 remote chains...] -- 0:03:02
-      473000 -- [-1165.322] [...19 remote chains...] -- 0:03:01
-      474000 -- [-1161.212] [...19 remote chains...] -- 0:03:00
-      475000 -- [-1154.059] [...19 remote chains...] -- 0:03:01
-      476000 -- [-1155.917] [...19 remote chains...] -- 0:03:00
-      477000 -- [-1168.400] [...19 remote chains...] -- 0:02:59
-      478000 -- [-1174.948] [...19 remote chains...] -- 0:03:00
-      479000 -- [-1140.140] [...19 remote chains...] -- 0:02:59
-      480000 -- [-1153.304] [...19 remote chains...] -- 0:02:58
+      471000 -- [-978.169] [...19 remote chains...] -- 0:01:54
+      472000 -- [-962.277] [...19 remote chains...] -- 0:01:54
+      473000 -- [-977.909] [...19 remote chains...] -- 0:01:53
+      474000 -- [-990.859] [...19 remote chains...] -- 0:01:53
+      475000 -- [-974.922] [...19 remote chains...] -- 0:01:53
+      476000 -- [-976.235] [...19 remote chains...] -- 0:01:53
+      477000 -- [-978.086] [...19 remote chains...] -- 0:01:52
+      478000 -- [-978.775] [...19 remote chains...] -- 0:01:52
+      479000 -- [-972.857] [...19 remote chains...] -- 0:01:53
+      480000 -- [-987.995] [...19 remote chains...] -- 0:01:52
 
       Average standard deviation of split frequencies: 0.000000
 
-      481000 -- [-1149.605] [...19 remote chains...] -- 0:02:58
-      482000 -- [-1160.107] [...19 remote chains...] -- 0:02:58
-      483000 -- [-1157.186] [...19 remote chains...] -- 0:02:57
-      484000 -- [-1162.487] [...19 remote chains...] -- 0:02:56
-      485000 -- [-1160.978] [...19 remote chains...] -- 0:02:57
+      481000 -- [-991.202] [...19 remote chains...] -- 0:01:52
+      482000 -- [-1002.724] [...19 remote chains...] -- 0:01:51
+      483000 -- [-975.924] [...19 remote chains...] -- 0:01:51
+      484000 -- [-983.160] [...19 remote chains...] -- 0:01:51
+      485000 -- [-986.980] [...19 remote chains...] -- 0:01:51
 
       Average standard deviation of split frequencies: 0.000000
 
-      486000 -- [-1174.985] [...19 remote chains...] -- 0:02:56
-      487000 -- [-1161.719] [...19 remote chains...] -- 0:02:55
-      488000 -- [-1160.445] [...19 remote chains...] -- 0:02:56
-      489000 -- [-1169.457] [...19 remote chains...] -- 0:02:55
-      490000 -- [-1169.503] [...19 remote chains...] -- 0:02:54
+      486000 -- [-991.807] [...19 remote chains...] -- 0:01:50
+      487000 -- [-985.738] [...19 remote chains...] -- 0:01:50
+      488000 -- [-988.205] [...19 remote chains...] -- 0:01:51
+      489000 -- [-982.694] [...19 remote chains...] -- 0:01:50
+      490000 -- [-998.938] [...19 remote chains...] -- 0:01:50
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 25 out of 50 steps...
 
-      491000 -- [-1180.053] [...19 remote chains...] -- 0:02:55
-      492000 -- [-1193.591] [...19 remote chains...] -- 0:02:54
-      493000 -- [-1172.784] [...19 remote chains...] -- 0:02:53
-      494000 -- [-1180.504] [...19 remote chains...] -- 0:02:53
-      495000 -- [-1169.902] [...19 remote chains...] -- 0:02:53
+      491000 -- [-985.184] [...19 remote chains...] -- 0:01:49
+      492000 -- [-977.895] [...19 remote chains...] -- 0:01:49
+      493000 -- [-981.953] [...19 remote chains...] -- 0:01:49
+      494000 -- [-1002.604] [...19 remote chains...] -- 0:01:49
+      495000 -- [-1013.404] [...19 remote chains...] -- 0:01:49
 
       Average standard deviation of split frequencies: 0.000000
 
-      496000 -- [-1166.955] [...19 remote chains...] -- 0:02:52
-      497000 -- [-1185.938] [...19 remote chains...] -- 0:02:52
-      498000 -- [-1195.492] [...19 remote chains...] -- 0:02:52
-      499000 -- [-1191.744] [...19 remote chains...] -- 0:02:51
-      500000 -- [-1180.990] [...19 remote chains...] -- 0:02:51
+      496000 -- [-1003.972] [...19 remote chains...] -- 0:01:48
+      497000 -- [-1019.088] [...19 remote chains...] -- 0:01:49
+      498000 -- [-1009.879] [...19 remote chains...] -- 0:01:48
+      499000 -- [-995.129] [...19 remote chains...] -- 0:01:48
+      500000 -- [-1013.415] [...19 remote chains...] -- 0:01:47
 
       Average standard deviation of split frequencies: 0.000000
 
-      501000 -- [-1164.905] [...19 remote chains...] -- 0:02:51
-      502000 -- [-1166.927] [...19 remote chains...] -- 0:02:50
-      503000 -- [-1176.287] [...19 remote chains...] -- 0:02:50
-      504000 -- [-1201.307] [...19 remote chains...] -- 0:02:50
-      505000 -- [-1178.121] [...19 remote chains...] -- 0:02:49
+      501000 -- [-986.748] [...19 remote chains...] -- 0:01:47
+      502000 -- [-1023.697] [...19 remote chains...] -- 0:01:48
+      503000 -- [-996.763] [...19 remote chains...] -- 0:01:47
+      504000 -- [-995.881] [...19 remote chains...] -- 0:01:47
+      505000 -- [-1009.629] [...19 remote chains...] -- 0:01:46
 
       Average standard deviation of split frequencies: 0.000000
 
-      506000 -- [-1173.522] [...19 remote chains...] -- 0:02:49
-      507000 -- [-1174.366] [...19 remote chains...] -- 0:02:49
-      508000 -- [-1177.916] [...19 remote chains...] -- 0:02:48
-      509000 -- [-1173.847] [...19 remote chains...] -- 0:02:48
+      506000 -- [-1008.940] [...19 remote chains...] -- 0:01:46
+      507000 -- [-983.410] [...19 remote chains...] -- 0:01:46
+      508000 -- [-976.909] [...19 remote chains...] -- 0:01:46
+      509000 -- [-987.152] [...19 remote chains...] -- 0:01:46
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 26 out of 50 steps...
 
-      510000 -- [-1191.161] [...19 remote chains...] -- 0:02:48
-      511000 -- [-1196.804] [...19 remote chains...] -- 0:02:47
-      512000 -- [-1193.174] [...19 remote chains...] -- 0:02:47
-      513000 -- [-1175.321] [...19 remote chains...] -- 0:02:46
-      514000 -- [-1173.182] [...19 remote chains...] -- 0:02:46
-      515000 -- [-1163.460] [...19 remote chains...] -- 0:02:46
+      510000 -- [-977.681] [...19 remote chains...] -- 0:01:45
+      511000 -- [-988.994] [...19 remote chains...] -- 0:01:45
+      512000 -- [-994.708] [...19 remote chains...] -- 0:01:45
+      513000 -- [-992.879] [...19 remote chains...] -- 0:01:45
+      514000 -- [-977.179] [...19 remote chains...] -- 0:01:44
+      515000 -- [-991.579] [...19 remote chains...] -- 0:01:44
 
       Average standard deviation of split frequencies: 0.000000
 
-      516000 -- [-1169.574] [...19 remote chains...] -- 0:02:45
-      517000 -- [-1160.133] [...19 remote chains...] -- 0:02:45
-      518000 -- [-1194.754] [...19 remote chains...] -- 0:02:45
-      519000 -- [-1157.448] [...19 remote chains...] -- 0:02:44
-      520000 -- [-1179.080] [...19 remote chains...] -- 0:02:44
+      516000 -- [-981.317] [...19 remote chains...] -- 0:01:44
+      517000 -- [-972.617] [...19 remote chains...] -- 0:01:44
+      518000 -- [-973.488] [...19 remote chains...] -- 0:01:44
+      519000 -- [-972.589] [...19 remote chains...] -- 0:01:43
+      520000 -- [-967.757] [...19 remote chains...] -- 0:01:44
 
       Average standard deviation of split frequencies: 0.000000
 
-      521000 -- [-1172.441] [...19 remote chains...] -- 0:02:44
-      522000 -- [-1191.742] [...19 remote chains...] -- 0:02:43
-      523000 -- [-1173.493] [...19 remote chains...] -- 0:02:43
-      524000 -- [-1201.442] [...19 remote chains...] -- 0:02:42
-      525000 -- [-1186.935] [...19 remote chains...] -- 0:02:42
+      521000 -- [-982.273] [...19 remote chains...] -- 0:01:43
+      522000 -- [-993.279] [...19 remote chains...] -- 0:01:43
+      523000 -- [-970.883] [...19 remote chains...] -- 0:01:42
+      524000 -- [-980.148] [...19 remote chains...] -- 0:01:42
+      525000 -- [-969.073] [...19 remote chains...] -- 0:01:43
 
       Average standard deviation of split frequencies: 0.000000
 
-      526000 -- [-1172.238] [...19 remote chains...] -- 0:02:42
-      527000 -- [-1176.558] [...19 remote chains...] -- 0:02:41
-      528000 -- [-1181.415] [...19 remote chains...] -- 0:02:41
-      529000 -- [-1183.345] [...19 remote chains...] -- 0:02:41
+      526000 -- [-985.308] [...19 remote chains...] -- 0:01:42
+      527000 -- [-972.846] [...19 remote chains...] -- 0:01:42
+      528000 -- [-985.710] [...19 remote chains...] -- 0:01:41
+      529000 -- [-970.900] [...19 remote chains...] -- 0:01:42
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 27 out of 50 steps...
 
-      530000 -- [-1183.278] [...19 remote chains...] -- 0:02:40
-      531000 -- [-1182.723] [...19 remote chains...] -- 0:02:40
-      532000 -- [-1195.630] [...19 remote chains...] -- 0:02:39
-      533000 -- [-1180.855] [...19 remote chains...] -- 0:02:39
-      534000 -- [-1181.201] [...19 remote chains...] -- 0:02:39
-      535000 -- [-1172.084] [...19 remote chains...] -- 0:02:38
+      530000 -- [-970.915] [...19 remote chains...] -- 0:01:41
+      531000 -- [-988.573] [...19 remote chains...] -- 0:01:41
+      532000 -- [-979.680] [...19 remote chains...] -- 0:01:41
+      533000 -- [-976.437] [...19 remote chains...] -- 0:01:40
+      534000 -- [-974.861] [...19 remote chains...] -- 0:01:41
+      535000 -- [-988.084] [...19 remote chains...] -- 0:01:40
 
       Average standard deviation of split frequencies: 0.000000
 
-      536000 -- [-1172.635] [...19 remote chains...] -- 0:02:38
-      537000 -- [-1194.099] [...19 remote chains...] -- 0:02:38
-      538000 -- [-1201.267] [...19 remote chains...] -- 0:02:37
-      539000 -- [-1175.450] [...19 remote chains...] -- 0:02:37
-      540000 -- [-1181.305] [...19 remote chains...] -- 0:02:37
+      536000 -- [-989.057] [...19 remote chains...] -- 0:01:40
+      537000 -- [-966.604] [...19 remote chains...] -- 0:01:39
+      538000 -- [-973.432] [...19 remote chains...] -- 0:01:40
+      539000 -- [-977.638] [...19 remote chains...] -- 0:01:39
+      540000 -- [-978.182] [...19 remote chains...] -- 0:01:39
 
       Average standard deviation of split frequencies: 0.000000
 
-      541000 -- [-1188.500] [...19 remote chains...] -- 0:02:36
-      542000 -- [-1155.425] [...19 remote chains...] -- 0:02:36
-      543000 -- [-1156.039] [...19 remote chains...] -- 0:02:36
-      544000 -- [-1165.174] [...19 remote chains...] -- 0:02:35
-      545000 -- [-1187.646] [...19 remote chains...] -- 0:02:35
+      541000 -- [-982.145] [...19 remote chains...] -- 0:01:39
+      542000 -- [-992.734] [...19 remote chains...] -- 0:01:39
+      543000 -- [-964.597] [...19 remote chains...] -- 0:01:39
+      544000 -- [-969.191] [...19 remote chains...] -- 0:01:38
+      545000 -- [-982.816] [...19 remote chains...] -- 0:01:38
 
       Average standard deviation of split frequencies: 0.000000
 
-      546000 -- [-1170.951] [...19 remote chains...] -- 0:02:35
-      547000 -- [-1199.511] [...19 remote chains...] -- 0:02:34
-      548000 -- [-1188.454] [...19 remote chains...] -- 0:02:34
+      546000 -- [-972.323] [...19 remote chains...] -- 0:01:38
+      547000 -- [-965.802] [...19 remote chains...] -- 0:01:38
+      548000 -- [-985.753] [...19 remote chains...] -- 0:01:38
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 28 out of 50 steps...
 
-      549000 -- [-1185.088] [...19 remote chains...] -- 0:02:34
-      550000 -- [-1177.852] [...19 remote chains...] -- 0:02:33
-      551000 -- [-1186.830] [...19 remote chains...] -- 0:02:33
-      552000 -- [-1172.175] [...19 remote chains...] -- 0:02:33
-      553000 -- [-1169.322] [...19 remote chains...] -- 0:02:32
-      554000 -- [-1204.017] [...19 remote chains...] -- 0:02:32
-      555000 -- [-1194.200] [...19 remote chains...] -- 0:02:32
+      549000 -- [-992.222] [...19 remote chains...] -- 0:01:37
+      550000 -- [-1026.384] [...19 remote chains...] -- 0:01:37
+      551000 -- [-1004.669] [...19 remote chains...] -- 0:01:36
+      552000 -- [-979.571] [...19 remote chains...] -- 0:01:37
+      553000 -- [-999.161] [...19 remote chains...] -- 0:01:36
+      554000 -- [-993.317] [...19 remote chains...] -- 0:01:36
+      555000 -- [-1012.117] [...19 remote chains...] -- 0:01:36
 
       Average standard deviation of split frequencies: 0.000000
 
-      556000 -- [-1176.815] [...19 remote chains...] -- 0:02:31
-      557000 -- [-1182.539] [...19 remote chains...] -- 0:02:30
-      558000 -- [-1178.079] [...19 remote chains...] -- 0:02:31
-      559000 -- [-1180.949] [...19 remote chains...] -- 0:02:30
-      560000 -- [-1178.466] [...19 remote chains...] -- 0:02:29
+      556000 -- [-988.000] [...19 remote chains...] -- 0:01:36
+      557000 -- [-988.408] [...19 remote chains...] -- 0:01:36
+      558000 -- [-994.280] [...19 remote chains...] -- 0:01:35
+      559000 -- [-974.157] [...19 remote chains...] -- 0:01:35
+      560000 -- [-1022.050] [...19 remote chains...] -- 0:01:34
 
       Average standard deviation of split frequencies: 0.000000
 
-      561000 -- [-1175.718] [...19 remote chains...] -- 0:02:30
-      562000 -- [-1167.853] [...19 remote chains...] -- 0:02:29
-      563000 -- [-1192.111] [...19 remote chains...] -- 0:02:28
-      564000 -- [-1176.521] [...19 remote chains...] -- 0:02:28
-      565000 -- [-1171.980] [...19 remote chains...] -- 0:02:28
+      561000 -- [-995.142] [...19 remote chains...] -- 0:01:35
+      562000 -- [-1034.830] [...19 remote chains...] -- 0:01:34
+      563000 -- [-981.749] [...19 remote chains...] -- 0:01:34
+      564000 -- [-1018.553] [...19 remote chains...] -- 0:01:34
+      565000 -- [-990.280] [...19 remote chains...] -- 0:01:34
 
       Average standard deviation of split frequencies: 0.000000
 
-      566000 -- [-1188.569] [...19 remote chains...] -- 0:02:27
-      567000 -- [-1159.378] [...19 remote chains...] -- 0:02:27
-      568000 -- [-1192.033] [...19 remote chains...] -- 0:02:27
+      566000 -- [-1007.879] [...19 remote chains...] -- 0:01:34
+      567000 -- [-977.094] [...19 remote chains...] -- 0:01:33
+      568000 -- [-975.181] [...19 remote chains...] -- 0:01:33
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 29 out of 50 steps...
 
-      569000 -- [-1163.331] [...19 remote chains...] -- 0:02:26
-      570000 -- [-1162.041] [...19 remote chains...] -- 0:02:26
-      571000 -- [-1170.156] [...19 remote chains...] -- 0:02:26
-      572000 -- [-1172.215] [...19 remote chains...] -- 0:02:25
-      573000 -- [-1171.367] [...19 remote chains...] -- 0:02:25
-      574000 -- [-1160.246] [...19 remote chains...] -- 0:02:25
-      575000 -- [-1170.911] [...19 remote chains...] -- 0:02:24
+      569000 -- [-989.759] [...19 remote chains...] -- 0:01:33
+      570000 -- [-989.650] [...19 remote chains...] -- 0:01:33
+      571000 -- [-994.408] [...19 remote chains...] -- 0:01:33
+      572000 -- [-992.469] [...19 remote chains...] -- 0:01:32
+      573000 -- [-1008.166] [...19 remote chains...] -- 0:01:32
+      574000 -- [-999.811] [...19 remote chains...] -- 0:01:32
+      575000 -- [-992.694] [...19 remote chains...] -- 0:01:32
 
       Average standard deviation of split frequencies: 0.000000
 
-      576000 -- [-1175.865] [...19 remote chains...] -- 0:02:24
-      577000 -- [-1188.186] [...19 remote chains...] -- 0:02:24
-      578000 -- [-1189.413] [...19 remote chains...] -- 0:02:23
-      579000 -- [-1177.195] [...19 remote chains...] -- 0:02:23
-      580000 -- [-1174.031] [...19 remote chains...] -- 0:02:23
+      576000 -- [-992.657] [...19 remote chains...] -- 0:01:31
+      577000 -- [-1003.415] [...19 remote chains...] -- 0:01:31
+      578000 -- [-1005.266] [...19 remote chains...] -- 0:01:31
+      579000 -- [-1015.999] [...19 remote chains...] -- 0:01:31
+      580000 -- [-981.242] [...19 remote chains...] -- 0:01:31
 
       Average standard deviation of split frequencies: 0.000000
 
-      581000 -- [-1216.496] [...19 remote chains...] -- 0:02:22
-      582000 -- [-1205.647] [...19 remote chains...] -- 0:02:22
-      583000 -- [-1179.248] [...19 remote chains...] -- 0:02:22
-      584000 -- [-1172.931] [...19 remote chains...] -- 0:02:21
-      585000 -- [-1200.075] [...19 remote chains...] -- 0:02:21
+      581000 -- [-984.120] [...19 remote chains...] -- 0:01:30
+      582000 -- [-1013.737] [...19 remote chains...] -- 0:01:30
+      583000 -- [-1031.836] [...19 remote chains...] -- 0:01:30
+      584000 -- [-1015.440] [...19 remote chains...] -- 0:01:30
+      585000 -- [-1007.375] [...19 remote chains...] -- 0:01:30
 
       Average standard deviation of split frequencies: 0.000000
 
-      586000 -- [-1179.562] [...19 remote chains...] -- 0:02:21
-      587000 -- [-1163.079] [...19 remote chains...] -- 0:02:20
-      588000 -- [-1159.875] [...19 remote chains...] -- 0:02:20
+      586000 -- [-995.995] [...19 remote chains...] -- 0:01:29
+      587000 -- [-974.745] [...19 remote chains...] -- 0:01:29
+      588000 -- [-979.800] [...19 remote chains...] -- 0:01:29
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 30 out of 50 steps...
 
-      589000 -- [-1156.714] [...19 remote chains...] -- 0:02:20
-      590000 -- [-1182.883] [...19 remote chains...] -- 0:02:19
-      591000 -- [-1158.263] [...19 remote chains...] -- 0:02:18
-      592000 -- [-1162.594] [...19 remote chains...] -- 0:02:19
-      593000 -- [-1156.963] [...19 remote chains...] -- 0:02:18
-      594000 -- [-1185.871] [...19 remote chains...] -- 0:02:18
-      595000 -- [-1167.899] [...19 remote chains...] -- 0:02:18
+      589000 -- [-959.224] [...19 remote chains...] -- 0:01:29
+      590000 -- [-972.899] [...19 remote chains...] -- 0:01:28
+      591000 -- [-981.608] [...19 remote chains...] -- 0:01:28
+      592000 -- [-981.524] [...19 remote chains...] -- 0:01:28
+      593000 -- [-979.838] [...19 remote chains...] -- 0:01:28
+      594000 -- [-993.582] [...19 remote chains...] -- 0:01:28
+      595000 -- [-977.746] [...19 remote chains...] -- 0:01:27
 
       Average standard deviation of split frequencies: 0.000000
 
-      596000 -- [-1157.130] [...19 remote chains...] -- 0:02:17
-      597000 -- [-1173.097] [...19 remote chains...] -- 0:02:17
-      598000 -- [-1160.040] [...19 remote chains...] -- 0:02:17
-      599000 -- [-1157.122] [...19 remote chains...] -- 0:02:16
-      600000 -- [-1162.128] [...19 remote chains...] -- 0:02:16
+      596000 -- [-974.060] [...19 remote chains...] -- 0:01:27
+      597000 -- [-1005.034] [...19 remote chains...] -- 0:01:27
+      598000 -- [-1000.683] [...19 remote chains...] -- 0:01:27
+      599000 -- [-1008.794] [...19 remote chains...] -- 0:01:26
+      600000 -- [-1005.640] [...19 remote chains...] -- 0:01:26
 
       Average standard deviation of split frequencies: 0.000000
 
-      601000 -- [-1159.016] [...19 remote chains...] -- 0:02:15
-      602000 -- [-1185.238] [...19 remote chains...] -- 0:02:15
-      603000 -- [-1180.859] [...19 remote chains...] -- 0:02:15
-      604000 -- [-1170.085] [...19 remote chains...] -- 0:02:14
-      605000 -- [-1169.836] [...19 remote chains...] -- 0:02:14
+      601000 -- [-988.610] [...19 remote chains...] -- 0:01:26
+      602000 -- [-991.911] [...19 remote chains...] -- 0:01:26
+      603000 -- [-1009.777] [...19 remote chains...] -- 0:01:26
+      604000 -- [-989.315] [...19 remote chains...] -- 0:01:25
+      605000 -- [-982.950] [...19 remote chains...] -- 0:01:25
 
       Average standard deviation of split frequencies: 0.000000
 
-      606000 -- [-1169.659] [...19 remote chains...] -- 0:02:14
-      607000 -- [-1171.585] [...19 remote chains...] -- 0:02:13
+      606000 -- [-1004.508] [...19 remote chains...] -- 0:01:25
+      607000 -- [-1010.931] [...19 remote chains...] -- 0:01:25
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 31 out of 50 steps...
 
-      608000 -- [-1180.362] [...19 remote chains...] -- 0:02:13
-      609000 -- [-1179.094] [...19 remote chains...] -- 0:02:13
-      610000 -- [-1195.089] [...19 remote chains...] -- 0:02:12
-      611000 -- [-1246.354] [...19 remote chains...] -- 0:02:12
-      612000 -- [-1174.008] [...19 remote chains...] -- 0:02:12
-      613000 -- [-1183.733] [...19 remote chains...] -- 0:02:11
-      614000 -- [-1191.863] [...19 remote chains...] -- 0:02:11
-      615000 -- [-1220.521] [...19 remote chains...] -- 0:02:11
+      608000 -- [-987.605] [...19 remote chains...] -- 0:01:25
+      609000 -- [-985.635] [...19 remote chains...] -- 0:01:24
+      610000 -- [-1006.601] [...19 remote chains...] -- 0:01:24
+      611000 -- [-1026.344] [...19 remote chains...] -- 0:01:24
+      612000 -- [-983.550] [...19 remote chains...] -- 0:01:24
+      613000 -- [-1004.960] [...19 remote chains...] -- 0:01:23
+      614000 -- [-994.335] [...19 remote chains...] -- 0:01:23
+      615000 -- [-975.655] [...19 remote chains...] -- 0:01:23
 
       Average standard deviation of split frequencies: 0.000000
 
-      616000 -- [-1235.378] [...19 remote chains...] -- 0:02:10
-      617000 -- [-1234.454] [...19 remote chains...] -- 0:02:10
-      618000 -- [-1245.689] [...19 remote chains...] -- 0:02:10
-      619000 -- [-1290.163] [...19 remote chains...] -- 0:02:09
-      620000 -- [-1265.310] [...19 remote chains...] -- 0:02:09
+      616000 -- [-996.528] [...19 remote chains...] -- 0:01:23
+      617000 -- [-1010.325] [...19 remote chains...] -- 0:01:23
+      618000 -- [-1012.494] [...19 remote chains...] -- 0:01:22
+      619000 -- [-969.852] [...19 remote chains...] -- 0:01:23
+      620000 -- [-1029.791] [...19 remote chains...] -- 0:01:22
 
       Average standard deviation of split frequencies: 0.000000
 
-      621000 -- [-1222.881] [...19 remote chains...] -- 0:02:09
-      622000 -- [-1220.981] [...19 remote chains...] -- 0:02:08
-      623000 -- [-1226.424] [...19 remote chains...] -- 0:02:08
-      624000 -- [-1191.354] [...19 remote chains...] -- 0:02:08
-      625000 -- [-1193.687] [...19 remote chains...] -- 0:02:07
+      621000 -- [-1009.876] [...19 remote chains...] -- 0:01:22
+      622000 -- [-1009.436] [...19 remote chains...] -- 0:01:21
+      623000 -- [-985.268] [...19 remote chains...] -- 0:01:21
+      624000 -- [-1031.700] [...19 remote chains...] -- 0:01:21
+      625000 -- [-1006.551] [...19 remote chains...] -- 0:01:21
 
       Average standard deviation of split frequencies: 0.000000
 
-      626000 -- [-1159.229] [...19 remote chains...] -- 0:02:07
-      627000 -- [-1159.067] [...19 remote chains...] -- 0:02:07
+      626000 -- [-1001.896] [...19 remote chains...] -- 0:01:21
+      627000 -- [-1020.506] [...19 remote chains...] -- 0:01:20
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 32 out of 50 steps...
 
-      628000 -- [-1176.069] [...19 remote chains...] -- 0:02:06
-      629000 -- [-1159.895] [...19 remote chains...] -- 0:02:06
-      630000 -- [-1169.883] [...19 remote chains...] -- 0:02:06
-      631000 -- [-1175.053] [...19 remote chains...] -- 0:02:05
-      632000 -- [-1158.006] [...19 remote chains...] -- 0:02:05
-      633000 -- [-1204.371] [...19 remote chains...] -- 0:02:05
-      634000 -- [-1195.274] [...19 remote chains...] -- 0:02:04
-      635000 -- [-1178.069] [...19 remote chains...] -- 0:02:04
+      628000 -- [-999.314] [...19 remote chains...] -- 0:01:21
+      629000 -- [-1058.287] [...19 remote chains...] -- 0:01:20
+      630000 -- [-1011.945] [...19 remote chains...] -- 0:01:20
+      631000 -- [-988.654] [...19 remote chains...] -- 0:01:20
+      632000 -- [-995.244] [...19 remote chains...] -- 0:01:19
+      633000 -- [-1029.371] [...19 remote chains...] -- 0:01:19
+      634000 -- [-1036.645] [...19 remote chains...] -- 0:01:19
+      635000 -- [-992.022] [...19 remote chains...] -- 0:01:19
 
       Average standard deviation of split frequencies: 0.000000
 
-      636000 -- [-1163.461] [...19 remote chains...] -- 0:02:04
-      637000 -- [-1183.722] [...19 remote chains...] -- 0:02:03
-      638000 -- [-1169.964] [...19 remote chains...] -- 0:02:02
-      639000 -- [-1163.562] [...19 remote chains...] -- 0:02:03
-      640000 -- [-1156.763] [...19 remote chains...] -- 0:02:02
+      636000 -- [-979.500] [...19 remote chains...] -- 0:01:18
+      637000 -- [-998.075] [...19 remote chains...] -- 0:01:19
+      638000 -- [-995.175] [...19 remote chains...] -- 0:01:18
+      639000 -- [-999.025] [...19 remote chains...] -- 0:01:18
+      640000 -- [-986.844] [...19 remote chains...] -- 0:01:18
 
       Average standard deviation of split frequencies: 0.000000
 
-      641000 -- [-1190.428] [...19 remote chains...] -- 0:02:01
-      642000 -- [-1166.919] [...19 remote chains...] -- 0:02:01
-      643000 -- [-1188.805] [...19 remote chains...] -- 0:02:01
-      644000 -- [-1191.798] [...19 remote chains...] -- 0:02:00
-      645000 -- [-1185.037] [...19 remote chains...] -- 0:02:00
+      641000 -- [-1018.601] [...19 remote chains...] -- 0:01:17
+      642000 -- [-1001.530] [...19 remote chains...] -- 0:01:17
+      643000 -- [-1004.685] [...19 remote chains...] -- 0:01:17
+      644000 -- [-1015.772] [...19 remote chains...] -- 0:01:17
+      645000 -- [-1064.089] [...19 remote chains...] -- 0:01:16
 
       Average standard deviation of split frequencies: 0.000000
 
-      646000 -- [-1185.510] [...19 remote chains...] -- 0:02:00
+      646000 -- [-1007.024] [...19 remote chains...] -- 0:01:17
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 33 out of 50 steps...
 
-      647000 -- [-1215.446] [...19 remote chains...] -- 0:01:59
-      648000 -- [-1197.870] [...19 remote chains...] -- 0:01:59
-      649000 -- [-1205.912] [...19 remote chains...] -- 0:01:59
-      650000 -- [-1189.306] [...19 remote chains...] -- 0:01:58
-      651000 -- [-1191.693] [...19 remote chains...] -- 0:01:58
-      652000 -- [-1201.171] [...19 remote chains...] -- 0:01:58
-      653000 -- [-1200.518] [...19 remote chains...] -- 0:01:58
-      654000 -- [-1220.444] [...19 remote chains...] -- 0:01:57
-      655000 -- [-1194.499] [...19 remote chains...] -- 0:01:57
+      647000 -- [-980.728] [...19 remote chains...] -- 0:01:16
+      648000 -- [-1001.177] [...19 remote chains...] -- 0:01:16
+      649000 -- [-976.355] [...19 remote chains...] -- 0:01:16
+      650000 -- [-976.109] [...19 remote chains...] -- 0:01:16
+      651000 -- [-986.579] [...19 remote chains...] -- 0:01:16
+      652000 -- [-995.652] [...19 remote chains...] -- 0:01:15
+      653000 -- [-991.720] [...19 remote chains...] -- 0:01:15
+      654000 -- [-1011.789] [...19 remote chains...] -- 0:01:15
+      655000 -- [-1000.122] [...19 remote chains...] -- 0:01:15
 
       Average standard deviation of split frequencies: 0.000000
 
-      656000 -- [-1195.497] [...19 remote chains...] -- 0:01:57
-      657000 -- [-1320.828] [...19 remote chains...] -- 0:01:56
-      658000 -- [-1245.998] [...19 remote chains...] -- 0:01:56
-      659000 -- [-1246.289] [...19 remote chains...] -- 0:01:56
-      660000 -- [-1185.999] [...19 remote chains...] -- 0:01:55
+      656000 -- [-1009.721] [...19 remote chains...] -- 0:01:14
+      657000 -- [-994.937] [...19 remote chains...] -- 0:01:14
+      658000 -- [-981.513] [...19 remote chains...] -- 0:01:14
+      659000 -- [-988.354] [...19 remote chains...] -- 0:01:14
+      660000 -- [-1021.096] [...19 remote chains...] -- 0:01:14
 
       Average standard deviation of split frequencies: 0.000000
 
-      661000 -- [-1184.778] [...19 remote chains...] -- 0:01:55
-      662000 -- [-1198.578] [...19 remote chains...] -- 0:01:55
-      663000 -- [-1239.023] [...19 remote chains...] -- 0:01:54
-      664000 -- [-1213.088] [...19 remote chains...] -- 0:01:54
-      665000 -- [-1186.468] [...19 remote chains...] -- 0:01:54
+      661000 -- [-1017.101] [...19 remote chains...] -- 0:01:13
+      662000 -- [-1019.496] [...19 remote chains...] -- 0:01:13
+      663000 -- [-1024.438] [...19 remote chains...] -- 0:01:13
+      664000 -- [-988.268] [...19 remote chains...] -- 0:01:13
+      665000 -- [-1007.790] [...19 remote chains...] -- 0:01:12
 
       Average standard deviation of split frequencies: 0.000000
 
-      666000 -- [-1188.097] [...19 remote chains...] -- 0:01:53
+      666000 -- [-981.734] [...19 remote chains...] -- 0:01:12
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 34 out of 50 steps...
 
-      667000 -- [-1217.877] [...19 remote chains...] -- 0:01:53
-      668000 -- [-1185.160] [...19 remote chains...] -- 0:01:53
-      669000 -- [-1217.762] [...19 remote chains...] -- 0:01:52
-      670000 -- [-1207.908] [...19 remote chains...] -- 0:01:52
-      671000 -- [-1191.820] [...19 remote chains...] -- 0:01:51
-      672000 -- [-1198.359] [...19 remote chains...] -- 0:01:51
-      673000 -- [-1199.147] [...19 remote chains...] -- 0:01:51
-      674000 -- [-1209.953] [...19 remote chains...] -- 0:01:50
-      675000 -- [-1203.632] [...19 remote chains...] -- 0:01:50
+      667000 -- [-1003.646] [...19 remote chains...] -- 0:01:12
+      668000 -- [-1013.541] [...19 remote chains...] -- 0:01:12
+      669000 -- [-1041.966] [...19 remote chains...] -- 0:01:12
+      670000 -- [-998.457] [...19 remote chains...] -- 0:01:11
+      671000 -- [-993.121] [...19 remote chains...] -- 0:01:11
+      672000 -- [-1013.530] [...19 remote chains...] -- 0:01:11
+      673000 -- [-1017.572] [...19 remote chains...] -- 0:01:11
+      674000 -- [-1004.439] [...19 remote chains...] -- 0:01:11
+      675000 -- [-995.406] [...19 remote chains...] -- 0:01:10
 
       Average standard deviation of split frequencies: 0.000000
 
-      676000 -- [-1215.879] [...19 remote chains...] -- 0:01:50
-      677000 -- [-1240.898] [...19 remote chains...] -- 0:01:49
-      678000 -- [-1243.696] [...19 remote chains...] -- 0:01:49
-      679000 -- [-1204.632] [...19 remote chains...] -- 0:01:49
-      680000 -- [-1195.116] [...19 remote chains...] -- 0:01:48
+      676000 -- [-1012.471] [...19 remote chains...] -- 0:01:10
+      677000 -- [-987.979] [...19 remote chains...] -- 0:01:10
+      678000 -- [-978.044] [...19 remote chains...] -- 0:01:10
+      679000 -- [-999.426] [...19 remote chains...] -- 0:01:09
+      680000 -- [-1021.797] [...19 remote chains...] -- 0:01:09
 
       Average standard deviation of split frequencies: 0.000000
 
-      681000 -- [-1186.277] [...19 remote chains...] -- 0:01:48
-      682000 -- [-1194.824] [...19 remote chains...] -- 0:01:48
-      683000 -- [-1198.587] [...19 remote chains...] -- 0:01:47
-      684000 -- [-1197.647] [...19 remote chains...] -- 0:01:47
-      685000 -- [-1192.956] [...19 remote chains...] -- 0:01:47
+      681000 -- [-1077.296] [...19 remote chains...] -- 0:01:09
+      682000 -- [-1034.056] [...19 remote chains...] -- 0:01:09
+      683000 -- [-1006.551] [...19 remote chains...] -- 0:01:09
+      684000 -- [-990.974] [...19 remote chains...] -- 0:01:08
+      685000 -- [-1004.816] [...19 remote chains...] -- 0:01:08
 
       Average standard deviation of split frequencies: 0.000000
 
-      686000 -- [-1218.057] [...19 remote chains...] -- 0:01:46
+      686000 -- [-1032.082] [...19 remote chains...] -- 0:01:08
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 35 out of 50 steps...
 
-      687000 -- [-1240.116] [...19 remote chains...] -- 0:01:46
-      688000 -- [-1252.225] [...19 remote chains...] -- 0:01:45
-      689000 -- [-1302.439] [...19 remote chains...] -- 0:01:45
-      690000 -- [-1254.685] [...19 remote chains...] -- 0:01:45
-      691000 -- [-1218.326] [...19 remote chains...] -- 0:01:44
-      692000 -- [-1265.388] [...19 remote chains...] -- 0:01:44
-      693000 -- [-1247.252] [...19 remote chains...] -- 0:01:44
-      694000 -- [-1222.267] [...19 remote chains...] -- 0:01:43
-      695000 -- [-1271.531] [...19 remote chains...] -- 0:01:43
+      687000 -- [-977.940] [...19 remote chains...] -- 0:01:08
+      688000 -- [-972.675] [...19 remote chains...] -- 0:01:07
+      689000 -- [-989.497] [...19 remote chains...] -- 0:01:07
+      690000 -- [-983.157] [...19 remote chains...] -- 0:01:07
+      691000 -- [-986.258] [...19 remote chains...] -- 0:01:07
+      692000 -- [-1007.990] [...19 remote chains...] -- 0:01:07
+      693000 -- [-1001.996] [...19 remote chains...] -- 0:01:06
+      694000 -- [-1008.789] [...19 remote chains...] -- 0:01:06
+      695000 -- [-1028.164] [...19 remote chains...] -- 0:01:06
 
       Average standard deviation of split frequencies: 0.000000
 
-      696000 -- [-1304.280] [...19 remote chains...] -- 0:01:43
-      697000 -- [-1228.570] [...19 remote chains...] -- 0:01:42
-      698000 -- [-1216.608] [...19 remote chains...] -- 0:01:42
-      699000 -- [-1209.770] [...19 remote chains...] -- 0:01:41
-      700000 -- [-1200.538] [...19 remote chains...] -- 0:01:41
+      696000 -- [-1009.119] [...19 remote chains...] -- 0:01:06
+      697000 -- [-994.071] [...19 remote chains...] -- 0:01:05
+      698000 -- [-991.440] [...19 remote chains...] -- 0:01:05
+      699000 -- [-978.489] [...19 remote chains...] -- 0:01:05
+      700000 -- [-988.326] [...19 remote chains...] -- 0:01:05
 
       Average standard deviation of split frequencies: 0.000000
 
-      701000 -- [-1167.909] [...19 remote chains...] -- 0:01:41
-      702000 -- [-1227.030] [...19 remote chains...] -- 0:01:40
-      703000 -- [-1226.786] [...19 remote chains...] -- 0:01:40
-      704000 -- [-1222.165] [...19 remote chains...] -- 0:01:40
-      705000 -- [-1235.143] [...19 remote chains...] -- 0:01:39
+      701000 -- [-1008.186] [...19 remote chains...] -- 0:01:05
+      702000 -- [-988.375] [...19 remote chains...] -- 0:01:04
+      703000 -- [-1016.384] [...19 remote chains...] -- 0:01:04
+      704000 -- [-979.538] [...19 remote chains...] -- 0:01:04
+      705000 -- [-1036.125] [...19 remote chains...] -- 0:01:04
 
       Average standard deviation of split frequencies: 0.000000
 
@@ -1726,32 +1722,32 @@
 
       Sampling step 36 out of 50 steps...
 
-      706000 -- [-1191.300] [...19 remote chains...] -- 0:01:39
-      707000 -- [-1194.763] [...19 remote chains...] -- 0:01:39
-      708000 -- [-1222.006] [...19 remote chains...] -- 0:01:38
-      709000 -- [-1199.344] [...19 remote chains...] -- 0:01:38
-      710000 -- [-1206.755] [...19 remote chains...] -- 0:01:38
-      711000 -- [-1247.788] [...19 remote chains...] -- 0:01:37
-      712000 -- [-1194.339] [...19 remote chains...] -- 0:01:37
-      713000 -- [-1210.540] [...19 remote chains...] -- 0:01:37
-      714000 -- [-1211.891] [...19 remote chains...] -- 0:01:36
-      715000 -- [-1213.526] [...19 remote chains...] -- 0:01:36
+      706000 -- [-1010.238] [...19 remote chains...] -- 0:01:04
+      707000 -- [-997.540] [...19 remote chains...] -- 0:01:03
+      708000 -- [-1003.790] [...19 remote chains...] -- 0:01:03
+      709000 -- [-967.613] [...19 remote chains...] -- 0:01:03
+      710000 -- [-1011.526] [...19 remote chains...] -- 0:01:03
+      711000 -- [-980.403] [...19 remote chains...] -- 0:01:02
+      712000 -- [-970.262] [...19 remote chains...] -- 0:01:02
+      713000 -- [-1032.041] [...19 remote chains...] -- 0:01:02
+      714000 -- [-1036.194] [...19 remote chains...] -- 0:01:02
+      715000 -- [-1041.556] [...19 remote chains...] -- 0:01:02
 
       Average standard deviation of split frequencies: 0.000000
 
-      716000 -- [-1187.865] [...19 remote chains...] -- 0:01:36
-      717000 -- [-1203.242] [...19 remote chains...] -- 0:01:35
-      718000 -- [-1223.637] [...19 remote chains...] -- 0:01:35
-      719000 -- [-1234.436] [...19 remote chains...] -- 0:01:35
-      720000 -- [-1217.891] [...19 remote chains...] -- 0:01:34
+      716000 -- [-1002.641] [...19 remote chains...] -- 0:01:01
+      717000 -- [-992.277] [...19 remote chains...] -- 0:01:01
+      718000 -- [-1018.650] [...19 remote chains...] -- 0:01:01
+      719000 -- [-1026.106] [...19 remote chains...] -- 0:01:01
+      720000 -- [-1014.443] [...19 remote chains...] -- 0:01:00
 
       Average standard deviation of split frequencies: 0.000000
 
-      721000 -- [-1205.961] [...19 remote chains...] -- 0:01:34
-      722000 -- [-1160.415] [...19 remote chains...] -- 0:01:34
-      723000 -- [-1166.583] [...19 remote chains...] -- 0:01:33
-      724000 -- [-1194.829] [...19 remote chains...] -- 0:01:33
-      725000 -- [-1177.358] [...19 remote chains...] -- 0:01:33
+      721000 -- [-1047.800] [...19 remote chains...] -- 0:01:00
+      722000 -- [-1088.286] [...19 remote chains...] -- 0:01:00
+      723000 -- [-1012.188] [...19 remote chains...] -- 0:01:00
+      724000 -- [-1060.467] [...19 remote chains...] -- 0:01:00
+      725000 -- [-1097.973] [...19 remote chains...] -- 0:00:59
 
       Average standard deviation of split frequencies: 0.000000
 
@@ -1760,364 +1756,364 @@
 
       Sampling step 37 out of 50 steps...
 
-      726000 -- [-1192.493] [...19 remote chains...] -- 0:01:32
-      727000 -- [-1246.472] [...19 remote chains...] -- 0:01:32
-      728000 -- [-1159.694] [...19 remote chains...] -- 0:01:32
-      729000 -- [-1164.961] [...19 remote chains...] -- 0:01:31
-      730000 -- [-1213.050] [...19 remote chains...] -- 0:01:31
-      731000 -- [-1238.226] [...19 remote chains...] -- 0:01:31
-      732000 -- [-1212.837] [...19 remote chains...] -- 0:01:30
-      733000 -- [-1258.293] [...19 remote chains...] -- 0:01:30
-      734000 -- [-1204.852] [...19 remote chains...] -- 0:01:30
-      735000 -- [-1233.124] [...19 remote chains...] -- 0:01:29
+      726000 -- [-1058.795] [...19 remote chains...] -- 0:00:59
+      727000 -- [-1090.933] [...19 remote chains...] -- 0:00:59
+      728000 -- [-1069.431] [...19 remote chains...] -- 0:00:59
+      729000 -- [-1114.126] [...19 remote chains...] -- 0:00:59
+      730000 -- [-1071.815] [...19 remote chains...] -- 0:00:58
+      731000 -- [-1095.092] [...19 remote chains...] -- 0:00:58
+      732000 -- [-1057.632] [...19 remote chains...] -- 0:00:58
+      733000 -- [-1042.273] [...19 remote chains...] -- 0:00:58
+      734000 -- [-1027.453] [...19 remote chains...] -- 0:00:57
+      735000 -- [-1046.094] [...19 remote chains...] -- 0:00:57
 
       Average standard deviation of split frequencies: 0.000000
 
-      736000 -- [-1222.959] [...19 remote chains...] -- 0:01:29
-      737000 -- [-1219.720] [...19 remote chains...] -- 0:01:29
-      738000 -- [-1250.540] [...19 remote chains...] -- 0:01:28
-      739000 -- [-1183.585] [...19 remote chains...] -- 0:01:28
-      740000 -- [-1216.016] [...19 remote chains...] -- 0:01:28
+      736000 -- [-1121.346] [...19 remote chains...] -- 0:00:57
+      737000 -- [-1126.126] [...19 remote chains...] -- 0:00:57
+      738000 -- [-1113.929] [...19 remote chains...] -- 0:00:57
+      739000 -- [-1129.611] [...19 remote chains...] -- 0:00:56
+      740000 -- [-1019.377] [...19 remote chains...] -- 0:00:56
 
       Average standard deviation of split frequencies: 0.000000
 
-      741000 -- [-1206.854] [...19 remote chains...] -- 0:01:27
-      742000 -- [-1195.470] [...19 remote chains...] -- 0:01:27
-      743000 -- [-1181.772] [...19 remote chains...] -- 0:01:27
-      744000 -- [-1297.596] [...19 remote chains...] -- 0:01:26
+      741000 -- [-1070.513] [...19 remote chains...] -- 0:00:56
+      742000 -- [-1046.421] [...19 remote chains...] -- 0:00:56
+      743000 -- [-1062.536] [...19 remote chains...] -- 0:00:55
+      744000 -- [-1060.704] [...19 remote chains...] -- 0:00:55
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 38 out of 50 steps...
 
-      745000 -- [-1279.854] [...19 remote chains...] -- 0:01:26
-      746000 -- [-1263.545] [...19 remote chains...] -- 0:01:26
-      747000 -- [-1379.556] [...19 remote chains...] -- 0:01:25
-      748000 -- [-1260.093] [...19 remote chains...] -- 0:01:25
-      749000 -- [-1279.679] [...19 remote chains...] -- 0:01:24
-      750000 -- [-1189.275] [...19 remote chains...] -- 0:01:24
+      745000 -- [-1027.326] [...19 remote chains...] -- 0:00:55
+      746000 -- [-1031.487] [...19 remote chains...] -- 0:00:55
+      747000 -- [-1184.759] [...19 remote chains...] -- 0:00:55
+      748000 -- [-1017.239] [...19 remote chains...] -- 0:00:54
+      749000 -- [-1076.695] [...19 remote chains...] -- 0:00:54
+      750000 -- [-1098.398] [...19 remote chains...] -- 0:00:54
 
       Average standard deviation of split frequencies: 0.000000
 
-      751000 -- [-1235.400] [...19 remote chains...] -- 0:01:24
-      752000 -- [-1214.776] [...19 remote chains...] -- 0:01:23
-      753000 -- [-1227.417] [...19 remote chains...] -- 0:01:23
-      754000 -- [-1191.766] [...19 remote chains...] -- 0:01:23
-      755000 -- [-1201.939] [...19 remote chains...] -- 0:01:22
+      751000 -- [-1086.394] [...19 remote chains...] -- 0:00:54
+      752000 -- [-1044.772] [...19 remote chains...] -- 0:00:53
+      753000 -- [-1042.684] [...19 remote chains...] -- 0:00:53
+      754000 -- [-1060.663] [...19 remote chains...] -- 0:00:53
+      755000 -- [-1082.459] [...19 remote chains...] -- 0:00:53
 
       Average standard deviation of split frequencies: 0.000000
 
-      756000 -- [-1178.628] [...19 remote chains...] -- 0:01:22
-      757000 -- [-1210.336] [...19 remote chains...] -- 0:01:22
-      758000 -- [-1245.643] [...19 remote chains...] -- 0:01:21
-      759000 -- [-1202.746] [...19 remote chains...] -- 0:01:21
-      760000 -- [-1208.025] [...19 remote chains...] -- 0:01:21
+      756000 -- [-1055.343] [...19 remote chains...] -- 0:00:53
+      757000 -- [-1071.927] [...19 remote chains...] -- 0:00:52
+      758000 -- [-1057.659] [...19 remote chains...] -- 0:00:52
+      759000 -- [-1146.062] [...19 remote chains...] -- 0:00:52
+      760000 -- [-1070.488] [...19 remote chains...] -- 0:00:52
 
       Average standard deviation of split frequencies: 0.000000
 
-      761000 -- [-1189.097] [...19 remote chains...] -- 0:01:20
-      762000 -- [-1289.316] [...19 remote chains...] -- 0:01:20
-      763000 -- [-1255.921] [...19 remote chains...] -- 0:01:20
-      764000 -- [-1287.834] [...19 remote chains...] -- 0:01:19
+      761000 -- [-1059.033] [...19 remote chains...] -- 0:00:52
+      762000 -- [-1094.051] [...19 remote chains...] -- 0:00:51
+      763000 -- [-1143.712] [...19 remote chains...] -- 0:00:51
+      764000 -- [-1096.199] [...19 remote chains...] -- 0:00:51
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 39 out of 50 steps...
 
-      765000 -- [-1235.855] [...19 remote chains...] -- 0:01:19
-      766000 -- [-1247.236] [...19 remote chains...] -- 0:01:18
-      767000 -- [-1273.366] [...19 remote chains...] -- 0:01:18
-      768000 -- [-1293.150] [...19 remote chains...] -- 0:01:18
-      769000 -- [-1226.770] [...19 remote chains...] -- 0:01:17
-      770000 -- [-1180.202] [...19 remote chains...] -- 0:01:17
+      765000 -- [-1033.555] [...19 remote chains...] -- 0:00:51
+      766000 -- [-1145.645] [...19 remote chains...] -- 0:00:50
+      767000 -- [-1127.067] [...19 remote chains...] -- 0:00:50
+      768000 -- [-1106.535] [...19 remote chains...] -- 0:00:50
+      769000 -- [-1047.641] [...19 remote chains...] -- 0:00:50
+      770000 -- [-1135.392] [...19 remote chains...] -- 0:00:50
 
       Average standard deviation of split frequencies: 0.000000
 
-      771000 -- [-1165.570] [...19 remote chains...] -- 0:01:17
-      772000 -- [-1256.957] [...19 remote chains...] -- 0:01:16
-      773000 -- [-1232.756] [...19 remote chains...] -- 0:01:16
-      774000 -- [-1196.940] [...19 remote chains...] -- 0:01:16
-      775000 -- [-1205.927] [...19 remote chains...] -- 0:01:15
+      771000 -- [-1081.741] [...19 remote chains...] -- 0:00:49
+      772000 -- [-1136.396] [...19 remote chains...] -- 0:00:49
+      773000 -- [-1209.574] [...19 remote chains...] -- 0:00:49
+      774000 -- [-1092.521] [...19 remote chains...] -- 0:00:49
+      775000 -- [-1258.290] [...19 remote chains...] -- 0:00:48
 
       Average standard deviation of split frequencies: 0.000000
 
-      776000 -- [-1260.437] [...19 remote chains...] -- 0:01:15
-      777000 -- [-1445.009] [...19 remote chains...] -- 0:01:15
-      778000 -- [-1214.296] [...19 remote chains...] -- 0:01:14
-      779000 -- [-1198.156] [...19 remote chains...] -- 0:01:14
-      780000 -- [-1177.598] [...19 remote chains...] -- 0:01:14
+      776000 -- [-1072.366] [...19 remote chains...] -- 0:00:48
+      777000 -- [-1107.148] [...19 remote chains...] -- 0:00:48
+      778000 -- [-1088.540] [...19 remote chains...] -- 0:00:48
+      779000 -- [-1030.823] [...19 remote chains...] -- 0:00:48
+      780000 -- [-1024.500] [...19 remote chains...] -- 0:00:47
 
       Average standard deviation of split frequencies: 0.000000
 
-      781000 -- [-1203.797] [...19 remote chains...] -- 0:01:13
-      782000 -- [-1190.244] [...19 remote chains...] -- 0:01:13
-      783000 -- [-1272.437] [...19 remote chains...] -- 0:01:13
-      784000 -- [-1192.468] [...19 remote chains...] -- 0:01:12
+      781000 -- [-1073.999] [...19 remote chains...] -- 0:00:47
+      782000 -- [-1166.334] [...19 remote chains...] -- 0:00:47
+      783000 -- [-1149.348] [...19 remote chains...] -- 0:00:47
+      784000 -- [-1166.732] [...19 remote chains...] -- 0:00:47
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 40 out of 50 steps...
 
-      785000 -- [-1269.564] [...19 remote chains...] -- 0:01:12
-      786000 -- [-1260.381] [...19 remote chains...] -- 0:01:12
-      787000 -- [-1284.167] [...19 remote chains...] -- 0:01:11
-      788000 -- [-1267.310] [...19 remote chains...] -- 0:01:11
-      789000 -- [-1214.180] [...19 remote chains...] -- 0:01:11
-      790000 -- [-1317.232] [...19 remote chains...] -- 0:01:10
+      785000 -- [-1203.147] [...19 remote chains...] -- 0:00:46
+      786000 -- [-1108.983] [...19 remote chains...] -- 0:00:46
+      787000 -- [-1238.590] [...19 remote chains...] -- 0:00:46
+      788000 -- [-1126.046] [...19 remote chains...] -- 0:00:46
+      789000 -- [-1107.087] [...19 remote chains...] -- 0:00:45
+      790000 -- [-1133.003] [...19 remote chains...] -- 0:00:45
 
       Average standard deviation of split frequencies: 0.000000
 
-      791000 -- [-1282.560] [...19 remote chains...] -- 0:01:10
-      792000 -- [-1299.532] [...19 remote chains...] -- 0:01:10
-      793000 -- [-1242.543] [...19 remote chains...] -- 0:01:09
-      794000 -- [-1275.376] [...19 remote chains...] -- 0:01:09
-      795000 -- [-1232.227] [...19 remote chains...] -- 0:01:09
+      791000 -- [-1145.442] [...19 remote chains...] -- 0:00:45
+      792000 -- [-1324.238] [...19 remote chains...] -- 0:00:45
+      793000 -- [-1252.552] [...19 remote chains...] -- 0:00:45
+      794000 -- [-1090.087] [...19 remote chains...] -- 0:00:44
+      795000 -- [-1092.829] [...19 remote chains...] -- 0:00:44
 
       Average standard deviation of split frequencies: 0.000000
 
-      796000 -- [-1208.377] [...19 remote chains...] -- 0:01:08
-      797000 -- [-1234.326] [...19 remote chains...] -- 0:01:08
-      798000 -- [-1232.729] [...19 remote chains...] -- 0:01:08
-      799000 -- [-1210.739] [...19 remote chains...] -- 0:01:07
-      800000 -- [-1184.244] [...19 remote chains...] -- 0:01:07
+      796000 -- [-1096.490] [...19 remote chains...] -- 0:00:44
+      797000 -- [-1162.462] [...19 remote chains...] -- 0:00:44
+      798000 -- [-1251.102] [...19 remote chains...] -- 0:00:43
+      799000 -- [-1140.039] [...19 remote chains...] -- 0:00:43
+      800000 -- [-1069.863] [...19 remote chains...] -- 0:00:43
 
       Average standard deviation of split frequencies: 0.000000
 
-      801000 -- [-1224.370] [...19 remote chains...] -- 0:01:07
-      802000 -- [-1182.351] [...19 remote chains...] -- 0:01:06
-      803000 -- [-1185.215] [...19 remote chains...] -- 0:01:06
+      801000 -- [-1109.530] [...19 remote chains...] -- 0:00:43
+      802000 -- [-1183.173] [...19 remote chains...] -- 0:00:43
+      803000 -- [-1119.680] [...19 remote chains...] -- 0:00:42
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 41 out of 50 steps...
 
-      804000 -- [-1219.369] [...19 remote chains...] -- 0:01:06
-      805000 -- [-1183.782] [...19 remote chains...] -- 0:01:05
-      806000 -- [-1216.205] [...19 remote chains...] -- 0:01:05
-      807000 -- [-1310.788] [...19 remote chains...] -- 0:01:05
-      808000 -- [-1240.422] [...19 remote chains...] -- 0:01:04
-      809000 -- [-1239.016] [...19 remote chains...] -- 0:01:04
-      810000 -- [-1211.436] [...19 remote chains...] -- 0:01:04
+      804000 -- [-1121.739] [...19 remote chains...] -- 0:00:42
+      805000 -- [-1042.555] [...19 remote chains...] -- 0:00:42
+      806000 -- [-1093.287] [...19 remote chains...] -- 0:00:42
+      807000 -- [-1089.632] [...19 remote chains...] -- 0:00:42
+      808000 -- [-1044.151] [...19 remote chains...] -- 0:00:41
+      809000 -- [-1103.415] [...19 remote chains...] -- 0:00:41
+      810000 -- [-1015.725] [...19 remote chains...] -- 0:00:41
 
       Average standard deviation of split frequencies: 0.000000
 
-      811000 -- [-1217.761] [...19 remote chains...] -- 0:01:03
-      812000 -- [-1207.066] [...19 remote chains...] -- 0:01:03
-      813000 -- [-1326.551] [...19 remote chains...] -- 0:01:03
-      814000 -- [-1225.975] [...19 remote chains...] -- 0:01:02
-      815000 -- [-1219.312] [...19 remote chains...] -- 0:01:02
+      811000 -- [-1203.245] [...19 remote chains...] -- 0:00:41
+      812000 -- [-1106.788] [...19 remote chains...] -- 0:00:40
+      813000 -- [-1029.121] [...19 remote chains...] -- 0:00:40
+      814000 -- [-1269.787] [...19 remote chains...] -- 0:00:40
+      815000 -- [-1069.267] [...19 remote chains...] -- 0:00:40
 
       Average standard deviation of split frequencies: 0.000000
 
-      816000 -- [-1195.301] [...19 remote chains...] -- 0:01:02
-      817000 -- [-1234.150] [...19 remote chains...] -- 0:01:01
-      818000 -- [-1301.598] [...19 remote chains...] -- 0:01:01
-      819000 -- [-1195.518] [...19 remote chains...] -- 0:01:01
-      820000 -- [-1225.018] [...19 remote chains...] -- 0:01:00
+      816000 -- [-1063.586] [...19 remote chains...] -- 0:00:40
+      817000 -- [-1087.903] [...19 remote chains...] -- 0:00:40
+      818000 -- [-1107.955] [...19 remote chains...] -- 0:00:39
+      819000 -- [-1225.467] [...19 remote chains...] -- 0:00:39
+      820000 -- [-1068.880] [...19 remote chains...] -- 0:00:39
 
       Average standard deviation of split frequencies: 0.000000
 
-      821000 -- [-1197.710] [...19 remote chains...] -- 0:01:00
-      822000 -- [-1192.808] [...19 remote chains...] -- 0:01:00
-      823000 -- [-1270.850] [...19 remote chains...] -- 0:00:59
+      821000 -- [-1072.788] [...19 remote chains...] -- 0:00:38
+      822000 -- [-1030.662] [...19 remote chains...] -- 0:00:38
+      823000 -- [-1218.432] [...19 remote chains...] -- 0:00:38
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 42 out of 50 steps...
 
-      824000 -- [-1290.396] [...19 remote chains...] -- 0:00:59
-      825000 -- [-1335.080] [...19 remote chains...] -- 0:00:59
-      826000 -- [-1310.100] [...19 remote chains...] -- 0:00:58
-      827000 -- [-1279.620] [...19 remote chains...] -- 0:00:58
-      828000 -- [-1278.381] [...19 remote chains...] -- 0:00:58
-      829000 -- [-1261.389] [...19 remote chains...] -- 0:00:57
-      830000 -- [-1215.310] [...19 remote chains...] -- 0:00:57
+      824000 -- [-1227.964] [...19 remote chains...] -- 0:00:38
+      825000 -- [-1282.871] [...19 remote chains...] -- 0:00:38
+      826000 -- [-1189.934] [...19 remote chains...] -- 0:00:38
+      827000 -- [-1205.634] [...19 remote chains...] -- 0:00:37
+      828000 -- [-1262.394] [...19 remote chains...] -- 0:00:37
+      829000 -- [-1167.565] [...19 remote chains...] -- 0:00:37
+      830000 -- [-1028.881] [...19 remote chains...] -- 0:00:36
 
       Average standard deviation of split frequencies: 0.000000
 
-      831000 -- [-1286.500] [...19 remote chains...] -- 0:00:57
-      832000 -- [-1301.063] [...19 remote chains...] -- 0:00:56
-      833000 -- [-1394.815] [...19 remote chains...] -- 0:00:56
-      834000 -- [-1470.176] [...19 remote chains...] -- 0:00:55
-      835000 -- [-1265.076] [...19 remote chains...] -- 0:00:55
+      831000 -- [-1211.156] [...19 remote chains...] -- 0:00:36
+      832000 -- [-1049.038] [...19 remote chains...] -- 0:00:36
+      833000 -- [-1083.593] [...19 remote chains...] -- 0:00:36
+      834000 -- [-1038.567] [...19 remote chains...] -- 0:00:36
+      835000 -- [-1086.482] [...19 remote chains...] -- 0:00:36
 
       Average standard deviation of split frequencies: 0.000000
 
-      836000 -- [-1334.408] [...19 remote chains...] -- 0:00:55
-      837000 -- [-1338.020] [...19 remote chains...] -- 0:00:54
-      838000 -- [-1225.191] [...19 remote chains...] -- 0:00:54
-      839000 -- [-1202.428] [...19 remote chains...] -- 0:00:54
-      840000 -- [-1261.661] [...19 remote chains...] -- 0:00:53
+      836000 -- [-1173.299] [...19 remote chains...] -- 0:00:35
+      837000 -- [-1397.910] [...19 remote chains...] -- 0:00:35
+      838000 -- [-1170.609] [...19 remote chains...] -- 0:00:35
+      839000 -- [-1276.490] [...19 remote chains...] -- 0:00:35
+      840000 -- [-1284.959] [...19 remote chains...] -- 0:00:34
 
       Average standard deviation of split frequencies: 0.000000
 
-      841000 -- [-1223.677] [...19 remote chains...] -- 0:00:53
-      842000 -- [-1234.552] [...19 remote chains...] -- 0:00:53
+      841000 -- [-1249.694] [...19 remote chains...] -- 0:00:34
+      842000 -- [-1130.100] [...19 remote chains...] -- 0:00:34
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 43 out of 50 steps...
 
-      843000 -- [-1436.944] [...19 remote chains...] -- 0:00:52
-      844000 -- [-1309.162] [...19 remote chains...] -- 0:00:52
-      845000 -- [-1337.783] [...19 remote chains...] -- 0:00:52
-      846000 -- [-1211.011] [...19 remote chains...] -- 0:00:51
-      847000 -- [-1194.722] [...19 remote chains...] -- 0:00:51
-      848000 -- [-1183.134] [...19 remote chains...] -- 0:00:51
-      849000 -- [-1207.484] [...19 remote chains...] -- 0:00:50
-      850000 -- [-1471.014] [...19 remote chains...] -- 0:00:50
+      843000 -- [-1165.520] [...19 remote chains...] -- 0:00:34
+      844000 -- [-1692.143] [...19 remote chains...] -- 0:00:34
+      845000 -- [-1880.214] [...19 remote chains...] -- 0:00:33
+      846000 -- [-1726.631] [...19 remote chains...] -- 0:00:33
+      847000 -- [-1157.755] [...19 remote chains...] -- 0:00:33
+      848000 -- [-1218.445] [...19 remote chains...] -- 0:00:33
+      849000 -- [-1160.445] [...19 remote chains...] -- 0:00:32
+      850000 -- [-1122.472] [...19 remote chains...] -- 0:00:32
 
       Average standard deviation of split frequencies: 0.000000
 
-      851000 -- [-1261.747] [...19 remote chains...] -- 0:00:50
-      852000 -- [-1310.532] [...19 remote chains...] -- 0:00:49
-      853000 -- [-1386.641] [...19 remote chains...] -- 0:00:49
-      854000 -- [-1435.528] [...19 remote chains...] -- 0:00:49
-      855000 -- [-1339.078] [...19 remote chains...] -- 0:00:48
+      851000 -- [-1088.064] [...19 remote chains...] -- 0:00:32
+      852000 -- [-1196.987] [...19 remote chains...] -- 0:00:32
+      853000 -- [-1096.589] [...19 remote chains...] -- 0:00:32
+      854000 -- [-1051.829] [...19 remote chains...] -- 0:00:31
+      855000 -- [-1167.718] [...19 remote chains...] -- 0:00:31
 
       Average standard deviation of split frequencies: 0.000000
 
-      856000 -- [-1186.339] [...19 remote chains...] -- 0:00:48
-      857000 -- [-1267.423] [...19 remote chains...] -- 0:00:48
-      858000 -- [-1292.037] [...19 remote chains...] -- 0:00:47
-      859000 -- [-1346.879] [...19 remote chains...] -- 0:00:47
-      860000 -- [-1548.129] [...19 remote chains...] -- 0:00:47
+      856000 -- [-1156.493] [...19 remote chains...] -- 0:00:31
+      857000 -- [-1366.962] [...19 remote chains...] -- 0:00:31
+      858000 -- [-1334.602] [...19 remote chains...] -- 0:00:31
+      859000 -- [-1313.211] [...19 remote chains...] -- 0:00:30
+      860000 -- [-1135.099] [...19 remote chains...] -- 0:00:30
 
       Average standard deviation of split frequencies: 0.000000
 
-      861000 -- [-1699.187] [...19 remote chains...] -- 0:00:46
-      862000 -- [-1316.081] [...19 remote chains...] -- 0:00:46
+      861000 -- [-1741.190] [...19 remote chains...] -- 0:00:30
+      862000 -- [-1296.976] [...19 remote chains...] -- 0:00:30
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 44 out of 50 steps...
 
-      863000 -- [-1449.641] [...19 remote chains...] -- 0:00:46
-      864000 -- [-1247.222] [...19 remote chains...] -- 0:00:45
-      865000 -- [-1215.388] [...19 remote chains...] -- 0:00:45
-      866000 -- [-1186.114] [...19 remote chains...] -- 0:00:45
-      867000 -- [-1319.513] [...19 remote chains...] -- 0:00:44
-      868000 -- [-1336.362] [...19 remote chains...] -- 0:00:44
-      869000 -- [-1269.084] [...19 remote chains...] -- 0:00:44
-      870000 -- [-1243.573] [...19 remote chains...] -- 0:00:43
+      863000 -- [-1436.593] [...19 remote chains...] -- 0:00:29
+      864000 -- [-1606.227] [...19 remote chains...] -- 0:00:29
+      865000 -- [-1151.005] [...19 remote chains...] -- 0:00:29
+      866000 -- [-1423.250] [...19 remote chains...] -- 0:00:29
+      867000 -- [-1103.716] [...19 remote chains...] -- 0:00:29
+      868000 -- [-1207.770] [...19 remote chains...] -- 0:00:28
+      869000 -- [-1252.223] [...19 remote chains...] -- 0:00:28
+      870000 -- [-1318.532] [...19 remote chains...] -- 0:00:28
 
       Average standard deviation of split frequencies: 0.000000
 
-      871000 -- [-1229.144] [...19 remote chains...] -- 0:00:43
-      872000 -- [-1250.661] [...19 remote chains...] -- 0:00:43
-      873000 -- [-1480.840] [...19 remote chains...] -- 0:00:42
-      874000 -- [-1284.972] [...19 remote chains...] -- 0:00:42
-      875000 -- [-1234.565] [...19 remote chains...] -- 0:00:42
+      871000 -- [-1475.222] [...19 remote chains...] -- 0:00:28
+      872000 -- [-1358.633] [...19 remote chains...] -- 0:00:27
+      873000 -- [-1351.569] [...19 remote chains...] -- 0:00:27
+      874000 -- [-2981.961] [...19 remote chains...] -- 0:00:27
+      875000 -- [-1480.478] [...19 remote chains...] -- 0:00:27
 
       Average standard deviation of split frequencies: 0.000000
 
-      876000 -- [-1443.158] [...19 remote chains...] -- 0:00:41
-      877000 -- [-1335.681] [...19 remote chains...] -- 0:00:41
-      878000 -- [-1490.458] [...19 remote chains...] -- 0:00:40
-      879000 -- [-1286.097] [...19 remote chains...] -- 0:00:40
-      880000 -- [-1344.344] [...19 remote chains...] -- 0:00:40
+      876000 -- [-1501.054] [...19 remote chains...] -- 0:00:27
+      877000 -- [-1145.903] [...19 remote chains...] -- 0:00:26
+      878000 -- [-1256.911] [...19 remote chains...] -- 0:00:26
+      879000 -- [-1196.858] [...19 remote chains...] -- 0:00:26
+      880000 -- [-1356.459] [...19 remote chains...] -- 0:00:26
 
       Average standard deviation of split frequencies: 0.000000
 
-      881000 -- [-1843.764] [...19 remote chains...] -- 0:00:39
-      882000 -- [-1396.900] [...19 remote chains...] -- 0:00:39
+      881000 -- [-1218.798] [...19 remote chains...] -- 0:00:25
+      882000 -- [-1243.274] [...19 remote chains...] -- 0:00:25
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 45 out of 50 steps...
 
-      883000 -- [-1401.048] [...19 remote chains...] -- 0:00:39
-      884000 -- [-1913.105] [...19 remote chains...] -- 0:00:38
-      885000 -- [-1731.279] [...19 remote chains...] -- 0:00:38
-      886000 -- [-1233.224] [...19 remote chains...] -- 0:00:38
-      887000 -- [-1314.137] [...19 remote chains...] -- 0:00:37
-      888000 -- [-1367.321] [...19 remote chains...] -- 0:00:37
-      889000 -- [-1241.336] [...19 remote chains...] -- 0:00:37
-      890000 -- [-1214.534] [...19 remote chains...] -- 0:00:36
+      883000 -- [-1925.022] [...19 remote chains...] -- 0:00:25
+      884000 -- [-1853.385] [...19 remote chains...] -- 0:00:25
+      885000 -- [-1409.026] [...19 remote chains...] -- 0:00:25
+      886000 -- [-1939.746] [...19 remote chains...] -- 0:00:24
+      887000 -- [-1907.616] [...19 remote chains...] -- 0:00:24
+      888000 -- [-2131.950] [...19 remote chains...] -- 0:00:24
+      889000 -- [-2321.096] [...19 remote chains...] -- 0:00:24
+      890000 -- [-2649.898] [...19 remote chains...] -- 0:00:24
 
       Average standard deviation of split frequencies: 0.000000
 
-      891000 -- [-1290.137] [...19 remote chains...] -- 0:00:36
-      892000 -- [-1332.168] [...19 remote chains...] -- 0:00:36
-      893000 -- [-1277.959] [...19 remote chains...] -- 0:00:35
-      894000 -- [-1256.355] [...19 remote chains...] -- 0:00:35
-      895000 -- [-1484.037] [...19 remote chains...] -- 0:00:35
+      891000 -- [-3024.857] [...19 remote chains...] -- 0:00:23
+      892000 -- [-2157.125] [...19 remote chains...] -- 0:00:23
+      893000 -- [-1222.530] [...19 remote chains...] -- 0:00:23
+      894000 -- [-998.551] [...19 remote chains...] -- 0:00:23
+      895000 -- [-1020.719] [...19 remote chains...] -- 0:00:22
 
       Average standard deviation of split frequencies: 0.000000
 
-      896000 -- [-1223.700] [...19 remote chains...] -- 0:00:34
-      897000 -- [-1264.623] [...19 remote chains...] -- 0:00:34
-      898000 -- [-1355.480] [...19 remote chains...] -- 0:00:34
-      899000 -- [-1416.954] [...19 remote chains...] -- 0:00:33
-      900000 -- [-1348.688] [...19 remote chains...] -- 0:00:33
+      896000 -- [-1084.666] [...19 remote chains...] -- 0:00:22
+      897000 -- [-1265.740] [...19 remote chains...] -- 0:00:22
+      898000 -- [-1251.231] [...19 remote chains...] -- 0:00:22
+      899000 -- [-1302.269] [...19 remote chains...] -- 0:00:22
+      900000 -- [-1233.161] [...19 remote chains...] -- 0:00:21
 
       Average standard deviation of split frequencies: 0.000000
 
-      901000 -- [-1482.893] [...19 remote chains...] -- 0:00:33
+      901000 -- [-1091.324] [...19 remote chains...] -- 0:00:21
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 46 out of 50 steps...
 
-      902000 -- [-1497.585] [...19 remote chains...] -- 0:00:32
-      903000 -- [-1393.862] [...19 remote chains...] -- 0:00:32
-      904000 -- [-1423.849] [...19 remote chains...] -- 0:00:32
-      905000 -- [-1632.900] [...19 remote chains...] -- 0:00:31
-      906000 -- [-1845.970] [...19 remote chains...] -- 0:00:31
-      907000 -- [-1856.661] [...19 remote chains...] -- 0:00:31
-      908000 -- [-1368.740] [...19 remote chains...] -- 0:00:30
-      909000 -- [-1624.558] [...19 remote chains...] -- 0:00:30
-      910000 -- [-1289.264] [...19 remote chains...] -- 0:00:30
+      902000 -- [-1243.532] [...19 remote chains...] -- 0:00:21
+      903000 -- [-1160.088] [...19 remote chains...] -- 0:00:21
+      904000 -- [-2180.497] [...19 remote chains...] -- 0:00:20
+      905000 -- [-1392.080] [...19 remote chains...] -- 0:00:20
+      906000 -- [-2381.013] [...19 remote chains...] -- 0:00:20
+      907000 -- [-2303.036] [...19 remote chains...] -- 0:00:20
+      908000 -- [-2600.584] [...19 remote chains...] -- 0:00:20
+      909000 -- [-3122.968] [...19 remote chains...] -- 0:00:19
+      910000 -- [-3528.489] [...19 remote chains...] -- 0:00:19
 
       Average standard deviation of split frequencies: 0.000000
 
-      911000 -- [-1318.482] [...19 remote chains...] -- 0:00:29
-      912000 -- [-1678.250] [...19 remote chains...] -- 0:00:29
-      913000 -- [-2320.903] [...19 remote chains...] -- 0:00:29
-      914000 -- [-2315.098] [...19 remote chains...] -- 0:00:28
-      915000 -- [-1552.654] [...19 remote chains...] -- 0:00:28
+      911000 -- [-2851.096] [...19 remote chains...] -- 0:00:19
+      912000 -- [-2568.954] [...19 remote chains...] -- 0:00:19
+      913000 -- [-3100.634] [...19 remote chains...] -- 0:00:18
+      914000 -- [-3311.986] [...19 remote chains...] -- 0:00:18
+      915000 -- [-3058.559] [...19 remote chains...] -- 0:00:18
 
       Average standard deviation of split frequencies: 0.000000
 
-      916000 -- [-1678.712] [...19 remote chains...] -- 0:00:28
-      917000 -- [-1530.951] [...19 remote chains...] -- 0:00:27
-      918000 -- [-1490.520] [...19 remote chains...] -- 0:00:27
-      919000 -- [-2400.017] [...19 remote chains...] -- 0:00:27
-      920000 -- [-1741.234] [...19 remote chains...] -- 0:00:26
+      916000 -- [-3462.871] [...19 remote chains...] -- 0:00:18
+      917000 -- [-3494.148] [...19 remote chains...] -- 0:00:18
+      918000 -- [-2534.111] [...19 remote chains...] -- 0:00:17
+      919000 -- [-2203.645] [...19 remote chains...] -- 0:00:17
+      920000 -- [-2849.610] [...19 remote chains...] -- 0:00:17
 
       Average standard deviation of split frequencies: 0.000000
 
-      921000 -- [-1655.367] [...19 remote chains...] -- 0:00:26
+      921000 -- [-3523.870] [...19 remote chains...] -- 0:00:17
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 47 out of 50 steps...
 
-      922000 -- [-2328.702] [...19 remote chains...] -- 0:00:26
-      923000 -- [-2139.007] [...19 remote chains...] -- 0:00:25
-      924000 -- [-2148.667] [...19 remote chains...] -- 0:00:25
-      925000 -- [-1745.987] [...19 remote chains...] -- 0:00:25
-      926000 -- [-1500.285] [...19 remote chains...] -- 0:00:24
-      927000 -- [-2017.234] [...19 remote chains...] -- 0:00:24
-      928000 -- [-2312.808] [...19 remote chains...] -- 0:00:24
-      929000 -- [-2811.849] [...19 remote chains...] -- 0:00:23
-      930000 -- [-2512.143] [...19 remote chains...] -- 0:00:23
+      922000 -- [-3465.793] [...19 remote chains...] -- 0:00:17
+      923000 -- [-3181.779] [...19 remote chains...] -- 0:00:16
+      924000 -- [-3561.087] [...19 remote chains...] -- 0:00:16
+      925000 -- [-3515.294] [...19 remote chains...] -- 0:00:16
+      926000 -- [-3722.724] [...19 remote chains...] -- 0:00:16
+      927000 -- [-3393.390] [...19 remote chains...] -- 0:00:15
+      928000 -- [-3576.828] [...19 remote chains...] -- 0:00:15
+      929000 -- [-3735.677] [...19 remote chains...] -- 0:00:15
+      930000 -- [-3668.624] [...19 remote chains...] -- 0:00:15
 
       Average standard deviation of split frequencies: 0.000000
 
-      931000 -- [-1850.095] [...19 remote chains...] -- 0:00:23
-      932000 -- [-1732.020] [...19 remote chains...] -- 0:00:22
-      933000 -- [-1769.078] [...19 remote chains...] -- 0:00:22
-      934000 -- [-1375.428] [...19 remote chains...] -- 0:00:22
-      935000 -- [-1232.520] [...19 remote chains...] -- 0:00:21
+      931000 -- [-3669.340] [...19 remote chains...] -- 0:00:15
+      932000 -- [-3443.670] [...19 remote chains...] -- 0:00:14
+      933000 -- [-3521.688] [...19 remote chains...] -- 0:00:14
+      934000 -- [-3279.785] [...19 remote chains...] -- 0:00:14
+      935000 -- [-3092.590] [...19 remote chains...] -- 0:00:14
 
       Average standard deviation of split frequencies: 0.000000
 
-      936000 -- [-1183.973] [...19 remote chains...] -- 0:00:21
-      937000 -- [-1194.398] [...19 remote chains...] -- 0:00:21
-      938000 -- [-1270.972] [...19 remote chains...] -- 0:00:20
-      939000 -- [-1295.041] [...19 remote chains...] -- 0:00:20
-      940000 -- [-1426.339] [...19 remote chains...] -- 0:00:20
+      936000 -- [-3649.791] [...19 remote chains...] -- 0:00:13
+      937000 -- [-3533.572] [...19 remote chains...] -- 0:00:13
+      938000 -- [-3724.282] [...19 remote chains...] -- 0:00:13
+      939000 -- [-3711.836] [...19 remote chains...] -- 0:00:13
+      940000 -- [-3746.297] [...19 remote chains...] -- 0:00:13
 
       Average standard deviation of split frequencies: 0.000000
 
@@ -2126,32 +2122,32 @@
 
       Sampling step 48 out of 50 steps...
 
-      941000 -- [-2450.716] [...19 remote chains...] -- 0:00:19
-      942000 -- [-1769.547] [...19 remote chains...] -- 0:00:19
-      943000 -- [-1836.118] [...19 remote chains...] -- 0:00:19
-      944000 -- [-1907.380] [...19 remote chains...] -- 0:00:18
-      945000 -- [-1429.578] [...19 remote chains...] -- 0:00:18
-      946000 -- [-1487.201] [...19 remote chains...] -- 0:00:18
-      947000 -- [-1306.470] [...19 remote chains...] -- 0:00:17
-      948000 -- [-1352.136] [...19 remote chains...] -- 0:00:17
-      949000 -- [-1431.828] [...19 remote chains...] -- 0:00:17
-      950000 -- [-1705.370] [...19 remote chains...] -- 0:00:16
+      941000 -- [-3445.584] [...19 remote chains...] -- 0:00:12
+      942000 -- [-3313.342] [...19 remote chains...] -- 0:00:12
+      943000 -- [-3536.180] [...19 remote chains...] -- 0:00:12
+      944000 -- [-3650.930] [...19 remote chains...] -- 0:00:12
+      945000 -- [-3536.596] [...19 remote chains...] -- 0:00:11
+      946000 -- [-3570.109] [...19 remote chains...] -- 0:00:11
+      947000 -- [-3522.332] [...19 remote chains...] -- 0:00:11
+      948000 -- [-3748.454] [...19 remote chains...] -- 0:00:11
+      949000 -- [-3679.127] [...19 remote chains...] -- 0:00:11
+      950000 -- [-3715.693] [...19 remote chains...] -- 0:00:10
 
       Average standard deviation of split frequencies: 0.000000
 
-      951000 -- [-1581.587] [...19 remote chains...] -- 0:00:16
-      952000 -- [-1724.796] [...19 remote chains...] -- 0:00:16
-      953000 -- [-1702.065] [...19 remote chains...] -- 0:00:15
-      954000 -- [-1947.630] [...19 remote chains...] -- 0:00:15
-      955000 -- [-1522.021] [...19 remote chains...] -- 0:00:15
+      951000 -- [-3612.018] [...19 remote chains...] -- 0:00:10
+      952000 -- [-3566.705] [...19 remote chains...] -- 0:00:10
+      953000 -- [-3744.921] [...19 remote chains...] -- 0:00:10
+      954000 -- [-3748.453] [...19 remote chains...] -- 0:00:09
+      955000 -- [-3748.423] [...19 remote chains...] -- 0:00:09
 
       Average standard deviation of split frequencies: 0.000000
 
-      956000 -- [-2760.124] [...19 remote chains...] -- 0:00:14
-      957000 -- [-1526.082] [...19 remote chains...] -- 0:00:14
-      958000 -- [-2778.409] [...19 remote chains...] -- 0:00:14
-      959000 -- [-2331.834] [...19 remote chains...] -- 0:00:13
-      960000 -- [-2485.510] [...19 remote chains...] -- 0:00:13
+      956000 -- [-3473.927] [...19 remote chains...] -- 0:00:09
+      957000 -- [-3627.645] [...19 remote chains...] -- 0:00:09
+      958000 -- [-3748.303] [...19 remote chains...] -- 0:00:09
+      959000 -- [-3612.864] [...19 remote chains...] -- 0:00:08
+      960000 -- [-3621.154] [...19 remote chains...] -- 0:00:08
 
       Average standard deviation of split frequencies: 0.000000
 
@@ -2160,88 +2156,88 @@
 
       Sampling step 49 out of 50 steps...
 
-      961000 -- [-2205.198] [...19 remote chains...] -- 0:00:13
-      962000 -- [-2561.010] [...19 remote chains...] -- 0:00:12
-      963000 -- [-2095.380] [...19 remote chains...] -- 0:00:12
-      964000 -- [-1991.879] [...19 remote chains...] -- 0:00:12
-      965000 -- [-1634.450] [...19 remote chains...] -- 0:00:11
-      966000 -- [-2807.759] [...19 remote chains...] -- 0:00:11
-      967000 -- [-2200.179] [...19 remote chains...] -- 0:00:10
-      968000 -- [-1421.510] [...19 remote chains...] -- 0:00:10
-      969000 -- [-1579.332] [...19 remote chains...] -- 0:00:10
-      970000 -- [-1526.114] [...19 remote chains...] -- 0:00:09
+      961000 -- [-3720.900] [...19 remote chains...] -- 0:00:08
+      962000 -- [-3566.395] [...19 remote chains...] -- 0:00:08
+      963000 -- [-3579.601] [...19 remote chains...] -- 0:00:08
+      964000 -- [-3503.322] [...19 remote chains...] -- 0:00:07
+      965000 -- [-3611.625] [...19 remote chains...] -- 0:00:07
+      966000 -- [-3353.839] [...19 remote chains...] -- 0:00:07
+      967000 -- [-3722.295] [...19 remote chains...] -- 0:00:07
+      968000 -- [-3713.285] [...19 remote chains...] -- 0:00:06
+      969000 -- [-3561.954] [...19 remote chains...] -- 0:00:06
+      970000 -- [-3748.448] [...19 remote chains...] -- 0:00:06
 
       Average standard deviation of split frequencies: 0.000000
 
-      971000 -- [-1574.939] [...19 remote chains...] -- 0:00:09
-      972000 -- [-2006.025] [...19 remote chains...] -- 0:00:09
-      973000 -- [-2323.794] [...19 remote chains...] -- 0:00:08
-      974000 -- [-2138.110] [...19 remote chains...] -- 0:00:08
-      975000 -- [-1694.503] [...19 remote chains...] -- 0:00:08
+      971000 -- [-3748.452] [...19 remote chains...] -- 0:00:06
+      972000 -- [-3748.433] [...19 remote chains...] -- 0:00:06
+      973000 -- [-3738.243] [...19 remote chains...] -- 0:00:05
+      974000 -- [-3748.444] [...19 remote chains...] -- 0:00:05
+      975000 -- [-3748.132] [...19 remote chains...] -- 0:00:05
 
       Average standard deviation of split frequencies: 0.000000
 
-      976000 -- [-2151.536] [...19 remote chains...] -- 0:00:07
-      977000 -- [-1947.336] [...19 remote chains...] -- 0:00:07
-      978000 -- [-1887.173] [...19 remote chains...] -- 0:00:07
-      979000 -- [-1989.871] [...19 remote chains...] -- 0:00:06
-      980000 -- [-2031.984] [...19 remote chains...] -- 0:00:06
+      976000 -- [-3748.297] [...19 remote chains...] -- 0:00:05
+      977000 -- [-3673.611] [...19 remote chains...] -- 0:00:04
+      978000 -- [-3748.354] [...19 remote chains...] -- 0:00:04
+      979000 -- [-3748.447] [...19 remote chains...] -- 0:00:04
+      980000 -- [-3748.452] [...19 remote chains...] -- 0:00:04
 
       Average standard deviation of split frequencies: 0.000000
 
       Sampling step 50 out of 50 steps...
 
-      981000 -- [-2454.779] [...19 remote chains...] -- 0:00:06
-      982000 -- [-3007.029] [...19 remote chains...] -- 0:00:05
-      983000 -- [-2686.036] [...19 remote chains...] -- 0:00:05
-      984000 -- [-1979.991] [...19 remote chains...] -- 0:00:05
-      985000 -- [-3124.511] [...19 remote chains...] -- 0:00:04
+      981000 -- [-3745.893] [...19 remote chains...] -- 0:00:04
+      982000 -- [-3554.664] [...19 remote chains...] -- 0:00:03
+      983000 -- [-3582.255] [...19 remote chains...] -- 0:00:03
+      984000 -- [-3748.004] [...19 remote chains...] -- 0:00:03
+      985000 -- [-3748.452] [...19 remote chains...] -- 0:00:03
 
       Average standard deviation of split frequencies: 0.000000
 
-      986000 -- [-1564.829] [...19 remote chains...] -- 0:00:04
-      987000 -- [-1948.736] [...19 remote chains...] -- 0:00:04
-      988000 -- [-1875.834] [...19 remote chains...] -- 0:00:03
-      989000 -- [-1720.324] [...19 remote chains...] -- 0:00:03
-      990000 -- [-2377.994] [...19 remote chains...] -- 0:00:03
+      986000 -- [-3631.347] [...19 remote chains...] -- 0:00:02
+      987000 -- [-3748.387] [...19 remote chains...] -- 0:00:02
+      988000 -- [-3622.887] [...19 remote chains...] -- 0:00:02
+      989000 -- [-3617.675] [...19 remote chains...] -- 0:00:02
+      990000 -- [-3746.823] [...19 remote chains...] -- 0:00:02
 
       Average standard deviation of split frequencies: 0.000000
 
-      991000 -- [-2938.466] [...19 remote chains...] -- 0:00:02
-      992000 -- [-2351.111] [...19 remote chains...] -- 0:00:02
-      993000 -- [-1998.227] [...19 remote chains...] -- 0:00:02
-      994000 -- [-2184.028] [...19 remote chains...] -- 0:00:01
-      995000 -- [-2141.417] [...19 remote chains...] -- 0:00:01
+      991000 -- [-3735.394] [...19 remote chains...] -- 0:00:01
+      992000 -- [-3652.247] [...19 remote chains...] -- 0:00:01
+      993000 -- [-3736.747] [...19 remote chains...] -- 0:00:01
+      994000 -- [-3739.766] [...19 remote chains...] -- 0:00:01
+      995000 -- [-3589.198] [...19 remote chains...] -- 0:00:01
 
       Average standard deviation of split frequencies: 0.000000
 
-      996000 -- [-3224.307] [...19 remote chains...] -- 0:00:01
-      997000 -- [-2409.837] [...19 remote chains...] -- 0:00:00
-      998000 -- [-1955.974] [...19 remote chains...] -- 0:00:00
-      999000 -- [-1933.332] [...19 remote chains...] -- 0:00:00
+      996000 -- [-3742.925] [...19 remote chains...] -- 0:00:00
+      997000 -- [-3748.437] [...19 remote chains...] -- 0:00:00
+      998000 -- [-3668.104] [...19 remote chains...] -- 0:00:00
+      999000 -- [-3061.058] [...19 remote chains...] -- 0:00:00
 
       Average standard deviation of split frequencies: 0.000000
 
-      Analysis completed in 5 mins 37 seconds
-      Analysis used 316.57 seconds of CPU time on processor 0
-      Likelihood of best state for "cold" chain of run 1 was -1102.74
-      Likelihood of best state for "cold" chain of run 2 was -1104.96
-      Likelihood of best state for "cold" chain of run 3 was -1105.30
-      Likelihood of best state for "cold" chain of run 4 was -1104.68
-      Likelihood of best state for "cold" chain of run 5 was -1106.00
+      Analysis completed in 3 mins 39 seconds
+      Analysis used 208.70 seconds of CPU time on processor 0
+      Likelihood of best state for "cold" chain of run 1 was -941.53
+      Likelihood of best state for "cold" chain of run 2 was -938.60
+      Likelihood of best state for "cold" chain of run 3 was -938.23
+      Likelihood of best state for "cold" chain of run 4 was -941.61
+      Likelihood of best state for "cold" chain of run 5 was -938.54
 
       Marginal likelihood (in natural log units) estimated using stepping-stone sampling based on
       50 steps with 19600 generations (196 samples) within each step. 
 
           Run   Marginal likelihood (ln)
           ------------------------------
-            1     -1147.28   
-            2     -1140.12   
-            3     -1138.06   
-            4     -1140.31   
-            5     -1140.04   
+            1      -979.04   
+            2      -968.01   
+            3      -967.77   
+            4      -964.39   
+            5      -965.65   
           ------------------------------
-          Mean:   -1139.36
+          Mean:    -965.70
 
       More statistics on stepping-stone sampling is dumped to alignment_and_trees.nexus.ss file.
 
@@ -2271,16 +2267,16 @@
 
       Acceptance rates for the moves in the "cold" chain of run 1:
          With prob.   (last 100)   chain accepted proposals by move
-             7.1 %     ( 12 %)     AddBranch(V{all})
-             7.1 %     ( 17 %)     DelBranch(V{all})
-            76.0 %     ( 83 %)     NodesliderClock(V{all})
-            31.5 %     ( 27 %)     TreeStretch(V{all})
-            53.4 %     ( 25 %)     Multiplier(Net_speciation{all})
-            41.8 %     ( 24 %)     Slider(Relative_extinction{all})
-            43.4 %     ( 20 %)     Slider(Relative_fossilization{all})
-            73.0 %     ( 45 %)     Multiplier(Igrvar{all})
-            33.6 %     ( 27 %)     Multiplier(IgrBrlens{all})
-            28.2 %     ( 26 %)     Multiplier(Clockrate{all})
+            10.9 %     (  3 %)     AddBranch(V{all})
+            10.9 %     (  6 %)     DelBranch(V{all})
+            74.5 %     ( 82 %)     NodesliderClock(V{all})
+            31.7 %     (  9 %)     TreeStretch(V{all})
+            56.3 %     ( 31 %)     Multiplier(Net_speciation{all})
+            35.5 %     ( 23 %)     Slider(Relative_extinction{all})
+            38.8 %     ( 33 %)     Slider(Relative_fossilization{all})
+            74.1 %     ( 46 %)     Multiplier(Igrvar{all})
+            37.2 %     ( 14 %)     Multiplier(IgrBrlens{all})
+            28.4 %     ( 28 %)     Multiplier(Clockrate{all})
 
       Acceptance rates for the moves in the "cold" chain of run 2:
          With prob.   (last 100)   chain accepted proposals by move
@@ -2291,9 +2287,9 @@
              0.0 %     (  0 %)     Multiplier(Net_speciation{all})
              0.0 %     (  0 %)     Slider(Relative_extinction{all})
              0.0 %     (  0 %)     Slider(Relative_fossilization{all})
-            70.9 %     ( 28 %)     Multiplier(Igrvar{all})
-            34.7 %     ( 32 %)     Multiplier(IgrBrlens{all})
-            27.9 %     ( 29 %)     Multiplier(Clockrate{all})
+            71.8 %     ( 30 %)     Multiplier(Igrvar{all})
+            34.7 %     ( 13 %)     Multiplier(IgrBrlens{all})
+            28.4 %     ( 32 %)     Multiplier(Clockrate{all})
 
       Acceptance rates for the moves in the "cold" chain of run 3:
          With prob.   (last 100)   chain accepted proposals by move
@@ -2304,9 +2300,9 @@
              0.0 %     (  0 %)     Multiplier(Net_speciation{all})
              0.0 %     (  0 %)     Slider(Relative_extinction{all})
              0.0 %     (  0 %)     Slider(Relative_fossilization{all})
-            71.5 %     ( 31 %)     Multiplier(Igrvar{all})
-            34.6 %     ( 33 %)     Multiplier(IgrBrlens{all})
-            28.0 %     ( 24 %)     Multiplier(Clockrate{all})
+            71.9 %     ( 35 %)     Multiplier(Igrvar{all})
+            34.6 %     (  2 %)     Multiplier(IgrBrlens{all})
+            28.8 %     ( 29 %)     Multiplier(Clockrate{all})
 
       Acceptance rates for the moves in the "cold" chain of run 4:
          With prob.   (last 100)   chain accepted proposals by move
@@ -2317,9 +2313,9 @@
              0.0 %     (  0 %)     Multiplier(Net_speciation{all})
              0.0 %     (  0 %)     Slider(Relative_extinction{all})
              0.0 %     (  0 %)     Slider(Relative_fossilization{all})
-            71.2 %     ( 34 %)     Multiplier(Igrvar{all})
-            33.1 %     ( 23 %)     Multiplier(IgrBrlens{all})
-            28.2 %     ( 30 %)     Multiplier(Clockrate{all})
+            72.7 %     ( 38 %)     Multiplier(Igrvar{all})
+            36.9 %     ( 14 %)     Multiplier(IgrBrlens{all})
+            28.4 %     ( 30 %)     Multiplier(Clockrate{all})
 
       Acceptance rates for the moves in the "cold" chain of run 5:
          With prob.   (last 100)   chain accepted proposals by move
@@ -2330,54 +2326,54 @@
              0.0 %     (  0 %)     Multiplier(Net_speciation{all})
              0.0 %     (  0 %)     Slider(Relative_extinction{all})
              0.0 %     (  0 %)     Slider(Relative_fossilization{all})
-            71.2 %     ( 38 %)     Multiplier(Igrvar{all})
-            34.6 %     ( 41 %)     Multiplier(IgrBrlens{all})
-            28.0 %     ( 19 %)     Multiplier(Clockrate{all})
+            71.8 %     ( 35 %)     Multiplier(Igrvar{all})
+            34.6 %     ( 15 %)     Multiplier(IgrBrlens{all})
+            28.4 %     ( 21 %)     Multiplier(Clockrate{all})
 
       Chain swap information for run 1:
 
                    1       2       3       4 
            ----------------------------------
          1 |            0.00    0.00    0.00 
-         2 |  167452            0.00    0.00 
-         3 |  166804  166121            0.00 
-         4 |  166017  166467  166739         
+         2 |  167052            0.00    0.00 
+         3 |  166761  165946            0.00 
+         4 |  166774  167082  165985         
 
       Chain swap information for run 2:
 
                    1       2       3       4 
            ----------------------------------
          1 |            0.00    0.00    0.00 
-         2 |  166978            0.00    0.00 
-         3 |  166599  166486            0.00 
-         4 |  166384  166355  166798         
+         2 |  166842            0.00    0.00 
+         3 |  166446  166667            0.00 
+         4 |  166885  165857  166903         
 
       Chain swap information for run 3:
 
                    1       2       3       4 
            ----------------------------------
          1 |            0.00    0.00    0.00 
-         2 |  166310            0.00    0.00 
-         3 |  166243  166964            0.00 
-         4 |  166806  166442  166835         
+         2 |  166110            0.00    0.00 
+         3 |  166962  166107            0.00 
+         4 |  166431  167098  166892         
 
       Chain swap information for run 4:
 
                    1       2       3       4 
            ----------------------------------
          1 |            0.00    0.00    0.00 
-         2 |  167375            0.00    0.00 
-         3 |  166335  166551            0.00 
-         4 |  166562  166201  166576         
+         2 |  165886            0.00    0.00 
+         3 |  167332  166256            0.00 
+         4 |  166106  167301  166719         
 
       Chain swap information for run 5:
 
                    1       2       3       4 
            ----------------------------------
          1 |            0.00    0.00    0.00 
-         2 |  166895            0.00    0.00 
-         3 |  167261  166679            0.00 
-         4 |  166561  166165  166039         
+         2 |  166244            0.00    0.00 
+         3 |  166734  166649            0.00 
+         4 |  166269  166642  167062         
 
       Upper diagonal: Proportion of successful state exchanges between chains
       Lower diagonal: Number of attempted state exchanges between chains
