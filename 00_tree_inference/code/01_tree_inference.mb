@@ -12,19 +12,19 @@ set autoclose=yes;
 taxastat;
 
 [definition of individual partitions per marker come from partitions.txt]
-charset bethnon=1-137;
-charset consest=138-241;
-charset cumesset=242-384;
-charset judjer1=385-445;
-charset judjer2=446-641;
-charset orisic=642-720;
+charset bethnon=1-118;
+charset consest=119-180;
+charset cumesset=181-307;
+charset judjer1=308-363;
+charset judjer2=364-483;
+charset orisic=484-544;
 
 [definition of the single partition]
 partition chants=6:bethnon,consest,cumesset,judjer1,judjer2,orisic;
 
 [specification of substitution models]
 set partition=chants;
-lset applyto=(1) coding=all rates=invgamma; [Mkv+I+G, nstates is automatic for the standard datatype]
+lset applyto=(all) coding=all rates=invgamma; [Mkv+I+G, nstates is automatic for the standard datatype]
 
 [show the model just specified for each partition]
 showmodel;
