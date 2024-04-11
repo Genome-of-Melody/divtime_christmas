@@ -59,19 +59,19 @@ for (i in 1:nrow(maxpd)) {
 
 ### these posterior aces are for the whole concatenated dataset
 ### the partition positions for the individual melodies are
-#AA, ../data/bethnon_src.aligned.fasta.prenexus.nexus = 1-137
-#AA, ../data/consest_src.aligned.fasta.prenexus.nexus = 138-241
-#AA, ../data/cumesset_src.aligned.fasta.prenexus.nexus = 242-384
-#AA, ../data/judjer1_src.aligned.fasta.prenexus.nexus = 385-445
-#AA, ../data/judjer2_src.aligned.fasta.prenexus.nexus = 446-641
-#AA, ../data/orisic_src.aligned.fasta.prenexus.nexus = 642-720
+#AA, ../data/bethnon_src.aligned.fasta.prenexus.nexus = 1-118
+#AA, ../data/consest_src.aligned.fasta.prenexus.nexus = 119-180
+#AA, ../data/cumesset_src.aligned.fasta.prenexus.nexus = 181-307
+#AA, ../data/judjer1_src.aligned.fasta.prenexus.nexus = 308-363
+#AA, ../data/judjer2_src.aligned.fasta.prenexus.nexus = 364-483
+#AA, ../data/orisic_src.aligned.fasta.prenexus.nexus = 484-544
 
-bethnon_idx <- 1:137
-consest_idx <- 138:241
-cumesset_idx <- 242:384
-judjer1_idx <- 385:445
-judjer2_idx <- 446:641
-orisic_idx <- 642:720
+bethnon_idx <- 1:118
+consest_idx <- 119:180
+cumesset_idx <- 181:307
+judjer1_idx <- 308:363
+judjer2_idx <- 364:483
+orisic_idx <- 484:544
 
 bethnon_maxpd <- maxpd[, bethnon_idx]
 consest_maxpd <- maxpd[, consest_idx]
