@@ -3,7 +3,7 @@ library(ape)
 rm(list=ls())
 
 # load results from ancstate
-load("../../03_anc_melody_inference/analysis/tree19/ancstate.Rda")
+load("../../03_anc_melody_inference/analysis/tree7/ancstate.Rda")
 
 # load alignments with the Solesmes melodies
 # consest
@@ -18,12 +18,12 @@ cumesset_solesmes <- paste(cumesset_solesmes, collapse="")
 cumesset_solesmes <- unname(unlist(strsplit(cumesset_solesmes, split="")))
 # judjer1
 judjer1_solesmes <- readLines("../data/judjer1_wsolesmes.fasta")
-judjer1_solesmes <- judjer1_solesmes[(length(judjer1_solesmes)-1):length(judjer1_solesmes)]
+judjer1_solesmes <- judjer1_solesmes[length(judjer1_solesmes)]
 judjer1_solesmes <- paste(judjer1_solesmes, collapse="")
 judjer1_solesmes <- unname(unlist(strsplit(judjer1_solesmes, split="")))
 # judjer2
 judjer2_solesmes <- readLines("../data/judjer2_wsolesmes.fasta")
-judjer2_solesmes <- judjer2_solesmes[(length(judjer2_solesmes)-3):length(judjer2_solesmes)]
+judjer2_solesmes <- judjer2_solesmes[(length(judjer2_solesmes)-1):length(judjer2_solesmes)]
 judjer2_solesmes <- paste(judjer2_solesmes, collapse="")
 judjer2_solesmes <- unname(unlist(strsplit(judjer2_solesmes, split="")))
 # orisic
@@ -74,7 +74,6 @@ for (i in seq_along(cumesset_solesmes)) {
                                               ancstates=paces)
 }
 
-# mafft --add on judjer1 generated an alignment which is longer than the original!
 judjer1_solesmes_pp <- vector(mode="numeric", length=length(judjer1_solesmes))
 for (i in seq_along(judjer1_solesmes)) {
     judjer1_solesmes_pp[i] <- get_pp_position(symbol=judjer1_solesmes[i],
@@ -229,4 +228,4 @@ probs_table[order(probs_table$melody),]
 
 #### attempt at measuring the difference between solesmes and ancstate
 
-we need a pairwise 
+# we need a pairwise distance from the ancmelody reconstruction to the Solesmes one
