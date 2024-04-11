@@ -30,7 +30,7 @@
       Successfully read matrix
       Setting default partition (does not divide up characters)
       Setting model defaults
-      Seed (for generating default start values) = 1712805044
+      Seed (for generating default start values) = 1712867685
       WARNING: There are 473 characters incompatible with the specified
                coding bias. These characters will be excluded.
       Setting output file names to "alignment_and_trees.nexus.run<i>.<p|t>"
@@ -104,7 +104,7 @@
       Defining partition called 'chants'
       Setting chants as the partition, dividing characters into 6 parts.
       Setting model defaults
-      Seed (for generating default start values) = 1967374913
+      Seed (for generating default start values) = 964488550
       WARNING: There are 91 characters incompatible with the specified
                coding bias. These characters will be excluded.
       WARNING: There are 53 characters incompatible with the specified
@@ -131,11 +131,11 @@
       Setting age of taxon 'CH_E_611' to Uniform(624.00,724.00)
       Setting age of taxon 'CZ_HKm_II_A_4' to Fixed(554.00)
       Setting age of taxon 'CZ_PLm_504_C_004' to Fixed(408.00)
-      Setting age of taxon 'CZ_Pn_XV_A_10' to Uniform(524.00,574.00)
-      Setting age of taxon 'CZ_Pu_I_D_20' to Uniform(524.00,574.00)
+      Setting age of taxon 'CZ_Pn_XV_A_10' to Uniform(624.00,674.00)
+      Setting age of taxon 'CZ_Pu_I_D_20' to Uniform(624.00,674.00)
       Setting age of taxon 'CZ_Pu_XVII_E_1' to Uniform(474.00,524.00)
-      Setting age of taxon 'D_KA_Aug_LX' to Uniform(624.00,1024.00)
-      Setting age of taxon 'D_KNd_1161' to Fixed(824.00)
+      Setting age of taxon 'D_KA_Aug_LX' to Uniform(624.00,924.00)
+      Setting age of taxon 'D_KNd_1161' to Uniform(799.00,849.00)
       Setting age of taxon 'F_Pn_lat_12044' to Uniform(874.00,924.00)
       Setting age of taxon 'F_Pn_lat_15181' to Uniform(674.00,724.00)
       Setting age of taxon 'NL_Uu_406' to Uniform(624.00,924.00)
@@ -302,15 +302,15 @@
                             -- The age of terminal "CH_E_611" is Uniform(624.00,724.00)
                             -- The age of terminal "CZ_HKm_II_A_4" is Fixed(554.00)
                             -- The age of terminal "CZ_PLm_504_C_004" is Fixed(408.00)
-                            -- The age of terminal "CZ_Pn_XV_A_10" is Uniform(524.00,574.00)
-                            -- The age of terminal "CZ_Pu_I_D_20" is Uniform(524.00,574.00)
-                            -- The age of terminal "D_KA_Aug_LX" is Uniform(624.00,1024.00)
+                            -- The age of terminal "CZ_Pn_XV_A_10" is Uniform(624.00,674.00)
+                            -- The age of terminal "CZ_Pu_I_D_20" is Uniform(624.00,674.00)
+                            -- The age of terminal "D_KA_Aug_LX" is Uniform(624.00,924.00)
                             -- The age of terminal "F_Pn_lat_12044" is Uniform(874.00,924.00)
                             -- The age of terminal "NL_Uu_406" is Uniform(624.00,924.00)
                             -- The age of terminal "A_Wn_1799" is Uniform(724.00,824.00)
                             -- The age of terminal "CDN_Hsmu_M2149_L4" is Fixed(474.00)
                             -- The age of terminal "CZ_Pu_XVII_E_1" is Uniform(474.00,524.00)
-                            -- The age of terminal "D_KNd_1161" is Fixed(824.00)
+                            -- The age of terminal "D_KNd_1161" is Uniform(799.00,849.00)
                             -- The age of terminal "F_Pn_lat_15181" is Uniform(674.00,724.00)
                             -- Tree age has a Uniform(1124.00,1324.00) distribution
                Partitions = All
@@ -363,9 +363,9 @@
       Setting chain output file names to "alignment_and_trees.nexus.<p/t>"
       Successfully set chain parameters
       Running Markov chain
-      MCMC stamp = 0013579227
-      Seed = 82876191
-      Swapseed = 1712805044
+      MCMC stamp = 5606558008
+      Seed = 352608931
+      Swapseed = 1712867685
       Model settings:
 
          Settings for partition 1 --
@@ -453,15 +453,15 @@
                             -- The age of terminal "CH_E_611" is Uniform(624.00,724.00)
                             -- The age of terminal "CZ_HKm_II_A_4" is Fixed(554.00)
                             -- The age of terminal "CZ_PLm_504_C_004" is Fixed(408.00)
-                            -- The age of terminal "CZ_Pn_XV_A_10" is Uniform(524.00,574.00)
-                            -- The age of terminal "CZ_Pu_I_D_20" is Uniform(524.00,574.00)
-                            -- The age of terminal "D_KA_Aug_LX" is Uniform(624.00,1024.00)
+                            -- The age of terminal "CZ_Pn_XV_A_10" is Uniform(624.00,674.00)
+                            -- The age of terminal "CZ_Pu_I_D_20" is Uniform(624.00,674.00)
+                            -- The age of terminal "D_KA_Aug_LX" is Uniform(624.00,924.00)
                             -- The age of terminal "F_Pn_lat_12044" is Uniform(874.00,924.00)
                             -- The age of terminal "NL_Uu_406" is Uniform(624.00,924.00)
                             -- The age of terminal "A_Wn_1799" is Uniform(724.00,824.00)
                             -- The age of terminal "CDN_Hsmu_M2149_L4" is Fixed(474.00)
                             -- The age of terminal "CZ_Pu_XVII_E_1" is Uniform(474.00,524.00)
-                            -- The age of terminal "D_KNd_1161" is Fixed(824.00)
+                            -- The age of terminal "D_KNd_1161" is Uniform(799.00,849.00)
                             -- The age of terminal "F_Pn_lat_15181" is Uniform(674.00,724.00)
                             -- Tree age has a Uniform(1124.00,1324.00) distribution
                Partitions = All
@@ -531,7 +531,7 @@
       Using standard non-SSE likelihood calculator for division 6 (single-precision)
 
       Initial log likelihoods and log prior probs:
-         Chain 1 -- 0.000000 -- -3529.552648
+         Chain 1 -- 0.000000 -- -3422.641911
 
       There are 7 more chains on other processor(s)
 
@@ -542,746 +542,746 @@
       10000 -- [0.000] (...7 remote chains...) -- 0:00:00
       20000 -- [0.000] (...7 remote chains...) -- 0:00:00
       30000 -- [0.000] (...7 remote chains...) -- 0:00:00
-      40000 -- [0.000] (...7 remote chains...) -- 0:04:09
-      50000 -- [0.000] (...7 remote chains...) -- 0:03:19
-      60000 -- [0.000] (...7 remote chains...) -- 0:02:45
-      70000 -- [0.000] (...7 remote chains...) -- 0:02:21
-      80000 -- [0.000] (...7 remote chains...) -- 0:02:04
-      90000 -- [0.000] (...7 remote chains...) -- 0:01:50
-      100000 -- [0.000] (...7 remote chains...) -- 0:01:39
-      110000 -- [0.000] (...7 remote chains...) -- 0:01:29
-      120000 -- [0.000] (...7 remote chains...) -- 0:01:22
-      130000 -- [0.000] (...7 remote chains...) -- 0:01:15
-      140000 -- [0.000] (...7 remote chains...) -- 0:01:10
-      150000 -- [0.000] (...7 remote chains...) -- 0:01:05
-      160000 -- [0.000] (...7 remote chains...) -- 0:01:01
-      170000 -- [0.000] (...7 remote chains...) -- 0:00:57
-      180000 -- [0.000] (...7 remote chains...) -- 0:00:54
-      190000 -- [0.000] (...7 remote chains...) -- 0:00:51
-      200000 -- [0.000] (...7 remote chains...) -- 0:00:49
-      210000 -- [0.000] (...7 remote chains...) -- 0:00:46
-      220000 -- [0.000] (...7 remote chains...) -- 0:00:44
-      230000 -- [0.000] (...7 remote chains...) -- 0:00:42
-      240000 -- [0.000] (...7 remote chains...) -- 0:00:40
-      250000 -- [0.000] (...7 remote chains...) -- 0:00:39
-      260000 -- [0.000] (...7 remote chains...) -- 0:00:37
-      270000 -- [0.000] (...7 remote chains...) -- 0:00:36
-      280000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      290000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      300000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      310000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      320000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      330000 -- [0.000] (...7 remote chains...) -- 0:00:58
-      340000 -- [0.000] (...7 remote chains...) -- 0:00:56
-      350000 -- [0.000] (...7 remote chains...) -- 0:00:55
-      360000 -- [0.000] (...7 remote chains...) -- 0:00:53
-      370000 -- [0.000] (...7 remote chains...) -- 0:00:52
-      380000 -- [0.000] (...7 remote chains...) -- 0:00:50
-      390000 -- [0.000] (...7 remote chains...) -- 0:00:49
-      400000 -- [0.000] (...7 remote chains...) -- 0:00:48
-      410000 -- [0.000] (...7 remote chains...) -- 0:00:46
-      420000 -- [0.000] (...7 remote chains...) -- 0:00:45
-      430000 -- [0.000] (...7 remote chains...) -- 0:00:44
-      440000 -- [0.000] (...7 remote chains...) -- 0:00:43
-      450000 -- [0.000] (...7 remote chains...) -- 0:00:42
-      460000 -- [0.000] (...7 remote chains...) -- 0:00:41
-      470000 -- [0.000] (...7 remote chains...) -- 0:00:40
-      480000 -- [0.000] (...7 remote chains...) -- 0:00:39
-      490000 -- [0.000] (...7 remote chains...) -- 0:00:38
-      500000 -- [0.000] (...7 remote chains...) -- 0:00:38
-      510000 -- [0.000] (...7 remote chains...) -- 0:00:37
-      520000 -- [0.000] (...7 remote chains...) -- 0:00:36
-      530000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      540000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      550000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      560000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      570000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      580000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      590000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      600000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      610000 -- [0.000] (...7 remote chains...) -- 0:00:46
-      620000 -- [0.000] (...7 remote chains...) -- 0:00:45
-      630000 -- [0.000] (...7 remote chains...) -- 0:00:44
-      640000 -- [0.000] (...7 remote chains...) -- 0:00:43
-      650000 -- [0.000] (...7 remote chains...) -- 0:00:43
-      660000 -- [0.000] (...7 remote chains...) -- 0:00:42
-      670000 -- [0.000] (...7 remote chains...) -- 0:00:41
-      680000 -- [0.000] (...7 remote chains...) -- 0:00:41
-      690000 -- [0.000] (...7 remote chains...) -- 0:00:40
-      700000 -- [0.000] (...7 remote chains...) -- 0:00:39
-      710000 -- [0.000] (...7 remote chains...) -- 0:00:39
-      720000 -- [0.000] (...7 remote chains...) -- 0:00:38
-      730000 -- [0.000] (...7 remote chains...) -- 0:00:38
-      740000 -- [0.000] (...7 remote chains...) -- 0:00:37
-      750000 -- [0.000] (...7 remote chains...) -- 0:00:37
-      760000 -- [0.000] (...7 remote chains...) -- 0:00:36
-      770000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      780000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      790000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      800000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      810000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      820000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      830000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      840000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      850000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      860000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      870000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      880000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      890000 -- [0.000] (...7 remote chains...) -- 0:00:40
-      900000 -- [0.000] (...7 remote chains...) -- 0:00:40
-      910000 -- [0.000] (...7 remote chains...) -- 0:00:39
-      920000 -- [0.000] (...7 remote chains...) -- 0:00:39
-      930000 -- [0.000] (...7 remote chains...) -- 0:00:39
-      940000 -- [0.000] (...7 remote chains...) -- 0:00:38
-      950000 -- [0.000] (...7 remote chains...) -- 0:00:38
-      960000 -- [0.000] (...7 remote chains...) -- 0:00:37
-      970000 -- [0.000] (...7 remote chains...) -- 0:00:37
-      980000 -- [0.000] (...7 remote chains...) -- 0:00:36
-      990000 -- [0.000] (...7 remote chains...) -- 0:00:36
-      1000000 -- [0.000] (...7 remote chains...) -- 0:00:36
-      1010000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      1020000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      1030000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1040000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1050000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1060000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1070000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1080000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1090000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1100000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1110000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1120000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1130000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1140000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1150000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1160000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1170000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1180000 -- [0.000] (...7 remote chains...) -- 0:00:37
-      1190000 -- [0.000] (...7 remote chains...) -- 0:00:37
-      1200000 -- [0.000] (...7 remote chains...) -- 0:00:36
-      1210000 -- [0.000] (...7 remote chains...) -- 0:00:36
-      1220000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      1230000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      1240000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      1250000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      1260000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1270000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1280000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1290000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1300000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1310000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1320000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1330000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1340000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1350000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1360000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1370000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1380000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1390000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1400000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1410000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1420000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1430000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1440000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1450000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1460000 -- [0.000] (...7 remote chains...) -- 0:00:35
-      1470000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1480000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1490000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1500000 -- [0.000] (...7 remote chains...) -- 0:00:34
-      1510000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1520000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1530000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1540000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1550000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1560000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1570000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1580000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1590000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1600000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1610000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1620000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1630000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1640000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1650000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1660000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1670000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1680000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1690000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1700000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1710000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1720000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      1730000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      1740000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1750000 -- [0.000] (...7 remote chains...) -- 0:00:33
-      1760000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1770000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1780000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1790000 -- [0.000] (...7 remote chains...) -- 0:00:32
-      1800000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1810000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1820000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1830000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1840000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      1850000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1860000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1870000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1880000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1890000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      1900000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1910000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1920000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1930000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1940000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      1950000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      1960000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      1970000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      1980000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      1990000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2000000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2010000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2020000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2030000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2040000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      2050000 -- [0.000] (...7 remote chains...) -- 0:00:31
-      2060000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      2070000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      2080000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      2090000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      2100000 -- [0.000] (...7 remote chains...) -- 0:00:30
-      2110000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2120000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2130000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2140000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2150000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2160000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2170000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2180000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2190000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2200000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2210000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2220000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2230000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2240000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2250000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2260000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2270000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2280000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2290000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2300000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2310000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2320000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2330000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2340000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2350000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2360000 -- [0.000] (...7 remote chains...) -- 0:00:29
-      2370000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2380000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2390000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2400000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2410000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2420000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2430000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2440000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2450000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2460000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2470000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2480000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2490000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2500000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2510000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2520000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2530000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2540000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2550000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2560000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2570000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2580000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2590000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2600000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2610000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2620000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2630000 -- [0.000] (...7 remote chains...) -- 0:00:28
-      2640000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2650000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2660000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2670000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2680000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2690000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2700000 -- [0.000] (...7 remote chains...) -- 0:00:27
-      2710000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2720000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2730000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2740000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2750000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2760000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2770000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2780000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2790000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2800000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2810000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2820000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2830000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2840000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2850000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2860000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      2870000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      2880000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      2890000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      2900000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      2910000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      2920000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      2930000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2940000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2950000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2960000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2970000 -- [0.000] (...7 remote chains...) -- 0:00:26
-      2980000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      2990000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3000000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3010000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3020000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3030000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3040000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3050000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3060000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3070000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3080000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3090000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3100000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3110000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3120000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3130000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3140000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3150000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3160000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3170000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3180000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3190000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3200000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3210000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3220000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3230000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3240000 -- [0.000] (...7 remote chains...) -- 0:00:25
-      3250000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3260000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3270000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3280000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3290000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3300000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3310000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3320000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3330000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3340000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3350000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3360000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3370000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3380000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3390000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3400000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3410000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3420000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3430000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3440000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3450000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3460000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3470000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3480000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3490000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3500000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3510000 -- [0.000] (...7 remote chains...) -- 0:00:24
-      3520000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3530000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3540000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3550000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3560000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3570000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3580000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3590000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3600000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3610000 -- [0.000] (...7 remote chains...) -- 0:00:23
-      3620000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3630000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3640000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3650000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3660000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3670000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3680000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3690000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3700000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3710000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3720000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3730000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3740000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3750000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3760000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3770000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3780000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3790000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3800000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3810000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3820000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3830000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3840000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3850000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3860000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3870000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3880000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      3890000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3900000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3910000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3920000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3930000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3940000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3950000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3960000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3970000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3980000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      3990000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4000000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4010000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4020000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4030000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4040000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      4050000 -- [0.000] (...7 remote chains...) -- 0:00:22
-      4060000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4070000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4080000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4090000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4100000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4110000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4120000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4130000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4140000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4150000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4160000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4170000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4180000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4190000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4200000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4210000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4220000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4230000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4240000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4250000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4260000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4270000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4280000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4290000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4300000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4310000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4320000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4330000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4340000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4350000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4360000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4370000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4380000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4390000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4400000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4410000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4420000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4430000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4440000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4450000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4460000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4470000 -- [0.000] (...7 remote chains...) -- 0:00:21
-      4480000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4490000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4500000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4510000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4520000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4530000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4540000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4550000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4560000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4570000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4580000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4590000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4600000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4610000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4620000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4630000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4640000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4650000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4660000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4670000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4680000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4690000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4700000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4710000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4720000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4730000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4740000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4750000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4760000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4770000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4780000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4790000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4800000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4810000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4820000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4830000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4840000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4850000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4860000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4870000 -- [0.000] (...7 remote chains...) -- 0:00:20
-      4880000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4890000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4900000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4910000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4920000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4930000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4940000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4950000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4960000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4970000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4980000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      4990000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5000000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5010000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5020000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5030000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5040000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5050000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5060000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5070000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5080000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5090000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5100000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5110000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5120000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5130000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5140000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5150000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5160000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5170000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5180000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5190000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5200000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5210000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5220000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5230000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5240000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5250000 -- [0.000] (...7 remote chains...) -- 0:00:19
-      5260000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5270000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5280000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5290000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5300000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5310000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5320000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5330000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5340000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5350000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5360000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5370000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5380000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5390000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5400000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5410000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5420000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5430000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5440000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5450000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5460000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5470000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5480000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5490000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5500000 -- [0.000] (...7 remote chains...) -- 0:00:18
-      5510000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5520000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5530000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5540000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5550000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5560000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5570000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5580000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5590000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5600000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5610000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5620000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5630000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5640000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5650000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5660000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5670000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5680000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5690000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5700000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5710000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5720000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5730000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5740000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5750000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5760000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5770000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5780000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5790000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5800000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5810000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5820000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5830000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5840000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5850000 -- [0.000] (...7 remote chains...) -- 0:00:17
-      5860000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5870000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5880000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5890000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5900000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5910000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5920000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5930000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5940000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5950000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5960000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5970000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5980000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      5990000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      6000000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      6010000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6020000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6030000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6040000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6050000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6060000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6070000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      6080000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      6090000 -- [0.000] (...7 remote chains...) -- 0:00:16
-      6100000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6110000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6120000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6130000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6140000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6150000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6160000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6170000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6180000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6190000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6200000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6210000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6220000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6230000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6240000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6250000 -- [0.000] (...7 remote chains...) -- 0:00:15
-      6260000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6270000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6280000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6290000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6300000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6310000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6320000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6330000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6340000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6350000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6360000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6370000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6380000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6390000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6400000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6410000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6420000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6430000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6440000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6450000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6460000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6470000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6480000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6490000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6500000 -- [0.000] (...7 remote chains...) -- 0:00:14
-      6510000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6520000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6530000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6540000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6550000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6560000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6570000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6580000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6590000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6600000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6610000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6620000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6630000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6640000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6650000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6660000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6670000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6680000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6690000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6700000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6710000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6720000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6730000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6740000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6750000 -- [0.000] (...7 remote chains...) -- 0:00:13
-      6760000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6770000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6780000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6790000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6800000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6810000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6820000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6830000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6840000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6850000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6860000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6870000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6880000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6890000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6900000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6910000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6920000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6930000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      6940000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      6950000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6960000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6970000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6980000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      6990000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      7000000 -- [0.000] (...7 remote chains...) -- 0:00:12
-      7010000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7020000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7030000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7040000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7050000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7060000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7070000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7080000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7090000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7100000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7110000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7120000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7130000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7140000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7150000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7160000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7170000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7180000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7190000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7200000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      40000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      50000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      60000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      70000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      80000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      90000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      100000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      110000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      120000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      130000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      140000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      150000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      160000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      170000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      180000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      190000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      200000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      210000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      220000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      230000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      240000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      250000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      260000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      270000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      280000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      290000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      300000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      310000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      320000 -- [0.000] (...7 remote chains...) -- 0:00:00
+      330000 -- [0.000] (...7 remote chains...) -- 0:00:29
+      340000 -- [0.000] (...7 remote chains...) -- 0:00:28
+      350000 -- [0.000] (...7 remote chains...) -- 0:00:27
+      360000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      370000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      380000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      390000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      400000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      410000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      420000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      430000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      440000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      450000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      460000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      470000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      480000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      490000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      500000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      510000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      520000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      530000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      540000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      550000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      560000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      570000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      580000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      590000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      600000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      610000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      620000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      630000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      640000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      650000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      660000 -- [0.000] (...7 remote chains...) -- 0:00:28
+      670000 -- [0.000] (...7 remote chains...) -- 0:00:27
+      680000 -- [0.000] (...7 remote chains...) -- 0:00:27
+      690000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      700000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      710000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      720000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      730000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      740000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      750000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      760000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      770000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      780000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      790000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      800000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      810000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      820000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      830000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      840000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      850000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      860000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      870000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      880000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      890000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      900000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      910000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      920000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      930000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      940000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      950000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      960000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      970000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      980000 -- [0.000] (...7 remote chains...) -- 0:00:27
+      990000 -- [0.000] (...7 remote chains...) -- 0:00:27
+      1000000 -- [0.000] (...7 remote chains...) -- 0:00:27
+      1010000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      1020000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      1030000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      1040000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1050000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1060000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1070000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1080000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1090000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1100000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1110000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1120000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1130000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1140000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1150000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1160000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1170000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1180000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1190000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1200000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1210000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1220000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1230000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1240000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1250000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1260000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      1270000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      1280000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      1290000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      1300000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      1310000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      1320000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      1330000 -- [0.000] (...7 remote chains...) -- 0:00:26
+      1340000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1350000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1360000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1370000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1380000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1390000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1400000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1410000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1420000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1430000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1440000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1450000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1460000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1470000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1480000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1490000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1500000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1510000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1520000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1530000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1540000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1550000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1560000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1570000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1580000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1590000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1600000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1610000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      1620000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1630000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1640000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1650000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1660000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1670000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1680000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1690000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1700000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1710000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1720000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1730000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1740000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1750000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1760000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1770000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1780000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      1790000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1800000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1810000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1820000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1830000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1840000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1850000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      1860000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1870000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1880000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1890000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1900000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1910000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1920000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      1930000 -- [0.000] (...7 remote chains...) -- 0:00:25
+      1940000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1950000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1960000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1970000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1980000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      1990000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      2000000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      2010000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2020000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2030000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2040000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2050000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2060000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2070000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2080000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2090000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2100000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2110000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2120000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2130000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2140000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2150000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2160000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2170000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2180000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2190000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2200000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2210000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2220000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2230000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2240000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      2250000 -- [0.000] (...7 remote chains...) -- 0:00:24
+      2260000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2270000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2280000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2290000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2300000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2310000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2320000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2330000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2340000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2350000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2360000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2370000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2380000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2390000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2400000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2410000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2420000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2430000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2440000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2450000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2460000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2470000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2480000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2490000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2500000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2510000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2520000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2530000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2540000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2550000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2560000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2570000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2580000 -- [0.000] (...7 remote chains...) -- 0:00:23
+      2590000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2600000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2610000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2620000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2630000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2640000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2650000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2660000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2670000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2680000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2690000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2700000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2710000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2720000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2730000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2740000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2750000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2760000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2770000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2780000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2790000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2800000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2810000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2820000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2830000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2840000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2850000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      2860000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      2870000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2880000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2890000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2900000 -- [0.000] (...7 remote chains...) -- 0:00:22
+      2910000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2920000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2930000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2940000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2950000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2960000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2970000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2980000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      2990000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      3000000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      3010000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3020000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3030000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3040000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3050000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3060000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3070000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3080000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3090000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3100000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3110000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3120000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3130000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3140000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3150000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3160000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3170000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3180000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      3190000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      3200000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      3210000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      3220000 -- [0.000] (...7 remote chains...) -- 0:00:21
+      3230000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3240000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3250000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3260000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3270000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3280000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3290000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3300000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3310000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3320000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3330000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3340000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3350000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3360000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3370000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3380000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3390000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3400000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3410000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3420000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3430000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3440000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3450000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3460000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3470000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3480000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3490000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3500000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3510000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3520000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3530000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3540000 -- [0.000] (...7 remote chains...) -- 0:00:20
+      3550000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3560000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3570000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3580000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3590000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3600000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3610000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3620000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3630000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3640000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3650000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3660000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3670000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3680000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3690000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3700000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3710000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3720000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3730000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3740000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3750000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3760000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3770000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3780000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3790000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3800000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3810000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3820000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3830000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3840000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3850000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3860000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3870000 -- [0.000] (...7 remote chains...) -- 0:00:19
+      3880000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3890000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3900000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3910000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3920000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3930000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3940000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3950000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3960000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3970000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3980000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      3990000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4000000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4010000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4020000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4030000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4040000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4050000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4060000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4070000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4080000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4090000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4100000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4110000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4120000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4130000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4140000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4150000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4160000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4170000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4180000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4190000 -- [0.000] (...7 remote chains...) -- 0:00:18
+      4200000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4210000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4220000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4230000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4240000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4250000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4260000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4270000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4280000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4290000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4300000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4310000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4320000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4330000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4340000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4350000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4360000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4370000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4380000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4390000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4400000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4410000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4420000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4430000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4440000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4450000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4460000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4470000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4480000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4490000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4500000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4510000 -- [0.000] (...7 remote chains...) -- 0:00:17
+      4520000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4530000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4540000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4550000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4560000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4570000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4580000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4590000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4600000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4610000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4620000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4630000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4640000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4650000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4660000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4670000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4680000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4690000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4700000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4710000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4720000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4730000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4740000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4750000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4760000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4770000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4780000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4790000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4800000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4810000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4820000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4830000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      4840000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4850000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4860000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4870000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4880000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4890000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4900000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4910000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4920000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4930000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4940000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4950000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4960000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4970000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4980000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      4990000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5000000 -- [0.000] (...7 remote chains...) -- 0:00:16
+      5010000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5020000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5030000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5040000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5050000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5060000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5070000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5080000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5090000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5100000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5110000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5120000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5130000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5140000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5150000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5160000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5170000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5180000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5190000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5200000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5210000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5220000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5230000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5240000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5250000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5260000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5270000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5280000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5290000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5300000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5310000 -- [0.000] (...7 remote chains...) -- 0:00:15
+      5320000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5330000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5340000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5350000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5360000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5370000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5380000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5390000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5400000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5410000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5420000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5430000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5440000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5450000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5460000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5470000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5480000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5490000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5500000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5510000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5520000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5530000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5540000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5550000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5560000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5570000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5580000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5590000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5600000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5610000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5620000 -- [0.000] (...7 remote chains...) -- 0:00:14
+      5630000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5640000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5650000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5660000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5670000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5680000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5690000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5700000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5710000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5720000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5730000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5740000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5750000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5760000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5770000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5780000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5790000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5800000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5810000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5820000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5830000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5840000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5850000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5860000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5870000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5880000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5890000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5900000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5910000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5920000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5930000 -- [0.000] (...7 remote chains...) -- 0:00:13
+      5940000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5950000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5960000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5970000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5980000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      5990000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6000000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6010000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6020000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6030000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6040000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6050000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6060000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6070000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6080000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6090000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6100000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6110000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6120000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6130000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6140000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6150000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6160000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6170000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6180000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6190000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6200000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6210000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6220000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6230000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6240000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6250000 -- [0.000] (...7 remote chains...) -- 0:00:12
+      6260000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6270000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6280000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6290000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6300000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6310000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6320000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6330000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6340000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6350000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6360000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6370000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6380000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6390000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6400000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6410000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6420000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6430000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6440000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6450000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6460000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6470000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6480000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6490000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6500000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6510000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6520000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6530000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6540000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6550000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6560000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6570000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6580000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6590000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6600000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6610000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6620000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6630000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6640000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6650000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6660000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6670000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6680000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6690000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6700000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6710000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6720000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6730000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6740000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6750000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6760000 -- [0.000] (...7 remote chains...) -- 0:00:11
+      6770000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6780000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6790000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6800000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6810000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6820000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6830000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6840000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6850000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6860000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6870000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6880000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6890000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6900000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6910000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6920000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6930000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6940000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6950000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6960000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6970000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6980000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      6990000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7000000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7010000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7020000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7030000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7040000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7050000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7060000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7070000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7080000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7090000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7100000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7110000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7120000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7130000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7140000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7150000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7160000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7170000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7180000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7190000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7200000 -- [0.000] (...7 remote chains...) -- 0:00:09
       7210000 -- [0.000] (...7 remote chains...) -- 0:00:10
       7220000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7230000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7240000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7250000 -- [0.000] (...7 remote chains...) -- 0:00:11
-      7260000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7270000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7280000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7290000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7300000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7310000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7320000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7330000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7340000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7350000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7360000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7370000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7380000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7390000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7400000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7410000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7420000 -- [0.000] (...7 remote chains...) -- 0:00:10
-      7430000 -- [0.000] (...7 remote chains...) -- 0:00:10
+      7230000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7240000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7250000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7260000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7270000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7280000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7290000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7300000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7310000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7320000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7330000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7340000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7350000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7360000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7370000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7380000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7390000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7400000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7410000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7420000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7430000 -- [0.000] (...7 remote chains...) -- 0:00:09
       7440000 -- [0.000] (...7 remote chains...) -- 0:00:09
       7450000 -- [0.000] (...7 remote chains...) -- 0:00:09
       7460000 -- [0.000] (...7 remote chains...) -- 0:00:09
@@ -1289,25 +1289,25 @@
       7480000 -- [0.000] (...7 remote chains...) -- 0:00:09
       7490000 -- [0.000] (...7 remote chains...) -- 0:00:09
       7500000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7510000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7520000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7530000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7510000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7520000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7530000 -- [0.000] (...7 remote chains...) -- 0:00:08
       7540000 -- [0.000] (...7 remote chains...) -- 0:00:09
       7550000 -- [0.000] (...7 remote chains...) -- 0:00:09
       7560000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7570000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7580000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7590000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7600000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7610000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7620000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7630000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7640000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7650000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7660000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7670000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7680000 -- [0.000] (...7 remote chains...) -- 0:00:09
-      7690000 -- [0.000] (...7 remote chains...) -- 0:00:09
+      7570000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7580000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7590000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7600000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7610000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7620000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7630000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7640000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7650000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7660000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7670000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7680000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7690000 -- [0.000] (...7 remote chains...) -- 0:00:08
       7700000 -- [0.000] (...7 remote chains...) -- 0:00:08
       7710000 -- [0.000] (...7 remote chains...) -- 0:00:08
       7720000 -- [0.000] (...7 remote chains...) -- 0:00:08
@@ -1322,17 +1322,17 @@
       7810000 -- [0.000] (...7 remote chains...) -- 0:00:08
       7820000 -- [0.000] (...7 remote chains...) -- 0:00:08
       7830000 -- [0.000] (...7 remote chains...) -- 0:00:08
-      7840000 -- [0.000] (...7 remote chains...) -- 0:00:08
-      7850000 -- [0.000] (...7 remote chains...) -- 0:00:08
-      7860000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7840000 -- [0.000] (...7 remote chains...) -- 0:00:07
+      7850000 -- [0.000] (...7 remote chains...) -- 0:00:07
+      7860000 -- [0.000] (...7 remote chains...) -- 0:00:07
       7870000 -- [0.000] (...7 remote chains...) -- 0:00:08
       7880000 -- [0.000] (...7 remote chains...) -- 0:00:08
       7890000 -- [0.000] (...7 remote chains...) -- 0:00:08
-      7900000 -- [0.000] (...7 remote chains...) -- 0:00:08
-      7910000 -- [0.000] (...7 remote chains...) -- 0:00:08
-      7920000 -- [0.000] (...7 remote chains...) -- 0:00:08
-      7930000 -- [0.000] (...7 remote chains...) -- 0:00:08
-      7940000 -- [0.000] (...7 remote chains...) -- 0:00:08
+      7900000 -- [0.000] (...7 remote chains...) -- 0:00:07
+      7910000 -- [0.000] (...7 remote chains...) -- 0:00:07
+      7920000 -- [0.000] (...7 remote chains...) -- 0:00:07
+      7930000 -- [0.000] (...7 remote chains...) -- 0:00:07
+      7940000 -- [0.000] (...7 remote chains...) -- 0:00:07
       7950000 -- [0.000] (...7 remote chains...) -- 0:00:07
       7960000 -- [0.000] (...7 remote chains...) -- 0:00:07
       7970000 -- [0.000] (...7 remote chains...) -- 0:00:07
@@ -1354,16 +1354,16 @@
       8130000 -- [0.000] (...7 remote chains...) -- 0:00:07
       8140000 -- [0.000] (...7 remote chains...) -- 0:00:07
       8150000 -- [0.000] (...7 remote chains...) -- 0:00:07
-      8160000 -- [0.000] (...7 remote chains...) -- 0:00:07
-      8170000 -- [0.000] (...7 remote chains...) -- 0:00:07
+      8160000 -- [0.000] (...7 remote chains...) -- 0:00:06
+      8170000 -- [0.000] (...7 remote chains...) -- 0:00:06
       8180000 -- [0.000] (...7 remote chains...) -- 0:00:07
       8190000 -- [0.000] (...7 remote chains...) -- 0:00:07
       8200000 -- [0.000] (...7 remote chains...) -- 0:00:07
-      8210000 -- [0.000] (...7 remote chains...) -- 0:00:07
-      8220000 -- [0.000] (...7 remote chains...) -- 0:00:07
-      8230000 -- [0.000] (...7 remote chains...) -- 0:00:07
-      8240000 -- [0.000] (...7 remote chains...) -- 0:00:07
-      8250000 -- [0.000] (...7 remote chains...) -- 0:00:07
+      8210000 -- [0.000] (...7 remote chains...) -- 0:00:06
+      8220000 -- [0.000] (...7 remote chains...) -- 0:00:06
+      8230000 -- [0.000] (...7 remote chains...) -- 0:00:06
+      8240000 -- [0.000] (...7 remote chains...) -- 0:00:06
+      8250000 -- [0.000] (...7 remote chains...) -- 0:00:06
       8260000 -- [0.000] (...7 remote chains...) -- 0:00:06
       8270000 -- [0.000] (...7 remote chains...) -- 0:00:06
       8280000 -- [0.000] (...7 remote chains...) -- 0:00:06
@@ -1385,13 +1385,13 @@
       8440000 -- [0.000] (...7 remote chains...) -- 0:00:06
       8450000 -- [0.000] (...7 remote chains...) -- 0:00:06
       8460000 -- [0.000] (...7 remote chains...) -- 0:00:06
-      8470000 -- [0.000] (...7 remote chains...) -- 0:00:06
-      8480000 -- [0.000] (...7 remote chains...) -- 0:00:06
+      8470000 -- [0.000] (...7 remote chains...) -- 0:00:05
+      8480000 -- [0.000] (...7 remote chains...) -- 0:00:05
       8490000 -- [0.000] (...7 remote chains...) -- 0:00:06
       8500000 -- [0.000] (...7 remote chains...) -- 0:00:06
-      8510000 -- [0.000] (...7 remote chains...) -- 0:00:06
-      8520000 -- [0.000] (...7 remote chains...) -- 0:00:06
-      8530000 -- [0.000] (...7 remote chains...) -- 0:00:06
+      8510000 -- [0.000] (...7 remote chains...) -- 0:00:05
+      8520000 -- [0.000] (...7 remote chains...) -- 0:00:05
+      8530000 -- [0.000] (...7 remote chains...) -- 0:00:05
       8540000 -- [0.000] (...7 remote chains...) -- 0:00:05
       8550000 -- [0.000] (...7 remote chains...) -- 0:00:05
       8560000 -- [0.000] (...7 remote chains...) -- 0:00:05
@@ -1414,9 +1414,9 @@
       8730000 -- [0.000] (...7 remote chains...) -- 0:00:05
       8740000 -- [0.000] (...7 remote chains...) -- 0:00:05
       8750000 -- [0.000] (...7 remote chains...) -- 0:00:05
-      8760000 -- [0.000] (...7 remote chains...) -- 0:00:05
-      8770000 -- [0.000] (...7 remote chains...) -- 0:00:05
-      8780000 -- [0.000] (...7 remote chains...) -- 0:00:05
+      8760000 -- [0.000] (...7 remote chains...) -- 0:00:04
+      8770000 -- [0.000] (...7 remote chains...) -- 0:00:04
+      8780000 -- [0.000] (...7 remote chains...) -- 0:00:04
       8790000 -- [0.000] (...7 remote chains...) -- 0:00:04
       8800000 -- [0.000] (...7 remote chains...) -- 0:00:04
       8810000 -- [0.000] (...7 remote chains...) -- 0:00:04
@@ -1441,8 +1441,8 @@
       9000000 -- [0.000] (...7 remote chains...) -- 0:00:04
       9010000 -- [0.000] (...7 remote chains...) -- 0:00:04
       9020000 -- [0.000] (...7 remote chains...) -- 0:00:04
-      9030000 -- [0.000] (...7 remote chains...) -- 0:00:04
-      9040000 -- [0.000] (...7 remote chains...) -- 0:00:04
+      9030000 -- [0.000] (...7 remote chains...) -- 0:00:03
+      9040000 -- [0.000] (...7 remote chains...) -- 0:00:03
       9050000 -- [0.000] (...7 remote chains...) -- 0:00:03
       9060000 -- [0.000] (...7 remote chains...) -- 0:00:03
       9070000 -- [0.000] (...7 remote chains...) -- 0:00:03
@@ -1465,8 +1465,8 @@
       9240000 -- [0.000] (...7 remote chains...) -- 0:00:03
       9250000 -- [0.000] (...7 remote chains...) -- 0:00:03
       9260000 -- [0.000] (...7 remote chains...) -- 0:00:03
-      9270000 -- [0.000] (...7 remote chains...) -- 0:00:03
-      9280000 -- [0.000] (...7 remote chains...) -- 0:00:03
+      9270000 -- [0.000] (...7 remote chains...) -- 0:00:02
+      9280000 -- [0.000] (...7 remote chains...) -- 0:00:02
       9290000 -- [0.000] (...7 remote chains...) -- 0:00:02
       9300000 -- [0.000] (...7 remote chains...) -- 0:00:02
       9310000 -- [0.000] (...7 remote chains...) -- 0:00:02
@@ -1491,7 +1491,7 @@
       9500000 -- [0.000] (...7 remote chains...) -- 0:00:02
       9510000 -- [0.000] (...7 remote chains...) -- 0:00:02
       9520000 -- [0.000] (...7 remote chains...) -- 0:00:02
-      9530000 -- [0.000] (...7 remote chains...) -- 0:00:02
+      9530000 -- [0.000] (...7 remote chains...) -- 0:00:01
       9540000 -- [0.000] (...7 remote chains...) -- 0:00:01
       9550000 -- [0.000] (...7 remote chains...) -- 0:00:01
       9560000 -- [0.000] (...7 remote chains...) -- 0:00:01
@@ -1540,35 +1540,35 @@
       9990000 -- [0.000] (...7 remote chains...) -- 0:00:00
       10000000 -- [0.000] (...7 remote chains...) -- 0:00:00
 
-      Analysis completed in 43 seconds
-      Analysis used 42.96 seconds of CPU time on processor 0
+      Analysis completed in 42 seconds
+      Analysis used 42.63 seconds of CPU time on processor 0
       Log likelihood of best state for "cold" chain was 0.00
 
       Acceptance rates for the moves in the "cold" chain:
          With prob.   (last 100)   chain accepted proposals by move
-            14.4 %     ( 12 %)     AddBranch(V{all})
-            14.4 %     ( 17 %)     DelBranch(V{all})
-            85.4 %     ( 79 %)     NodesliderClock(V{all})
-            26.8 %     (  9 %)     TreeStretch(V{all})
-            28.7 %     ( 32 %)     Multiplier(Net_speciation{all})
-            26.7 %     ( 17 %)     Slider(Relative_extinction{all})
-            28.6 %     ( 27 %)     Slider(Relative_fossilization{all})
-            30.5 %     ( 22 %)     Multiplier(Igrvar{all})
-            23.6 %     ( 18 %)     Multiplier(IgrBrlens{all})
-            26.4 %     ( 29 %)     Multiplier(Clockrate{all})
+            16.5 %     ( 13 %)     AddBranch(V{all})
+            16.5 %     ( 15 %)     DelBranch(V{all})
+            89.7 %     ( 94 %)     NodesliderClock(V{all})
+            27.3 %     ( 27 %)     TreeStretch(V{all})
+            28.6 %     ( 36 %)     Multiplier(Net_speciation{all})
+            27.1 %     ( 44 %)     Slider(Relative_extinction{all})
+            26.3 %     ( 36 %)     Slider(Relative_fossilization{all})
+            30.6 %     ( 25 %)     Multiplier(Igrvar{all})
+            25.4 %     ( 19 %)     Multiplier(IgrBrlens{all})
+            26.2 %     ( 23 %)     Multiplier(Clockrate{all})
 
       Chain swap information:
 
                    1       2       3       4       5       6       7       8 
            ------------------------------------------------------------------
          1 |            0.00    0.00    0.00    0.00    0.00    0.00    0.00 
-         2 |  358064            0.00    0.00    0.00    0.00    0.00    0.00 
-         3 |  356877  356804            0.00    0.00    0.00    0.00    0.00 
-         4 |  358109  357404  357183            0.00    0.00    0.00    0.00 
-         5 |  357932  357214  356569  357375            0.00    0.00    0.00 
-         6 |  356216  357059  357399  356688  357452            0.00    0.00 
-         7 |  355859  357555  357426  357158  357205  356275            0.00 
-         8 |  356908  358066  357872  357054  356498  356729  357050         
+         2 |  356833            0.00    0.00    0.00    0.00    0.00    0.00 
+         3 |  357304  358160            0.00    0.00    0.00    0.00    0.00 
+         4 |  358294  356923  357411            0.00    0.00    0.00    0.00 
+         5 |  356619  357259  356380  357672            0.00    0.00    0.00 
+         6 |  357045  357127  357091  357117  355921            0.00    0.00 
+         7 |  357300  356484  357964  356410  358231  356658            0.00 
+         8 |  357363  357752  355722  357638  356810  357847  356665         
 
       Upper diagonal: Proportion of successful state exchanges between chains
       Lower diagonal: Number of attempted state exchanges between chains
@@ -1724,138 +1724,138 @@
                                                            --------------------
       Parameter                     Mean       Variance     Lower       Upper       Median
       ------------------------------------------------------------------------------------
-      length{all}[1]               0.922472    7.200355    0.000000    6.194928    0.000000
-      length{all}[2]               6.602954   78.804328    0.000000   25.926070    3.097718
-      length{all}[3]               2.684537   24.591142    0.000000   13.663920    0.000000
-      length{all}[4]              30.446514  449.199714    0.242151   69.676540   26.810600
-      length{all}[5]              20.226476  226.985122    0.098049   49.296670   17.114350
-      length{all}[6]              32.582005  559.748082    0.142518   79.426210   27.650880
-      length{all}[7]               3.305823   35.114167    0.000000   15.686980    0.240917
-      length{all}[8]               3.609187   53.969555    0.000000   19.800910    0.000000
-      length{all}[9]              15.812836  318.122101    0.000000   54.418750    9.747155
-      length{all}[10]              2.141127   23.914485    0.000000   12.492490    0.000000
-      length{all}[11]             33.498046  568.503628    0.201813   78.232350   29.249340
-      length{all}[12]              8.353160   59.737690    0.025246   24.036090    6.128803
-      length{all}[13]              3.428168   43.779350    0.000000   17.669950    0.000000
-      length{all}[14]             32.123941  549.607674    0.145176   78.541350   27.466230
-      length{all}[15]              3.590888   19.599580    0.000677   12.552650    2.021721
-      length{all}[16]              4.879862   38.827911    0.000413   17.541390    2.621855
-      length{all}[17]              7.229831   73.101208    0.001678   25.246880    4.196058
-      length{all}[18]             19.772007  331.411892    0.006448   57.070210   14.069160
-      length{all}[19]              6.826885   56.373316    0.003277   21.759590    4.400000
-      length{all}[20]              6.688641   64.140513    0.002100   23.541520    3.759792
-      length{all}[21]              8.779868   52.677777    0.004480   22.967030    6.962802
-      length{all}[22]              7.893369   61.512106    0.002427   23.214620    5.508857
-      length{all}[23]              7.772860   84.150817    0.001846   27.431420    4.305840
-      length{all}[24]              5.578239   45.945262    0.000607   19.828940    3.044041
-      length{all}[25]             12.418536  226.189392    0.005435   44.554450    6.513056
-      length{all}[26]             22.709051  405.208444    0.017757   63.897660   16.818460
-      height{all}[0]              82.720844  3231.755409    0.493011  186.864630   73.091145
-      height{all}[1]              25.933154  318.708496    0.131707   58.666788   22.947670
-      height{all}[2]              28.182232  389.647695    0.153821   64.807866   24.697390
-      height{all}[3]              15.391222  112.261060    0.078168   34.818496   13.619348
+      length{all}[1]               0.943160    7.101145    0.000000    5.926214    0.000000
+      length{all}[2]               7.817104   95.190071    0.000000   28.196200    4.374595
+      length{all}[3]               3.624473   31.120608    0.000000   15.484250    0.260763
+      length{all}[4]              34.600318  452.458169    0.571670   72.259030   32.250460
+      length{all}[5]               8.885521   91.882046    0.000000   27.742430    6.150292
+      length{all}[6]              25.444824  373.560637    0.000000   64.890040   21.000410
+      length{all}[7]               3.362329   32.045922    0.000000   15.253300    0.593361
+      length{all}[8]               5.518799   74.810326    0.000000   24.891420    0.820504
+      length{all}[9]              18.499959  387.480200    0.000000   59.728470   12.462000
+      length{all}[10]              3.513876   39.249076    0.000000   16.971340    0.000000
+      length{all}[11]             40.599251  657.206199    0.624734   87.449730   37.191550
+      length{all}[12]             10.309512   72.727456    0.074243   27.727820    7.957174
+      length{all}[13]              5.406971   66.867037    0.000000   23.240690    1.165947
+      length{all}[14]             39.680741  621.941249    0.487353   85.490020   36.404000
+      length{all}[15]              2.901277   14.025629    0.000974   10.394730    1.552573
+      length{all}[16]              4.936206   42.608601    0.000891   18.089750    2.541125
+      length{all}[17]              6.339544   51.658207    0.000673   20.475180    3.874960
+      length{all}[18]             20.475736  321.219745    0.003705   57.247480   15.068560
+      length{all}[19]              8.565877   74.344283    0.002567   26.447230    5.841190
+      length{all}[20]              7.929454   82.101208    0.004972   26.852190    4.930142
+      length{all}[21]              9.821078   55.548157    0.011528   24.253510    8.113303
+      length{all}[22]              9.267839   76.169963    0.000748   27.129160    6.597105
+      length{all}[23]              9.665472  103.129125    0.003838   31.559870    6.076369
+      length{all}[24]              8.273862   94.205094    0.001342   28.846740    4.696471
+      length{all}[25]             15.362505  260.189923    0.001750   49.306760    9.752960
+      length{all}[26]             25.723407  434.687404    0.052343   67.079640   20.329210
+      height{all}[0]              96.825752  3396.190097    1.763519  198.296667   91.290929
+      height{all}[1]              30.755881  347.533577    0.518725   63.532902   28.884088
+      height{all}[2]              33.309329  422.808185    0.485086   69.996330   30.918498
+      height{all}[3]              18.253490  122.414332    0.307862   37.706517   17.142588
       height{all}[4]               0.000000    0.000000    0.000000    0.000000    0.000000
-      height{all}[5]              15.099900  111.684478    0.037814   34.676520   13.273540
-      height{all}[6]              15.011251  111.182912    0.096916   34.678169   13.151826
-      height{all}[7]              31.479363  505.390314    0.252834   74.205610   27.185041
-      height{all}[8]              51.566789  1259.959725    0.148693  116.591599   45.537027
-      height{all}[9]              44.198956  1047.799517    0.347347  106.389032   37.978173
-      height{all}[10]             38.314595  707.697871    0.246733   87.224383   33.898337
-      height{all}[11]              6.957676   22.940947    0.035336   15.739877    6.156688
-      height{all}[12]              9.722599   48.134953    0.046108   22.615164    8.394924
-      height{all}[13]             43.854439  911.402238    0.222725   99.208884   38.805809
-      height{all}[14]             30.824895  455.065020    0.240810   70.457845   27.252141
-      height{all}[15]             26.855626  350.879983    0.227907   61.787010   23.628011
-      height{all}[16]             30.446514  449.199714    0.242151   69.676540   26.810600
-      height{all}[17]             34.785186  612.955806    0.126944   80.888655   30.175056
-      height{all}[18]             62.948836  1886.824652    0.186317  143.162384   55.580788
-      height{all}[19]             40.455722  814.334408    0.109791   93.865804   35.428834
-      height{all}[20]             35.326376  612.647562    0.184791   81.409591   30.863743
-      height{all}[21]             18.075758  183.156789    0.070913   43.354387   15.375750
-      height{all}[22]             47.282607  1114.515221    0.300254  109.789794   41.286007
-      height{all}[23]             55.175976  1494.253155    0.148693  127.713185   48.223185
-      height{all}[24]             42.015018  863.793993    0.298835   97.211788   36.578969
-      height{all}[25]             47.593256  1102.142356    0.177545  111.077352   41.606516
-      height{all}[26]             60.011792  1848.813938    0.201028  140.072566   51.962019
-      age{all}[0]                786.759572  2850.288237  716.001567  887.234736  775.163069
-      age{all}[1]                246.000001    0.000000  245.999906  246.000100  246.000001
-      age{all}[2]                267.584822  801.569317  221.887909  315.992211  268.372198
-      age{all}[3]                146.000001    0.000000  145.999909  146.000093  146.000000
+      height{all}[5]              30.651003  346.443841    0.557122   63.336560   28.903367
+      height{all}[6]              30.295015  342.124583    0.596630   62.999438   28.446715
+      height{all}[7]              37.764104  587.760528    0.695063   82.627910   34.409084
+      height{all}[8]              61.165745  1378.707811    1.037124  126.099581   57.391315
+      height{all}[9]              52.602386  1188.588963    1.040414  116.863564   47.087128
+      height{all}[10]             45.336953  766.475340    0.980689   95.181568   42.394310
+      height{all}[11]              8.251578   25.015801    0.139170   17.045410    7.749373
+      height{all}[12]             11.568451   54.138470    0.167877   25.145581   10.565379
+      height{all}[13]             52.009734  997.611168    1.032816  107.493876   48.778846
+      height{all}[14]             36.669275  501.125540    0.640853   76.163412   34.345967
+      height{all}[15]             31.699041  378.148460    0.510975   65.986657   29.709099
+      height{all}[16]             34.600318  452.458169    0.571670   72.259030   32.250460
+      height{all}[17]             41.126433  685.248837    0.503239   88.817363   37.797391
+      height{all}[18]             76.350016  2091.739199    1.227066  155.936520   72.413833
+      height{all}[19]             48.850828  930.291169    1.003703  104.469800   45.129442
+      height{all}[20]             39.536524  616.470942    0.326268   84.149160   36.630224
+      height{all}[21]             21.877963  210.770311    0.303261   48.699458   19.687800
+      height{all}[22]             57.416705  1271.250986    0.733062  119.771051   53.547710
+      height{all}[23]             66.684544  1672.957148    1.361944  138.675290   62.356297
+      height{all}[24]             47.465977  889.331003    0.562369  102.250346   43.824012
+      height{all}[25]             55.739840  1247.232000    0.801955  121.855040   51.277441
+      height{all}[26]             71.102345  2045.683589    1.040414  152.682630   65.277536
+      age{all}[0]                777.702300  2787.689604  716.000522  886.922673  760.462769
+      age{all}[1]                246.000001    0.000000  245.999911  246.000096  246.000001
+      age{all}[2]                266.526084  772.950572  222.200850  315.548209  266.728747
+      age{all}[3]                146.000001    0.000000  145.999921  146.000092  146.000001
       age{all}[4]                  0.000000    0.000000    0.000000    0.000000    0.000000
-      age{all}[5]                143.090216  200.955305  119.330981  165.980543  144.114020
-      age{all}[6]                142.203843  210.607275  118.872373  165.904152  142.705270
-      age{all}[7]                302.742077  4063.488616  216.020668  430.647527  288.017705
-      age{all}[8]                489.336438  210.219427  466.005356  513.159372  488.571894
-      age{all}[9]                417.692947  5695.657578  267.443488  515.960070  434.063155
-      age{all}[10]               363.596614  807.320753  316.007590  409.816193  362.920064
-      age{all}[11]                66.000000    0.000000   65.999855   66.000149   66.000001
-      age{all}[12]                92.298954  205.221700   68.928992  115.941779   92.830831
-      age{all}[13]               416.000001    0.000000  415.999833  416.000170  416.000000
-      age{all}[14]               292.228955  210.349491  268.844776  315.910267  292.973108
-      age{all}[15]               253.674067  400.603017  245.999807  295.575295  246.000022
-      age{all}[16]               290.500916  1574.074326  246.017998  366.536430  280.178265
-      age{all}[17]               331.589555  4045.525973  235.505217  467.204610  314.357155
-      age{all}[18]               600.469791  7474.703502  472.852452  763.525910  579.594714
-      age{all}[19]               380.541488  1583.945455  316.007590  449.498354  378.523629
-      age{all}[20]               338.759290  3602.938603  250.298346  444.510097  326.730401
-      age{all}[21]               167.676813  1081.374021  145.999806  236.058201  146.000050
-      age{all}[22]               443.520211  2129.744199  415.999715  544.161922  416.000088
-      age{all}[23]               519.550686  2998.539521  466.006219  642.447816  501.369731
-      age{all}[24]               405.043040  7025.862604  274.684494  568.459948  390.281275
-      age{all}[25]               459.929260  9049.275697  291.524857  637.253302  445.486416
-      age{all}[26]               570.204591  11451.954835  379.757108  780.843828  562.811611
-      IgrBrlens{all}_length[1]     0.899440    7.196720    0.000000    6.261910    0.000000
-      IgrBrlens{all}_length[2]     6.580245   81.777688    0.000000   25.712870    2.994618
-      IgrBrlens{all}_length[3]     2.652109   24.783849    0.000000   13.536610    0.000000
-      IgrBrlens{all}_length[4]    30.467003  462.165396    0.005825   70.341140   26.802260
-      IgrBrlens{all}_length[5]    20.278023  236.981294    0.007265   50.213940   17.035580
-      IgrBrlens{all}_length[6]    32.620431  578.454162    0.052033   80.173130   27.698070
-      IgrBrlens{all}_length[7]     3.281370   35.797881    0.000000   15.772060    0.104373
-      IgrBrlens{all}_length[8]     3.588991   55.054708    0.000000   20.225750    0.000000
-      IgrBrlens{all}_length[9]    15.778589  328.595918    0.000000   55.034470    9.523701
-      IgrBrlens{all}_length[10]    2.120022   23.967841    0.000000   12.613680    0.000000
-      IgrBrlens{all}_length[11]   33.565480  585.670915    0.057022   79.065750   29.039850
-      IgrBrlens{all}_length[12]    8.323644   63.544813    0.000000   24.651040    6.000774
-      IgrBrlens{all}_length[13]    3.385488   44.075927    0.000000   17.382010    0.000000
-      IgrBrlens{all}_length[14]   32.209460  563.105363    0.011715   78.311150   27.401260
-      IgrBrlens{all}_length[15]    3.630541   22.043867    0.000000   12.938020    1.954515
-      IgrBrlens{all}_length[16]    4.847989   41.472927    0.000000   17.830690    2.537433
-      IgrBrlens{all}_length[17]    7.249135   77.493294    0.000000   25.329350    4.141128
-      IgrBrlens{all}_length[18]   19.670907  339.011741    0.000000   57.982550   13.867200
-      IgrBrlens{all}_length[19]    6.891347   60.912964    0.000000   22.703370    4.302729
-      IgrBrlens{all}_length[20]    6.681928   67.576060    0.000000   23.938660    3.657483
-      IgrBrlens{all}_length[21]    8.817498   58.306465    0.000000   24.068020    6.845733
-      IgrBrlens{all}_length[22]    7.916868   65.755941    0.000000   23.869450    5.378601
-      IgrBrlens{all}_length[23]    7.800958   89.667858    0.000000   27.976390    4.249664
-      IgrBrlens{all}_length[24]    5.576781   48.646057    0.000000   20.237520    2.939891
-      IgrBrlens{all}_length[25]   12.459409  231.638927    0.000000   45.496590    6.443787
-      IgrBrlens{all}_length[26]   22.729304  418.627436    0.000000   64.073280   16.790850
-      IgrBrlens{all}_rate[1]       0.965553    0.041409    0.574548    1.359773    1.000000
-      IgrBrlens{all}_rate[2]       0.994773    0.195851    0.000001    1.526291    1.000000
-      IgrBrlens{all}_rate[3]       0.988328    0.023482    0.659544    1.259480    1.000000
-      IgrBrlens{all}_rate[4]       1.000163    0.038534    0.588849    1.381480    0.996886
-      IgrBrlens{all}_rate[5]       1.000531    0.059078    0.476636    1.485384    0.996937
-      IgrBrlens{all}_rate[6]       1.000075    0.039124    0.615016    1.401784    0.995677
-      IgrBrlens{all}_rate[7]       0.991460    0.231530    0.000001    1.334365    1.000000
-      IgrBrlens{all}_rate[8]       0.980818    0.036466    0.665441    1.274805    1.000000
-      IgrBrlens{all}_rate[9]       0.991165    0.037894    0.588540    1.358103    1.000000
-      IgrBrlens{all}_rate[10]      0.980903    0.031544    0.642582    1.230027    1.000000
-      IgrBrlens{all}_rate[11]      1.002870    0.038456    0.574973    1.371253    0.997202
-      IgrBrlens{all}_rate[12]      0.985540    0.176477    0.000002    1.585340    0.980235
-      IgrBrlens{all}_rate[13]      0.982646    0.033931    0.649396    1.290783    1.000000
-      IgrBrlens{all}_rate[14]      1.005550    0.044278    0.593850    1.396157    0.995424
-      IgrBrlens{all}_rate[15]      1.008663    0.635479    0.000001    1.974567    0.961593
-      IgrBrlens{all}_rate[16]      0.973293    0.445270    0.000001    1.788522    0.958795
-      IgrBrlens{all}_rate[17]      1.016294    0.579929    0.000001    1.744186    0.977748
-      IgrBrlens{all}_rate[18]      0.995679    0.118285    0.352688    1.589220    0.988649
-      IgrBrlens{all}_rate[19]      1.000990    0.321647    0.000002    1.776811    0.979707
-      IgrBrlens{all}_rate[20]      1.025548    0.704181    0.000001    1.766244    0.976640
-      IgrBrlens{all}_rate[21]      1.003102    0.153948    0.253132    1.684885    0.984310
-      IgrBrlens{all}_rate[22]      1.004670    0.196726    0.000002    1.604528    0.985378
-      IgrBrlens{all}_rate[23]      1.008366    0.395664    0.000001    1.683841    0.977050
-      IgrBrlens{all}_rate[24]      1.009976    0.665351    0.000001    1.845930    0.967130
-      IgrBrlens{all}_rate[25]      1.010984    0.332201    0.000001    1.622508    0.991511
-      IgrBrlens{all}_rate[26]      0.990970    0.086002    0.398520    1.569102    0.991168
+      age{all}[5]                245.591764  207.731320  219.679900  265.986483  247.999019
+      age{all}[6]                242.340448  208.027727  219.130254  265.960700  242.725820
+      age{all}[7]                303.263911  4233.716081  216.000796  441.118468  290.605263
+      age{all}[8]                489.311698  204.051272  466.129092  513.036475  488.553165
+      age{all}[9]                417.324285  5786.826870  268.770997  515.980658  433.589078
+      age{all}[10]               362.755021  799.701593  316.220130  409.674103  361.616305
+      age{all}[11]                66.000001    0.000000   65.999862   66.000139   66.000001
+      age{all}[12]                92.416894  210.304645   68.942669  115.991089   93.212939
+      age{all}[13]               416.126696  205.844492  393.685913  440.980085  416.033635
+      age{all}[14]               293.062634  207.736836  269.193329  315.985681  294.215450
+      age{all}[15]               252.741807  296.382502  245.999836  286.809722  246.000025
+      age{all}[16]               277.266235  1031.774202  246.013286  342.942457  266.892705
+      age{all}[17]               328.955893  4041.497510  227.960220  467.911743  313.845028
+      age{all}[18]               616.066891  7571.121583  475.137931  782.647881  605.855880
+      age{all}[19]               387.556547  2034.908301  316.030972  470.726177  383.755400
+      age{all}[20]               317.025103  2943.846730  247.822842  431.711131  305.415464
+      age{all}[21]               171.936945  1092.078458  145.999836  237.156683  150.339567
+      age{all}[22]               455.670944  2841.260552  391.025319  565.042172  438.069378
+      age{all}[23]               531.690184  3763.089309  466.001265  659.692850  509.372043
+      age{all}[24]               382.245680  5353.951372  263.872803  530.137525  364.743589
+      age{all}[25]               447.744663  8138.555318  319.197952  646.063953  429.804980
+      age{all}[26]               567.497145  11419.932586  367.245721  768.626479  554.912548
+      IgrBrlens{all}_length[1]     0.936402    7.310441    0.000000    5.841353    0.000000
+      IgrBrlens{all}_length[2]     7.786213   97.419178    0.000000   28.424110    4.251690
+      IgrBrlens{all}_length[3]     3.590165   31.213901    0.000000   15.648770    0.211677
+      IgrBrlens{all}_length[4]    34.684921  463.768544    0.656157   73.458550   32.451130
+      IgrBrlens{all}_length[5]     8.859975   93.900495    0.000000   28.019060    6.102086
+      IgrBrlens{all}_length[6]    25.587354  384.067623    0.000000   65.390560   21.189930
+      IgrBrlens{all}_length[7]     3.329639   32.111065    0.000000   15.090810    0.496141
+      IgrBrlens{all}_length[8]     5.484090   75.156438    0.000000   25.008990    0.714768
+      IgrBrlens{all}_length[9]    18.463938  391.837599    0.000000   59.018750   12.441780
+      IgrBrlens{all}_length[10]    3.483667   39.188735    0.000000   17.029560    0.000000
+      IgrBrlens{all}_length[11]   40.678975  672.012256    0.594855   88.241470   37.162190
+      IgrBrlens{all}_length[12]   10.334068   75.676445    0.000271   28.225690    7.985822
+      IgrBrlens{all}_length[13]    5.372588   67.461921    0.000000   23.054820    1.050755
+      IgrBrlens{all}_length[14]   39.724405  636.818220    0.369355   85.759400   36.412800
+      IgrBrlens{all}_length[15]    2.913292   15.230854    0.000000   10.594390    1.533006
+      IgrBrlens{all}_length[16]    4.941695   44.707079    0.000000   18.182800    2.499879
+      IgrBrlens{all}_length[17]    6.381911   54.785504    0.000000   21.328500    3.827978
+      IgrBrlens{all}_length[18]   20.473542  327.210546    0.000031   57.963380   14.965990
+      IgrBrlens{all}_length[19]    8.588778   77.264152    0.000000   26.802500    5.795174
+      IgrBrlens{all}_length[20]    7.927912   85.139322    0.000000   27.045220    4.845923
+      IgrBrlens{all}_length[21]    9.860103   60.805693    0.000258   25.062190    7.975283
+      IgrBrlens{all}_length[22]    9.287846   79.837629    0.000030   27.574360    6.656928
+      IgrBrlens{all}_length[23]    9.675346  107.760044    0.000000   31.729400    5.967417
+      IgrBrlens{all}_length[24]    8.281694   97.102858    0.000000   29.326460    4.602180
+      IgrBrlens{all}_length[25]   15.357798  264.419033    0.000000   49.924400    9.722088
+      IgrBrlens{all}_length[26]   25.777846  444.140456    0.002582   67.482970   20.251580
+      IgrBrlens{all}_rate[1]       0.982522    0.027946    0.732708    1.233208    1.000000
+      IgrBrlens{all}_rate[2]       0.984263    0.161997    0.000001    1.351246    1.000000
+      IgrBrlens{all}_rate[3]       0.992955    0.018211    0.710294    1.219567    1.000000
+      IgrBrlens{all}_rate[4]       1.002711    0.020063    0.713956    1.288270    0.999004
+      IgrBrlens{all}_rate[5]       0.993591    0.062975    0.490967    1.455893    1.000000
+      IgrBrlens{all}_rate[6]       1.002906    0.032713    0.657089    1.371086    1.000241
+      IgrBrlens{all}_rate[7]       0.987195    0.188280    0.358989    1.574965    1.000000
+      IgrBrlens{all}_rate[8]       0.987868    0.019088    0.721362    1.227892    1.000000
+      IgrBrlens{all}_rate[9]       0.996887    0.018694    0.732709    1.282040    1.000000
+      IgrBrlens{all}_rate[10]      0.990760    0.016387    0.748565    1.197819    1.000000
+      IgrBrlens{all}_rate[11]      1.002175    0.016683    0.732668    1.288224    0.999339
+      IgrBrlens{all}_rate[12]      1.002078    0.097249    0.357892    1.572738    0.993788
+      IgrBrlens{all}_rate[13]      0.990919    0.017259    0.725347    1.233115    1.000000
+      IgrBrlens{all}_rate[14]      1.002131    0.021275    0.690794    1.253697    0.999216
+      IgrBrlens{all}_rate[15]      1.026822    1.246518    0.000001    1.898348    0.970120
+      IgrBrlens{all}_rate[16]      1.048163    1.899021    0.000001    1.814503    0.986072
+      IgrBrlens{all}_rate[17]      1.010228    0.367579    0.000001    1.573163    0.989827
+      IgrBrlens{all}_rate[18]      1.002215    0.072267    0.537292    1.459805    0.998574
+      IgrBrlens{all}_rate[19]      1.004283    0.283849    0.154303    1.684270    0.990878
+      IgrBrlens{all}_rate[20]      0.995028    0.176501    0.000001    1.510563    0.989740
+      IgrBrlens{all}_rate[21]      1.001721    0.078212    0.404132    1.506592    0.994001
+      IgrBrlens{all}_rate[22]      1.000833    0.106788    0.361691    1.608930    0.995369
+      IgrBrlens{all}_rate[23]      1.007791    0.257349    0.000003    1.469474    0.988655
+      IgrBrlens{all}_rate[24]      0.996190    0.234400    0.000001    1.561127    0.988837
+      IgrBrlens{all}_rate[25]      0.992816    0.113323    0.199855    1.557159    0.992894
+      IgrBrlens{all}_rate[26]      1.003027    0.051826    0.607214    1.408521    0.999259
       ------------------------------------------------------------------------------------
 
 
@@ -1894,41 +1894,41 @@
 
       Phylogram (based on median node depths):
 
-                                                                                                                                                                              --------------|--------------|--------------|-------------|                     
-                   600            400            200            0                     
+                                                                                                                                                                              -------------|--------------|--------------|--------------|                     
+                  600            400            200             0                     
 
       [User-defined time units]
 
-                          /- F_Pn_lat_12044 (8)
-                          |                                                           
-                          |         /- A_Wn_1799 (10)
-                     /----+      /--+                                                 
-                     |    |      |  \----------------------- CDN_Hsmu_M2149~ (11)
-                     |    \------+                                                    
-      /--------------+           \ D_KNd_1161 (13)
-      |              |                                                                
-      |              \--------------------- F_Pn_lat_15181 (14)
+                         /-- F_Pn_lat_12044 (8)
+                         |                                                            
+                         |         /- A_Wn_1799 (10)
+                  /------+     /---+                                                  
+                  |      |     |   \------------------------ CDN_Hsmu_M2149~ (11)
+                  |      \-----+                                                      
+      /-----------+            \- D_KNd_1161 (13)
+      |           |                                                                   
+      |           \------------------------ F_Pn_lat_15181 (14)
       |                                                                               
-      |                                       / A_VOR_Cod_259_I (1)
-      |                                       |                                       
-      |                                    /--+      / CZ_HKm_II_A_4 (3)
-      |                                    |  \------+                                
-      |                                 /--+         \---- CZ_Pu_XVII_E_1 (12)
-      +                                 |  |                                          
-      |                            /----+  \--------------------- CZ_PLm_504_C_004 (4)
-      |                            |    |                                             
-      |                            |    \------------- CZ_Pn_XV_A_10 (5)
-      |                        /---+                                                  
-      |                        |   |    /---- CH_E_611 (2)
-      |                        |   \----+                                             
+      |                                      / A_VOR_Cod_259_I (1)
+      |                                      |                                        
+      |                                     /+       / CZ_HKm_II_A_4 (3)
+      |                                     |\-------+                                
+      |                                  /--+        \---- CZ_Pu_XVII_E_1 (12)
+      +                                  |  |                                         
+      |                             /----+  \-------------------- CZ_PLm_504_C_004 (4)
+      |                             |    |                                            
+      |                             |    \---- CZ_Pn_XV_A_10 (5)
+      |                        /----+                                                 
+      |                        |    |   /---- CH_E_611 (2)
+      |                        |    \---+                                             
       |               /--------+        \-- D_KA_Aug_LX (7)
       |               |        |                                                      
-      \---------------+        \---------------------- CZ_Pu_I_D_20 (6)
+      \---------------+        \-------------- CZ_Pu_I_D_20 (6)
                       |                                                               
-                      \---------- NL_Uu_406 (9)
+                      \--------- NL_Uu_406 (9)
                                                                                       
-      --------------|--------------|--------------|-------------|                     
-                   600            400            200            0                     
+      -------------|--------------|--------------|--------------|                     
+                  600            400            200             0                     
 
       [User-defined time units]
 
@@ -2027,14 +2027,14 @@
                                                             --------------------
       Parameter                       Mean      Variance     Lower       Upper       Median     ESS*
       -------------------------------------------------------------------------------------------------
-      TH{all}                     125.731928  7451.519307    0.923259  286.059500  110.988400    375.95
-      TL{all}                     309.877284  45788.176280    2.127604  700.572200  273.678000    354.69
-      prop_ancfossil{all}           0.293396    0.019588    0.000000    0.500000    0.285714    172.31
-      net_speciation{all}           0.001429    0.000001    0.000042    0.003117    0.001284   1806.70
-      relative_extinction{all}      0.790630    0.022041    0.503702    0.997724    0.820054    466.51
-      relative_fossilization{all}   0.257408    0.031745    0.001335    0.591121    0.228395    324.43
-      igrvar{all}                   0.467999    0.237922    0.000200    1.453507    0.304595    319.68
-      clockrate{all}                0.105419    0.005267    0.000535    0.238483    0.093283    358.66
+      TH{all}                     147.835505  7927.524237    2.399333  303.221900  139.251000    605.08
+      TL{all}                     337.469094  42752.250287    4.584105  701.789300  314.369000    501.51
+      prop_ancfossil{all}           0.259059    0.026033    0.000000    0.500000    0.285714    172.27
+      net_speciation{all}           0.001592    0.000001    0.000111    0.003539    0.001405   1799.84
+      relative_extinction{all}      0.822147    0.016709    0.565403    0.992813    0.852063    561.98
+      relative_fossilization{all}   0.223621    0.031349    0.002073    0.571381    0.181408    306.63
+      igrvar{all}                   0.337626    0.177720    0.000020    1.184117    0.184062    278.37
+      clockrate{all}                0.125024    0.005743    0.002109    0.258264    0.117415    576.87
       -------------------------------------------------------------------------------------------------
       * Convergence diagnostic (ESS = Estimated Sample Size); ESS value 
         below 100 may indicate that the parameter is undersampled. 
