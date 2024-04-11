@@ -14,12 +14,12 @@ set autoclose=yes;
 taxastat;
 
 [definition of individual partitions per marker come from partitions.txt]
-charset bethnon=1-137;
-charset consest=138-241;
-charset cumesset=242-384;
-charset judjer1=385-445;
-charset judjer2=446-641;
-charset orisic=642-720;
+charset bethnon=1-118;
+charset consest=119-180;
+charset cumesset=181-307;
+charset judjer1=308-363;
+charset judjer2=364-483;
+charset orisic=484-544;
 
 [definition of the single partition]
 partition chants=6:bethnon,consest,cumesset,judjer1,judjer2,orisic;
@@ -53,39 +53,41 @@ calibrate
 [setting up the fbd divtime analysis]
 prset
   brlenspr=clock:fossilization [because we have fossil tips, otherwise it would be birthdeath]
-  clockvarpr=igr
-  igrvarpr=exp(2) [2 was fine; check this prior which is supposed to be in years rather than Ma]
-  clockratepr=exp(5) [exp(5) was fine; check this prior which is supposed to be in years rather than Ma]
   topologypr=fixed(TREEN) [fix the tree to the rooted one we want to test on, replace with the key TREEN]
   treeagepr=uniform(1124,1324) [this is 2024- (700,900)]
   sampleprob=0
   samplestrat=random [random is the default but I'm including it to comment that this allows for sampled ancestors to be recovered]
   nodeagepr=calibrated
+  speciationpr = uniform(0,10)
+  extinctionpr = beta(1,1) [flat, extinction is relative to speciation thus between 0-1]
+  fossilizationpr = beta(1,1) [flat, sampling is psi/(mu+psi), 0-1 ]
+;
+
+[define a clock for each partition but with the same priors]
+prset applyto=(all)
+  clockvarpr=igr
+  igrvarpr=exp(2) [exp(2) seems to be working just fine again]
+  clockrate=exp(5) [exp(5) seems to be working just fine again]
 ;
 
 [-------CAREFUL! OUR DATES ARE HERE IN YEARS AFTER JESUS, BUT DIVTIME IS IN YEARS BEFORE THE PRESENT--------------]
 
 [show the model just specified for each partition]
 showmodel;
-[showmatrix;
-showusertrees;
-]
 
-[set up the MCMC, with this setting the analysis will need not less than 16 threads]
+[set up the MCMC]
 [sample from prior, data=no]
-mcmcp data=TOGGLEDATA nruns=5 ngen=10000000 nchains=4 samplefreq=1000 printfreq=10000;
+mcmcp data=TOGGLEDATA nruns=1 temp=0.001 ngen=10000000 nchains=8 samplefreq=1000 printfreq=10000;
 
 [run mcmc sampling]
 mcmc;
 
 [summarize the posterior trees]
-sumt nruns=5 relburnin=yes burninfrac=0.1;
+sumt nruns=1 relburnin=yes burninfrac=0.1;
 plot;
 
 
 [summarize parameter posteriors]
-[sump nruns=5 relburnin=yes burninfrac=0.5;
-]
 sump;
 log stop;
 

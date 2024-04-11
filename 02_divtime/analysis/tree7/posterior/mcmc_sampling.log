@@ -1,0 +1,2042 @@
+      Logging screen output to file "mcmc_sampling.log"
+
+      Executing file "alignment_and_trees.nexus"...
+
+   UNIX line termination
+   Longest line length = 563
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 14 taxa and 544 characters
+      Data is Standard
+      Gaps coded as -
+      Missing data coded as ?
+      Taxon  1 -> A_VOR_Cod_259_I
+      Taxon  2 -> CH_E_611
+      Taxon  3 -> CZ_HKm_II_A_4
+      Taxon  4 -> CZ_PLm_504_C_004
+      Taxon  5 -> CZ_Pn_XV_A_10
+      Taxon  6 -> CZ_Pu_I_D_20
+      Taxon  7 -> D_KA_Aug_LX
+      Taxon  8 -> F_Pn_lat_12044
+      Taxon  9 -> NL_Uu_406
+      Taxon 10 -> A_Wn_1799
+      Taxon 11 -> CDN_Hsmu_M2149_L4
+      Taxon 12 -> CZ_Pu_XVII_E_1
+      Taxon 13 -> D_KNd_1161
+      Taxon 14 -> F_Pn_lat_15181
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1712805095
+      WARNING: There are 473 characters incompatible with the specified
+               coding bias. These characters will be excluded.
+      Setting output file names to "alignment_and_trees.nexus.run<i>.<p|t>"
+   Exiting data block
+   Reading trees block
+      Successfully read tree 'tree0'
+      Successfully read tree 'tree1'
+      Successfully read tree 'tree2'
+      Successfully read tree 'tree3'
+      Successfully read tree 'tree4'
+      Successfully read tree 'tree5'
+      Successfully read tree 'tree6'
+      Successfully read tree 'tree7'
+      Successfully read tree 'tree8'
+      Successfully read tree 'tree9'
+      Successfully read tree 'tree10'
+      Successfully read tree 'tree11'
+      Successfully read tree 'tree12'
+      Successfully read tree 'tree13'
+      Successfully read tree 'tree14'
+      Successfully read tree 'tree15'
+      Successfully read tree 'tree16'
+      Successfully read tree 'tree17'
+      Successfully read tree 'tree18'
+      Successfully read tree 'tree19'
+      Successfully read tree 'tree20'
+      Successfully read tree 'tree21'
+      Successfully read tree 'tree22'
+      Successfully read tree 'tree23'
+      Successfully read tree 'tree24'
+   Exiting trees block
+   Reached end of file
+
+   Returning execution to calling file ...
+
+      Setting autoclose to yes
+      Showing taxon status:
+
+        Number of taxa        = 14 (all of which are included)
+        Number of constraints = 0
+
+        Taxon                      Inclusion   
+      --------------------------------------
+    ->   1 (A_VOR_Cod_259_I)    -- Included    
+         2 (CH_E_611)           -- Included    
+         3 (CZ_HKm_II_A_4)      -- Included    
+         4 (CZ_PLm_504_C_004)   -- Included    
+         5 (CZ_Pn_XV_A_10)      -- Included    
+         6 (CZ_Pu_I_D_20)       -- Included    
+         7 (D_KA_Aug_LX)        -- Included    
+         8 (F_Pn_lat_12044)     -- Included    
+         9 (NL_Uu_406)          -- Included    
+        10 (A_Wn_1799)          -- Included    
+        11 (CDN_Hsmu_M2149_L4)  -- Included    
+        12 (CZ_Pu_XVII_E_1)     -- Included    
+        13 (D_KNd_1161)         -- Included    
+        14 (F_Pn_lat_15181)     -- Included    
+
+      '.' indicate that the taxon is not present in the constraint. 
+      '*' indicate that the taxon is present in the 'hard' constraint. 
+      '+' indicate that the taxon is present in the first groupe of 'partial' constraint. 
+      '-' indicate that the taxon is present in the second groupe of 'partial' constraint. 
+      '#' indicate that the taxon is present in the 'negative' constraint. 
+      Arrow indicates current outgroup. 
+      Defining charset called 'bethnon'
+      Defining charset called 'consest'
+      Defining charset called 'cumesset'
+      Defining charset called 'judjer1'
+      Defining charset called 'judjer2'
+      Defining charset called 'orisic'
+      Defining partition called 'chants'
+      Setting chants as the partition, dividing characters into 6 parts.
+      Setting model defaults
+      Seed (for generating default start values) = 1958810578
+      WARNING: There are 91 characters incompatible with the specified
+               coding bias. These characters will be excluded.
+      WARNING: There are 53 characters incompatible with the specified
+               coding bias. These characters will be excluded.
+      WARNING: There are 121 characters incompatible with the specified
+               coding bias. These characters will be excluded.
+      WARNING: There are 53 characters incompatible with the specified
+               coding bias. These characters will be excluded.
+      WARNING: There are 96 characters incompatible with the specified
+               coding bias. These characters will be excluded.
+      WARNING: There are 59 characters incompatible with the specified
+               coding bias. These characters will be excluded.
+      Enabling Coding All for partition 1
+      Enabling Coding All for partition 2
+      Enabling Coding All for partition 3
+      Enabling Coding All for partition 4
+      Enabling Coding All for partition 5
+      Enabling Coding All for partition 6
+      Successfully set likelihood model parameters to all
+         applicable data partitions 
+      Setting age of taxon 'A_VOR_Cod_259_I' to Fixed(654.00)
+      Setting age of taxon 'A_Wn_1799' to Uniform(724.00,824.00)
+      Setting age of taxon 'CDN_Hsmu_M2149_L4' to Fixed(474.00)
+      Setting age of taxon 'CH_E_611' to Uniform(624.00,724.00)
+      Setting age of taxon 'CZ_HKm_II_A_4' to Fixed(554.00)
+      Setting age of taxon 'CZ_PLm_504_C_004' to Fixed(408.00)
+      Setting age of taxon 'CZ_Pn_XV_A_10' to Uniform(524.00,574.00)
+      Setting age of taxon 'CZ_Pu_I_D_20' to Uniform(524.00,574.00)
+      Setting age of taxon 'CZ_Pu_XVII_E_1' to Uniform(474.00,524.00)
+      Setting age of taxon 'D_KA_Aug_LX' to Uniform(624.00,1024.00)
+      Setting age of taxon 'D_KNd_1161' to Fixed(824.00)
+      Setting age of taxon 'F_Pn_lat_12044' to Uniform(874.00,924.00)
+      Setting age of taxon 'F_Pn_lat_15181' to Uniform(674.00,724.00)
+      Setting age of taxon 'NL_Uu_406' to Uniform(624.00,924.00)
+      Setting Brlenspr to Clock:Fossilization for partition 1
+      Setting Brlenspr to Clock:Fossilization for partition 2
+      Setting Brlenspr to Clock:Fossilization for partition 3
+      Setting Brlenspr to Clock:Fossilization for partition 4
+      Setting Brlenspr to Clock:Fossilization for partition 5
+      Setting Brlenspr to Clock:Fossilization for partition 6
+      Setting Topologypr to Fixed for partition 1
+      Setting Topologypr to Fixed for partition 2
+      Setting Topologypr to Fixed for partition 3
+      Setting Topologypr to Fixed for partition 4
+      Setting Topologypr to Fixed for partition 5
+      Setting Topologypr to Fixed for partition 6
+      Setting Treeagepr to Uniform(1124.00,1324.00)
+      Setting Treeagepr to Uniform(1124.00,1324.00)
+      Setting Treeagepr to Uniform(1124.00,1324.00)
+      Setting Treeagepr to Uniform(1124.00,1324.00)
+      Setting Treeagepr to Uniform(1124.00,1324.00)
+      Setting Treeagepr to Uniform(1124.00,1324.00)
+      Setting Sampleprob to 0.00000000 for partition 1
+      Setting Sampleprob to 0.00000000 for partition 2
+      Setting Sampleprob to 0.00000000 for partition 3
+      Setting Sampleprob to 0.00000000 for partition 4
+      Setting Sampleprob to 0.00000000 for partition 5
+      Setting Sampleprob to 0.00000000 for partition 6
+      Setting SampleStrat to Random for partition 1
+      Setting SampleStrat to Random for partition 2
+      Setting SampleStrat to Random for partition 3
+      Setting SampleStrat to Random for partition 4
+      Setting SampleStrat to Random for partition 5
+      Setting SampleStrat to Random for partition 6
+      Setting Nodeagepr to Calibrated for partition 1
+      Setting Nodeagepr to Calibrated for partition 2
+      Setting Nodeagepr to Calibrated for partition 3
+      Setting Nodeagepr to Calibrated for partition 4
+      Setting Nodeagepr to Calibrated for partition 5
+      Setting Nodeagepr to Calibrated for partition 6
+      Setting Speciationpr to Uniform(0.00,10.00) for partition 1
+      Setting Speciationpr to Uniform(0.00,10.00) for partition 2
+      Setting Speciationpr to Uniform(0.00,10.00) for partition 3
+      Setting Speciationpr to Uniform(0.00,10.00) for partition 4
+      Setting Speciationpr to Uniform(0.00,10.00) for partition 5
+      Setting Speciationpr to Uniform(0.00,10.00) for partition 6
+      Setting Extinctionpr to Beta(1.00,1.00) for partition 1
+      Setting Extinctionpr to Beta(1.00,1.00) for partition 2
+      Setting Extinctionpr to Beta(1.00,1.00) for partition 3
+      Setting Extinctionpr to Beta(1.00,1.00) for partition 4
+      Setting Extinctionpr to Beta(1.00,1.00) for partition 5
+      Setting Extinctionpr to Beta(1.00,1.00) for partition 6
+      Setting Fossilizationpr to Beta(1.00,1.00) for partition 1
+      Setting Fossilizationpr to Beta(1.00,1.00) for partition 2
+      Setting Fossilizationpr to Beta(1.00,1.00) for partition 3
+      Setting Fossilizationpr to Beta(1.00,1.00) for partition 4
+      Setting Fossilizationpr to Beta(1.00,1.00) for partition 5
+      Setting Fossilizationpr to Beta(1.00,1.00) for partition 6
+      Successfully set prior model parameters to all
+      applicable data partitions 
+      Setting Clockvarpr to Igr for partition 1
+      Setting Clockvarpr to Igr for partition 2
+      Setting Clockvarpr to Igr for partition 3
+      Setting Clockvarpr to Igr for partition 4
+      Setting Clockvarpr to Igr for partition 5
+      Setting Clockvarpr to Igr for partition 6
+      Setting Igrvarpr to Exponential(2.00) for partition 1
+      Setting Igrvarpr to Exponential(2.00) for partition 2
+      Setting Igrvarpr to Exponential(2.00) for partition 3
+      Setting Igrvarpr to Exponential(2.00) for partition 4
+      Setting Igrvarpr to Exponential(2.00) for partition 5
+      Setting Igrvarpr to Exponential(2.00) for partition 6
+      Setting Clockratepr to Exponential(5.00) for partition 1
+      Setting Clockratepr to Exponential(5.00) for partition 2
+      Setting Clockratepr to Exponential(5.00) for partition 3
+      Setting Clockratepr to Exponential(5.00) for partition 4
+      Setting Clockratepr to Exponential(5.00) for partition 5
+      Setting Clockratepr to Exponential(5.00) for partition 6
+      Successfully set prior model parameters to all
+      applicable data partitions 
+      Model settings:
+
+         Settings for partition 1 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 2 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 3 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 4 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 5 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 6 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+      Active parameters: 
+
+                             Partition(s)
+         Parameters          1  2  3  4  5  6
+         ------------------------------------
+         Statefreq           1  1  1  1  1  1
+         Ratemultiplier      2  2  2  2  2  2
+         Topology            3  3  3  3  3  3
+         Brlens              4  4  4  4  4  4
+         Speciationrate      5  5  5  5  5  5
+         Extinctionrate      6  6  6  6  6  6
+         Fossilizationrate   7  7  7  7  7  7
+         Igrvar              8  8  8  8  8  8
+         Igrbranchrates      9  9  9  9  9  9
+         Clockrate          10 10 10 10 10 10
+         ------------------------------------
+
+         Parameters can be linked or unlinked across partitions using 'link' and 'unlink'
+
+         1 --  Parameter  = Alpha_symdir{all}
+               Type       = Symmetric diricihlet/beta distribution alpha_i parameter
+               Prior      = Symmetric dirichlet with all parameters equal to infinity
+               Partitions = All
+
+         2 --  Parameter  = Ratemultiplier{all}
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+               Partitions = All
+
+         3 --  Parameter  = Tau{all}
+               Type       = Topology
+               Prior      = Prior is fixed to the topology of user tree 'tree7'
+               Partitions = All
+               Subparam.  = V{all}
+
+         4 --  Parameter  = V{all}
+               Type       = Branch lengths
+               Prior      = Clock:Fossilization
+                            Node depths are constrained by the following age constraints:
+                            -- The age of terminal "A_VOR_Cod_259_I" is Fixed(654.00)
+                            -- The age of terminal "CH_E_611" is Uniform(624.00,724.00)
+                            -- The age of terminal "CZ_HKm_II_A_4" is Fixed(554.00)
+                            -- The age of terminal "CZ_PLm_504_C_004" is Fixed(408.00)
+                            -- The age of terminal "CZ_Pn_XV_A_10" is Uniform(524.00,574.00)
+                            -- The age of terminal "CZ_Pu_I_D_20" is Uniform(524.00,574.00)
+                            -- The age of terminal "D_KA_Aug_LX" is Uniform(624.00,1024.00)
+                            -- The age of terminal "F_Pn_lat_12044" is Uniform(874.00,924.00)
+                            -- The age of terminal "NL_Uu_406" is Uniform(624.00,924.00)
+                            -- The age of terminal "A_Wn_1799" is Uniform(724.00,824.00)
+                            -- The age of terminal "CDN_Hsmu_M2149_L4" is Fixed(474.00)
+                            -- The age of terminal "CZ_Pu_XVII_E_1" is Uniform(474.00,524.00)
+                            -- The age of terminal "D_KNd_1161" is Fixed(824.00)
+                            -- The age of terminal "F_Pn_lat_15181" is Uniform(674.00,724.00)
+                            -- Tree age has a Uniform(1124.00,1324.00) distribution
+               Partitions = All
+               Subparam.  = IgrBrlens{all}
+
+         5 --  Parameter  = Net_speciation{all}
+               Type       = Speciation rate
+               Prior      = Uniform(0.00,10.00)
+               Partitions = All
+
+         6 --  Parameter  = Relative_extinction{all}
+               Type       = Extinction rate
+               Prior      = Beta(1.00,1.00)
+               Partitions = All
+
+         7 --  Parameter  = Relative_fossilization{all}
+               Type       = Fossilization rate
+               Prior      = Beta(1.00,1.00)
+               Partitions = All
+
+         8 --  Parameter  = Igrvar{all}
+               Type       = Variance increase of igr model branch lenths
+               Prior      = Exponential(2.00)
+               Partitions = All
+               Subparam.  = IgrBrlens{all}
+
+         9 --  Parameter  = IgrBrlens{all}
+               Type       = Branch lengths of IGR relaxed clock
+               Prior      = Gamma (expectation = v, variance = Igrvar{all} * v) 
+                               [where v is branch length]
+               Partitions = All
+
+        10 --  Parameter  = Clockrate{all}
+               Type       = Base rate of clock
+               Prior      = Exponential(5.00)
+                            The clock rate varies according to an independent gamma (white noise) model
+               Partitions = All
+
+      Running with data (standard analysis)
+      WARNING: Reallocation of zero size attempted. This is probably a bug. Problems may follow.
+      WARNING: Reallocation of zero size attempted. This is probably a bug. Problems may follow.
+      WARNING: Reallocation of zero size attempted. This is probably a bug. Problems may follow.
+      Setting number of runs to 1
+      Setting heating parameter to 0.001000
+      Setting number of generations to 10000000
+      WARNING: Allocation of zero size attempted. This is probably a bug; problems may follow.
+      Setting number of chains to 8
+      Setting sample frequency to 1000
+      Setting print frequency to 10000
+      Setting chain output file names to "alignment_and_trees.nexus.<p/t>"
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 0767693894
+      Seed = 444980783
+      Swapseed = 1712805095
+      Model settings:
+
+         Settings for partition 1 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 2 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 3 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 4 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 5 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+         Settings for partition 6 --
+            Datatype  = Standard
+            Coding    = All
+            # States  = Variable, up to 10
+                        State frequencies are fixed to be equal
+            Rates     = Equal
+
+      Active parameters: 
+
+                             Partition(s)
+         Parameters          1  2  3  4  5  6
+         ------------------------------------
+         Statefreq           1  1  1  1  1  1
+         Ratemultiplier      2  2  2  2  2  2
+         Topology            3  3  3  3  3  3
+         Brlens              4  4  4  4  4  4
+         Speciationrate      5  5  5  5  5  5
+         Extinctionrate      6  6  6  6  6  6
+         Fossilizationrate   7  7  7  7  7  7
+         Igrvar              8  8  8  8  8  8
+         Igrbranchrates      9  9  9  9  9  9
+         Clockrate          10 10 10 10 10 10
+         ------------------------------------
+
+         Parameters can be linked or unlinked across partitions using 'link' and 'unlink'
+
+         1 --  Parameter  = Alpha_symdir{all}
+               Type       = Symmetric diricihlet/beta distribution alpha_i parameter
+               Prior      = Symmetric dirichlet with all parameters equal to infinity
+               Partitions = All
+
+         2 --  Parameter  = Ratemultiplier{all}
+               Type       = Partition-specific rate multiplier
+               Prior      = Fixed(1.0)
+               Partitions = All
+
+         3 --  Parameter  = Tau{all}
+               Type       = Topology
+               Prior      = Prior is fixed to the topology of user tree 'tree7'
+               Partitions = All
+               Subparam.  = V{all}
+
+         4 --  Parameter  = V{all}
+               Type       = Branch lengths
+               Prior      = Clock:Fossilization
+                            Node depths are constrained by the following age constraints:
+                            -- The age of terminal "A_VOR_Cod_259_I" is Fixed(654.00)
+                            -- The age of terminal "CH_E_611" is Uniform(624.00,724.00)
+                            -- The age of terminal "CZ_HKm_II_A_4" is Fixed(554.00)
+                            -- The age of terminal "CZ_PLm_504_C_004" is Fixed(408.00)
+                            -- The age of terminal "CZ_Pn_XV_A_10" is Uniform(524.00,574.00)
+                            -- The age of terminal "CZ_Pu_I_D_20" is Uniform(524.00,574.00)
+                            -- The age of terminal "D_KA_Aug_LX" is Uniform(624.00,1024.00)
+                            -- The age of terminal "F_Pn_lat_12044" is Uniform(874.00,924.00)
+                            -- The age of terminal "NL_Uu_406" is Uniform(624.00,924.00)
+                            -- The age of terminal "A_Wn_1799" is Uniform(724.00,824.00)
+                            -- The age of terminal "CDN_Hsmu_M2149_L4" is Fixed(474.00)
+                            -- The age of terminal "CZ_Pu_XVII_E_1" is Uniform(474.00,524.00)
+                            -- The age of terminal "D_KNd_1161" is Fixed(824.00)
+                            -- The age of terminal "F_Pn_lat_15181" is Uniform(674.00,724.00)
+                            -- Tree age has a Uniform(1124.00,1324.00) distribution
+               Partitions = All
+               Subparam.  = IgrBrlens{all}
+
+         5 --  Parameter  = Net_speciation{all}
+               Type       = Speciation rate
+               Prior      = Uniform(0.00,10.00)
+               Partitions = All
+
+         6 --  Parameter  = Relative_extinction{all}
+               Type       = Extinction rate
+               Prior      = Beta(1.00,1.00)
+               Partitions = All
+
+         7 --  Parameter  = Relative_fossilization{all}
+               Type       = Fossilization rate
+               Prior      = Beta(1.00,1.00)
+               Partitions = All
+
+         8 --  Parameter  = Igrvar{all}
+               Type       = Variance increase of igr model branch lenths
+               Prior      = Exponential(2.00)
+               Partitions = All
+               Subparam.  = IgrBrlens{all}
+
+         9 --  Parameter  = IgrBrlens{all}
+               Type       = Branch lengths of IGR relaxed clock
+               Prior      = Gamma (expectation = v, variance = Igrvar{all} * v) 
+                               [where v is branch length]
+               Partitions = All
+
+        10 --  Parameter  = Clockrate{all}
+               Type       = Base rate of clock
+               Prior      = Exponential(5.00)
+                            The clock rate varies according to an independent gamma (white noise) model
+               Partitions = All
+
+
+      Number of chains per MPI processor = 1
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+           18.29 %   AddBranch(V{all})
+           18.29 %   DelBranch(V{all})
+           24.39 %   NodesliderClock(V{all})
+            3.66 %   TreeStretch(V{all})
+            3.66 %   Multiplier(Net_speciation{all})
+            3.66 %   Slider(Relative_extinction{all})
+            3.66 %   Slider(Relative_fossilization{all})
+            2.44 %   Multiplier(Igrvar{all})
+           18.29 %   Multiplier(IgrBrlens{all})
+            3.66 %   Multiplier(Clockrate{all})
+
+      Division 1 has 72 unique site patterns
+      Division 2 has 39 unique site patterns
+      Division 3 has 80 unique site patterns
+      Division 4 has 39 unique site patterns
+      Division 5 has 94 unique site patterns
+      Division 6 has 35 unique site patterns
+      Initializing conditional likelihoods
+      Using standard non-SSE likelihood calculator for division 1 (single-precision)
+      Using standard non-SSE likelihood calculator for division 2 (single-precision)
+      Using standard non-SSE likelihood calculator for division 3 (single-precision)
+      Using standard non-SSE likelihood calculator for division 4 (single-precision)
+      Using standard non-SSE likelihood calculator for division 5 (single-precision)
+      Using standard non-SSE likelihood calculator for division 6 (single-precision)
+
+      Initial log likelihoods and log prior probs:
+         Chain 1 -- -3748.452484 -- -3529.552648
+
+      There are 7 more chains on other processor(s)
+
+
+      Chain results (10000000 generations requested):
+
+         0 -- [-3748.452] (...7 remote chains...) 
+      10000 -- [-957.989] (...7 remote chains...) -- 0:00:00
+      20000 -- [-951.750] (...7 remote chains...) -- 0:08:19
+      30000 -- [-949.460] (...7 remote chains...) -- 0:11:04
+      40000 -- [-951.982] (...7 remote chains...) -- 0:12:26
+      50000 -- [-951.121] (...7 remote chains...) -- 0:13:16
+      60000 -- [-948.552] (...7 remote chains...) -- 0:13:48
+      70000 -- [-953.050] (...7 remote chains...) -- 0:14:11
+      80000 -- [-952.313] (...7 remote chains...) -- 0:16:32
+      90000 -- [-952.008] (...7 remote chains...) -- 0:16:31
+      100000 -- [-948.457] (...7 remote chains...) -- 0:16:30
+      110000 -- [-950.395] (...7 remote chains...) -- 0:16:29
+      120000 -- [-947.536] (...7 remote chains...) -- 0:16:28
+      130000 -- [-944.591] (...7 remote chains...) -- 0:16:27
+      140000 -- [-953.141] (...7 remote chains...) -- 0:16:26
+      150000 -- [-956.263] (...7 remote chains...) -- 0:16:25
+      160000 -- [-954.705] (...7 remote chains...) -- 0:16:24
+      170000 -- [-944.269] (...7 remote chains...) -- 0:16:23
+      180000 -- [-947.251] (...7 remote chains...) -- 0:16:22
+      190000 -- [-947.788] (...7 remote chains...) -- 0:16:21
+      200000 -- [-948.653] (...7 remote chains...) -- 0:16:20
+      210000 -- [-942.191] (...7 remote chains...) -- 0:16:19
+      220000 -- [-950.773] (...7 remote chains...) -- 0:16:18
+      230000 -- [-947.900] (...7 remote chains...) -- 0:16:17
+      240000 -- [-949.101] (...7 remote chains...) -- 0:16:16
+      250000 -- [-944.065] (...7 remote chains...) -- 0:16:15
+      260000 -- [-940.600] (...7 remote chains...) -- 0:16:14
+      270000 -- [-943.049] (...7 remote chains...) -- 0:16:13
+      280000 -- [-940.985] (...7 remote chains...) -- 0:16:12
+      290000 -- [-940.106] (...7 remote chains...) -- 0:16:11
+      300000 -- [-948.859] (...7 remote chains...) -- 0:16:10
+      310000 -- [-946.011] (...7 remote chains...) -- 0:16:09
+      320000 -- [-950.684] (...7 remote chains...) -- 0:16:08
+      330000 -- [-939.198] (...7 remote chains...) -- 0:16:07
+      340000 -- [-946.688] (...7 remote chains...) -- 0:16:06
+      350000 -- [-936.931] (...7 remote chains...) -- 0:16:05
+      360000 -- [-940.258] (...7 remote chains...) -- 0:16:04
+      370000 -- [-938.910] (...7 remote chains...) -- 0:16:03
+      380000 -- [-956.487] (...7 remote chains...) -- 0:16:02
+      390000 -- [-950.024] (...7 remote chains...) -- 0:16:25
+      400000 -- [-946.061] (...7 remote chains...) -- 0:16:24
+      410000 -- [-948.024] (...7 remote chains...) -- 0:16:22
+      420000 -- [-940.605] (...7 remote chains...) -- 0:16:20
+      430000 -- [-946.960] (...7 remote chains...) -- 0:16:19
+      440000 -- [-942.889] (...7 remote chains...) -- 0:16:17
+      450000 -- [-951.165] (...7 remote chains...) -- 0:16:16
+      460000 -- [-953.450] (...7 remote chains...) -- 0:16:14
+      470000 -- [-946.273] (...7 remote chains...) -- 0:16:13
+      480000 -- [-951.563] (...7 remote chains...) -- 0:16:11
+      490000 -- [-946.882] (...7 remote chains...) -- 0:16:10
+      500000 -- [-947.802] (...7 remote chains...) -- 0:16:09
+      510000 -- [-949.692] (...7 remote chains...) -- 0:16:07
+      520000 -- [-943.012] (...7 remote chains...) -- 0:16:06
+      530000 -- [-944.684] (...7 remote chains...) -- 0:16:04
+      540000 -- [-947.465] (...7 remote chains...) -- 0:15:46
+      550000 -- [-948.679] (...7 remote chains...) -- 0:16:02
+      560000 -- [-948.596] (...7 remote chains...) -- 0:16:00
+      570000 -- [-944.479] (...7 remote chains...) -- 0:15:59
+      580000 -- [-947.303] (...7 remote chains...) -- 0:15:58
+      590000 -- [-947.355] (...7 remote chains...) -- 0:15:56
+      600000 -- [-948.649] (...7 remote chains...) -- 0:15:55
+      610000 -- [-943.577] (...7 remote chains...) -- 0:15:54
+      620000 -- [-943.331] (...7 remote chains...) -- 0:15:53
+      630000 -- [-945.112] (...7 remote chains...) -- 0:15:51
+      640000 -- [-951.019] (...7 remote chains...) -- 0:15:50
+      650000 -- [-950.011] (...7 remote chains...) -- 0:15:49
+      660000 -- [-943.380] (...7 remote chains...) -- 0:15:48
+      670000 -- [-953.449] (...7 remote chains...) -- 0:15:46
+      680000 -- [-949.628] (...7 remote chains...) -- 0:15:45
+      690000 -- [-947.745] (...7 remote chains...) -- 0:15:44
+      700000 -- [-949.949] (...7 remote chains...) -- 0:15:43
+      710000 -- [-938.319] (...7 remote chains...) -- 0:15:42
+      720000 -- [-942.318] (...7 remote chains...) -- 0:15:40
+      730000 -- [-942.944] (...7 remote chains...) -- 0:15:39
+      740000 -- [-941.491] (...7 remote chains...) -- 0:15:38
+      750000 -- [-945.079] (...7 remote chains...) -- 0:15:37
+      760000 -- [-952.218] (...7 remote chains...) -- 0:15:36
+      770000 -- [-942.450] (...7 remote chains...) -- 0:15:34
+      780000 -- [-951.153] (...7 remote chains...) -- 0:15:33
+      790000 -- [-948.159] (...7 remote chains...) -- 0:15:32
+      800000 -- [-949.021] (...7 remote chains...) -- 0:15:31
+      810000 -- [-938.319] (...7 remote chains...) -- 0:15:30
+      820000 -- [-955.560] (...7 remote chains...) -- 0:15:29
+      830000 -- [-957.931] (...7 remote chains...) -- 0:15:28
+      840000 -- [-954.028] (...7 remote chains...) -- 0:15:26
+      850000 -- [-951.237] (...7 remote chains...) -- 0:15:25
+      860000 -- [-939.591] (...7 remote chains...) -- 0:15:24
+      870000 -- [-940.046] (...7 remote chains...) -- 0:15:23
+      880000 -- [-941.554] (...7 remote chains...) -- 0:15:22
+      890000 -- [-945.215] (...7 remote chains...) -- 0:15:21
+      900000 -- [-951.657] (...7 remote chains...) -- 0:15:20
+      910000 -- [-940.139] (...7 remote chains...) -- 0:15:18
+      920000 -- [-950.132] (...7 remote chains...) -- 0:15:17
+      930000 -- [-943.105] (...7 remote chains...) -- 0:15:16
+      940000 -- [-949.252] (...7 remote chains...) -- 0:15:15
+      950000 -- [-948.636] (...7 remote chains...) -- 0:15:14
+      960000 -- [-951.351] (...7 remote chains...) -- 0:15:13
+      970000 -- [-948.553] (...7 remote chains...) -- 0:15:12
+      980000 -- [-943.227] (...7 remote chains...) -- 0:15:11
+      990000 -- [-941.336] (...7 remote chains...) -- 0:15:10
+      1000000 -- [-944.971] (...7 remote chains...) -- 0:15:09
+      1010000 -- [-944.191] (...7 remote chains...) -- 0:15:07
+      1020000 -- [-947.080] (...7 remote chains...) -- 0:15:06
+      1030000 -- [-942.406] (...7 remote chains...) -- 0:15:05
+      1040000 -- [-949.767] (...7 remote chains...) -- 0:15:04
+      1050000 -- [-943.259] (...7 remote chains...) -- 0:15:03
+      1060000 -- [-943.676] (...7 remote chains...) -- 0:15:02
+      1070000 -- [-949.094] (...7 remote chains...) -- 0:15:01
+      1080000 -- [-943.611] (...7 remote chains...) -- 0:15:00
+      1090000 -- [-950.532] (...7 remote chains...) -- 0:14:59
+      1100000 -- [-944.984] (...7 remote chains...) -- 0:14:58
+      1110000 -- [-951.517] (...7 remote chains...) -- 0:14:57
+      1120000 -- [-953.429] (...7 remote chains...) -- 0:14:55
+      1130000 -- [-951.055] (...7 remote chains...) -- 0:14:54
+      1140000 -- [-941.265] (...7 remote chains...) -- 0:14:53
+      1150000 -- [-944.135] (...7 remote chains...) -- 0:14:52
+      1160000 -- [-950.530] (...7 remote chains...) -- 0:14:51
+      1170000 -- [-948.606] (...7 remote chains...) -- 0:14:50
+      1180000 -- [-952.171] (...7 remote chains...) -- 0:14:49
+      1190000 -- [-950.317] (...7 remote chains...) -- 0:14:55
+      1200000 -- [-953.089] (...7 remote chains...) -- 0:14:54
+      1210000 -- [-942.462] (...7 remote chains...) -- 0:14:53
+      1220000 -- [-955.817] (...7 remote chains...) -- 0:14:52
+      1230000 -- [-946.459] (...7 remote chains...) -- 0:14:51
+      1240000 -- [-951.444] (...7 remote chains...) -- 0:14:50
+      1250000 -- [-947.518] (...7 remote chains...) -- 0:14:49
+      1260000 -- [-942.767] (...7 remote chains...) -- 0:14:47
+      1270000 -- [-949.542] (...7 remote chains...) -- 0:14:46
+      1280000 -- [-948.895] (...7 remote chains...) -- 0:14:45
+      1290000 -- [-956.922] (...7 remote chains...) -- 0:14:44
+      1300000 -- [-944.051] (...7 remote chains...) -- 0:14:43
+      1310000 -- [-958.076] (...7 remote chains...) -- 0:14:42
+      1320000 -- [-946.632] (...7 remote chains...) -- 0:14:41
+      1330000 -- [-952.310] (...7 remote chains...) -- 0:14:40
+      1340000 -- [-952.977] (...7 remote chains...) -- 0:14:38
+      1350000 -- [-945.820] (...7 remote chains...) -- 0:14:37
+      1360000 -- [-945.601] (...7 remote chains...) -- 0:14:36
+      1370000 -- [-951.735] (...7 remote chains...) -- 0:14:35
+      1380000 -- [-945.077] (...7 remote chains...) -- 0:14:34
+      1390000 -- [-945.262] (...7 remote chains...) -- 0:14:33
+      1400000 -- [-951.788] (...7 remote chains...) -- 0:14:32
+      1410000 -- [-954.013] (...7 remote chains...) -- 0:14:31
+      1420000 -- [-951.024] (...7 remote chains...) -- 0:14:30
+      1430000 -- [-957.163] (...7 remote chains...) -- 0:14:28
+      1440000 -- [-950.508] (...7 remote chains...) -- 0:14:27
+      1450000 -- [-951.832] (...7 remote chains...) -- 0:14:26
+      1460000 -- [-948.497] (...7 remote chains...) -- 0:14:25
+      1470000 -- [-941.352] (...7 remote chains...) -- 0:14:24
+      1480000 -- [-947.352] (...7 remote chains...) -- 0:14:23
+      1490000 -- [-947.383] (...7 remote chains...) -- 0:14:22
+      1500000 -- [-943.414] (...7 remote chains...) -- 0:14:21
+      1510000 -- [-941.293] (...7 remote chains...) -- 0:14:20
+      1520000 -- [-960.866] (...7 remote chains...) -- 0:14:19
+      1530000 -- [-947.686] (...7 remote chains...) -- 0:14:18
+      1540000 -- [-941.709] (...7 remote chains...) -- 0:14:16
+      1550000 -- [-944.356] (...7 remote chains...) -- 0:14:15
+      1560000 -- [-950.164] (...7 remote chains...) -- 0:14:14
+      1570000 -- [-950.597] (...7 remote chains...) -- 0:14:13
+      1580000 -- [-952.081] (...7 remote chains...) -- 0:14:12
+      1590000 -- [-942.815] (...7 remote chains...) -- 0:14:11
+      1600000 -- [-943.404] (...7 remote chains...) -- 0:14:10
+      1610000 -- [-947.257] (...7 remote chains...) -- 0:14:09
+      1620000 -- [-945.042] (...7 remote chains...) -- 0:14:08
+      1630000 -- [-939.176] (...7 remote chains...) -- 0:14:07
+      1640000 -- [-954.307] (...7 remote chains...) -- 0:14:06
+      1650000 -- [-949.211] (...7 remote chains...) -- 0:14:05
+      1660000 -- [-942.974] (...7 remote chains...) -- 0:14:04
+      1670000 -- [-955.929] (...7 remote chains...) -- 0:14:02
+      1680000 -- [-946.207] (...7 remote chains...) -- 0:14:01
+      1690000 -- [-941.763] (...7 remote chains...) -- 0:14:00
+      1700000 -- [-944.230] (...7 remote chains...) -- 0:13:59
+      1710000 -- [-949.686] (...7 remote chains...) -- 0:13:58
+      1720000 -- [-937.557] (...7 remote chains...) -- 0:13:57
+      1730000 -- [-949.935] (...7 remote chains...) -- 0:13:56
+      1740000 -- [-951.003] (...7 remote chains...) -- 0:14:00
+      1750000 -- [-950.986] (...7 remote chains...) -- 0:13:59
+      1760000 -- [-945.314] (...7 remote chains...) -- 0:13:58
+      1770000 -- [-950.159] (...7 remote chains...) -- 0:13:56
+      1780000 -- [-953.158] (...7 remote chains...) -- 0:13:55
+      1790000 -- [-950.345] (...7 remote chains...) -- 0:13:54
+      1800000 -- [-942.783] (...7 remote chains...) -- 0:13:53
+      1810000 -- [-940.019] (...7 remote chains...) -- 0:13:52
+      1820000 -- [-947.554] (...7 remote chains...) -- 0:13:51
+      1830000 -- [-947.868] (...7 remote chains...) -- 0:13:50
+      1840000 -- [-955.323] (...7 remote chains...) -- 0:13:49
+      1850000 -- [-946.733] (...7 remote chains...) -- 0:13:48
+      1860000 -- [-952.858] (...7 remote chains...) -- 0:13:47
+      1870000 -- [-945.028] (...7 remote chains...) -- 0:13:46
+      1880000 -- [-951.254] (...7 remote chains...) -- 0:13:44
+      1890000 -- [-953.362] (...7 remote chains...) -- 0:13:43
+      1900000 -- [-943.182] (...7 remote chains...) -- 0:13:42
+      1910000 -- [-942.625] (...7 remote chains...) -- 0:13:41
+      1920000 -- [-946.310] (...7 remote chains...) -- 0:13:40
+      1930000 -- [-945.575] (...7 remote chains...) -- 0:13:39
+      1940000 -- [-947.956] (...7 remote chains...) -- 0:13:38
+      1950000 -- [-946.002] (...7 remote chains...) -- 0:13:37
+      1960000 -- [-938.340] (...7 remote chains...) -- 0:13:36
+      1970000 -- [-944.039] (...7 remote chains...) -- 0:13:35
+      1980000 -- [-947.418] (...7 remote chains...) -- 0:13:34
+      1990000 -- [-948.574] (...7 remote chains...) -- 0:13:33
+      2000000 -- [-946.450] (...7 remote chains...) -- 0:13:32
+      2010000 -- [-952.754] (...7 remote chains...) -- 0:13:30
+      2020000 -- [-944.573] (...7 remote chains...) -- 0:13:29
+      2030000 -- [-944.098] (...7 remote chains...) -- 0:13:28
+      2040000 -- [-941.599] (...7 remote chains...) -- 0:13:27
+      2050000 -- [-943.710] (...7 remote chains...) -- 0:13:26
+      2060000 -- [-948.670] (...7 remote chains...) -- 0:13:25
+      2070000 -- [-947.169] (...7 remote chains...) -- 0:13:24
+      2080000 -- [-940.286] (...7 remote chains...) -- 0:13:23
+      2090000 -- [-946.428] (...7 remote chains...) -- 0:13:22
+      2100000 -- [-947.011] (...7 remote chains...) -- 0:13:21
+      2110000 -- [-948.177] (...7 remote chains...) -- 0:13:20
+      2120000 -- [-940.048] (...7 remote chains...) -- 0:13:19
+      2130000 -- [-941.622] (...7 remote chains...) -- 0:13:18
+      2140000 -- [-940.975] (...7 remote chains...) -- 0:13:17
+      2150000 -- [-945.432] (...7 remote chains...) -- 0:13:15
+      2160000 -- [-944.344] (...7 remote chains...) -- 0:13:14
+      2170000 -- [-942.771] (...7 remote chains...) -- 0:13:13
+      2180000 -- [-942.204] (...7 remote chains...) -- 0:13:12
+      2190000 -- [-944.745] (...7 remote chains...) -- 0:13:11
+      2200000 -- [-945.343] (...7 remote chains...) -- 0:13:10
+      2210000 -- [-945.748] (...7 remote chains...) -- 0:13:09
+      2220000 -- [-948.531] (...7 remote chains...) -- 0:13:08
+      2230000 -- [-949.334] (...7 remote chains...) -- 0:13:07
+      2240000 -- [-957.545] (...7 remote chains...) -- 0:13:06
+      2250000 -- [-947.272] (...7 remote chains...) -- 0:13:05
+      2260000 -- [-944.262] (...7 remote chains...) -- 0:13:04
+      2270000 -- [-949.230] (...7 remote chains...) -- 0:13:03
+      2280000 -- [-948.580] (...7 remote chains...) -- 0:13:02
+      2290000 -- [-944.045] (...7 remote chains...) -- 0:13:01
+      2300000 -- [-954.872] (...7 remote chains...) -- 0:13:00
+      2310000 -- [-943.653] (...7 remote chains...) -- 0:12:58
+      2320000 -- [-943.789] (...7 remote chains...) -- 0:12:57
+      2330000 -- [-943.730] (...7 remote chains...) -- 0:12:56
+      2340000 -- [-942.285] (...7 remote chains...) -- 0:12:55
+      2350000 -- [-957.420] (...7 remote chains...) -- 0:12:54
+      2360000 -- [-954.326] (...7 remote chains...) -- 0:12:53
+      2370000 -- [-948.856] (...7 remote chains...) -- 0:12:52
+      2380000 -- [-942.369] (...7 remote chains...) -- 0:12:51
+      2390000 -- [-955.781] (...7 remote chains...) -- 0:12:50
+      2400000 -- [-945.961] (...7 remote chains...) -- 0:12:49
+      2410000 -- [-948.890] (...7 remote chains...) -- 0:12:48
+      2420000 -- [-954.494] (...7 remote chains...) -- 0:12:47
+      2430000 -- [-948.860] (...7 remote chains...) -- 0:12:46
+      2440000 -- [-949.859] (...7 remote chains...) -- 0:12:45
+      2450000 -- [-950.504] (...7 remote chains...) -- 0:12:47
+      2460000 -- [-944.085] (...7 remote chains...) -- 0:12:46
+      2470000 -- [-942.907] (...7 remote chains...) -- 0:12:45
+      2480000 -- [-944.687] (...7 remote chains...) -- 0:12:41
+      2490000 -- [-940.881] (...7 remote chains...) -- 0:12:43
+      2500000 -- [-946.559] (...7 remote chains...) -- 0:12:42
+      2510000 -- [-947.811] (...7 remote chains...) -- 0:12:40
+      2520000 -- [-945.679] (...7 remote chains...) -- 0:12:39
+      2530000 -- [-942.394] (...7 remote chains...) -- 0:12:38
+      2540000 -- [-939.864] (...7 remote chains...) -- 0:12:37
+      2550000 -- [-947.578] (...7 remote chains...) -- 0:12:36
+      2560000 -- [-947.404] (...7 remote chains...) -- 0:12:35
+      2570000 -- [-943.565] (...7 remote chains...) -- 0:12:34
+      2580000 -- [-944.515] (...7 remote chains...) -- 0:12:33
+      2590000 -- [-949.847] (...7 remote chains...) -- 0:12:32
+      2600000 -- [-956.167] (...7 remote chains...) -- 0:12:31
+      2610000 -- [-949.749] (...7 remote chains...) -- 0:12:30
+      2620000 -- [-948.814] (...7 remote chains...) -- 0:12:29
+      2630000 -- [-944.983] (...7 remote chains...) -- 0:12:28
+      2640000 -- [-952.171] (...7 remote chains...) -- 0:12:27
+      2650000 -- [-944.822] (...7 remote chains...) -- 0:12:26
+      2660000 -- [-951.667] (...7 remote chains...) -- 0:12:25
+      2670000 -- [-957.564] (...7 remote chains...) -- 0:12:23
+      2680000 -- [-943.353] (...7 remote chains...) -- 0:12:22
+      2690000 -- [-946.303] (...7 remote chains...) -- 0:12:21
+      2700000 -- [-946.000] (...7 remote chains...) -- 0:12:20
+      2710000 -- [-951.477] (...7 remote chains...) -- 0:12:19
+      2720000 -- [-949.167] (...7 remote chains...) -- 0:12:18
+      2730000 -- [-946.797] (...7 remote chains...) -- 0:12:17
+      2740000 -- [-945.526] (...7 remote chains...) -- 0:12:16
+      2750000 -- [-941.919] (...7 remote chains...) -- 0:12:15
+      2760000 -- [-951.175] (...7 remote chains...) -- 0:12:14
+      2770000 -- [-947.047] (...7 remote chains...) -- 0:12:13
+      2780000 -- [-940.307] (...7 remote chains...) -- 0:12:09
+      2790000 -- [-947.845] (...7 remote chains...) -- 0:12:08
+      2800000 -- [-953.718] (...7 remote chains...) -- 0:12:07
+      2810000 -- [-951.096] (...7 remote chains...) -- 0:12:06
+      2820000 -- [-938.950] (...7 remote chains...) -- 0:12:05
+      2830000 -- [-950.751] (...7 remote chains...) -- 0:12:04
+      2840000 -- [-952.040] (...7 remote chains...) -- 0:12:03
+      2850000 -- [-948.971] (...7 remote chains...) -- 0:12:02
+      2860000 -- [-946.851] (...7 remote chains...) -- 0:12:03
+      2870000 -- [-939.048] (...7 remote chains...) -- 0:12:00
+      2880000 -- [-947.666] (...7 remote chains...) -- 0:11:59
+      2890000 -- [-948.733] (...7 remote chains...) -- 0:11:58
+      2900000 -- [-943.098] (...7 remote chains...) -- 0:11:57
+      2910000 -- [-942.879] (...7 remote chains...) -- 0:11:56
+      2920000 -- [-947.864] (...7 remote chains...) -- 0:11:55
+      2930000 -- [-946.301] (...7 remote chains...) -- 0:11:54
+      2940000 -- [-952.664] (...7 remote chains...) -- 0:11:53
+      2950000 -- [-945.420] (...7 remote chains...) -- 0:11:52
+      2960000 -- [-947.593] (...7 remote chains...) -- 0:11:51
+      2970000 -- [-955.720] (...7 remote chains...) -- 0:11:50
+      2980000 -- [-953.636] (...7 remote chains...) -- 0:11:49
+      2990000 -- [-951.844] (...7 remote chains...) -- 0:11:48
+      3000000 -- [-957.741] (...7 remote chains...) -- 0:11:47
+      3010000 -- [-951.266] (...7 remote chains...) -- 0:11:45
+      3020000 -- [-943.116] (...7 remote chains...) -- 0:11:44
+      3030000 -- [-947.146] (...7 remote chains...) -- 0:11:43
+      3040000 -- [-949.785] (...7 remote chains...) -- 0:11:42
+      3050000 -- [-944.915] (...7 remote chains...) -- 0:11:41
+      3060000 -- [-949.515] (...7 remote chains...) -- 0:11:40
+      3070000 -- [-940.297] (...7 remote chains...) -- 0:11:39
+      3080000 -- [-951.477] (...7 remote chains...) -- 0:11:38
+      3090000 -- [-953.032] (...7 remote chains...) -- 0:11:37
+      3100000 -- [-951.299] (...7 remote chains...) -- 0:11:36
+      3110000 -- [-949.216] (...7 remote chains...) -- 0:11:35
+      3120000 -- [-941.049] (...7 remote chains...) -- 0:11:34
+      3130000 -- [-944.001] (...7 remote chains...) -- 0:11:33
+      3140000 -- [-949.878] (...7 remote chains...) -- 0:11:32
+      3150000 -- [-950.557] (...7 remote chains...) -- 0:11:31
+      3160000 -- [-946.098] (...7 remote chains...) -- 0:11:30
+      3170000 -- [-946.305] (...7 remote chains...) -- 0:11:29
+      3180000 -- [-943.037] (...7 remote chains...) -- 0:11:28
+      3190000 -- [-949.619] (...7 remote chains...) -- 0:11:27
+      3200000 -- [-950.198] (...7 remote chains...) -- 0:11:26
+      3210000 -- [-937.982] (...7 remote chains...) -- 0:11:25
+      3220000 -- [-952.158] (...7 remote chains...) -- 0:11:24
+      3230000 -- [-943.878] (...7 remote chains...) -- 0:11:23
+      3240000 -- [-946.037] (...7 remote chains...) -- 0:11:22
+      3250000 -- [-948.267] (...7 remote chains...) -- 0:11:21
+      3260000 -- [-945.164] (...7 remote chains...) -- 0:11:20
+      3270000 -- [-943.183] (...7 remote chains...) -- 0:11:19
+      3280000 -- [-945.878] (...7 remote chains...) -- 0:11:18
+      3290000 -- [-944.378] (...7 remote chains...) -- 0:11:17
+      3300000 -- [-946.902] (...7 remote chains...) -- 0:11:16
+      3310000 -- [-947.112] (...7 remote chains...) -- 0:11:15
+      3320000 -- [-947.844] (...7 remote chains...) -- 0:11:14
+      3330000 -- [-943.527] (...7 remote chains...) -- 0:11:13
+      3340000 -- [-955.652] (...7 remote chains...) -- 0:11:11
+      3350000 -- [-946.326] (...7 remote chains...) -- 0:11:10
+      3360000 -- [-940.957] (...7 remote chains...) -- 0:11:09
+      3370000 -- [-947.114] (...7 remote chains...) -- 0:11:08
+      3380000 -- [-945.376] (...7 remote chains...) -- 0:11:07
+      3390000 -- [-946.567] (...7 remote chains...) -- 0:11:06
+      3400000 -- [-942.316] (...7 remote chains...) -- 0:11:05
+      3410000 -- [-950.865] (...7 remote chains...) -- 0:11:04
+      3420000 -- [-941.140] (...7 remote chains...) -- 0:11:03
+      3430000 -- [-947.808] (...7 remote chains...) -- 0:11:02
+      3440000 -- [-940.911] (...7 remote chains...) -- 0:11:01
+      3450000 -- [-951.039] (...7 remote chains...) -- 0:11:00
+      3460000 -- [-946.662] (...7 remote chains...) -- 0:10:59
+      3470000 -- [-956.243] (...7 remote chains...) -- 0:10:58
+      3480000 -- [-949.569] (...7 remote chains...) -- 0:10:57
+      3490000 -- [-952.558] (...7 remote chains...) -- 0:10:56
+      3500000 -- [-946.380] (...7 remote chains...) -- 0:10:55
+      3510000 -- [-944.703] (...7 remote chains...) -- 0:10:54
+      3520000 -- [-942.059] (...7 remote chains...) -- 0:10:53
+      3530000 -- [-951.403] (...7 remote chains...) -- 0:10:52
+      3540000 -- [-946.101] (...7 remote chains...) -- 0:10:51
+      3550000 -- [-940.580] (...7 remote chains...) -- 0:10:50
+      3560000 -- [-954.832] (...7 remote chains...) -- 0:10:49
+      3570000 -- [-951.992] (...7 remote chains...) -- 0:10:48
+      3580000 -- [-954.992] (...7 remote chains...) -- 0:10:47
+      3590000 -- [-954.998] (...7 remote chains...) -- 0:10:46
+      3600000 -- [-945.981] (...7 remote chains...) -- 0:10:45
+      3610000 -- [-952.362] (...7 remote chains...) -- 0:10:44
+      3620000 -- [-948.561] (...7 remote chains...) -- 0:10:43
+      3630000 -- [-953.882] (...7 remote chains...) -- 0:10:42
+      3640000 -- [-953.473] (...7 remote chains...) -- 0:10:41
+      3650000 -- [-943.516] (...7 remote chains...) -- 0:10:40
+      3660000 -- [-958.151] (...7 remote chains...) -- 0:10:39
+      3670000 -- [-946.152] (...7 remote chains...) -- 0:10:38
+      3680000 -- [-952.114] (...7 remote chains...) -- 0:10:37
+      3690000 -- [-944.039] (...7 remote chains...) -- 0:10:36
+      3700000 -- [-945.763] (...7 remote chains...) -- 0:10:35
+      3710000 -- [-942.260] (...7 remote chains...) -- 0:10:34
+      3720000 -- [-943.941] (...7 remote chains...) -- 0:10:33
+      3730000 -- [-954.876] (...7 remote chains...) -- 0:10:32
+      3740000 -- [-942.659] (...7 remote chains...) -- 0:10:31
+      3750000 -- [-946.296] (...7 remote chains...) -- 0:10:30
+      3760000 -- [-945.489] (...7 remote chains...) -- 0:10:28
+      3770000 -- [-950.051] (...7 remote chains...) -- 0:10:27
+      3780000 -- [-958.176] (...7 remote chains...) -- 0:10:26
+      3790000 -- [-943.592] (...7 remote chains...) -- 0:10:25
+      3800000 -- [-947.281] (...7 remote chains...) -- 0:10:24
+      3810000 -- [-940.161] (...7 remote chains...) -- 0:10:23
+      3820000 -- [-947.636] (...7 remote chains...) -- 0:10:22
+      3830000 -- [-946.083] (...7 remote chains...) -- 0:10:21
+      3840000 -- [-948.798] (...7 remote chains...) -- 0:10:20
+      3850000 -- [-944.717] (...7 remote chains...) -- 0:10:19
+      3860000 -- [-951.182] (...7 remote chains...) -- 0:10:18
+      3870000 -- [-949.085] (...7 remote chains...) -- 0:10:17
+      3880000 -- [-946.439] (...7 remote chains...) -- 0:10:16
+      3890000 -- [-956.555] (...7 remote chains...) -- 0:10:15
+      3900000 -- [-943.460] (...7 remote chains...) -- 0:10:14
+      3910000 -- [-940.334] (...7 remote chains...) -- 0:10:13
+      3920000 -- [-943.529] (...7 remote chains...) -- 0:10:12
+      3930000 -- [-948.798] (...7 remote chains...) -- 0:10:11
+      3940000 -- [-940.898] (...7 remote chains...) -- 0:10:10
+      3950000 -- [-945.793] (...7 remote chains...) -- 0:10:09
+      3960000 -- [-962.186] (...7 remote chains...) -- 0:10:08
+      3970000 -- [-950.784] (...7 remote chains...) -- 0:10:07
+      3980000 -- [-939.858] (...7 remote chains...) -- 0:10:06
+      3990000 -- [-948.047] (...7 remote chains...) -- 0:10:05
+      4000000 -- [-939.690] (...7 remote chains...) -- 0:10:04
+      4010000 -- [-948.756] (...7 remote chains...) -- 0:10:03
+      4020000 -- [-952.615] (...7 remote chains...) -- 0:10:02
+      4030000 -- [-948.270] (...7 remote chains...) -- 0:10:01
+      4040000 -- [-949.749] (...7 remote chains...) -- 0:10:00
+      4050000 -- [-944.269] (...7 remote chains...) -- 0:09:59
+      4060000 -- [-949.701] (...7 remote chains...) -- 0:09:58
+      4070000 -- [-943.674] (...7 remote chains...) -- 0:09:57
+      4080000 -- [-944.304] (...7 remote chains...) -- 0:09:56
+      4090000 -- [-949.987] (...7 remote chains...) -- 0:09:55
+      4100000 -- [-946.940] (...7 remote chains...) -- 0:09:54
+      4110000 -- [-947.552] (...7 remote chains...) -- 0:09:53
+      4120000 -- [-956.152] (...7 remote chains...) -- 0:09:52
+      4130000 -- [-940.716] (...7 remote chains...) -- 0:09:51
+      4140000 -- [-946.093] (...7 remote chains...) -- 0:09:50
+      4150000 -- [-945.451] (...7 remote chains...) -- 0:09:49
+      4160000 -- [-949.325] (...7 remote chains...) -- 0:09:48
+      4170000 -- [-945.984] (...7 remote chains...) -- 0:09:47
+      4180000 -- [-944.033] (...7 remote chains...) -- 0:09:46
+      4190000 -- [-943.010] (...7 remote chains...) -- 0:09:45
+      4200000 -- [-942.825] (...7 remote chains...) -- 0:09:44
+      4210000 -- [-947.069] (...7 remote chains...) -- 0:09:43
+      4220000 -- [-947.736] (...7 remote chains...) -- 0:09:42
+      4230000 -- [-949.372] (...7 remote chains...) -- 0:09:41
+      4240000 -- [-951.997] (...7 remote chains...) -- 0:09:40
+      4250000 -- [-945.235] (...7 remote chains...) -- 0:09:39
+      4260000 -- [-943.798] (...7 remote chains...) -- 0:09:38
+      4270000 -- [-954.840] (...7 remote chains...) -- 0:09:37
+      4280000 -- [-946.929] (...7 remote chains...) -- 0:09:36
+      4290000 -- [-955.275] (...7 remote chains...) -- 0:09:34
+      4300000 -- [-948.796] (...7 remote chains...) -- 0:09:33
+      4310000 -- [-945.212] (...7 remote chains...) -- 0:09:32
+      4320000 -- [-952.890] (...7 remote chains...) -- 0:09:31
+      4330000 -- [-954.745] (...7 remote chains...) -- 0:09:30
+      4340000 -- [-954.512] (...7 remote chains...) -- 0:09:29
+      4350000 -- [-955.127] (...7 remote chains...) -- 0:09:28
+      4360000 -- [-941.563] (...7 remote chains...) -- 0:09:27
+      4370000 -- [-943.079] (...7 remote chains...) -- 0:09:26
+      4380000 -- [-944.466] (...7 remote chains...) -- 0:09:25
+      4390000 -- [-943.833] (...7 remote chains...) -- 0:09:24
+      4400000 -- [-944.118] (...7 remote chains...) -- 0:09:23
+      4410000 -- [-944.885] (...7 remote chains...) -- 0:09:22
+      4420000 -- [-946.781] (...7 remote chains...) -- 0:09:21
+      4430000 -- [-947.915] (...7 remote chains...) -- 0:09:20
+      4440000 -- [-952.145] (...7 remote chains...) -- 0:09:19
+      4450000 -- [-949.770] (...7 remote chains...) -- 0:09:18
+      4460000 -- [-950.060] (...7 remote chains...) -- 0:09:17
+      4470000 -- [-940.522] (...7 remote chains...) -- 0:09:16
+      4480000 -- [-943.383] (...7 remote chains...) -- 0:09:15
+      4490000 -- [-948.099] (...7 remote chains...) -- 0:09:14
+      4500000 -- [-943.664] (...7 remote chains...) -- 0:09:13
+      4510000 -- [-945.233] (...7 remote chains...) -- 0:09:12
+      4520000 -- [-944.764] (...7 remote chains...) -- 0:09:11
+      4530000 -- [-947.408] (...7 remote chains...) -- 0:09:10
+      4540000 -- [-951.248] (...7 remote chains...) -- 0:09:09
+      4550000 -- [-949.289] (...7 remote chains...) -- 0:09:08
+      4560000 -- [-948.037] (...7 remote chains...) -- 0:09:07
+      4570000 -- [-943.803] (...7 remote chains...) -- 0:09:06
+      4580000 -- [-944.780] (...7 remote chains...) -- 0:09:05
+      4590000 -- [-952.849] (...7 remote chains...) -- 0:09:04
+      4600000 -- [-946.765] (...7 remote chains...) -- 0:09:03
+      4610000 -- [-954.353] (...7 remote chains...) -- 0:09:02
+      4620000 -- [-947.118] (...7 remote chains...) -- 0:09:01
+      4630000 -- [-941.244] (...7 remote chains...) -- 0:09:00
+      4640000 -- [-949.753] (...7 remote chains...) -- 0:08:59
+      4650000 -- [-944.472] (...7 remote chains...) -- 0:08:58
+      4660000 -- [-950.856] (...7 remote chains...) -- 0:08:58
+      4670000 -- [-954.501] (...7 remote chains...) -- 0:08:57
+      4680000 -- [-949.899] (...7 remote chains...) -- 0:08:56
+      4690000 -- [-948.862] (...7 remote chains...) -- 0:08:55
+      4700000 -- [-945.434] (...7 remote chains...) -- 0:08:54
+      4710000 -- [-945.305] (...7 remote chains...) -- 0:08:53
+      4720000 -- [-950.937] (...7 remote chains...) -- 0:08:52
+      4730000 -- [-945.220] (...7 remote chains...) -- 0:08:51
+      4740000 -- [-946.027] (...7 remote chains...) -- 0:08:50
+      4750000 -- [-948.173] (...7 remote chains...) -- 0:08:49
+      4760000 -- [-953.863] (...7 remote chains...) -- 0:08:48
+      4770000 -- [-940.345] (...7 remote chains...) -- 0:08:47
+      4780000 -- [-947.604] (...7 remote chains...) -- 0:08:46
+      4790000 -- [-946.077] (...7 remote chains...) -- 0:08:45
+      4800000 -- [-944.657] (...7 remote chains...) -- 0:08:44
+      4810000 -- [-955.681] (...7 remote chains...) -- 0:08:43
+      4820000 -- [-941.956] (...7 remote chains...) -- 0:08:42
+      4830000 -- [-953.659] (...7 remote chains...) -- 0:08:41
+      4840000 -- [-942.070] (...7 remote chains...) -- 0:08:40
+      4850000 -- [-956.382] (...7 remote chains...) -- 0:08:39
+      4860000 -- [-944.386] (...7 remote chains...) -- 0:08:38
+      4870000 -- [-948.009] (...7 remote chains...) -- 0:08:37
+      4880000 -- [-944.685] (...7 remote chains...) -- 0:08:36
+      4890000 -- [-950.326] (...7 remote chains...) -- 0:08:35
+      4900000 -- [-947.754] (...7 remote chains...) -- 0:08:34
+      4910000 -- [-945.043] (...7 remote chains...) -- 0:08:33
+      4920000 -- [-945.121] (...7 remote chains...) -- 0:08:32
+      4930000 -- [-948.444] (...7 remote chains...) -- 0:08:31
+      4940000 -- [-959.583] (...7 remote chains...) -- 0:08:30
+      4950000 -- [-948.640] (...7 remote chains...) -- 0:08:29
+      4960000 -- [-951.843] (...7 remote chains...) -- 0:08:28
+      4970000 -- [-947.930] (...7 remote chains...) -- 0:08:27
+      4980000 -- [-953.180] (...7 remote chains...) -- 0:08:26
+      4990000 -- [-946.560] (...7 remote chains...) -- 0:08:25
+      5000000 -- [-941.800] (...7 remote chains...) -- 0:08:24
+      5010000 -- [-956.714] (...7 remote chains...) -- 0:08:22
+      5020000 -- [-943.613] (...7 remote chains...) -- 0:08:21
+      5030000 -- [-947.108] (...7 remote chains...) -- 0:08:20
+      5040000 -- [-956.001] (...7 remote chains...) -- 0:08:19
+      5050000 -- [-952.640] (...7 remote chains...) -- 0:08:18
+      5060000 -- [-946.151] (...7 remote chains...) -- 0:08:17
+      5070000 -- [-949.141] (...7 remote chains...) -- 0:08:16
+      5080000 -- [-953.383] (...7 remote chains...) -- 0:08:15
+      5090000 -- [-950.742] (...7 remote chains...) -- 0:08:14
+      5100000 -- [-947.390] (...7 remote chains...) -- 0:08:13
+      5110000 -- [-938.042] (...7 remote chains...) -- 0:08:12
+      5120000 -- [-951.815] (...7 remote chains...) -- 0:08:11
+      5130000 -- [-950.816] (...7 remote chains...) -- 0:08:10
+      5140000 -- [-956.600] (...7 remote chains...) -- 0:08:09
+      5150000 -- [-958.943] (...7 remote chains...) -- 0:08:08
+      5160000 -- [-951.910] (...7 remote chains...) -- 0:08:07
+      5170000 -- [-948.026] (...7 remote chains...) -- 0:08:06
+      5180000 -- [-947.616] (...7 remote chains...) -- 0:08:05
+      5190000 -- [-944.906] (...7 remote chains...) -- 0:08:04
+      5200000 -- [-946.927] (...7 remote chains...) -- 0:08:03
+      5210000 -- [-947.063] (...7 remote chains...) -- 0:08:02
+      5220000 -- [-947.592] (...7 remote chains...) -- 0:08:01
+      5230000 -- [-952.148] (...7 remote chains...) -- 0:08:00
+      5240000 -- [-946.839] (...7 remote chains...) -- 0:07:59
+      5250000 -- [-950.128] (...7 remote chains...) -- 0:07:58
+      5260000 -- [-951.672] (...7 remote chains...) -- 0:07:57
+      5270000 -- [-948.611] (...7 remote chains...) -- 0:07:56
+      5280000 -- [-942.265] (...7 remote chains...) -- 0:07:55
+      5290000 -- [-943.825] (...7 remote chains...) -- 0:07:54
+      5300000 -- [-955.671] (...7 remote chains...) -- 0:07:53
+      5310000 -- [-952.313] (...7 remote chains...) -- 0:07:52
+      5320000 -- [-954.185] (...7 remote chains...) -- 0:07:51
+      5330000 -- [-958.819] (...7 remote chains...) -- 0:07:50
+      5340000 -- [-952.066] (...7 remote chains...) -- 0:07:49
+      5350000 -- [-948.036] (...7 remote chains...) -- 0:07:48
+      5360000 -- [-948.965] (...7 remote chains...) -- 0:07:47
+      5370000 -- [-951.161] (...7 remote chains...) -- 0:07:46
+      5380000 -- [-955.510] (...7 remote chains...) -- 0:07:45
+      5390000 -- [-952.708] (...7 remote chains...) -- 0:07:44
+      5400000 -- [-954.032] (...7 remote chains...) -- 0:07:43
+      5410000 -- [-944.151] (...7 remote chains...) -- 0:07:42
+      5420000 -- [-950.135] (...7 remote chains...) -- 0:07:41
+      5430000 -- [-943.770] (...7 remote chains...) -- 0:07:40
+      5440000 -- [-946.984] (...7 remote chains...) -- 0:07:39
+      5450000 -- [-947.976] (...7 remote chains...) -- 0:07:38
+      5460000 -- [-952.261] (...7 remote chains...) -- 0:07:37
+      5470000 -- [-948.048] (...7 remote chains...) -- 0:07:36
+      5480000 -- [-949.182] (...7 remote chains...) -- 0:07:35
+      5490000 -- [-951.484] (...7 remote chains...) -- 0:07:34
+      5500000 -- [-957.705] (...7 remote chains...) -- 0:07:33
+      5510000 -- [-951.443] (...7 remote chains...) -- 0:07:32
+      5520000 -- [-948.474] (...7 remote chains...) -- 0:07:31
+      5530000 -- [-948.399] (...7 remote chains...) -- 0:07:30
+      5540000 -- [-944.178] (...7 remote chains...) -- 0:07:29
+      5550000 -- [-949.950] (...7 remote chains...) -- 0:07:28
+      5560000 -- [-953.013] (...7 remote chains...) -- 0:07:27
+      5570000 -- [-947.226] (...7 remote chains...) -- 0:07:26
+      5580000 -- [-945.474] (...7 remote chains...) -- 0:07:25
+      5590000 -- [-950.579] (...7 remote chains...) -- 0:07:24
+      5600000 -- [-949.057] (...7 remote chains...) -- 0:07:23
+      5610000 -- [-946.546] (...7 remote chains...) -- 0:07:22
+      5620000 -- [-942.791] (...7 remote chains...) -- 0:07:21
+      5630000 -- [-954.539] (...7 remote chains...) -- 0:07:20
+      5640000 -- [-942.803] (...7 remote chains...) -- 0:07:19
+      5650000 -- [-950.279] (...7 remote chains...) -- 0:07:18
+      5660000 -- [-940.941] (...7 remote chains...) -- 0:07:17
+      5670000 -- [-946.125] (...7 remote chains...) -- 0:07:16
+      5680000 -- [-942.660] (...7 remote chains...) -- 0:07:15
+      5690000 -- [-940.117] (...7 remote chains...) -- 0:07:14
+      5700000 -- [-950.517] (...7 remote chains...) -- 0:07:13
+      5710000 -- [-946.641] (...7 remote chains...) -- 0:07:12
+      5720000 -- [-947.649] (...7 remote chains...) -- 0:07:10
+      5730000 -- [-951.581] (...7 remote chains...) -- 0:07:09
+      5740000 -- [-938.644] (...7 remote chains...) -- 0:07:08
+      5750000 -- [-946.866] (...7 remote chains...) -- 0:07:07
+      5760000 -- [-944.555] (...7 remote chains...) -- 0:07:06
+      5770000 -- [-942.799] (...7 remote chains...) -- 0:07:05
+      5780000 -- [-940.460] (...7 remote chains...) -- 0:07:04
+      5790000 -- [-942.209] (...7 remote chains...) -- 0:07:03
+      5800000 -- [-955.594] (...7 remote chains...) -- 0:07:02
+      5810000 -- [-948.643] (...7 remote chains...) -- 0:07:01
+      5820000 -- [-948.682] (...7 remote chains...) -- 0:07:00
+      5830000 -- [-942.658] (...7 remote chains...) -- 0:06:59
+      5840000 -- [-935.761] (...7 remote chains...) -- 0:06:58
+      5850000 -- [-938.650] (...7 remote chains...) -- 0:06:57
+      5860000 -- [-940.526] (...7 remote chains...) -- 0:06:56
+      5870000 -- [-946.906] (...7 remote chains...) -- 0:06:55
+      5880000 -- [-949.103] (...7 remote chains...) -- 0:06:54
+      5890000 -- [-947.731] (...7 remote chains...) -- 0:06:53
+      5900000 -- [-947.191] (...7 remote chains...) -- 0:06:52
+      5910000 -- [-943.411] (...7 remote chains...) -- 0:06:51
+      5920000 -- [-948.220] (...7 remote chains...) -- 0:06:50
+      5930000 -- [-945.243] (...7 remote chains...) -- 0:06:49
+      5940000 -- [-944.198] (...7 remote chains...) -- 0:06:48
+      5950000 -- [-950.572] (...7 remote chains...) -- 0:06:47
+      5960000 -- [-942.216] (...7 remote chains...) -- 0:06:46
+      5970000 -- [-945.231] (...7 remote chains...) -- 0:06:45
+      5980000 -- [-946.749] (...7 remote chains...) -- 0:06:44
+      5990000 -- [-949.500] (...7 remote chains...) -- 0:06:43
+      6000000 -- [-943.934] (...7 remote chains...) -- 0:06:42
+      6010000 -- [-945.386] (...7 remote chains...) -- 0:06:41
+      6020000 -- [-954.875] (...7 remote chains...) -- 0:06:40
+      6030000 -- [-945.810] (...7 remote chains...) -- 0:06:39
+      6040000 -- [-940.336] (...7 remote chains...) -- 0:06:38
+      6050000 -- [-947.315] (...7 remote chains...) -- 0:06:37
+      6060000 -- [-948.219] (...7 remote chains...) -- 0:06:36
+      6070000 -- [-942.928] (...7 remote chains...) -- 0:06:35
+      6080000 -- [-951.165] (...7 remote chains...) -- 0:06:34
+      6090000 -- [-947.350] (...7 remote chains...) -- 0:06:33
+      6100000 -- [-944.786] (...7 remote chains...) -- 0:06:32
+      6110000 -- [-939.270] (...7 remote chains...) -- 0:06:31
+      6120000 -- [-945.513] (...7 remote chains...) -- 0:06:30
+      6130000 -- [-947.842] (...7 remote chains...) -- 0:06:29
+      6140000 -- [-940.867] (...7 remote chains...) -- 0:06:28
+      6150000 -- [-945.934] (...7 remote chains...) -- 0:06:27
+      6160000 -- [-939.869] (...7 remote chains...) -- 0:06:26
+      6170000 -- [-953.906] (...7 remote chains...) -- 0:06:25
+      6180000 -- [-943.853] (...7 remote chains...) -- 0:06:24
+      6190000 -- [-949.973] (...7 remote chains...) -- 0:06:23
+      6200000 -- [-949.386] (...7 remote chains...) -- 0:06:22
+      6210000 -- [-950.393] (...7 remote chains...) -- 0:06:21
+      6220000 -- [-944.080] (...7 remote chains...) -- 0:06:20
+      6230000 -- [-944.130] (...7 remote chains...) -- 0:06:19
+      6240000 -- [-948.229] (...7 remote chains...) -- 0:06:18
+      6250000 -- [-942.689] (...7 remote chains...) -- 0:06:17
+      6260000 -- [-952.471] (...7 remote chains...) -- 0:06:16
+      6270000 -- [-942.083] (...7 remote chains...) -- 0:06:15
+      6280000 -- [-947.793] (...7 remote chains...) -- 0:06:14
+      6290000 -- [-944.662] (...7 remote chains...) -- 0:06:13
+      6300000 -- [-943.431] (...7 remote chains...) -- 0:06:12
+      6310000 -- [-959.799] (...7 remote chains...) -- 0:06:11
+      6320000 -- [-942.745] (...7 remote chains...) -- 0:06:10
+      6330000 -- [-944.987] (...7 remote chains...) -- 0:06:09
+      6340000 -- [-945.727] (...7 remote chains...) -- 0:06:08
+      6350000 -- [-948.200] (...7 remote chains...) -- 0:06:07
+      6360000 -- [-945.230] (...7 remote chains...) -- 0:06:06
+      6370000 -- [-946.926] (...7 remote chains...) -- 0:06:05
+      6380000 -- [-947.516] (...7 remote chains...) -- 0:06:04
+      6390000 -- [-949.677] (...7 remote chains...) -- 0:06:03
+      6400000 -- [-962.013] (...7 remote chains...) -- 0:06:02
+      6410000 -- [-945.802] (...7 remote chains...) -- 0:06:01
+      6420000 -- [-952.969] (...7 remote chains...) -- 0:06:00
+      6430000 -- [-937.498] (...7 remote chains...) -- 0:05:59
+      6440000 -- [-945.036] (...7 remote chains...) -- 0:05:58
+      6450000 -- [-950.234] (...7 remote chains...) -- 0:05:57
+      6460000 -- [-956.857] (...7 remote chains...) -- 0:05:56
+      6470000 -- [-944.413] (...7 remote chains...) -- 0:05:55
+      6480000 -- [-952.593] (...7 remote chains...) -- 0:05:54
+      6490000 -- [-947.787] (...7 remote chains...) -- 0:05:53
+      6500000 -- [-952.634] (...7 remote chains...) -- 0:05:52
+      6510000 -- [-943.453] (...7 remote chains...) -- 0:05:51
+      6520000 -- [-945.429] (...7 remote chains...) -- 0:05:50
+      6530000 -- [-943.626] (...7 remote chains...) -- 0:05:49
+      6540000 -- [-944.130] (...7 remote chains...) -- 0:05:48
+      6550000 -- [-943.291] (...7 remote chains...) -- 0:05:47
+      6560000 -- [-946.129] (...7 remote chains...) -- 0:05:46
+      6570000 -- [-941.420] (...7 remote chains...) -- 0:05:45
+      6580000 -- [-947.531] (...7 remote chains...) -- 0:05:44
+      6590000 -- [-949.313] (...7 remote chains...) -- 0:05:43
+      6600000 -- [-948.717] (...7 remote chains...) -- 0:05:42
+      6610000 -- [-940.877] (...7 remote chains...) -- 0:05:41
+      6620000 -- [-947.237] (...7 remote chains...) -- 0:05:40
+      6630000 -- [-949.306] (...7 remote chains...) -- 0:05:39
+      6640000 -- [-946.543] (...7 remote chains...) -- 0:05:38
+      6650000 -- [-942.697] (...7 remote chains...) -- 0:05:37
+      6660000 -- [-948.732] (...7 remote chains...) -- 0:05:36
+      6670000 -- [-942.698] (...7 remote chains...) -- 0:05:34
+      6680000 -- [-941.046] (...7 remote chains...) -- 0:05:33
+      6690000 -- [-947.228] (...7 remote chains...) -- 0:05:32
+      6700000 -- [-946.297] (...7 remote chains...) -- 0:05:31
+      6710000 -- [-949.062] (...7 remote chains...) -- 0:05:30
+      6720000 -- [-945.743] (...7 remote chains...) -- 0:05:29
+      6730000 -- [-947.829] (...7 remote chains...) -- 0:05:28
+      6740000 -- [-944.264] (...7 remote chains...) -- 0:05:27
+      6750000 -- [-951.240] (...7 remote chains...) -- 0:05:26
+      6760000 -- [-943.532] (...7 remote chains...) -- 0:05:26
+      6770000 -- [-948.260] (...7 remote chains...) -- 0:05:25
+      6780000 -- [-946.096] (...7 remote chains...) -- 0:05:24
+      6790000 -- [-950.053] (...7 remote chains...) -- 0:05:23
+      6800000 -- [-942.804] (...7 remote chains...) -- 0:05:22
+      6810000 -- [-939.652] (...7 remote chains...) -- 0:05:21
+      6820000 -- [-950.600] (...7 remote chains...) -- 0:05:20
+      6830000 -- [-948.019] (...7 remote chains...) -- 0:05:19
+      6840000 -- [-944.015] (...7 remote chains...) -- 0:05:18
+      6850000 -- [-949.094] (...7 remote chains...) -- 0:05:17
+      6860000 -- [-943.748] (...7 remote chains...) -- 0:05:16
+      6870000 -- [-956.333] (...7 remote chains...) -- 0:05:15
+      6880000 -- [-948.447] (...7 remote chains...) -- 0:05:14
+      6890000 -- [-945.251] (...7 remote chains...) -- 0:05:13
+      6900000 -- [-939.465] (...7 remote chains...) -- 0:05:12
+      6910000 -- [-949.841] (...7 remote chains...) -- 0:05:11
+      6920000 -- [-945.343] (...7 remote chains...) -- 0:05:10
+      6930000 -- [-946.791] (...7 remote chains...) -- 0:05:09
+      6940000 -- [-946.162] (...7 remote chains...) -- 0:05:08
+      6950000 -- [-941.287] (...7 remote chains...) -- 0:05:07
+      6960000 -- [-952.974] (...7 remote chains...) -- 0:05:06
+      6970000 -- [-948.806] (...7 remote chains...) -- 0:05:05
+      6980000 -- [-940.541] (...7 remote chains...) -- 0:05:04
+      6990000 -- [-946.767] (...7 remote chains...) -- 0:05:03
+      7000000 -- [-949.133] (...7 remote chains...) -- 0:05:02
+      7010000 -- [-942.270] (...7 remote chains...) -- 0:05:01
+      7020000 -- [-944.641] (...7 remote chains...) -- 0:05:00
+      7030000 -- [-952.951] (...7 remote chains...) -- 0:04:59
+      7040000 -- [-946.527] (...7 remote chains...) -- 0:04:58
+      7050000 -- [-942.425] (...7 remote chains...) -- 0:04:57
+      7060000 -- [-946.835] (...7 remote chains...) -- 0:04:56
+      7070000 -- [-950.318] (...7 remote chains...) -- 0:04:55
+      7080000 -- [-943.916] (...7 remote chains...) -- 0:04:54
+      7090000 -- [-946.027] (...7 remote chains...) -- 0:04:53
+      7100000 -- [-950.996] (...7 remote chains...) -- 0:04:52
+      7110000 -- [-946.887] (...7 remote chains...) -- 0:04:51
+      7120000 -- [-948.669] (...7 remote chains...) -- 0:04:50
+      7130000 -- [-941.757] (...7 remote chains...) -- 0:04:49
+      7140000 -- [-945.536] (...7 remote chains...) -- 0:04:48
+      7150000 -- [-942.077] (...7 remote chains...) -- 0:04:46
+      7160000 -- [-947.669] (...7 remote chains...) -- 0:04:45
+      7170000 -- [-944.776] (...7 remote chains...) -- 0:04:44
+      7180000 -- [-943.898] (...7 remote chains...) -- 0:04:43
+      7190000 -- [-949.699] (...7 remote chains...) -- 0:04:42
+      7200000 -- [-944.021] (...7 remote chains...) -- 0:04:41
+      7210000 -- [-946.849] (...7 remote chains...) -- 0:04:40
+      7220000 -- [-948.121] (...7 remote chains...) -- 0:04:39
+      7230000 -- [-949.452] (...7 remote chains...) -- 0:04:38
+      7240000 -- [-942.807] (...7 remote chains...) -- 0:04:37
+      7250000 -- [-939.974] (...7 remote chains...) -- 0:04:36
+      7260000 -- [-955.476] (...7 remote chains...) -- 0:04:35
+      7270000 -- [-950.237] (...7 remote chains...) -- 0:04:34
+      7280000 -- [-955.024] (...7 remote chains...) -- 0:04:33
+      7290000 -- [-943.600] (...7 remote chains...) -- 0:04:32
+      7300000 -- [-953.188] (...7 remote chains...) -- 0:04:31
+      7310000 -- [-944.819] (...7 remote chains...) -- 0:04:30
+      7320000 -- [-946.192] (...7 remote chains...) -- 0:04:29
+      7330000 -- [-946.711] (...7 remote chains...) -- 0:04:28
+      7340000 -- [-957.526] (...7 remote chains...) -- 0:04:27
+      7350000 -- [-951.289] (...7 remote chains...) -- 0:04:26
+      7360000 -- [-950.490] (...7 remote chains...) -- 0:04:25
+      7370000 -- [-945.399] (...7 remote chains...) -- 0:04:24
+      7380000 -- [-956.605] (...7 remote chains...) -- 0:04:23
+      7390000 -- [-955.583] (...7 remote chains...) -- 0:04:22
+      7400000 -- [-949.176] (...7 remote chains...) -- 0:04:21
+      7410000 -- [-951.967] (...7 remote chains...) -- 0:04:20
+      7420000 -- [-954.797] (...7 remote chains...) -- 0:04:19
+      7430000 -- [-953.345] (...7 remote chains...) -- 0:04:18
+      7440000 -- [-949.987] (...7 remote chains...) -- 0:04:17
+      7450000 -- [-951.128] (...7 remote chains...) -- 0:04:16
+      7460000 -- [-946.275] (...7 remote chains...) -- 0:04:15
+      7470000 -- [-945.725] (...7 remote chains...) -- 0:04:14
+      7480000 -- [-948.994] (...7 remote chains...) -- 0:04:13
+      7490000 -- [-941.785] (...7 remote chains...) -- 0:04:12
+      7500000 -- [-950.871] (...7 remote chains...) -- 0:04:11
+      7510000 -- [-953.878] (...7 remote chains...) -- 0:04:10
+      7520000 -- [-948.378] (...7 remote chains...) -- 0:04:09
+      7530000 -- [-945.529] (...7 remote chains...) -- 0:04:08
+      7540000 -- [-951.183] (...7 remote chains...) -- 0:04:07
+      7550000 -- [-945.648] (...7 remote chains...) -- 0:04:06
+      7560000 -- [-947.744] (...7 remote chains...) -- 0:04:05
+      7570000 -- [-953.287] (...7 remote chains...) -- 0:04:04
+      7580000 -- [-951.332] (...7 remote chains...) -- 0:04:03
+      7590000 -- [-953.248] (...7 remote chains...) -- 0:04:02
+      7600000 -- [-942.404] (...7 remote chains...) -- 0:04:01
+      7610000 -- [-950.881] (...7 remote chains...) -- 0:04:00
+      7620000 -- [-942.248] (...7 remote chains...) -- 0:03:59
+      7630000 -- [-941.078] (...7 remote chains...) -- 0:03:58
+      7640000 -- [-950.720] (...7 remote chains...) -- 0:03:57
+      7650000 -- [-942.318] (...7 remote chains...) -- 0:03:56
+      7660000 -- [-944.477] (...7 remote chains...) -- 0:03:55
+      7670000 -- [-943.913] (...7 remote chains...) -- 0:03:54
+      7680000 -- [-944.529] (...7 remote chains...) -- 0:03:53
+      7690000 -- [-951.126] (...7 remote chains...) -- 0:03:52
+      7700000 -- [-943.953] (...7 remote chains...) -- 0:03:51
+      7710000 -- [-947.886] (...7 remote chains...) -- 0:03:50
+      7720000 -- [-952.404] (...7 remote chains...) -- 0:03:49
+      7730000 -- [-946.783] (...7 remote chains...) -- 0:03:48
+      7740000 -- [-947.274] (...7 remote chains...) -- 0:03:47
+      7750000 -- [-941.834] (...7 remote chains...) -- 0:03:46
+      7760000 -- [-952.312] (...7 remote chains...) -- 0:03:45
+      7770000 -- [-943.207] (...7 remote chains...) -- 0:03:44
+      7780000 -- [-956.308] (...7 remote chains...) -- 0:03:43
+      7790000 -- [-945.275] (...7 remote chains...) -- 0:03:42
+      7800000 -- [-945.998] (...7 remote chains...) -- 0:03:41
+      7810000 -- [-949.794] (...7 remote chains...) -- 0:03:40
+      7820000 -- [-944.236] (...7 remote chains...) -- 0:03:39
+      7830000 -- [-942.381] (...7 remote chains...) -- 0:03:38
+      7840000 -- [-948.711] (...7 remote chains...) -- 0:03:37
+      7850000 -- [-956.979] (...7 remote chains...) -- 0:03:36
+      7860000 -- [-946.040] (...7 remote chains...) -- 0:03:35
+      7870000 -- [-947.409] (...7 remote chains...) -- 0:03:34
+      7880000 -- [-945.786] (...7 remote chains...) -- 0:03:33
+      7890000 -- [-950.551] (...7 remote chains...) -- 0:03:32
+      7900000 -- [-949.127] (...7 remote chains...) -- 0:03:31
+      7910000 -- [-950.604] (...7 remote chains...) -- 0:03:30
+      7920000 -- [-943.445] (...7 remote chains...) -- 0:03:29
+      7930000 -- [-946.775] (...7 remote chains...) -- 0:03:28
+      7940000 -- [-949.250] (...7 remote chains...) -- 0:03:27
+      7950000 -- [-949.563] (...7 remote chains...) -- 0:03:26
+      7960000 -- [-947.176] (...7 remote chains...) -- 0:03:25
+      7970000 -- [-955.289] (...7 remote chains...) -- 0:03:24
+      7980000 -- [-946.736] (...7 remote chains...) -- 0:03:23
+      7990000 -- [-946.775] (...7 remote chains...) -- 0:03:22
+      8000000 -- [-948.726] (...7 remote chains...) -- 0:03:21
+      8010000 -- [-954.075] (...7 remote chains...) -- 0:03:20
+      8020000 -- [-943.180] (...7 remote chains...) -- 0:03:19
+      8030000 -- [-945.696] (...7 remote chains...) -- 0:03:18
+      8040000 -- [-940.533] (...7 remote chains...) -- 0:03:17
+      8050000 -- [-946.281] (...7 remote chains...) -- 0:03:16
+      8060000 -- [-953.176] (...7 remote chains...) -- 0:03:15
+      8070000 -- [-943.081] (...7 remote chains...) -- 0:03:14
+      8080000 -- [-939.793] (...7 remote chains...) -- 0:03:13
+      8090000 -- [-951.704] (...7 remote chains...) -- 0:03:12
+      8100000 -- [-944.562] (...7 remote chains...) -- 0:03:11
+      8110000 -- [-946.879] (...7 remote chains...) -- 0:03:10
+      8120000 -- [-945.651] (...7 remote chains...) -- 0:03:09
+      8130000 -- [-943.662] (...7 remote chains...) -- 0:03:08
+      8140000 -- [-943.037] (...7 remote chains...) -- 0:03:07
+      8150000 -- [-963.041] (...7 remote chains...) -- 0:03:06
+      8160000 -- [-944.771] (...7 remote chains...) -- 0:03:05
+      8170000 -- [-942.899] (...7 remote chains...) -- 0:03:04
+      8180000 -- [-951.076] (...7 remote chains...) -- 0:03:03
+      8190000 -- [-954.518] (...7 remote chains...) -- 0:03:02
+      8200000 -- [-950.705] (...7 remote chains...) -- 0:03:01
+      8210000 -- [-943.947] (...7 remote chains...) -- 0:03:00
+      8220000 -- [-951.767] (...7 remote chains...) -- 0:02:59
+      8230000 -- [-952.425] (...7 remote chains...) -- 0:02:58
+      8240000 -- [-953.157] (...7 remote chains...) -- 0:02:57
+      8250000 -- [-956.348] (...7 remote chains...) -- 0:02:56
+      8260000 -- [-954.476] (...7 remote chains...) -- 0:02:55
+      8270000 -- [-947.767] (...7 remote chains...) -- 0:02:54
+      8280000 -- [-951.243] (...7 remote chains...) -- 0:02:53
+      8290000 -- [-946.982] (...7 remote chains...) -- 0:02:52
+      8300000 -- [-947.824] (...7 remote chains...) -- 0:02:51
+      8310000 -- [-949.620] (...7 remote chains...) -- 0:02:50
+      8320000 -- [-949.540] (...7 remote chains...) -- 0:02:49
+      8330000 -- [-945.394] (...7 remote chains...) -- 0:02:48
+      8340000 -- [-953.197] (...7 remote chains...) -- 0:02:47
+      8350000 -- [-942.542] (...7 remote chains...) -- 0:02:46
+      8360000 -- [-947.220] (...7 remote chains...) -- 0:02:45
+      8370000 -- [-954.653] (...7 remote chains...) -- 0:02:44
+      8380000 -- [-950.427] (...7 remote chains...) -- 0:02:43
+      8390000 -- [-951.781] (...7 remote chains...) -- 0:02:42
+      8400000 -- [-943.665] (...7 remote chains...) -- 0:02:41
+      8410000 -- [-945.719] (...7 remote chains...) -- 0:02:40
+      8420000 -- [-949.039] (...7 remote chains...) -- 0:02:39
+      8430000 -- [-949.623] (...7 remote chains...) -- 0:02:38
+      8440000 -- [-947.300] (...7 remote chains...) -- 0:02:37
+      8450000 -- [-944.070] (...7 remote chains...) -- 0:02:36
+      8460000 -- [-944.919] (...7 remote chains...) -- 0:02:35
+      8470000 -- [-949.653] (...7 remote chains...) -- 0:02:34
+      8480000 -- [-954.783] (...7 remote chains...) -- 0:02:33
+      8490000 -- [-950.989] (...7 remote chains...) -- 0:02:32
+      8500000 -- [-947.186] (...7 remote chains...) -- 0:02:31
+      8510000 -- [-949.657] (...7 remote chains...) -- 0:02:30
+      8520000 -- [-949.362] (...7 remote chains...) -- 0:02:29
+      8530000 -- [-947.726] (...7 remote chains...) -- 0:02:28
+      8540000 -- [-954.721] (...7 remote chains...) -- 0:02:27
+      8550000 -- [-950.255] (...7 remote chains...) -- 0:02:26
+      8560000 -- [-950.358] (...7 remote chains...) -- 0:02:25
+      8570000 -- [-947.944] (...7 remote chains...) -- 0:02:24
+      8580000 -- [-944.114] (...7 remote chains...) -- 0:02:23
+      8590000 -- [-951.352] (...7 remote chains...) -- 0:02:22
+      8600000 -- [-947.556] (...7 remote chains...) -- 0:02:21
+      8610000 -- [-944.801] (...7 remote chains...) -- 0:02:20
+      8620000 -- [-947.704] (...7 remote chains...) -- 0:02:19
+      8630000 -- [-943.556] (...7 remote chains...) -- 0:02:18
+      8640000 -- [-944.572] (...7 remote chains...) -- 0:02:17
+      8650000 -- [-947.466] (...7 remote chains...) -- 0:02:16
+      8660000 -- [-953.015] (...7 remote chains...) -- 0:02:15
+      8670000 -- [-946.847] (...7 remote chains...) -- 0:02:14
+      8680000 -- [-945.429] (...7 remote chains...) -- 0:02:13
+      8690000 -- [-949.350] (...7 remote chains...) -- 0:02:12
+      8700000 -- [-944.034] (...7 remote chains...) -- 0:02:11
+      8710000 -- [-950.513] (...7 remote chains...) -- 0:02:10
+      8720000 -- [-952.009] (...7 remote chains...) -- 0:02:09
+      8730000 -- [-943.853] (...7 remote chains...) -- 0:02:08
+      8740000 -- [-950.492] (...7 remote chains...) -- 0:02:07
+      8750000 -- [-949.085] (...7 remote chains...) -- 0:02:06
+      8760000 -- [-955.973] (...7 remote chains...) -- 0:02:05
+      8770000 -- [-949.931] (...7 remote chains...) -- 0:02:04
+      8780000 -- [-948.795] (...7 remote chains...) -- 0:02:03
+      8790000 -- [-953.454] (...7 remote chains...) -- 0:02:02
+      8800000 -- [-949.990] (...7 remote chains...) -- 0:02:01
+      8810000 -- [-950.491] (...7 remote chains...) -- 0:02:00
+      8820000 -- [-947.204] (...7 remote chains...) -- 0:01:59
+      8830000 -- [-946.389] (...7 remote chains...) -- 0:01:58
+      8840000 -- [-947.717] (...7 remote chains...) -- 0:01:57
+      8850000 -- [-956.233] (...7 remote chains...) -- 0:01:56
+      8860000 -- [-952.686] (...7 remote chains...) -- 0:01:55
+      8870000 -- [-947.457] (...7 remote chains...) -- 0:01:54
+      8880000 -- [-948.342] (...7 remote chains...) -- 0:01:53
+      8890000 -- [-953.773] (...7 remote chains...) -- 0:01:52
+      8900000 -- [-941.140] (...7 remote chains...) -- 0:01:51
+      8910000 -- [-944.691] (...7 remote chains...) -- 0:01:50
+      8920000 -- [-952.741] (...7 remote chains...) -- 0:01:49
+      8930000 -- [-950.947] (...7 remote chains...) -- 0:01:48
+      8940000 -- [-948.522] (...7 remote chains...) -- 0:01:47
+      8950000 -- [-951.165] (...7 remote chains...) -- 0:01:46
+      8960000 -- [-950.203] (...7 remote chains...) -- 0:01:45
+      8970000 -- [-953.767] (...7 remote chains...) -- 0:01:44
+      8980000 -- [-952.670] (...7 remote chains...) -- 0:01:43
+      8990000 -- [-943.037] (...7 remote chains...) -- 0:01:42
+      9000000 -- [-944.268] (...7 remote chains...) -- 0:01:41
+      9010000 -- [-947.232] (...7 remote chains...) -- 0:01:39
+      9020000 -- [-942.318] (...7 remote chains...) -- 0:01:38
+      9030000 -- [-947.038] (...7 remote chains...) -- 0:01:37
+      9040000 -- [-945.079] (...7 remote chains...) -- 0:01:36
+      9050000 -- [-939.839] (...7 remote chains...) -- 0:01:35
+      9060000 -- [-945.933] (...7 remote chains...) -- 0:01:34
+      9070000 -- [-947.992] (...7 remote chains...) -- 0:01:33
+      9080000 -- [-947.622] (...7 remote chains...) -- 0:01:32
+      9090000 -- [-952.567] (...7 remote chains...) -- 0:01:31
+      9100000 -- [-953.956] (...7 remote chains...) -- 0:01:30
+      9110000 -- [-951.111] (...7 remote chains...) -- 0:01:29
+      9120000 -- [-939.983] (...7 remote chains...) -- 0:01:28
+      9130000 -- [-947.976] (...7 remote chains...) -- 0:01:27
+      9140000 -- [-942.837] (...7 remote chains...) -- 0:01:26
+      9150000 -- [-943.103] (...7 remote chains...) -- 0:01:25
+      9160000 -- [-941.189] (...7 remote chains...) -- 0:01:24
+      9170000 -- [-939.747] (...7 remote chains...) -- 0:01:23
+      9180000 -- [-947.938] (...7 remote chains...) -- 0:01:22
+      9190000 -- [-942.148] (...7 remote chains...) -- 0:01:21
+      9200000 -- [-958.523] (...7 remote chains...) -- 0:01:20
+      9210000 -- [-945.490] (...7 remote chains...) -- 0:01:19
+      9220000 -- [-944.313] (...7 remote chains...) -- 0:01:18
+      9230000 -- [-954.011] (...7 remote chains...) -- 0:01:17
+      9240000 -- [-947.573] (...7 remote chains...) -- 0:01:16
+      9250000 -- [-942.170] (...7 remote chains...) -- 0:01:15
+      9260000 -- [-938.322] (...7 remote chains...) -- 0:01:14
+      9270000 -- [-953.710] (...7 remote chains...) -- 0:01:13
+      9280000 -- [-953.032] (...7 remote chains...) -- 0:01:12
+      9290000 -- [-954.453] (...7 remote chains...) -- 0:01:11
+      9300000 -- [-952.991] (...7 remote chains...) -- 0:01:10
+      9310000 -- [-944.935] (...7 remote chains...) -- 0:01:09
+      9320000 -- [-946.941] (...7 remote chains...) -- 0:01:08
+      9330000 -- [-953.904] (...7 remote chains...) -- 0:01:07
+      9340000 -- [-948.344] (...7 remote chains...) -- 0:01:06
+      9350000 -- [-939.666] (...7 remote chains...) -- 0:01:05
+      9360000 -- [-951.865] (...7 remote chains...) -- 0:01:04
+      9370000 -- [-946.108] (...7 remote chains...) -- 0:01:03
+      9380000 -- [-947.452] (...7 remote chains...) -- 0:01:02
+      9390000 -- [-943.282] (...7 remote chains...) -- 0:01:01
+      9400000 -- [-955.289] (...7 remote chains...) -- 0:01:00
+      9410000 -- [-945.808] (...7 remote chains...) -- 0:00:59
+      9420000 -- [-942.978] (...7 remote chains...) -- 0:00:58
+      9430000 -- [-943.971] (...7 remote chains...) -- 0:00:57
+      9440000 -- [-947.527] (...7 remote chains...) -- 0:00:56
+      9450000 -- [-947.093] (...7 remote chains...) -- 0:00:55
+      9460000 -- [-947.857] (...7 remote chains...) -- 0:00:54
+      9470000 -- [-950.079] (...7 remote chains...) -- 0:00:53
+      9480000 -- [-940.429] (...7 remote chains...) -- 0:00:52
+      9490000 -- [-945.621] (...7 remote chains...) -- 0:00:51
+      9500000 -- [-939.139] (...7 remote chains...) -- 0:00:50
+      9510000 -- [-943.595] (...7 remote chains...) -- 0:00:49
+      9520000 -- [-944.728] (...7 remote chains...) -- 0:00:48
+      9530000 -- [-960.310] (...7 remote chains...) -- 0:00:47
+      9540000 -- [-945.696] (...7 remote chains...) -- 0:00:46
+      9550000 -- [-947.149] (...7 remote chains...) -- 0:00:45
+      9560000 -- [-942.957] (...7 remote chains...) -- 0:00:44
+      9570000 -- [-947.255] (...7 remote chains...) -- 0:00:43
+      9580000 -- [-948.129] (...7 remote chains...) -- 0:00:42
+      9590000 -- [-948.855] (...7 remote chains...) -- 0:00:41
+      9600000 -- [-949.909] (...7 remote chains...) -- 0:00:40
+      9610000 -- [-944.758] (...7 remote chains...) -- 0:00:39
+      9620000 -- [-943.860] (...7 remote chains...) -- 0:00:38
+      9630000 -- [-950.675] (...7 remote chains...) -- 0:00:37
+      9640000 -- [-950.062] (...7 remote chains...) -- 0:00:36
+      9650000 -- [-941.117] (...7 remote chains...) -- 0:00:35
+      9660000 -- [-943.542] (...7 remote chains...) -- 0:00:34
+      9670000 -- [-951.276] (...7 remote chains...) -- 0:00:33
+      9680000 -- [-945.931] (...7 remote chains...) -- 0:00:32
+      9690000 -- [-945.124] (...7 remote chains...) -- 0:00:31
+      9700000 -- [-939.413] (...7 remote chains...) -- 0:00:30
+      9710000 -- [-947.850] (...7 remote chains...) -- 0:00:29
+      9720000 -- [-948.875] (...7 remote chains...) -- 0:00:28
+      9730000 -- [-951.508] (...7 remote chains...) -- 0:00:27
+      9740000 -- [-951.251] (...7 remote chains...) -- 0:00:26
+      9750000 -- [-948.654] (...7 remote chains...) -- 0:00:25
+      9760000 -- [-944.368] (...7 remote chains...) -- 0:00:24
+      9770000 -- [-948.310] (...7 remote chains...) -- 0:00:23
+      9780000 -- [-946.334] (...7 remote chains...) -- 0:00:22
+      9790000 -- [-949.386] (...7 remote chains...) -- 0:00:21
+      9800000 -- [-944.724] (...7 remote chains...) -- 0:00:20
+      9810000 -- [-948.801] (...7 remote chains...) -- 0:00:19
+      9820000 -- [-945.440] (...7 remote chains...) -- 0:00:18
+      9830000 -- [-955.403] (...7 remote chains...) -- 0:00:17
+      9840000 -- [-944.892] (...7 remote chains...) -- 0:00:16
+      9850000 -- [-941.885] (...7 remote chains...) -- 0:00:15
+      9860000 -- [-946.776] (...7 remote chains...) -- 0:00:14
+      9870000 -- [-952.797] (...7 remote chains...) -- 0:00:13
+      9880000 -- [-943.039] (...7 remote chains...) -- 0:00:12
+      9890000 -- [-941.261] (...7 remote chains...) -- 0:00:11
+      9900000 -- [-956.060] (...7 remote chains...) -- 0:00:10
+      9910000 -- [-950.840] (...7 remote chains...) -- 0:00:09
+      9920000 -- [-946.525] (...7 remote chains...) -- 0:00:08
+      9930000 -- [-951.665] (...7 remote chains...) -- 0:00:07
+      9940000 -- [-949.084] (...7 remote chains...) -- 0:00:06
+      9950000 -- [-942.878] (...7 remote chains...) -- 0:00:05
+      9960000 -- [-948.424] (...7 remote chains...) -- 0:00:04
+      9970000 -- [-950.205] (...7 remote chains...) -- 0:00:03
+      9980000 -- [-946.685] (...7 remote chains...) -- 0:00:02
+      9990000 -- [-942.823] (...7 remote chains...) -- 0:00:01
+      10000000 -- [-949.508] (...7 remote chains...) -- 0:00:00
+
+      Analysis completed in 16 mins 50 seconds
+      Analysis used 1009.15 seconds of CPU time on processor 0
+      Log likelihood of best state for "cold" chain was -933.44
+
+      Acceptance rates for the moves in the "cold" chain:
+         With prob.   (last 100)   chain accepted proposals by move
+             4.0 %     (  7 %)     AddBranch(V{all})
+             4.0 %     (  6 %)     DelBranch(V{all})
+            69.9 %     ( 78 %)     NodesliderClock(V{all})
+            25.9 %     ( 20 %)     TreeStretch(V{all})
+            28.7 %     ( 26 %)     Multiplier(Net_speciation{all})
+            26.3 %     ( 24 %)     Slider(Relative_extinction{all})
+            25.7 %     ( 17 %)     Slider(Relative_fossilization{all})
+            30.4 %     ( 22 %)     Multiplier(Igrvar{all})
+            28.5 %     ( 38 %)     Multiplier(IgrBrlens{all})
+            25.7 %     ( 28 %)     Multiplier(Clockrate{all})
+
+      Chain swap information:
+
+                   1       2       3       4       5       6       7       8 
+           ------------------------------------------------------------------
+         1 |            0.00    0.00    0.00    0.00    0.00    0.00    0.00 
+         2 |  356455            0.00    0.00    0.00    0.00    0.00    0.00 
+         3 |  356964  356998            0.00    0.00    0.00    0.00    0.00 
+         4 |  356802  357569  358191            0.00    0.00    0.00    0.00 
+         5 |  357783  357705  356744  357787            0.00    0.00    0.00 
+         6 |  357582  357330  356748  357573  356007            0.00    0.00 
+         7 |  356777  356508  358181  358515  356921  357357            0.00 
+         8 |  356791  357398  356737  356063  357939  355924  356651         
+
+      Upper diagonal: Proportion of successful state exchanges between chains
+      Lower diagonal: Number of attempted state exchanges between chains
+
+      Chain information:
+
+        ID -- Heat 
+       -----------
+         1 -- 1.00  (cold chain)
+         2 -- 1.00 
+         3 -- 1.00 
+         4 -- 1.00 
+         5 -- 1.00 
+         6 -- 1.00 
+         7 -- 0.99 
+         8 -- 0.99 
+
+      Heat = 1 / (1 + T * (ID - 1))
+         (where T = 0.00 is the temperature and ID is the chain number)
+
+      Setting sumt nruns to 1
+      Using relative burnin (a fraction of samples discarded).
+      Setting burnin fraction to 0.10
+      Summarizing trees in file "alignment_and_trees.nexus.t"
+      Using relative burnin ('relburnin=yes'), discarding the first 10 % of sampled trees
+      Writing statistics to files alignment_and_trees.nexus.<parts|tstat|vstat|trprobs|con>
+      Examining file ...
+      Found one tree block in file "alignment_and_trees.nexus.t" with 10001 trees in last block
+
+      Tree reading status:
+
+      0      10      20      30      40      50      60      70      80      90     100
+      v-------v-------v-------v-------v-------v-------v-------v-------v-------v-------v
+      *********************************************************************************
+
+      Read 10001 trees from last tree block (sampling 9001 of them)
+                                                                                   
+      General explanation:                                                          
+                                                                                   
+      In an unrooted tree, a taxon bipartition (split) is specified by removing a   
+      branch, thereby dividing the species into those to the left and those to the  
+      right of the branch. Here, taxa to one side of the removed branch are denoted 
+      '.' and those to the other side are denoted '*'. Specifically, the '.' symbol 
+      is used for the taxa on the same side as the outgroup.                        
+                                                                                   
+      In a rooted or clock tree, the tree is rooted using the model and not by      
+      reference to an outgroup. Each bipartition therefore corresponds to a clade,  
+      that is, a group that includes all the descendants of a particular branch in  
+      the tree.  Taxa that are included in each clade are denoted using '*', and    
+      taxa that are not included are denoted using the '.' symbol.                  
+                                                                                   
+      The output first includes a key to all the bipartitions with frequency larger 
+      or equual to (Minpartfreq) in at least one run. Minpartfreq is a parameter to 
+      sumt command and currently it is set to 0.10.  This is followed by a table  
+      with statistics for the informative bipartitions (those including at least    
+      two taxa), sorted from highest to lowest probability. For each bipartition,   
+      the table gives the number of times the partition or split was observed in all
+      runs (#obs) and the posterior probability of the bipartition (Probab.), which 
+      is the same as the split frequency. If several runs are summarized, this is   
+      followed by the minimum split frequency (Min(s)), the maximum frequency       
+      (Max(s)), and the standard deviation of frequencies (Stddev(s)) across runs.  
+      The latter value should approach 0 for all bipartitions as MCMC runs converge.
+                                                                                   
+      This is followed by a table summarizing branch lengths, node heights (if a    
+      clock model was used) and relaxed clock parameters (if a relaxed clock model  
+      was used). The mean, variance, and 95 % credible interval are given for each 
+      of these parameters. If several runs are summarized, the potential scale      
+      reduction factor (PSRF) is also given; it should approach 1 as runs converge. 
+      Node heights will take calibration points into account, if such points were   
+      used in the analysis.                                                         
+                                                                                    
+      Note that Stddev may be unreliable if the partition is not present in all     
+      runs (the last column indicates the number of runs that sampled the partition 
+      if more than one run is summarized). The PSRF is not calculated at all if     
+      the partition is not present in all runs.The PSRF is also sensitive to small  
+      sample sizes and it should only be considered a rough guide to convergence    
+      since some of the assumptions allowing one to interpret it as a true potential
+      scale reduction factor are violated in MrBayes.                               
+                                                                                    
+      List of taxa in bipartitions:                                                 
+                                                                                   
+         1 -- A_VOR_Cod_259_I
+         2 -- CH_E_611
+         3 -- CZ_HKm_II_A_4
+         4 -- CZ_PLm_504_C_004
+         5 -- CZ_Pn_XV_A_10
+         6 -- CZ_Pu_I_D_20
+         7 -- D_KA_Aug_LX
+         8 -- F_Pn_lat_12044
+         9 -- NL_Uu_406
+        10 -- A_Wn_1799
+        11 -- CDN_Hsmu_M2149_L4
+        12 -- CZ_Pu_XVII_E_1
+        13 -- D_KNd_1161
+        14 -- F_Pn_lat_15181
+
+      Key to taxon bipartitions (saved to file "alignment_and_trees.nexus.parts"):
+
+      ID -- Partition
+      --------------------
+       0 -- 
+       1 -- 
+       2 -- 
+       3 -- 
+       4 -- 
+       5 -- 
+       6 -- 
+       7 -- 
+       8 -- 
+       9 -- 
+      10 -- 
+      11 -- 
+      12 -- 
+      13 -- 
+      14 -- 
+      15 -- 
+      16 -- 
+      17 -- 
+      18 -- 
+      19 -- 
+      20 -- 
+      21 -- 
+      22 -- 
+      23 -- 
+      24 -- 
+      25 -- 
+      26 -- 
+      --------------------
+
+      Summary statistics for informative taxon bipartitions (clades)
+         (saved to file "alignment_and_trees.nexus.tstat"):
+
+      ID   #obs    Probab.
+      --------------------
+      15  9001    1.000000
+      16  9001    1.000000
+      17  9001    1.000000
+      18  9001    1.000000
+      19  9001    1.000000
+      20  9001    1.000000
+      21  9001    1.000000
+      22  9001    1.000000
+      23  9001    1.000000
+      24  9001    1.000000
+      25  9001    1.000000
+      26  9001    1.000000
+      --------------------
+
+      Summary statistics for branch and node parameters
+         (saved to file "alignment_and_trees.nexus.vstat"):
+
+                                                             95% HPD Interval
+                                                           --------------------
+      Parameter                     Mean       Variance     Lower       Upper       Median
+      ------------------------------------------------------------------------------------
+      length{all}[1]               0.005583    0.000011    0.000000    0.011761    0.005035
+      length{all}[2]               0.016415    0.000046    0.004132    0.029893    0.015703
+      length{all}[3]               0.007934    0.000019    0.000000    0.015670    0.007485
+      length{all}[4]               0.034512    0.000060    0.021432    0.050420    0.033442
+      length{all}[5]               0.029818    0.000056    0.017076    0.044970    0.028952
+      length{all}[6]               0.045283    0.000097    0.027832    0.064786    0.044082
+      length{all}[7]               0.013374    0.000041    0.002125    0.025229    0.012814
+      length{all}[8]               0.008198    0.000023    0.000835    0.017249    0.007389
+      length{all}[9]               0.037092    0.000127    0.015412    0.058388    0.036432
+      length{all}[10]              0.001321    0.000007    0.000000    0.006985    0.000000
+      length{all}[11]              0.032175    0.000069    0.018282    0.048507    0.030884
+      length{all}[12]              0.013347    0.000026    0.004361    0.023060    0.012780
+      length{all}[13]              0.005900    0.000015    0.000000    0.012950    0.005247
+      length{all}[14]              0.037232    0.000103    0.020847    0.057696    0.035713
+      length{all}[15]              0.003253    0.000008    0.000042    0.008909    0.002397
+      length{all}[16]              0.010199    0.000031    0.000829    0.020632    0.009430
+      length{all}[17]              0.011600    0.000039    0.001207    0.023522    0.010721
+      length{all}[18]              0.019233    0.000065    0.003372    0.034247    0.018923
+      length{all}[19]              0.010255    0.000027    0.000649    0.019985    0.009715
+      length{all}[20]              0.011010    0.000037    0.001002    0.022699    0.010012
+      length{all}[21]              0.008087    0.000023    0.000324    0.016955    0.007595
+      length{all}[22]              0.009805    0.000027    0.000818    0.019300    0.009062
+      length{all}[23]              0.008694    0.000033    0.000144    0.019515    0.007596
+      length{all}[24]              0.004449    0.000015    0.000010    0.012072    0.003374
+      length{all}[25]              0.014890    0.000061    0.001370    0.029734    0.013892
+      length{all}[26]              0.011990    0.000067    0.000100    0.027302    0.010521
+      height{all}[0]               0.087051    0.000314    0.053346    0.121086    0.084895
+      height{all}[1]               0.025676    0.000033    0.015491    0.036881    0.024901
+      height{all}[2]               0.027706    0.000047    0.015108    0.040829    0.026866
+      height{all}[3]               0.015238    0.000012    0.009194    0.021889    0.014779
+      height{all}[4]               0.000000    0.000000    0.000000    0.000000    0.000000
+      height{all}[5]               0.014893    0.000014    0.008344    0.021979    0.014428
+      height{all}[6]               0.014887    0.000014    0.008258    0.021904    0.014425
+      height{all}[7]               0.030747    0.000082    0.015572    0.048351    0.029147
+      height{all}[8]               0.050926    0.000132    0.031131    0.073815    0.049323
+      height{all}[9]               0.037969    0.000172    0.016713    0.062615    0.035911
+      height{all}[10]              0.037742    0.000081    0.022607    0.055807    0.036453
+      height{all}[11]              0.006889    0.000002    0.004156    0.009895    0.006681
+      height{all}[12]              0.009825    0.000007    0.005082    0.014916    0.009487
+      height{all}[13]              0.043419    0.000094    0.026196    0.062368    0.042109
+      height{all}[14]              0.030586    0.000050    0.018019    0.044098    0.029591
+      height{all}[15]              0.031259    0.000047    0.018405    0.044295    0.030294
+      height{all}[16]              0.034512    0.000060    0.021432    0.050420    0.033442
+      height{all}[17]              0.044121    0.000101    0.025687    0.063513    0.042972
+      height{all}[18]              0.067818    0.000250    0.041949    0.099536    0.065500
+      height{all}[19]              0.039064    0.000094    0.022410    0.057862    0.037577
+      height{all}[20]              0.044711    0.000094    0.027901    0.064099    0.043581
+      height{all}[21]              0.023172    0.000039    0.012681    0.035788    0.022377
+      height{all}[22]              0.049319    0.000128    0.029501    0.071245    0.047615
+      height{all}[23]              0.059124    0.000182    0.036282    0.086030    0.057228
+      height{all}[24]              0.055721    0.000129    0.036413    0.078913    0.054402
+      height{all}[25]              0.060170    0.000151    0.038447    0.084587    0.058532
+      height{all}[26]              0.075061    0.000235    0.046023    0.103652    0.073224
+      age{all}[0]                838.802854  2954.619895  736.774333  915.943986  848.581267
+      age{all}[1]                245.999998    0.000000  245.999891  246.000107  245.999999
+      age{all}[2]                265.459930  820.074120  216.780691  311.325950  265.262220
+      age{all}[3]                145.999999    0.000000  145.999910  146.000084  145.999999
+      age{all}[4]                  0.000000    0.000000    0.000000    0.000000    0.000000
+      age{all}[5]                142.646229  206.067278  119.057196  165.993487  143.588919
+      age{all}[6]                142.561060  206.069163  119.002418  165.900030  143.364290
+      age{all}[7]                295.324215  3647.945238  216.000141  408.393487  282.875534
+      age{all}[8]                487.916632  202.218391  466.000697  512.153410  486.373499
+      age{all}[9]                361.737217  6903.300871  216.745065  497.329479  359.811761
+      age{all}[10]               361.616155  817.204206  316.008157  408.696571  359.747894
+      age{all}[11]                65.999998    0.000000   65.999856   66.000142   65.999998
+      age{all}[12]                94.131072  200.795650   69.867296  115.996620   95.604763
+      age{all}[13]               415.999997    0.000000  415.999797  416.000182  415.999998
+      age{all}[14]               292.919276  203.660602  269.079225  315.965028  293.670741
+      age{all}[15]               301.385747  1125.901585  245.999877  363.806279  295.111530
+      age{all}[16]               333.174398  1884.724439  262.840636  421.558457  326.487435
+      age{all}[17]               426.912167  4226.741925  307.554982  555.133327  420.646110
+      age{all}[18]               651.964950  4237.188444  537.791974  784.965605  645.931329
+      age{all}[19]               374.042551  1287.362813  316.017214  435.619568  371.893289
+      age{all}[20]               433.203402  3924.269479  318.804783  559.784570  427.801066
+      age{all}[21]               223.190108  1660.862579  145.999883  294.939864  219.619094
+      age{all}[22]               473.251341  1253.641667  415.999697  537.519873  467.639116
+      age{all}[23]               567.863779  2045.374872  489.750810  659.817583  561.232572
+      age{all}[24]               540.318543  4976.379656  408.669327  680.417713  536.566977
+      age{all}[25]               583.375279  5647.853660  436.490920  727.953585  578.765481
+      age{all}[26]               726.147601  6538.184485  572.528309  878.999472  728.507823
+      IgrBrlens{all}_length[1]     0.006854    0.000022    0.000000    0.015811    0.005998
+      IgrBrlens{all}_length[2]     0.017493    0.000048    0.005356    0.030933    0.016647
+      IgrBrlens{all}_length[3]     0.009849    0.000042    0.000000    0.021823    0.008733
+      IgrBrlens{all}_length[4]     0.022746    0.000116    0.002984    0.042936    0.022084
+      IgrBrlens{all}_length[5]     0.022857    0.000071    0.007684    0.039704    0.022322
+      IgrBrlens{all}_length[6]     0.037108    0.000105    0.017379    0.057243    0.036519
+      IgrBrlens{all}_length[7]     0.017540    0.000057    0.004060    0.032067    0.016562
+      IgrBrlens{all}_length[8]     0.010126    0.000037    0.000651    0.021975    0.008966
+      IgrBrlens{all}_length[9]     0.046433    0.000143    0.025247    0.070750    0.045352
+      IgrBrlens{all}_length[10]    0.000413    0.000001    0.000000    0.002694    0.000000
+      IgrBrlens{all}_length[11]    0.014304    0.000063    0.000319    0.028921    0.013298
+      IgrBrlens{all}_length[12]    0.007068    0.000029    0.000000    0.017413    0.006004
+      IgrBrlens{all}_length[13]    0.004625    0.000013    0.000000    0.011395    0.003874
+      IgrBrlens{all}_length[14]    0.026675    0.000083    0.009922    0.044240    0.026041
+      IgrBrlens{all}_length[15]    0.002445    0.000014    0.000000    0.010187    0.000872
+      IgrBrlens{all}_length[16]    0.016712    0.000072    0.001367    0.033451    0.015596
+      IgrBrlens{all}_length[17]    0.014941    0.000053    0.002452    0.029056    0.013930
+      IgrBrlens{all}_length[18]    0.024784    0.000170    0.000000    0.047240    0.024074
+      IgrBrlens{all}_length[19]    0.005740    0.000025    0.000000    0.015289    0.004676
+      IgrBrlens{all}_length[20]    0.012000    0.000048    0.000380    0.025339    0.010841
+      IgrBrlens{all}_length[21]    0.007488    0.000046    0.000000    0.020093    0.005978
+      IgrBrlens{all}_length[22]    0.008640    0.000032    0.000000    0.019256    0.007621
+      IgrBrlens{all}_length[23]    0.010591    0.000046    0.000000    0.023547    0.009355
+      IgrBrlens{all}_length[24]    0.003131    0.000016    0.000000    0.011497    0.001582
+      IgrBrlens{all}_length[25]    0.017977    0.000063    0.004335    0.034061    0.016927
+      IgrBrlens{all}_length[26]    0.015185    0.000158    0.000000    0.039214    0.012605
+      IgrBrlens{all}_rate[1]       1.510155    2.449962    0.000001    3.711563    1.149708
+      IgrBrlens{all}_rate[2]       1.241046    0.893992    0.273916    2.529707    1.051316
+      IgrBrlens{all}_rate[3]       1.406489    1.472336    0.051125    3.018877    1.149342
+      IgrBrlens{all}_rate[4]       0.674739    0.095953    0.078204    1.220114    0.666914
+      IgrBrlens{all}_rate[5]       0.791948    0.087902    0.257788    1.388310    0.773840
+      IgrBrlens{all}_rate[6]       0.841859    0.059241    0.385412    1.322544    0.836744
+      IgrBrlens{all}_rate[7]       1.656152    2.353310    0.263895    3.934277    1.269100
+      IgrBrlens{all}_rate[8]       1.529820    1.905807    0.125936    3.698099    1.198722
+      IgrBrlens{all}_rate[9]       1.354425    0.313809    0.611122    2.394041    1.225646
+      IgrBrlens{all}_rate[10]      0.793629    0.163984    0.000408    1.000000    1.000000
+      IgrBrlens{all}_rate[11]      0.463982    0.067501    0.041343    0.956196    0.429681
+      IgrBrlens{all}_rate[12]      0.554171    0.173046    0.000001    1.266225    0.483706
+      IgrBrlens{all}_rate[13]      0.928060    0.688730    0.002355    2.064425    0.792316
+      IgrBrlens{all}_rate[14]      0.747473    0.070642    0.253220    1.244806    0.735989
+      IgrBrlens{all}_rate[15]      0.855838    2.919349    0.000001    2.969979    0.360189
+      IgrBrlens{all}_rate[16]      2.169950    6.060308    0.103216    5.544917    1.566300
+      IgrBrlens{all}_rate[17]      1.747827    7.823576    0.191936    4.023530    1.262144
+      IgrBrlens{all}_rate[18]      1.422814    1.193845    0.000001    3.049625    1.219365
+      IgrBrlens{all}_rate[19]      0.576011    0.270325    0.000001    1.401332    0.483500
+      IgrBrlens{all}_rate[20]      1.390490    2.985998    0.000037    3.317332    1.051681
+      IgrBrlens{all}_rate[21]      0.982836    1.814284    0.000001    2.490777    0.798067
+      IgrBrlens{all}_rate[22]      1.039821    1.022470    0.000009    2.374514    0.844150
+      IgrBrlens{all}_rate[23]      1.728935    6.955146    0.000002    4.492299    1.186026
+      IgrBrlens{all}_rate[24]      0.819860    2.518947    0.000001    2.770896    0.444454
+      IgrBrlens{all}_rate[25]      1.557580    1.931668    0.221991    3.649363    1.203920
+      IgrBrlens{all}_rate[26]      1.462393    3.478847    0.000001    3.863179    1.102013
+      ------------------------------------------------------------------------------------
+
+
+
+
+      Clade credibility values:
+
+                                          /---------------------- F_Pn_lat_12044 (8)
+                                          |                                           
+                                          |              /------- A_Wn_1799 (10)
+                                   /--100-+       /--100-+                            
+                                   |      |       |      \------- CDN_Hsmu_M2149~ (11)
+                                   |      \--100--+                                   
+      /-------------100------------+              \-------------- D_KNd_1161 (13)
+      |                            |                                                  
+      |                            \----------------------------- F_Pn_lat_15181 (14)
+      |                                                                               
+      |                                           /-------------- A_VOR_Cod_259_I (1)
+      |                                           |                                   
+      |                                   /--100--+      /------- CZ_HKm_II_A_4 (3)
+      |                                   |       \--100-+                            
+      |                            /--100-+              \------- CZ_Pu_XVII_E_1 (12)
+      +                            |      |                                           
+      |                     /--100-+      \---------------------- CZ_PLm_504_C_004 (4)
+      |                     |      |                                                  
+      |                     |      \----------------------------- CZ_Pn_XV_A_10 (5)
+      |              /--100-+                                                         
+      |              |      |                            /------- CH_E_611 (2)
+      |              |      \-------------100------------+                            
+      |      /--100--+                                   \------- D_KA_Aug_LX (7)
+      |      |       |                                                                
+      \--100-+       \------------------------------------------- CZ_Pu_I_D_20 (6)
+             |                                                                        
+             \--------------------------------------------------- NL_Uu_406 (9)
+                                                                                      
+
+      Phylogram (based on median node depths):
+
+                                                                                                                                                                              ----|------------|-------------|-------------|------------|                     
+         800          600           400           200           0                     
+
+      [User-defined time units]
+
+                          /----- F_Pn_lat_12044 (8)
+                          |                                                           
+                          |            / A_Wn_1799 (10)
+                    /-----+     /------+                                              
+                    |     |     |      \-------------------- CDN_Hsmu_M2149~ (11)
+                    |     \-----+                                                     
+      /-------------+           \---- D_KNd_1161 (13)
+      |             |                                                                 
+      |             \------------------------ F_Pn_lat_15181 (14)
+      |                                                                               
+      |                                     /--- A_VOR_Cod_259_I (1)
+      |                                     |                                         
+      |                                   /-+    /----- CZ_HKm_II_A_4 (3)
+      |                                   | \----+                                    
+      |                            /------+      \-------- CZ_Pu_XVII_E_1 (12)
+      +                            |      |                                           
+      |                    /-------+      \---------------------- CZ_PLm_504_C_004 (4)
+      |                    |       |                                                  
+      |                    |       \------------------- CZ_Pn_XV_A_10 (5)
+      |                 /--+                                                          
+      |                 |  |       /----------- CH_E_611 (2)
+      |                 |  \-------+                                                  
+      |       /---------+          \---------- D_KA_Aug_LX (7)
+      |       |         |                                                             
+      \-------+         \------------------------------ CZ_Pu_I_D_20 (6)
+              |                                                                       
+              \------------------------- NL_Uu_406 (9)
+                                                                                      
+      ----|------------|-------------|-------------|------------|                     
+         800          600           400           200           0                     
+
+      [User-defined time units]
+
+      Calculating tree probabilities...
+
+      Credible sets of trees (1 tree sampled):
+         99 % credible set contains 1 tree
+
+      Plotting parameters in file alignment_and_trees.nexus.p ...
+      Found 10000 parameter lines in file "alignment_and_trees.nexus.p"
+      Of the 10000 lines, 9001 of them will be summarized (starting at line 1002)
+      (Only the last set of lines will be read, in case multiple
+      parameter blocks are present in the same file.)
+
+      Rough trace plot of parameter LnL:
+
+   +------------------------------------------------------------+ -945.846
+   |       *    *                        *                      |
+   |           *        * *                                     |
+   |   *          *        *                      *           * |
+   |    * *   *                       *     *                   |
+   |                               ***  *  *                *   |
+   |         *     *   * *                                *  *  |
+   |*            *          **         *        **              |
+   |                *                        *       **    *   *|
+   |                 **        *          *                     |
+   | *                                                  **      |
+   |                             **                             |
+   |                          *                        *        |
+   |     *  *                   *                               |
+   |                                               *            |
+   |  *                                       **    *           |
+   +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -949.682
+   ^                                                            ^
+   1000000                                                     10000000
+
+      Summarizing parameters in file alignment_and_trees.nexus.p
+      Writing summary statistics to file alignment_and_trees.nexus.pstat
+      Using relative burnin ('relburnin=yes'), discarding the first 10 % of samples
+
+      Below is a rough plot of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use this      
+      graph to determine what the burn in for your analysis should be.  
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      analysis should be. When the log probability starts to plateau    
+      tionarity. When possible, run multiple analyses starting from dif-
+      ferent random trees; if the inferences you make for independent   
+      analyses are the same, this is reasonable evidence that the chains
+      have converged. You can use MrBayes to run several independent    
+      analyses simultaneously. During such a run, MrBayes will monitor  
+      the convergence of topologies. After the run has been completed,  
+      the 'sumt' and 'sump' functions will provide additional conver-   
+      gence diagnostics for all the parameters in your model. Remember  
+      that the burn in is the number of samples to discard. There are   
+      a total of ngen / samplefreq samples taken during a MCMC analysis.
+
+   +------------------------------------------------------------+ -945.846
+   |       *    *                        *                      |
+   |           *        * *                                     |
+   |   *          *        *                      *           * |
+   |    * *   *                       *     *                   |
+   |                               ***  *  *                *   |
+   |         *     *   * *                                *  *  |
+   |*            *          **         *        **              |
+   |                *                        *       **    *   *|
+   |                 **        *          *                     |
+   | *                                                  **      |
+   |                             **                             |
+   |                          *                        *        |
+   |     *  *                   *                               |
+   |                                               *            |
+   |  *                                       **    *           |
+   +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -949.682
+   ^                                                            ^
+   1000000                                                     10000000
+
+
+      Estimated marginal likelihoods for run sampled in file "alignment_and_trees.nexus.p":
+         (Use the harmonic mean for Bayes factor comparisons of models)
+         (Values are saved to the file alignment_and_trees.nexus.lstat)
+
+      Arithmetic mean   Harmonic mean
+      --------------------------------
+          -941.77          -960.90
+      --------------------------------
+
+
+      Model parameter summaries for run sampled in file "alignment_and_trees.nexus":
+         Based on a total of 9001 samples out of a total of 10001 samples
+            from this analysis.
+         Parameter summaries saved to file "alignment_and_trees.nexus.pstat".
+
+                                                              95% HPD Interval
+                                                            --------------------
+      Parameter                       Mean      Variance     Lower       Upper       Median     ESS*
+      -------------------------------------------------------------------------------------------------
+      TH{all}                       0.129634    0.000725    0.079741    0.181335    0.126408   1416.81
+      TL{all}                       0.411651    0.005957    0.274531    0.562369    0.401882   1910.00
+      prop_ancfossil{all}           0.053319    0.001548    0.000000    0.142857    0.071429   4900.21
+      net_speciation{all}           0.001363    0.000001    0.000145    0.002808    0.001261   3195.28
+      relative_extinction{all}      0.878825    0.008478    0.695439    0.995220    0.901570   2342.87
+      relative_fossilization{all}   0.074955    0.004802    0.000457    0.213321    0.053943   3655.59
+      igrvar{all}                   0.007507    0.000050    0.000018    0.019909    0.005749    605.73
+      clockrate{all}                0.000104    0.000000    0.000063    0.000150    0.000101   1223.77
+      -------------------------------------------------------------------------------------------------
+      * Convergence diagnostic (ESS = Estimated Sample Size); ESS value 
+        below 100 may indicate that the parameter is undersampled. 
+
+

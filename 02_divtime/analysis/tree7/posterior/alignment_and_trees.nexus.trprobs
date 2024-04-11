@@ -1,0 +1,25 @@
+#NEXUS
+[ID: 0767693894]
+[This file contains the trees that were found during the MCMC
+search, sorted by posterior probability. "p" indicates the
+posterior probability of the tree whereas "P" indicates the
+cumulative posterior probability.]
+
+begin trees;
+   translate
+    1 A_VOR_Cod_259_I,
+    2 CH_E_611,
+    3 CZ_HKm_II_A_4,
+    4 CZ_PLm_504_C_004,
+    5 CZ_Pn_XV_A_10,
+    6 CZ_Pu_I_D_20,
+    7 D_KA_Aug_LX,
+    8 F_Pn_lat_12044,
+    9 NL_Uu_406,
+   10 A_Wn_1799,
+   11 CDN_Hsmu_M2149_L4,
+   12 CZ_Pu_XVII_E_1,
+   13 D_KNd_1161,
+   14 F_Pn_lat_15181;
+   tree tree_1 [p = 1.000, P = 1.000] = [&W 1.000000] ((14,((13,(11,10)),8)),(9,(6,((5,(4,((12,3),1))),(7,2)))));
+end;
