@@ -224,4 +224,9 @@ probs_table <- data.frame(melody=c("consest", "cumesset", "judjer1", "judjer2", 
                           prob=c(pp_melody_ancstate, pp_melody_solesmes),
                           logprob=c(logpp_melody_ancstate, logpp_melody_solesmes))
 
+# print the probs table ordered by increasing by type (i.e., ancstate first, then solesmes)
 probs_table[order(probs_table$melody),]
+
+#### attempt at measuring the difference between solesmes and ancstate
+
+we need a pairwise 
