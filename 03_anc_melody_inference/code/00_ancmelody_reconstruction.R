@@ -7,6 +7,8 @@ args <- commandArgs(TRUE)
 tr_path <- paste("../../02_divtime/analysis/", args[1], "/posterior/alignment_and_trees.nexus.con.tre", sep="")
 tr <- read.nexus(tr_path)
 
+dir.create(paste("../analysis/", args[1], sep=""))
+
 data <- read.nexus.data("../../00_tree_inference/data/concatenated.nexus")
 
 ### doing posterior sampling for a sequence of states
