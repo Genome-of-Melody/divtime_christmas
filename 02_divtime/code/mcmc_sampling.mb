@@ -58,8 +58,8 @@ prset
   samplestrat=random [random is the default but I'm including it to comment that this allows for sampled ancestors to be recovered]
   nodeagepr=calibrated
   speciationpr = uniform(0,10)
-  extinctionpr = beta(1,1) [flat, extinction is relative to speciation thus between 0-1]
-  fossilizationpr = beta(1,1) [flat, sampling is psi/(mu+psi), 0-1 ]
+  extinctionpr = beta(1,1)
+  fossilizationpr = beta(1,1)
 ;
 
 [define a clock for each partition but with the same priors]
