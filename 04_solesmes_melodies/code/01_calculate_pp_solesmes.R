@@ -5,6 +5,10 @@ rm(list=ls())
 # load results from ancstate
 load("../../03_anc_melody_inference/analysis/tree7/ancstate.Rda")
 
+# read in the node id as a parsed arg
+args <- commandArgs(TRUE)
+NODE <- as.character(args[1])
+
 # load alignments with the Solesmes melodies
 # consest
 consest_solesmes <- readLines("../data/consest_wsolesmes.fasta")
@@ -52,7 +56,7 @@ get_pp_position <- function(symbol, position_in_melody, idx_melody, node, ancsta
 get_pp_position(symbol=consest_solesmes[1],
                 position_in_melody=1,
                 idx_melody=consest_idx,
-                node="15",
+                node=NODE,
                 ancstates=paces)
 
 # print the vector of pp for each position in the consest melody at the root node
@@ -61,7 +65,7 @@ for (i in seq_along(consest_solesmes)) {
     consest_solesmes_pp[i] <- get_pp_position(symbol=consest_solesmes[i],
                                               position_in_melody=i,
                                               idx_melody=consest_idx,
-                                              node="15",
+                                              node=NODE,
                                               ancstates=paces)
 }
 
@@ -70,7 +74,7 @@ for (i in seq_along(cumesset_solesmes)) {
     cumesset_solesmes_pp[i] <- get_pp_position(symbol=cumesset_solesmes[i],
                                               position_in_melody=i,
                                               idx_melody=cumesset_idx,
-                                              node="15",
+                                              node=NODE,
                                               ancstates=paces)
 }
 
@@ -79,7 +83,7 @@ for (i in seq_along(judjer1_solesmes)) {
     judjer1_solesmes_pp[i] <- get_pp_position(symbol=judjer1_solesmes[i],
                                               position_in_melody=i,
                                               idx_melody=judjer1_idx,
-                                              node="15",
+                                              node=NODE,
                                               ancstates=paces)
 }
 
@@ -88,7 +92,7 @@ for (i in seq_along(judjer2_solesmes)) {
     judjer2_solesmes_pp[i] <- get_pp_position(symbol=judjer2_solesmes[i],
                                               position_in_melody=i,
                                               idx_melody=judjer2_idx,
-                                              node="15",
+                                              node=NODE,
                                               ancstates=paces)
 }
 
@@ -97,7 +101,7 @@ for (i in seq_along(orisic_solesmes)) {
     orisic_solesmes_pp[i] <- get_pp_position(symbol=orisic_solesmes[i],
                                               position_in_melody=i,
                                               idx_melody=orisic_idx,
-                                              node="15",
+                                              node=NODE,
                                               ancstates=paces)
 }
 
@@ -206,17 +210,17 @@ sum(log(judjer1_solesmes_pp_na), na.rm=TRUE),
 sum(log(judjer2_solesmes_pp_na), na.rm=TRUE),
 sum(log(orisic_solesmes_pp_na), na.rm=TRUE))
 
-pp_melody_ancstate <- c(prod(maxpd_values[consest_idx], na.rm=TRUE),
-prod(maxpd_values[cumesset_idx], na.rm=TRUE),
-prod(maxpd_values[judjer1_idx], na.rm=TRUE),
-prod(maxpd_values[judjer2_idx], na.rm=TRUE),
-prod(maxpd_values[orisic_idx], na.rm=TRUE))
+pp_melody_ancstate <- c(prod(maxpd_values[NODE, consest_idx], na.rm=TRUE),
+prod(maxpd_values[NODE, cumesset_idx], na.rm=TRUE),
+prod(maxpd_values[NODE, judjer1_idx], na.rm=TRUE),
+prod(maxpd_values[NODE, judjer2_idx], na.rm=TRUE),
+prod(maxpd_values[NODE, orisic_idx], na.rm=TRUE))
 
-logpp_melody_ancstate <- c(sum(log(maxpd_values[consest_idx]), na.rm=TRUE),
-sum(log(maxpd_values[cumesset_idx]), na.rm=TRUE),
-sum(log(maxpd_values[judjer1_idx]), na.rm=TRUE),
-sum(log(maxpd_values[judjer2_idx]), na.rm=TRUE),
-sum(log(maxpd_values[orisic_idx]), na.rm=TRUE))
+logpp_melody_ancstate <- c(sum(log(maxpd_values[NODE, consest_idx]), na.rm=TRUE),
+sum(log(maxpd_values[NODE, cumesset_idx]), na.rm=TRUE),
+sum(log(maxpd_values[NODE, judjer1_idx]), na.rm=TRUE),
+sum(log(maxpd_values[NODE, judjer2_idx]), na.rm=TRUE),
+sum(log(maxpd_values[NODE, orisic_idx]), na.rm=TRUE))
 
 probs_table <- data.frame(melody=c("consest", "cumesset", "judjer1", "judjer2", "orisic", "consest", "cumesset", "judjer1", "judjer2", "orisic"),
                           type=c(rep("ancstate", times=5), rep("solesmes", times=5)),
@@ -224,7 +228,9 @@ probs_table <- data.frame(melody=c("consest", "cumesset", "judjer1", "judjer2", 
                           logprob=c(logpp_melody_ancstate, logpp_melody_solesmes))
 
 # print the probs table ordered by increasing by type (i.e., ancstate first, then solesmes)
-probs_table[order(probs_table$melody),]
+write.table(x=probs_table[order(probs_table$melody),],
+            file=paste("../analysis/probs_table_node", NODE, ".tsv", sep=""),
+            row.names=FALSE)
 
 #### attempt at measuring the difference between solesmes and ancstate
 
