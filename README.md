@@ -105,7 +105,7 @@ The summarised tree file `02_divtime/analysis/tree7/posterior/alignment_and_tree
 
 The script `03_anc_melody_inference/code/00_ancmelody_reconstruction.R` will take as input the calibrated tree in `02_divtime/analysis/tree7/posterior/alignment_and_trees.nexus.con.tre` and the alignment in `00_tree_inference/data/concatenated.nexus`. This step is very time-consuming and we used a cluster with 64 threads available for processing the 544 total melody positions for the six melodies analysed. The job was submitted with `03_anc_melody_inference/code/anc_melody_inference.pbs`. The analysis returns the maximum _a posteriori_ melody reconstructions in tsv format for each of the melodies, for each of the nodes by picking the states with highest posterior pobability. It also saves an R binary data object with the results as that step is very slow to re-generate frequently.
 
-## Aalysis of the Solesmes reconstructions
+## Analysis of the Solesmes reconstructions
 
 We used `mafft` again to align the edited reconstructions of five of the melodies availabler in the Solesmes edited compilation, but keeping the base aligment unchanged. This allowed us to track equivalent positions between the Solesmes melodies and our ancestral melody reconstrctions. This also allowed to calculate melody posterior probabilities for both reconstructions and compare them across the internal nodes. Multiple sequence alignment incorporating the Solesmes melodies in `04_solesmes_melodies/data` was carried out by the script `04_solesmes_melodies/code/00_align_to_msa.sh`.
 
