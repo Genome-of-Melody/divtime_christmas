@@ -64,7 +64,7 @@ The script `01_model_selection/code/03_run_stepping_stones.sh` runs the analysis
 Collection of marginal lnL data are done grepping the log files and keeping the tree ID directory name and the lnL value with:
 
 ```bash
-rep -a "Mean: " ../analysis/*/*log
+grep -a "Mean: " ../analysis/*/*log
 ```
 
 These values are then stored manually into the file `01_model_selection/analysis/marginal_logliks.tsv`. This is the input for the script `01_model_selection/code/04_summarise_marginal_loglik.R` which generates a barplot with the model posterior probabilities for each tree and saves it to `01_model_selection/analysis/model_posterior_probability.pdf`
@@ -102,6 +102,14 @@ The result for this analysis is stored in `02_divtime/analysis/tree7`.
 The summarised tree file `02_divtime/analysis/tree7/posterior/alignment_and_trees.nexus.con.tre` is then read by `figtree` in order to produce the Figure 1. This is carried out incorporating an offset of -408, reversing the time axis, and then plotting the HPD interval for the node ages and colouring branches with median IgrBranch rates. The tree is then plotted in units of years before present.
 
 ## Ancestral melody reconstruction
+
+The script `03_anc_melody_inference/code/00_ancmelody_reconstruction.R` will take as input the calibrated tree in `02_divtime/analysis/tree7/posterior/alignment_and_trees.nexus.con.tre` and the alignment in `00_tree_inference/data/concatenated.nexus`. This step is very time-consuming and we used a cluster with 64 threads available for processing the 544 total melody positions for the six melodies analysed. The job was submitted with `03_anc_melody_inference/code/anc_melody_inference.pbs`. The analysis returns the maximum _a posteriori_ melody reconstructions in tsv format for each of the melodies, for each of the nodes by picking the states with highest posterior pobability. It also saves an R binary data object with the results as that step is very slow to re-generate frequently.
+
+## Aalysis of the Solesmes reconstructions
+
+We used `mafft` again to align the edited reconstructions of five of the melodies availabler in the Solesmes edited compilation, but keeping the base aligment unchanged. This allowed us to track equivalent positions between the Solesmes melodies and our ancestral melody reconstrctions. This also allowed to calculate melody posterior probabilities for both reconstructions and compare them across the internal nodes. Multiple sequence alignment incorporating the Solesmes melodies in `04_solesmes_melodies/data` was carried out by the script `04_solesmes_melodies/code/00_align_to_msa.sh`.
+
+Then the results in binary format from the ancestral melody reconstruction were loaded again and used to generate a table with melody posterior probability and its log for an arbitrary internal node ID, which is done by `04_solesmes_melodies/code/01_calculate_pp_solesmes.R` which is actually called iteratively over all the internal node IDs by `04_solesmes_melodies/code/01_calculate_pp_foreach_node.sh`. This script will generate tsv tables with the melody probabilities at a given internal node.
 
 ## Postprocessing
 
