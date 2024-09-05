@@ -18,11 +18,14 @@ def normalize_christmas_siglum(siglum):
     siglum = siglum.replace(')', '')
     siglum = siglum.replace('*', '')
     siglum = siglum.replace('/', ' ')   # For whatever reason...
+    siglum = siglum.replace('-', ' ')
     return siglum
 
 
 def normalize_ancstate_siglum(siglum):
-    return siglum.replace('_', ' ')
+    siglum = siglum.replace('_', ' ')
+    siglum = siglum.replace('-', ' ')
+    return siglum
 
 
 def create_internal_node_siglum(node_number):
@@ -84,7 +87,30 @@ def main(args):
     logging.info('Loaded input TSV, with {} items.'.format(len(tsv)))
 
     # Concatenate the melodies into a single string.
-    ancstate_siglum_and_full_melody = [(row[0], ''.join([row[i] for i in range(1, len(row))])) for row in tsv]
+    ancstate_siglum_and_full_melody = []
+    for row in tsv:
+        siglum = row[0]
+        # Some positions in the TSV might contain a string that is not one letter,
+        # but a "-/x" pattern. This represents a tie in the ancestral state reconstruction.
+        # In these cases, we prefer the note over the gap.
+        full_melody = ''
+        for i in range(1, len(row)):
+            if len(row[i]) > 1:
+                print(' ----------- long character in row[i]: {}'.format(row[i]))
+                if (row[i][0] == '-') and (row[i][1] == '/') and (len(row[i]) == 3):
+                    full_melody += row[i][-1]
+                    print('           --- added to melody {}: {}'.format(siglum, row[i][-1]))
+                elif (row[i][0] in 'abcdefghijklmno') and (row[i][1] == '/') and (len(row[i]) == 3):
+                    full_melody += min(row[i][-1], row[i][0])
+                    print('           --- added to melody {}: {}'.format(siglum, full_melody[-1]))
+                else:
+                    raise ValueError('Unexpected string in melody TSV: {}'.format(row[i]))
+            else:
+                full_melody += row[i]
+        # full_melody = ''.join([row[i] for i in range(1, len(row))])
+        ancstate_siglum_and_full_melody.append((siglum, full_melody))
+
+    # ancstate_siglum_and_full_melody = [(row[0], ''.join([row[i] for i in range(1, len(row))])) for row in tsv]
 
     # Remove rows that have all-dash melodies (indicating that for this Cantus ID,
     # no melody existed in the given source).

@@ -93,7 +93,7 @@ def main(args):
                     output_fh.write('{}\n'.format(melody))
 
     _end_time = time.process_time()
-    logging.info('scrape_cantus_db_sources.py done in {0:.3f} s'.format(_end_time - _start_time))
+    logging.info('build_src_fasta.py done in {0:.3f} s'.format(_end_time - _start_time))
 
 
 if __name__ == '__main__':
