@@ -1,3 +1,9 @@
 # ignore emacs temp and autosave files
 *~
 *#
+
+# Ignore mac filesystem spam
+.DS_Store
+
+# No pycharm either
+.idea
